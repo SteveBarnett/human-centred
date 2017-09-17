@@ -1,0 +1,140 @@
+---
+layout: post
+status: publish
+published: true
+title: Progressive Enhancement
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1476
+wordpress_url: https://naga.co.za/?p=1476
+date: '2016-04-29 14:42:47 +0200'
+date_gmt: '2016-04-29 12:42:47 +0200'
+---
+<p>A few weeks ago I gave a talk about <strong>Progressive Enhancement</strong> for the <a href="http://www.meetup.com/Meteor-Cape-Town/events/229419968/">Meteor JS Cape Town meetup group</a>. I was quite nervous because I was expecting a tough crowd: Meteor’s beliefs and decisions run kind of contrary to my own. As it turned out, the crowd were lovely (and perhaps I was able to be a little more pragmatic than usual, rather than the fire and JavaScript brimstone that I often spout). Here’s a write-up of the talk.</p>
+<p><img src="/wp-content/uploads/2016/04/dont-trust-your-javascript.jpg" alt="" /></p>
+<p>I think that we should not trust our JavaScript. Have you ever clicked on a button and nothing has happened? That’s probably JavaScript, messing with you.</p>
+<p><img src="/wp-content/uploads/2016/04/meteor-todo.jpg" alt="" /></p>
+<p>Here’s a fancy To Do app, built using Meteor, a client-side MVC framework. If everything is ok, this is what our users see. If one of many things went wrong with our JavaScript, this is what they see:</p>
+<p><img src="/wp-content/uploads/2016/04/meteor-todo-no-js.jpg" alt="" /></p>
+<p>Not even the title or an error message. Just a blank screen. Why? If we View the Source we can see: there’s basically no HTML, no content. It’s just a script tag that loads everything in.</p>
+<p>So am I saying don’t use Meteor? Not exactly. Well, maybe a little bit.</p>
+<p>So, am I saying don’t no client-side JavaScript MVstar frameworks at all? Not exactly. Well, maybe a little bit.</p>
+<p>What am I definitely saying is that <strong>we need to be mindful of the cost of our choices</strong>.</p>
+<p>Some links about the content of this talk are up at <a href="http://naga.co.za/pe">naga.co.za/pe</a></p>
+<p>I’ll cover two big things: <strong>JavaScript fails and face palms</strong>, and <strong>Progressive Enhancement</strong>. I’ll talk about the theory of PE, the practical implementation of it, and some reasons to love it.</p>
+<p>To be clear, <strong>I love JavaScript</strong>. I think it’s amazehorse. But I certainly don’t trust it. Some things can only be done with JavaScript.</p>
+<p>You can use JavaScript to deliver a rich, fast (once your JS is loaded) experience that’s not possible with just HTML and CSS. You can use Ajax to avoid pull page refreshes, and you can access cool device APIs like geolocation.</p>
+<p>And if you use <strong>Service Worker, you can even enable our stuff to work offline</strong>. That is seriously amazing. Although it’s still quite bleeding edge.</p>
+<p>When I use that JavaScript, though, <strong>I&rsquo;m making assumptions</strong>. Assumptions about my users network, their technology, and more. I’m assuming that everything is like my dev environment: it works on my machine! <strong>I’m assuming that everything is okay.</strong></p>
+<p>So, I want to ask: why would my JavaScript fail?</p>
+<p><img src="/wp-content/uploads/2016/04/why-js-fail.jpg" alt="" /></p>
+<p>I think there are three broad categories as to why this could happen.</p>
+<ul>
+<li>Is the file there?</li>
+<li>Did the user get it?</li>
+<li>Did it work?</li>
+</ul>
+<p>Let’s look at each category in a bit more detail.</p>
+<h3 id="is-the-file-there-">Is the file there?</h3>
+<p><img src="/wp-content/uploads/2016/04/is-the-file-there.jpg" alt="" /></p>
+<p>What if the browser gets a <strong>File Not Found</strong> error? What if the file has the wrong name? What if the upload of the file to the server didn’t complete?</p>
+<p>What if <strong>the CDN is down</strong>? Sure, if might not happen that often, but it does. If you’re using jQuery or Bootstrap, chances are you’re running it from a CDN.</p>
+<h3 id="did-the-user-get-it-">Did the user get it?</h3>
+<p><img src="/wp-content/uploads/2016/04/did-the-user-get-it.jpg" alt="" /></p>
+<p>I really like this quote from Jake Archibald on Twitter:</p>
+<blockquote><p>”We don&rsquo;t have any non-JavaScript users"<br>No, all your users are non-JS while they&rsquo;re downloading your JS</p>
+</blockquote>
+<p>This is especially true for client-side MV* frameworks as their JS payload tends to be on the large side, which means it will take a while to download.</p>
+<h3 id="the-user-has-js-turned-off">The user has JS turned off</h3>
+<p>Yes, they probably don’t. It’s a tiny percentage of people who have JS turned. But if you’re serving thousands of people, or ten of thousands, or more: that tiny percentage adds up to a lot of people.</p>
+<h3 id="personal-firewall">Personal Firewall</h3>
+<p>What if a user’s personal firewall is being a little over-zealous? What if you set up a friend&rsquo;s PC over the holiday, installed some anti-virus software for them and cranked the settings up to the maximum?</p>
+<h3 id="isp--helping-">ISP &ldquo;Helping&rdquo;</h3>
+<p>ISPs like to fiddle with the data they gets sent to you. Dropping in ads, fiddling with images, and sometimes flagging things as suspicious that aren’t. Like large JavaScript files. Like jQuery.</p>
+<h3 id="company-firewall">Company Firewall</h3>
+<p>What if you have a systems administrator where you work who errs on the side of paranoid. They will protect your network at all costs: that means none of that dangerous JavaScript is coming into this office, no ways.</p>
+<h3 id="L:poop:-connection">:poop: connection</h3>
+<p>What if your user is on a crappy connection? What if they’re on a crappy cell connection not a good cabled connection? What if the speed is slow, the latency is big, or the signal is weak? Any of these might mean the user doesn’t end up getting your JS file(s). This is maybe our biggest problem at the moment: mobile web use is huge.</p>
+<h2 id="did-it-work-">Did it work?</h2>
+<p><img src="/wp-content/uploads/2016/04/did-it-work.jpg" alt="" /></p>
+<h3 id="wonky-deploy">Wonky deploy</h3>
+<p>What is the file was only partially uploaded? What if the build breaks, but the code goes out? What about the npm fiasco of a few weeks ago (with left-pad) where one repository was removed and many builds broke?</p>
+<h3 id="tpyo-in-your-javascritp">Tpyo in your JavaScritp</h3>
+<p>I know what you’re thinking: “I don’t make typos!” Your time will come ( ͡° ͜ʖ ͡°). Uncaught errors happen, even though we try very hard to avoid them.</p>
+<h3 id="browser-extensions">Browser extensions</h3>
+<p>Browser extensions are things <strong>specifically designed to mess with our web pages</strong>. Usually in a good way, but still. It shouldn’t come as a surprise if one of them stops your JavaScript from working properly.</p>
+<h3 id="ad-blockers">Ad blockers</h3>
+<p>Are you running an Ad Blocker right now? Lots and lots of people are. Or do you have an iPhone and you’ve switched on the iOS JavaScript blocker?</p>
+<p>Earlier I asked “Why would my JS fail?&ldquo; Given everything it’s up against, maybe a better question is why would my JS succeed?</p>
+<p><img src="/wp-content/uploads/2016/04/why-would-my-js-succeed.jpg" alt="" /></p>
+<p>I’d like to introduce you to the spirit animal of Progressive Enhancement.</p>
+<p><img src="/wp-content/uploads/2016/04/pe.jpg" alt="" /></p>
+<p>I would, rather cheekily, like to suggest that Progressive Enhancement is a better way to build web apps. (It’s cheeky because “a better way to build web apps” is the Meteor Cape Town meetup group tag line :D ).</p>
+<p><strong>PE says be prepared</strong>, be paranoid. It says use <strong>feature-test driven development</strong>.</p>
+<p>I’m going to run through some theory, then some practical.</p>
+<h2 id="pe:-the-theory">PE: The Theory</h2>
+<p><strong>Don&rsquo;t depend on JS for core functionality</strong>. The emphasis here is important. It doesn’t say don’t use JavaScript. And it doesn’t say don’t depend on JS for some of your functionality. It just says don’t depend on JS for core functionality. Like buying a ticket. Or posting a picture.</p>
+<p>PE says <strong>make it work, then make it work better</strong>.</p>
+<p>Build <strong>the simplest version of your thing first</strong>. Then <strong>provide an enhanced experience for people with better tech</strong>. And add it in add layers. If you already work work in an agile software development environment this might sound familiar. PE is an iterative process, like you work already.</p>
+<p>Mobile First Responsive Web Design is especially interesting. It’s Progressive Enhancement for layout. <strong>Make it work</strong> (build the small screen version), <strong>then make it work better</strong> (add Media Queries for larger screen sizes).</p>
+<p><img src="/wp-content/uploads/2016/04/support.jpg" alt="" /></p>
+<p>PE says <strong>support all browsers, and optimise for some</strong>. We should support pretty much every browser out there. Why shouldn’t we when we’re providing the simplest version of our experience as the baseline? Of course you won’t spend weeks making your site work the same in older browsers: you’ll optimise for the most popular ones for your audience. That means that different users will get different experiences, but that&rsquo;s okay.</p>
+<p>Web sites don&rsquo;t have to <strong>look</strong> exactly the same in every browser.</p>
+<p>Web sites don&rsquo;t have to <strong>work</strong> exactly the same in every browser.</p>
+<p>In fact, I would go so far as to say that web sites don&rsquo;t have to <strong>smell</strong> exactly the same in every browser.</p>
+<p>Web sites certainly don&rsquo;t have to <strong>be experienced</strong> exactly the same in every browser.</p>
+<p>With the huge variety of screen sizes, operating systems and browsers, <strong>we&rsquo;re providing layers of experiences to our users whether we like it or not</strong>. If we don&rsquo;t do anything it&rsquo;s an on / off switch. Wouldn’t it be better to provide more than that?</p>
+<p><img src="/wp-content/uploads/2016/04/one-web.jpg" alt="" /></p>
+<p>I’m a big believer in the One Web. Maybe because I’m a hippy at heart. I love the things that Sir Tim (Berners-Lee) says about the web. Things like “The power of the Web is in its universality” and that <strong>everyone should be able to access all of the web, regardless of the device they’re using, the type of connection they’re on, or any disabilities they might have</strong>.</p>
+<h2 id="pe:-the-practical">PE: The Practical</h2>
+<p>Now that the hippy stuff is out of the way, let’s look at the practical side of things.</p>
+<p><img src="/wp-content/uploads/2016/04/triangle.jpg" alt="" /></p>
+<p>Here’s a triangle, yesterday. It shows what every page is made of: <strong>an HTML base; a CSS topping; JS sprinkles on the top</strong>.</p>
+<p>Something important to note is that HTML and CSS are fault tolerant. This is by design. If you&rsquo;re writing HTML and CSS, you&rsquo;re doing PE without realising it!</p>
+<pre><code class="html">&lt;img src=&quot;cat.jpg&quot; alt=&quot;A cute cat&quot; /&gt;</code></pre>
+<p>If you include an alt attribute on an img tag, what happens if img doesn&rsquo;t load? Say, if the file’s not there, or the user doesn&rsquo;t get it? The alt text displays.</p>
+<pre><code class="html">&lt;input type=&quot;email&quot; /&gt;</code></pre>
+<p>If you use the new and shiny email type of attribute, what happens if the browser doesn&rsquo;t support type = email? It renders as a regular old input type of text.</p>
+<p>What about some CSS examples?</p>
+<pre><code class="css">background-color: purple;
+background: linear-gradient (135deg, red, blue);</code></pre>
+<p>If these styles are being applied to an element, what happens if the browser displaying the page doesn&rsquo;t support gradients? The browser ignores the second line and the (already applied) first line takes over: the background colour will be purple.</p>
+<p>By comparison, JavaScript is not fault tolerant. It stops with one bug. This is also by design.</p>
+<pre><code class="javascript">if (&apos;querySelector&apos; in document) { ... }</code></pre>
+<p>This feature test in JavaScript tests our assumption. Before using querySelector, we ask “hey, browser, do you know about querySelector?” and only if the browsers answers yes, do we execute the code that uses querySelector.</p>
+<pre><code class="javascript">if (&apos;querySelector&apos; in document &amp;&amp;&amp; &apos;localStorage&apos; in window &amp;&amp; &apos;addEventListener&apos; in window) { ... }</code></pre>
+<p>Here’s a bigger chunk. This is the BBC News team&rsquo;s “cutting the mustard.” They send everyone the base experience of HTML and CSS. “Modern” browsers, ones that pass the test, get a JS-enhanced, fancier, experience. They add more layers inside this test. A more layered approach can often be better. Split up the places that you use features, and block those off.</p>
+<pre><code class="javascript">if (&apos;querySelector&apos; in document) { ... }
+
+if (&apos;localStorage&apos; in window) { ... } 
+
+if (&apos;addEventListener&apos; in window) { ... }</code></pre>
+<p>An important part of this is that we’re using <strong>feature detection, and not device detection</strong>. That means we’re grading components, not browsers. In fact, <strong>we don’t care what browser a user has: we only care what features their browser supports</strong>.</p>
+<h2 id="why-i-love-pe">Why I love PE</h2>
+<p>It’s a <strong>security blanket</strong>. Building with PE means we don&rsquo;t need to test so much, especially in older browsers. That’s because we have a baseline experience. If all our JS fails, our users still get a useful and usable experience.</p>
+<p>Another reason I love it is that it gives a <strong>faster initial load time</strong>. You’re just sending HTML and CSS down the pipe, and that renders fast. And fast pages means happy users.</p>
+<p>Pages built with PE are also <strong>easier to archive and index</strong>. Search engines and spiders are getting better at indexing Js-heavy pages, but still.</p>
+<p>It also means that we <strong>can reach more people</strong>. Instead of drawing a yes / no line in the sand and providing a bunch of people with a blank screen, we’re giving people a range of experiences.</p>
+<p>I also believe that building with PE is the <strong>right thing to do for majority world (like here!)</strong>. It means removing some of the barriers to entry. No requiring a fancy phone or a bleeding edge browser.</p>
+<p><img src="/wp-content/uploads/2016/04/smart-ish-phone.jpg" alt="" /></p>
+<p>You might be thinking “But everyone has a smartphone now!” Well, this is only kind of true, and not all smartphones are created equal. The new, cheap, Android phones don’t have much RAM or a fast CPU. That means that their JS performance (in terms of parsing and executing the cide) is, to use a technical term, kak slow. About 10 times slower compared to a laptop browser.</p>
+<p>On top of that, Opera Mini is a very popular browser locally. Depending on where you get your stats, Opera Mini accounts for about 30% of SA&rsquo;s web traffic. An interesting feature of this browser is that it doesn’t do ajax: every JS action means a new request. Now, Chrome also account for about 30% of the traffic, but the split between mobile and desktop isn’t clear. Anyway, back to PE lovefest.</p>
+<p>A little organisation know as the W3C has this to say (their Priority of Constituencies):</p>
+<blockquote><p>In case of conflict, consider <strong>users</strong> over authors over implementers over specifiers over theoretical purity.</p>
+</blockquote>
+<p>Users first. And we, developers, aren’t even second: we’re third! PE says put our users first. Our users convenience is more important than ours.</p>
+<p>If you’re familiar with User-Centered Design, all this might sound familiar. Progressive Enhancement is UCD-flavoured Front-end development.</p>
+<p><img src="/wp-content/uploads/2016/04/pe-point.jpg" alt="" /></p>
+<p>So, to recap: <strong>don’t trust your JavaScript</strong>. We need to ask:</p>
+<ul>
+<li>Is the file there?</li>
+<li>Did the user get it?</li>
+<li>Did it work?</li>
+</ul>
+<p>I believe that <strong>we need to be mindful of the cost of our choices</strong>.</p>

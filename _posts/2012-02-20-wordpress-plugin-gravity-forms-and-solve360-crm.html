@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: 'WordPress Plugin: Gravity Forms and Solve360 CRM'
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 291
+wordpress_url: http://naga.co.za/?p=291
+date: '2012-02-20 11:47:13 +0200'
+date_gmt: '2012-02-20 09:47:13 +0200'
+---
+<p>A lot of the work I do is WordPress-related, and a lot of that involves things that are either quite client-specific, or that can't really be shared in a public forum. A job I've been working on recently, however, has given me the chance to make something that I can publish.</p>
+<p>The site uses <a title="Gravity Forms site" href="http://www.gravityforms.com/">Gravity Forms</a> extensively for contact forms, application forms, and so on. They use <a title="Solve360 by Norada" href="http://norada.com/">Solve360</a> for their <abbr title="Customer relationship management">CRM</abbr> software and wanted a way to easily send the data gathered by the forms to it.</p>
+<p>Since the site runs on WordPress, I put together a Plugin that loops through the forms and sends the data to Solve360, using <a title="Solve360 API documentation" href="http://norada.com/?uri=norada/crm/external_api_introduction">their API</a>.<br />
+<a title="WordPress plugin linking Gravity Forms and Solve360" href="http://wordpress.org/extend/plugins/gravity-to-solve360/">Download the Plugin from the WordPress plugin directory</a>.<br />
+[Added 23-02-12: <a title="Gravity to Solve360 on github" href="https://github.com/SteveBarnett/Gravity-to-Solve360">Fork it on github</a>.]<br />
+The only extra work required is adding labels to the Gravity Forms so that Solve360 can match up the form's fields with its own. Details are in the Plugin's readme file.</p>
+<p>I wrote this to be used by developers, so the options are set in the code, rather than via the WordPress Dashboard. This is okay for now since the options won't change often. Things that I intend to implement in a future version:</p>
+<ol>
+<li>Solve360 user details set in a WordPress options Page.</li>
+<li>debug mode and date overrides set in a WordPress options Page.</li>
+<li>To, From, CC, and BCC notification email set in a WordPress options Page.</li>
+<li>Cronjob support</li>
+</ol>

@@ -1,0 +1,87 @@
+---
+layout: post
+status: publish
+published: true
+title: "#perfmatters"
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1697
+wordpress_url: https://naga.co.za/?p=1697
+date: '2017-04-10 09:06:36 +0200'
+date_gmt: '2017-04-10 07:06:36 +0200'
+---
+<p>On Tuesday 4th April, Dani and I gave a 25 minute talk about Front-end Performance to a lovely crowd of mostly UX Designers at <a href="https://www.meetup.com/pixelup/events/238796146/">the Pixel Up! meetup in Cape Town</a>. The <a href="https://speakerdeck.com/stevebarnett/performance-matters">slides from the talk are up on SpeakerDeck</a> and some links from the talk (including the slides) are up at <a href="https://naga.co.za/pup2017">naga.co.za/pup2017</a>. Here’s my write-up of our talk, in a weird like-I’m-talking-at-you style.</p>
+<p><strong>#perfmatters</strong>. It’s a thing. You can <a href="https://twitter.com/search?q=%23perfmatters">look it up on Twitter</a>. Our goal is to help you think about perf more in your day to day work. What this comes down to is that we want to save users <strong>time</strong> and <strong>money</strong> and save us <strong>time</strong> and <strong>money</strong>.</p>
+<p><a href="https://naga.co.za/wp-content/uploads/2017/04/time-and-money.jpg"><img src="https://naga.co.za/wp-content/uploads/2017/04/time-and-money-400x225.jpg" alt="" width="400" height="225" class="alignleft size-medium wp-image-1700" /></a></p>
+<p>Here’s what we’re going to cover:</p>
+<ol>
+<li>What (is perf)?</li>
+<li>So what? (Why should we care?)</li>
+<li>Now what (can we do)?</li>
+</ol>
+<h2 id="L1.-what-">1. What?</h2>
+<p>What do we mean by Front-end? As opposed to back-end. It’s the bit that you see. We’re going to talk about a slightly simplified version of performance because of time constraints: there are two big bits.</p>
+<p><a href="https://naga.co.za/wp-content/uploads/2017/04/speed.jpg"><img src="https://naga.co.za/wp-content/uploads/2017/04/speed-400x225.jpg" alt="" width="400" height="225" class="alignleft size-medium wp-image-1699" /></a></p>
+<p>1 is <strong>speed</strong>. This is complicated because different bits can load at different times leading to fast(er) perceived performance. What’s important is that we want to save time for our users.</p>
+<p><a href="https://naga.co.za/wp-content/uploads/2017/04/weight.jpg"><img src="https://naga.co.za/wp-content/uploads/2017/04/weight-400x225.jpg" alt="" width="400" height="225" class="alignleft size-medium wp-image-1701" /></a></p>
+<p>2 is <strong>weight</strong>. Again, it’s complicated. What’s important is that we’re talking about how much stuff is on a page. Less stuff means it’s cheaper in data costs for our users. Less stuff means less work for us, which means less time and money spent by us.</p>
+<h2 id="L2.-so-what-">2. So what?</h2>
+<p>Now we’re going to hit you in the feels. We’re going to talk about why should you care about your site&rsquo;s speed and weight. Let’s look at a proto-persona like thing. This is Bongani.</p>
+<p><a href="https://naga.co.za/wp-content/uploads/2017/04/bongani.jpg"><img src="https://naga.co.za/wp-content/uploads/2017/04/bongani-400x267.jpg" alt="" width="400" height="267" class="alignleft size-medium wp-image-1698" /></a></p>
+<p>She’s a cashier who works at Pluck n Pay and she earns R5,000 a month. Yes, people do get paid this amount of money. Perhaps you’re thinking “data’s cheap, though, right?” Or perhaps you’re thinking “Well, she won’t use the web.” Putting aside the whole Facebook thing (which it seems every human alive uses), there are lots of things she might use the web for.</p>
+<p>What about if Bongani says &ldquo;I want to look for a new job.&rdquo; That means looking for work on the web. That means going on LinkedIn. She can’t afford a computer, so she’s gonna be using her phone for this. Let’s have a look at what it’s going to cost her.</p>
+<p>Super-useful internet web site <a href="http://httparchive.org/">httparchive.org</a> has the current average web page size at around 2.5MB. Maybe that doesn’t seem so bad. But how much does that cost?</p>
+<p>On Vodacom pre-paid (which Bongani might be on), that’s about R1.5 per page. (It’s R9 for 15MB. That means R0.60 per MB. That means about R1.5 for a 2.5MB page.). Usually it’s worse than this, though. People on an income level like Bongani limit their usage by buying small amounts, because data’s expensive. But buying in small amounts makes the cost per MB even higher. On top of that, people often convert airtime to data which means they pay out of bundle rates, which is even more expensive. Boo!</p>
+<p>So let’s say Bongani looks for a job. Let’s say she looks at 10 pages a day. That means R15. Her salary for the day is R240. Whisky Tango Foxtrot? That is a large percentage of her income for the day. That is a very shit thing. ???</p>
+<h2 id="L2.-so-what---part-2-">2. So what? (Part 2)</h2>
+<p>This next section could also be called “time is money.” At this point maybe you’re thinking: “But personas are made up. I work in the real world.&ldquo; Or perhaps you’re thinking “I sell organic artisanal diamonds, my customers are rich! They don’t care how much a page costs to load.“</p>
+<p>We’re going to look at a handful of sites and some performance stats. First let’s look at some “Yikes!” ones.</p>
+<p><a href="https://naga.co.za/wp-content/uploads/2017/04/yikes.jpg"><img src="https://naga.co.za/wp-content/uploads/2017/04/yikes-400x225.jpg" alt="" width="400" height="225" class="alignleft size-medium wp-image-1703" /></a></p>
+<ul>
+<li>Google, a little web site you may have heard of, found that a 0.5s slower load time resulted in 25% fewer searches.</li>
+<li>Amazon, another small site you may know, found that with a 0.1s slower load time, they had a 1% decrease in revenue. That’s a small percent, but for Amazon that means a big number of dollars.</li>
+<li>Etsy, the huge online marketplace, found that when they implemented a redesign that had 160kb more images on mobile, then had a 12% increase in bounce rate.</li>
+</ul>
+<p>That was a bit rough. Now let’s look at some “Yay!” ones.</p>
+<p><a href="https://naga.co.za/wp-content/uploads/2017/04/yay.jpg"><img src="https://naga.co.za/wp-content/uploads/2017/04/yay-400x225.jpg" alt="" width="400" height="225" class="alignleft size-medium wp-image-1702" /></a></p>
+<ul>
+<li>Video site YouTube achieved a 90% smaller page size and found a large increase in traffic in areas with poor connectivity (like Southeast Asia, South America, Africa, and Siberia.). That seems a bit odd, so what’s up with that? Before, the page wouldn&rsquo;t load at all: it timed out. The much smaller page loads fine!</li>
+<li>Photo sharing service Instagram achieved a 30% smaller page size and found they had increased impressions and interactions.</li>
+<li>Ecommerce (and other things) giant AliExpress achieved a 36% faster load time and found they had a 11% increase in orders.</li>
+</ul>
+<h2 id="L2.-so-what---part-3-">2. So What? (Part 3)</h2>
+<p>Now let’s look at some local sites. Not as a blame game, but more as a “this could happen to us!” These sites were put through (the dog ugly, but very awesome) <a href="http://www.webpagetest.org">WebPageTest</a> on a 3G connection. What we’d like you to think about is a kind of Cost Benefit analysis for each of these. What is each thing costing the user, and what’s the benefit to them?</p>
+<p>We’re going to look at the number of requests each page makes, the number of MBs it weighs, and how long it takes to load. Remember that the average weight (not a target!) is 2.5MB. The average number of requests is a rather large 100.</p>
+<ul>
+<li>dailymaverick.co.za has <strong>310 requests, 3.6MB, 40s</strong>. The thing that stands out is 1.7MB of JavaScript, which looks like it’s all for ads and tracking. What’s the benefit to the users of that?</li>
+<li>mg.co.za has <strong>290 requests, 9.9MB, 62s</strong>. 8.2MB of that weight are images: there are lots of them, they’re large, and hi-res. And there are 160 of them. That seems a bit excessive.</li>
+<li>cellc.co.za has <strong>150 requests, 2MB, 33s</strong>. 1MB of that is images in every designer and developer’s favourite bit of UI: the carousel. Remember Bongani? It costs her about R1 every time she visits a page here.</li>
+<li>capetown.gov.za has <strong>70 requests, 2.0MB, 20s</strong>. About 1.7MB of that is JS, mostly for animations. What’s the cost-benefit analysis for those animations? How about Bongani? She might be coming here to look up stuff about health, education, water and electricity. She probably uses an older, slower, phone that will struggle to run that 1.7MB of JavaScript.</li>
+</ul>
+<h2 id="L4.-now-what-">4. Now what?</h2>
+<p>That was all a bit hectic. So what can we do? How can we save users time and money? How can we save ourselves time and money?</p>
+<p>The biggest, broadest, thing is to <strong>use less stuff</strong>. Do a mental cost-benefit analysis for each new thing someone suggests adding. What is it costing the user, and what’s the benefit to them? Having less stuff means less work means less maintaining of it. Having less stuff means less weight and a faster site. What are some things that we might try and have less of?</p>
+<ul>
+<li><strong>Images</strong>. Threat Level: 1 scream ?. Don&rsquo;t use too many and make sure you optimise them.</li>
+<li><strong>Carousels</strong>. Threat Level: 2 screams ??. Are you sure you need one? Are you using a good one? At least keep it small!</li>
+<li><strong>Video</strong>. Threat Level: 3 screams ???</li>
+<li><strong>Auto-playing Video</strong>. Threat Level: deathrage! ? + ?. If you do this, we’re not saying you&rsquo;re a monster. We’re saying you&rsquo;re a bit naughty.</li>
+<li><strong>Animations</strong>. Threat Level: 1 or 2 screams ? or ??. Think carefully about the cost-benefit analysis. Do they help your users?</li>
+<li><strong>Custom UI</strong>. Threat Level: 1 to 3 screams ? to ???. Your special custom widget, sprockets, geegaws, and doodads. Apart from the UX and maintenance headaches you&rsquo;ll give yourself: they tend to be heavy.</li>
+<li><strong>Tracking, Ads</strong>. Threat Level: 3 screams ???. Especially the cumulative effect of having lots. Yes, #itscomplicated, but&hellip;</li>
+</ul>
+<p>Another important thing to do is <strong>measure performance</strong>. There are couple of ways of doing this.</p>
+<ul>
+<li>Your browser&rsquo;s <strong>Dev Tools</strong>, in particular the &ldquo;Network&rdquo; panel. There’s lots of stuff there and it looks a bit scary at first. But, you only need to look at a few bits.</li>
+<li><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeedInsights</a>. Not because OMG Google ?, but because it’s good advice. You can use the results as a checklist, and as a way to start a (friendly!) conversation with your FEDs.</li>
+<li><a href="http://www.webpagetest.org/">WebPageTest</a> isn’t very pretty, but it gives you detailed, useful, stats.</li>
+<li>If you want a hosted WPT, and recording of regular stats, have a look at <a href="https://speedcurve.com/">SpeedCurve</a>.</li>
+</ul>
+<p>So that was <strong>#perfmatters</strong>. We talked about how FED Perf is speed and weight, how we can save time and money, how to think about performance when designing, and how to measure performance.</p>
+<p><strong>Thanks! ✌</strong></p>

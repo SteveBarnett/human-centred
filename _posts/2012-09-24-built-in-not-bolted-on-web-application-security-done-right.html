@@ -1,0 +1,93 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Built in, not bolted on: web application security done right'
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 505
+wordpress_url: http://naga.co.za/?p=505
+date: '2012-09-24 10:04:22 +0200'
+date_gmt: '2012-09-24 08:04:22 +0200'
+---
+<p>On Wednesday 19th September, Paul van Woudenberg and Theo van Niekerk, the founders of <a href="http://thinksmart.co.za/">ThinkSmart</a>, gave a <a href="http://www.spin.org.za/2012/09/12/ct-spin-82-built-in-not-bolted-on-web-application-security-done-right/">talk at Cape Town SPIN</a>: <a href="http://www.spin.org.za/2012/09/12/ct-spin-82-built-in-not-bolted-on-web-application-security-done-right/">Built in, not bolted on: web application security done right</a>. <a href="http://www.slideshare.net/pvanwoud/application-security-done-right">View the slides on Slideshare</a>.</p>
+<p>Below are my brief notes from their talk.</p>
+<h2 id="securityriskstoday">Security Risks Today</h2>
+<ul>
+<li><a href="https://www.owasp.org/">Open Web Application Security Project (OWASP)</a> is a worldwide, free, open organization focused on improving the security of applications. Contains tools and documentation.</li>
+<li>Network / infrastructure problem mostly sovled.</li>
+<li>Attackers:
+<ul>
+<li>are following the money and targeting web apps;</li>
+<li>often target the basic stuff, but that can still have severe consequences.</li>
+</ul>
+</li>
+<li>There’s a need for stronger <strong>strategic approach to security</strong>, and <strong>alignment of development and security teams</strong>.</li>
+<li>Strong application security is good civic hygiene (<a href="http://www.philzimmermann.com/">Philip Zimmerman</a> of <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">PGP</a>) and is often required for legal / compliance reasons.</li>
+<li>Security spending still targets network / infrastructure, so is in the wrong place. This is due to force of habit, old standards, compliance, and the perceived difficulty of security.</li>
+</ul>
+<h2 id="focusonthesoftware">Focus on the software</h2>
+<ul>
+<li>We need to focus on the software, but it’s a very different problem.</li>
+<li>Software is like clay where the network / infrastructure is like lego.
+<ul>
+<li>Software being malleable is great for devs, because feature creation is easy, but it also means that it’s easier to leave security vulnerabilities.</li>
+</ul>
+</li>
+<li>Software developers are the most important security resource. Their performance is measured on speed and features, not security, so there’s low motivation to spend time on security.
+<ul>
+<li>Appeal to dev’s conscience: <a href="http://www.ruggedsoftware.org/">ruggedsoftware.org</a></li>
+<li>Send them on training. This takes time out of dev schedule, though, and there’s often no time to apply the learning on their return.</li>
+</ul>
+</li>
+<li>In SDLC requirements are key to success and to security.
+<ul>
+<li>Security requirements must be <strong>part of the specification</strong>, so that devs can be <strong>measured on the security of apps</strong>.</li>
+<li>Better security requires a change in the organisation (executive buy-in, secure SDLC).</li>
+<li>Security feature design is important, but hard to get right.</li>
+</ul>
+</li>
+</ul>
+<h2 id="whattodo">What to do</h2>
+<ul>
+<li>The problem is that it takes time, and that security vulnerabilities are a ticking time-bomb.</li>
+<li>There’s hope! Everything you need (information, tools, techniques, training, plan) is available, and you can make a <strong>big</strong> difference.</li>
+</ul>
+<h2 id="howdoistarttoday">How do I start today?</h2>
+<ul>
+<li>Put security requirements in the spec. Start with generic ones:
+<ul>
+<li><a href="https://www.owasp.org/index.php/Top_10_2010-Main">OWASP Top 10</a>.  (Do them all, right now.)</li>
+<li><a href="http://cwe.mitre.org/top25/">CWE / SANS Top 25</a></li>
+<li><a href="http://projects.webappsec.org/w/page/13246978/Threat%20Classification">WASC Threat Classification</a></li>
+</ul>
+</li>
+<li>appoint a champion</li>
+</ul>
+<h2 id="thenextsteps">The next steps</h2>
+<ul>
+<li>Thread security through each phase of your SDLC. <a href="http://www.opensamm.org/">OpenSAMM (Software Assurance Maturity Model)</a> can help: open framework to help formulate and implement security strategy.
+<ul>
+<li>Helps you make guidance docs that are: simple, well-defined, measurable.</li>
+<li>Starts with Governance, Construction, Verification, Deployment. Breaks those into three Security Practice areas, each with three levels.</li>
+</ul>
+</li>
+<li>Reduce security design flaws: do risk analysis on business requirements
+<ul>
+<li>Drivers for Security Requirements: business needs; risk analysis; regulatory demands.</li>
+</ul>
+</li>
+<li>Avoid security bugs
+<ul>
+<li>Check the <a href="https://www.owasp.org/index.php/Category:How_To#The_OWASP_Guides">OWASP Dev Guides</a></li>
+<li>Security Controls: use Frameworks and Tools, but verify the implementation. Think carefully before rolling your own.</li>
+<li><a href="https://www.owasp.org/index.php/Category:OWASP_Enterprise_Security_API">OWASP ESAPI</a>. Set of foundation security controls: get there cheaper and faster. Includes Intruder Detection Framework.</li>
+</ul>
+</li>
+</ul>

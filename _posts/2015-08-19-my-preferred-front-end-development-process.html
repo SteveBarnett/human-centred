@@ -1,0 +1,43 @@
+---
+layout: post
+status: publish
+published: true
+title: My preferred Front-end development process
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1327
+wordpress_url: http://naga.co.za/?p=1327
+date: '2015-08-19 07:47:26 +0200'
+date_gmt: '2015-08-19 05:47:26 +0200'
+---
+<p>I was looking at bits and pieces of the Front-end work I've been doing at <a href="http://praekeltfoundation.org/">Praekelt</a>, and I decided to gather them together in one place. I call it my preferred Front-end development process because I'm trying to be more of a grown-up these days and accept compromise on some of these points :).</p>
+<p>(Also around as <a href="https://gist.github.com/SteveBarnett/1d212785619cf80730c7">a Gist</a>)</p>
+<h2 id="front-enddevelopmentprocess">Front-end development process</h2>
+<p>I build web sites so that people can access them quickly and easily, regardless of the <strong>device</strong> they&#8217;re using, the type of <strong>connection</strong> they are on, or any <strong>disabilities</strong> they have. That means I build things with <strong>Progressive Enhancement</strong>.</p>
+<p>The PE <a href="http://knowyourmeme.com/memes/tldr">TL;DR</a> is: <strong>a basic, functional, experience is delivered to everyone</strong>. <strong>JavaScript is not required for any key functionality</strong> (because <a href="https://twitter.com/jaffathecake/status/207096228339658752">all your users are non-JS while they&#8217;re downloading your JS</a>).</p>
+<h3 id="progressiveenhancement">Progressive Enhancement</h3>
+<p>PE is an approach to web development that aims to deliver the best possible experience to the widest possible audience, by <strong>putting the user first</strong>. It works by layering on the content (HTML), presentation (CSS), and behaviour (JavaScript) bit by bit. It means using feature detection rather than device detection.</p>
+<p>I do feature tests in JavaScript (possibly using a library like <a href="http://modernizr.com/">Modernizr</a>) to load in CSS and JS enhancements that <strong>match the capabilities of the browser</strong>. Different browsers will be served different experiences: they will be consistent and may be quite similar, but will not be identical. </p>
+<h3 id="browsersupport">Browser Support</h3>
+<p>I treat browser support as a continuum rather than a list of what is and what isn&#8217;t supported. Every device with a browser is <strong>supported</strong>, but the target audience will guide where most development time will be spent on <strong>optimisation</strong>. Rather than grading browsers, <a href="https://www.filamentgroup.com/lab/grade-the-components.html">each component (in HTML, CSS, and JS) of a site is graded</a>.</p>
+<p>Internet Explorer is notoriously difficult. The amount of time spent optimising for various versions of IE should be determined by your user base.</p>
+<h3 id="performanceandaccessibility">Performance and Accessibility</h3>
+<p>I care about front-end <strong>performance</strong> and <strong>accessibility</strong>, so I run regular perfomance and accessibility audits using tools like <a href="https://developers.google.com/speed/pagespeed/insights/">Google&#8217;s PageSpeed Insights</a>, <a href="http://www.webpagetest.org/">WebPageTest</a>, and <a href="http://pa11y.org/">pa11y</a>.</p>
+<p>I prefer fewer, larger, files over many, smaller, ones, because <a href="https://www.igvita.com/2012/07/19/latency-the-new-web-performance-bottleneck/">latency is more of a constraining factor than bandwidth</a>. I make my files as small as they can be, and serve all content using <code>gzip</code>.</p>
+<p>Images are one of the biggest performance problems, so I follow <a href="http://designingforperformance.com/optimizing-images/">Lara Hogan&#8217;s advice</a>. I use CSS instead of images where I can, choose the right image format, and make sure that all images are optimised. Depending on the use case, I use the picture element (with the <a href="https://scottjehl.github.io/picturefill/">Picturefill polyfill</a>).</p>
+<h3 id="css">CSS</h3>
+<p>I make sure that I provide fallbacks for fancier features, like providing an <code>rgb</code> fallback whenever <code>rgba</code> is used.</p>
+<p>I keep all my CSS in a few, minified, external CSS files. I don&#8217;t use inline style blocks (except for fancy techniques like <a href="https://developers.google.com/speed/pagespeed/service/PrioritizeCriticalCss">Critical CSS</a>) or write inline CSS.</p>
+<p>I write my CSS like <a href="http://www.smacss.com/">SMACSS</a>. CSS is organised into: Base; Layout; lots of Modules; States. I keep selector nesting shallow, and never use IDs for styling.</p>
+<p>I make sites <a href="http://alistapart.com/article/responsive-web-design">Responsive</a> by default as a <a href="http://futurefriendly.co.za">Future Friendly</a> measure. </p>
+<h3 id="javascript">JavaScript</h3>
+<p>I write unobtrusive, (harshly) hinted, JS. I keep all my JS in a few, minified, external JS files. I don’t use inline script blocks (except for small, minified, things that must be in the document <code>head</code>, like <a href="https://github.com/scottjehl/eCSSential">Scott Jehl&#8217;s eCSSential</a> for asynchronously loading stylesheets) or write inline JS. I only include <a href="http://jquery.com/">jQuery</a> when really necessary, preferring vanilla JavaScript code and <a href="http://microjs.com/">micro-frameworks</a>. </p>
+<p>I <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">Cut the Mustard</a> (test the browser&#8217;s capabilites using a small bit of JS) and serve less capable browsers just the core, lighter and faster, experience, rather than sending them lots of code they will struggle to run.</p>
+<h3 id="decidinginthethebrowser">Deciding in the the browser</h3>
+<p>I prefer to move into HTML, CSS, and JS sooner rather than later so that I can <a href="http://devicelab.co.za/the-lab/#whytestonrealdevices">test in browsers, on real devices</a>, to make better decisions. I build <a href="http://styleguides.io/">Front-end Style Guides</a> in an Atomic Design-like style (like <a href="http://patternlab.io/">Pattern Lab</a>) with pieces that combine to become the site / app.</p>

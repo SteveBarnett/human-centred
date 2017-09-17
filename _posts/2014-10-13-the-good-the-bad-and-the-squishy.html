@@ -1,0 +1,213 @@
+---
+layout: post
+status: publish
+published: true
+title: The good, the bad, and the squishy
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1043
+wordpress_url: http://naga.co.za/?p=1043
+date: '2014-10-13 08:47:08 +0200'
+date_gmt: '2014-10-13 06:47:08 +0200'
+---
+<p>A few weekends ago, I gave a talk about squishy things to the atteendes at <a href="http://www.uxsouthafrica.com/">UX South Africa 2014</a>. It was equal parts terrifying and exhilarating! I took notes from all the talks, and wrote up some from <a href="https://naga.co.za/2014/10/03/ux-south-africa-2014-day-one/">day one</a> and <a href="https://naga.co.za/2014/10/05/notes-from-uxsa-2014-day-two/">day two</a>. Here&#8217;s a write-up of the talk I gave. (Warning: long post is long)</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/gbs1.jpg" alt="" /><br />
+</figure>
+<p>The alternative title for this presentation was <strong>Mobile First Progressively Enhanced Responsive Web Design</strong>, but I thought that sounded very technical and kind of dull, and what I actually wanted to talk about was being <strong>squishy</strong>.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/squishy.jpg" alt="" /><br />
+</figure>
+<p>Being squishy, thinking squishy, and especially designing and developing squishy. You could call it Wibbly Wobbly, Flux-y, Adaptive, Change-y. The important thing to remember that screen size is just one aspect.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/me.jpg" alt="" /><br />
+</figure>
+<p>A whole bunch of links related to the stuff here, plus a link to the slides is up at <a href="https://naga.co.za/squishy">naga.co.za/squishy</a>. I&#8217;m on Twitter as <a href="http://twitter.com/maxbarners">@maxbarners</a> for feedback or heckling. My day job is working as a Front-end developer at <a href="http://praekeltfoundation.org/">Praekelt</a>. <strong>We create mobile experiences for the majority world</strong>, which means we do a lot of cool stuff with low-tech phones.</p>
+<p>What is a Front-end developer, and where do they come from? Here&#8217;s a dramatically over-simplified diagram: Back-end developer, Front-end developer, Designer, going from left to right.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/fed.jpg" alt="" /><br />
+</figure>
+<p>In the beginning, there were back-end developers, and it was good. That sat in dark basements, making stuff on the world wide web, surround by the warm glow of their <a href="http://en.wikipedia.org/wiki/Blinkenlights">blinkenlights</a>, wading through a floor full of empty cans of Red Bull. At some point, someone said: &#8220;Hey. <em>People</em> are using these sites and apps and things we&#8217;re building. Maybe we should get some designers involved to make it work well and look good.&#8221; Then came a bit of a <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/MexicanStandoff">Mexican Standoff</a>. The developers and designers didn&#8217;t really speak the same language, or care about the same things.</p>
+<p>But one day came a person who was the unholy union of both of these: the Front-end developer. The overlap varies, but all FEDs have some developer skills and some designer skills. As you can see from the slides, I veer more towards the developer side of things.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/cover.jpg" alt="" /><br />
+</figure>
+<p>We&#8217;ll cover Progressive Enhancement (PE), Responsive Web Design (RWD), and Deliverables. We&#8217;ll spend most of our time of PE because it&#8217;s the most important bit, and it feeds into the others.</p>
+<p>We won&#8217;t cover Workflow or Tools. Workflow is a big, complicated, topic that could be several long lectures of its own. We won&#8217;t talk about Tools because I don&#8217;t care what you use, as long as you&#8217;re happy with it.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/pe.jpg" alt="" /><br />
+</figure>
+<p>First up is <strong>Progressive Enhancement</strong>.<br/><br />
+It makes me feel all warm and fuzzy inside. In fact, this is how it makes me feel:</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/welcome-to-the-internet.jpg" alt="" /><br />
+</figure>
+<p>What is about? It&#8217;s about <strong>diversity</strong>. It&#8217;s about <strong>dealing with unknowns</strong>. It&#8217;s about not having to worry when things go wrong. That&#8217;s all a bit vague. What actually is it?</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/burger.jpg" alt="" /><br />
+</figure>
+<p>It&#8217;s about building your web site in layers, like a tasty cake-burger or burger-cake. <strong>You start with a simple, functional, baseline, then enhance</strong>. Progressively Enhance, if you will. You add layers of tasty goodness on top of your baseline, enhancing the experience with each layer. </p>
+<p>The way it works is by asking questions of the browser. Do you know how to do This Thing in JavaScript? Cool, have this extra bit of code. No? Don&#8217;t worry about it then: you&#8217;re good as you are.</p>
+<p>It lets you start functional, and build up to something fancypants. To really get a grip on it, let&#8217;s look at how an internet web page is made up.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/triangle.jpg" alt="" /><br />
+</figure>
+<p>At the bottom, you have your HTML: the <strong>structured content</strong> of the page. Headings, paragraphs, images, videos.</p>
+<p>On top of that you have your CSS. This handles the <strong>presentation</strong>: colours, fonts, layout. Note that it&#8217;s a separate layer: see, there&#8217;s a black line there and everything. It exists apart from the structure and content (the HTML) of the page.</p>
+<p>At the very top, in the tiny triangle, is the JavaScript (JS). This adds <strong>behaviour and interactions</strong> to the page. It&#8217;s also the most fragile part. An error in the code (perhaps introduced at midnight by a sleepy developer as a &#8220;quick fix&#8221;) can break the whole block of the JS.</p>
+<p>An important part of PE is learning <strong>not to depend on JavaScript</strong> for functionality. Sure, use it for enhancing the experience and making it better, but don&#8217;t <em>depend</em> on it. People sometimes argue this point: &#8220;most people don&#8217;t turn off JavaScript.&#8221; This is true, but that&#8217;s not what we&#8217;re guarding against: we&#8217;re on the watch for technology (or developers!) failing. And if you have a page with a big bit of JavaScript it will take a while to download: all your users are non-JavaScript users while that&#8217;s downloading.</p>
+<p>Let&#8217;s look at a small, specific, example, and just with a bit of CSS.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/button.jpg" alt="" /><br />
+</figure>
+<p>The top one is just the plain HTML, not CSS. It doesn&#8217;t look particularly snazzy, but it does the job. People will look at it, know it&#8217;s a button, and press it. Let&#8217;s add a little CSS for the middle one: Now we&#8217;re getting somewhere. Looks a bit better. Now let&#8217;s go full-on Web 2.0: add some a drop shadow, a gradient, a special font. Now this looks &#8220;great.&#8221;</p>
+<p>The thing is, this enhancement isn&#8217;t a straight line: it&#8217;s all <strong>granular</strong>. A particular user&#8217;s browser might understand the fancy font and the shadow, but not the gradient or the rounded corners. Or the browser might understand all of it, but the font fails to load for some reasons. Each aspect of the presentation can be on or off. Very squishy.</p>
+<p>Now let&#8217;s look at <a href="http://www.filamentgroup.com/lab/grade-the-components.html">a bigger example</a>, from top notch folks <a href="http://www.filamentgroup.com/">Filament Group</a>.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/grading.jpg" alt="" /><br />
+</figure>
+<p>This is a property listing, and we&#8217;ve decided we want to add a map to it, to let users easily find the place. In the most basic example, we have a link pointing to a Google map. That&#8217;s great! It will work on every device everywhere.</p>
+<p>At the next level, we ask questions of the browser, then based on the answers, we load the map underneath the listing. Even better. We&#8217;ve enhanced the experience and now the map is right there with the listing.</p>
+<p>If the browser is super good, we can get really fancypants. We use some snazzy CSS and do a flip flop with the map and the listing detail: animations and things.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/chart.jpg" alt="" /><br />
+</figure>
+<p>Here&#8217;s a chart with Capabilites of the browser along the bottom (the x axis) vs Fidelity of experience along the side (the y axis). Generally speaking, as the browser capabilities increase, the fidelity of the experience increases: we apply layers of enhancement. But <strong>it&#8217;s not a smooth line</strong>: each enhancement is granular.</p>
+<p>Let&#8217;s back up again and think about our web page triangle and cake-burgers, and I&#8217;ll try and use an &#8220;analogy.&#8221; Let&#8217;s say I want to go from the ground floor to the first floor of a building.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/stairs.jpg" alt="" /><br />
+</figure>
+<p>The HTML would be some plain stairs. Not great to look at, but they do the job. Let&#8217;s apply some CSS: add some presentation to the experience. </p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/stairs-fancy.jpg" alt="" /><br />
+</figure>
+<p>(This is a picture of my house in Observatory, of course.) Ooh, now we&#8217;re looking good. But don&#8217;t forget that the presentation layer is separate. it doesn&#8217;t matter what the stairs look like: I can still get to the first floor.</p>
+<p>Now what happens when we apply some extra enhancement?</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/escalator.gif" alt="" /><br />
+</figure>
+<p>Great! Now it looks good, and the experience of getting from the ground floor to the first floor is fun too. The thing is: that JS at the top of the triangle is the most fragile part, remember? So what happens when some thing goes wrong, when the JS fails?</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/escalator-js-fails.jpg" alt="" /><br />
+</figure>
+<p>Actually it&#8217;s not so bad. They kinda become stairs again. </p>
+<p>But what if we approached this problem differently? What if we <em>relied</em> on the JS layer to get from the ground floor to the first floor? That would pretty much be an elevator. So what happens when the JS fails for an elevator?</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/elevator-broken.gif" alt="" /><br />
+</figure>
+<p>It&#8217;s not so great.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/levels.jpg" alt="" /><br />
+</figure>
+<p>There are levels of optimisation to consider, though. It&#8217;s important to <strong>know who your users are</strong>, and what they&#8217;re using. I&#8217;m not suggesting that you spend months and months of time designing and developing for the oldest BlackBerry on the market if you&#8217;re making something for a small group of Investment Bankers with the latest iPhones. There&#8217;s no reason you can&#8217;t start simple and add on layers of enhancement, though.</p>
+<p>And you can draw a line in the sand. The team at BBC News do something they call <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">Cutting the Mustard</a>. They made a call about the modern-ness of browsers that they deliver a high-end experience too. They want to take advantage of new technology to write less code and therefore give a faster experience to users.</p>
+<p>To deliver an identical experience to lower-tech browsers would mean writing a lot of code, and delivering a slower experience. <strong>Fast trumps fancy</strong>, especially here: people come to read the news and look at the pictures, not to marvel at the new carousel.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/one-web.jpg" alt="" /><br />
+</figure>
+<p>For me, this leads into the idea of the <strong>One Web</strong>: the idea that everyone should have <strong>access to the web, regardless of the device they&#8217;re using, the connection they&#8217;re, or any disabilities they might have</strong>. Sir Tim Berners-Lee, the creator of the web, often says awesome things like &#8220;The power of the Web is in its universality.&#8221; Web pages and cat pictures for everyone, everywhere! </p>
+<p>That&#8217;s a lot of unknowns, though. Ouch. Good thing we build with Progressive Enhancement, isn&#8217;t it?</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/squishy.jpg" alt="" /><br />
+</figure>
+<p>So: that was some <strong>squishy</strong> stuff. We talked about squishiness in terms of <strong>fidelity</strong>: start with a simple, functional, experience and build up to something fancypants. We talked about squishiness in terms of <strong>browser capabilities</strong>: there&#8217;s a wide range of devices out there, and they can all do a mix of different things.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/RWD.jpg" alt="" /><br />
+</figure>
+<p>Ok, now let&#8217;s talk about Responsive Web Design (RWD). It&#8217;s made up of three key parts:</p>
+<ol>
+<li>fluid grid</li>
+<li>flexible images</li>
+<li>media queries</li>
+</ol>
+<p>The squishy bit of it is layout: most usually chaining the number of columns. You might have three columns on your desktop layout, dropping to two columns for a tablet kind of size screen, then having just one column on a small mobile screen. </p>
+<p>An important thing to keep in mind is that it&#8217;s about <strong>proportions, not pixels</strong>. A two column layout would have each column at 50% width, not at a fixed pixel amount. </p>
+<p>Another important things is that it&#8217;s not about this (doing the responsive shuffle):</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/uxsa2014/responsive.gif" alt="" /><br />
+</figure>
+<p>It&#8217;s about this:</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/devices.jpg" alt="" /><br />
+</figure>
+<p>I&#8217;ve put just a few here, but this is actually a <strong>continuum</strong>. On the far left, at the small screen end, we also have stuff like Google Glass, the Apple Watch. And at the far other end, we have things like giant desktop monitors and Smart TVs.</p>
+<p>I&#8217;ve used t-shirt sizes because the <strong>categories are vague, and the borders are blurry</strong>. These days, especially between the S and M categories: tablets are getting smaller and phones are getting bigger. And <strong>please don&#8217;t say phablet</strong>.</p>
+<p>It gets worse from here. People use these different screen sizes sequentially: you might look up something you want to buy on your phone while you&#8217;re waiting for the bus, then buy it on your desktop computer once you get to work. And people use multiple screens at the same time. You&#8217;re lying on the couch, watching a movie, and you recognise an actron. You grab your phone and look them up: &#8220;Oh yeah, they were Cop #3 in Spider-man 2.&#8221;</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/mobile-first.jpg" alt="" /><br />
+</figure>
+<p>Next came a new flavour: <strong>Mobile First RWD</strong>. <a href="http://www.lukew.com/">Luke W</a> was talking about Mobile First design and development a few years before RWD was a thing. One of the main things is that <strong>the constraints of mobile force you to focus</strong>. </p>
+<p>Mobile First applied to RWD means starting with small screens and working your way up to larger screens. This is great! It&#8217;s basically <strong>PE applied to screen size</strong>: you treat screen space / layout as an enhancement.</p>
+<p>Then things got a bit noisy. All kinds of Firsts came out.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/first.jpg" alt="" /><br />
+</figure>
+<p><strong>"Content First!"</strong> they said. The content is what people are coming to our sites for, let&#8217;s use that as our guide. No, wait: <strong>"Structure First!"</strong> they said. We don&#8217;t need to know exactly what the content is, we just need to know the shape of it: heading plus text plus image, and so on. Some cad on twitter suggested <a href="https://twitter.com/iamdevloper/status/509600351012790272"><strong>Watches First</strong></a>. Now people are shouting <strong>Thumbs First</strong>. And in developer circles, we&#8217;re talking about <strong>Performance First</strong>: make things fast (and furious) first.</p>
+<p>Phew! That's a lot of things to do First.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/squishy.jpg" alt="" /><br />
+</figure>
+<p>So that was a whole bunch more <strong>squishy</strong> things. <strong>Size</strong> can be squishy. <strong>Layout</strong> can be very squishy: number of columns, moving things around the page. </p>
+<p>Last but not least, let&#8217;s run through some Deliverables.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/deliverables.jpg" alt="" /><br />
+</figure>
+<p>I can&#8217;t talk about deliverables without mentioning the mockup, the full page comp. It is not squishy. Photoshop (or your tool of choice) has its place in today&#8217;s webby world, but it&#8217;s not for creating full page comps. A mockup is fixed size and fixed fidelity, so it can&#8217;t represent the squishiness of a web site.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/psd.jpg" alt="" /><br />
+</figure>
+<p>A graphic design deliverable that is a bit squishy is set of <a href="http://styletil.es/">Style Tiles</a>.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/style-tiles.jpg" alt="" /><br />
+</figure>
+<p>You do <strong>bits and pieces of pages</strong>: not whole pages, and you don&#8217;t worry about layout yet. Style Tiles sit somewhere between mood boards (which are a bit too vague) and mock ups (which are too precise). They often come with an adjective or two to help capture the feeling (corporate or friendly or bright).</p>
+<p>If you start thinking about code at this point, you&#8217;ll likely look at something like a <strong>Front-end Style Guide</strong>. It starts a bit like a Style Tile, but in code, then starts making collections of bits of pages. They come in various flavours, and are some flavours of them are called Pattern Libraries.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/fesg.jpg" alt="" /><br />
+</figure>
+<p>If you keep thinking in this bits and pieces way, you&#8217;ll to something like <a href="http://bradfrostweb.com/blog/post/atomic-web-design/">Brad Frost&#8217;s Atomic Design</a>. You start with the tiniest pieces of web pages, then keep combining them until you get a whole page.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/atomic-design.jpg" alt="" /><br />
+</figure>
+<p>Let&#8217;s look at an example: an everyday log in form.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/log-in-form.jpg" alt="filtered" /><br />
+</figure>
+<p>Here, the password field is an atom. The label above it, saying &#8220;password&#8221; is also an atom. So is the button.</p>
+<p>A molecule is a collection of atoms, so here we would have the label and the input as a molecule.</p>
+<p>An organism is a combo of these, so here it&#8217;s the whole form.</p>
+<p>If this way of thinking in modules and bits floats your boat (and it should, because it&#8217;s very <strong>squishy</strong>), you&#8217;ll start thinking about <a href="http://rizzo.lonelyplanet.com/">Style-Guide Driven Development</a>.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/sgdd.jpg" alt="" /><br />
+</figure>
+<p>It focuses on components and reusability. That&#8217;s very squishy.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/squishy.jpg" alt="" /><br />
+</figure>
+<p>So, that was even more squishy stuff. We talked about how even <strong>graphic design deliverables</strong> can be squishy, and about how <strong>code</strong> can be squishy too.</p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/covered.jpg" alt="" /><br />
+</figure>
+<p>And that&#8217;s a wrap.<br/><br />
+We talked about Progressive Enhancement (squishy), Responsive Web Design (squishy), and Deliverables (squishy).</p>
+<p>Now, <strong>go forth and be squishy</strong>.</p>
+<p>And if you have any questions: </p>
+<figure>
+<img src="https://naga.co.za/wp-content/uploads/2014/10/it-depends.jpg" alt="" /><br />
+</figure>
+<h4 id="imagecredits">Image credits</h4>
+<ul>
+<li><a href="http://flickr.com/photos/brad_frost/7387759388">flickr.com/photos/brad_frost/7387759388</a></li>
+<li><a href="http://flickr.com/photos/p_valdivieso/11825680466">flickr.com/photos/p_valdivieso/11825680466</a></li>
+<li><a href="http://flickr.com/photos/w4nd3rl0st/6676987847">flickr.com/photos/w4nd3rl0st/6676987847</a></li>
+<li><a href="http://behance.net/gallery/Cinemagraphs-Escalators/12202611">behance.net/gallery/Cinemagraphs-Escalators/12202611</a></li>
+<li><a href="http://flickr.com/photos/psd/2731067095/">flickr.com/photos/psd/2731067095/</a></li>
+<li><a href="http://flaticon.com">flaticon.com</a></li>
+<li><a href="http://trentwalton.com/2011/07/14/content-choreography/">trentwalton.com/2011/07/14/content-choreography/</a></li>
+</ul>

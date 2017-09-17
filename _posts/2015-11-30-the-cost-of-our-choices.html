@@ -1,0 +1,42 @@
+---
+layout: post
+status: publish
+published: true
+title: The cost of our choices
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1389
+wordpress_url: http://naga.co.za/?p=1389
+date: '2015-11-30 13:40:19 +0200'
+date_gmt: '2015-11-30 11:40:19 +0200'
+---
+<p>Every choice we make as designers and developers comes with pros and cons. There&rsquo;s always a cost that somebody pays, and I&rsquo;m worried that some of the choices we make bring benefits to ourselves at the cost of our users.</p>
+<h3 id="web-standards">Web Standards</h3>
+<p>Today seems like a great day to write this rant since it&rsquo;s <a href="http://bluebeanieday.tumblr.com/">Blue Beanie Day</a>, a celebration / reminder of <strong>web standards</strong>, and making the web <strong>open and accessible to all</strong>. It shouldn&rsquo;t matter what device, network, or disabilities a user has. I completely stand by the idea that:</p>
+<blockquote><p>Progressive enhancement and accessible, semantic markup aren’t optional extras. They’re the foundation of a web that works for all people.</p>
+</blockquote>
+<p>That means using Progressive Enhancement to add things in layers:</p>
+<ul>
+<li>semantic HTML for our content;</li>
+<li>CSS for our presentation;</li>
+<li>JavaScript for our behaviour.</li>
+</ul>
+<h3 id="visual-composer">Visual Composer</h3>
+<p>I have recently refactored a site that was using the very popular <a href="http://vc.wpbakery.com/">Visual Composer plugin</a> for <a href="https://wordpress.org/">WordPress</a>. I believe that VC has several design decisions that provide <strong>convenience for the author, but at a great cost to the user.</strong></p>
+<p>First of all, it <strong>mixes content with presentation</strong>. The drag and drop interface allows you to apply presentational changes to the page, rather than apply them in the CSS.</p>
+<p>WordPress&rsquo;s Edit interface is for editing the content, and it does this job very well. For changing the presentation, there are Themes and Theme options, and these sit in a separate part of the interface. Higher-level presentation choices are possible, such as choosing a Template for the Page. These granular choices don&rsquo;t belong in a content-editing interface, though.</p>
+<p>Second, <strong>it uses blobs not chunks</strong> (see Karen McGrane&rsquo;s excellent <a href="http://karenmcgrane.com/2012/09/04/adapting-ourselves-to-adaptive-content-video-slides-and-transcript-oh-my/">Adapting Ourselves to Adaptive Content</a> for more on this): it treats the whole page as one entity, where we would should be treating the page as small pieces of content that we pull together in our templates. Here are a few problems with using blobs not chunks.</p>
+<ul>
+<li>It&rsquo;s harder to be consistent, because you have to make changes on every page, rather than in one place (the stylesheet).</li>
+<li>You can&rsquo;t use pieces as modules, so you can&rsquo;t reuse them across pages.</li>
+<li>VC produces not-so-great code: inline styles (rather than adding styles to a shared external stylesheet) and verbose, non-semantic, HTML.</li>
+</ul>
+<h3 id="who-pays-the-highest-cost-">Who pays the highest cost?</h3>
+<p>Every decision we make has a cost for someone: ourselves or our users. I believe that we should be more worried about our users, and their convenience, than our own.</p>
+<p>Visual Composer, for example, provides convenience and flexibility for the content authors, but comes at a high cost for the user. Pages are heavier in weight, which means they load more slowly, and cost more data (and money!) to view. Making a lean and mean HTML, CSS, and JS Theme, and allowing only HTML inputs via the WordPress Dashboard results in a leaner, better, site that relying on VC or other WYSIWYG editors.</p>

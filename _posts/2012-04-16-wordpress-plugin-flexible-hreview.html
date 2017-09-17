@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: 'WordPress Plugin: Flexible hReview'
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 342
+wordpress_url: http://naga.co.za/?p=342
+date: '2012-04-16 16:35:05 +0200'
+date_gmt: '2012-04-16 14:35:05 +0200'
+---
+<p>I'm a big fan of <a title="Visit the Microformats.org site" href="http://microformats.org/">Microformats</a>. Essentially, they're all about adding extra data to your data, making it more discoverable and useful. They're easy to use too: you just add classes to your existing (X)HTML in the prescribed manner. The address information in footer of this site is marked up in <a title="hCard on microformats.org" href="http://microformats.org/wiki/hcard">hCard</a> format, for example.</p>
+<p>I write occasional restaurant reviews on a group blog with friends: <a title="Salty Cracker Club: Galloping gourmands gallivanting about Cape Town." href="http://saltycracker.co.za/">Salty Cracker club</a>. We score each restaurant out of ten on a few categories: Atmosphere, Staff, Service, Food, Wine, Value for money.</p>
+<p>I wanted to started marking these up as hReviews for better data richness and search engine listings, so I went searching in the <a title="Plugins at WordPress.org" href="http://wordpress.org/extend/plugins/">WordPress Plugin repository</a>. I didn't find anything that quite matched my requirements, so I decided to write one myself.</p>
+<p>Flexible hReview allows you to write <a title="Multi-dimensional reviews" href="http://microformats.org/wiki/hreview#Multidimensional_Restaurant_Review">multi-dimensional reviews</a> attached to a Post, then display the review wherever you like using a php function, or a WordPress shortcode.</p>
+<p>While testing the plugin with Google's <a title="Rich Snippet Testing Tool by Google" href="http://www.google.com/webmasters/tools/richsnippets">Rich Snippets Testing Tool</a> (<a title="Rich Snippets - Reviews on Google Webmaster Tools" href="http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=146645">more on Reviews specifically</a>) I discovered that only the first rating category (in Salty Cracker's case, <em>Atmosphere</em>, not necessarily representative of the review as a whole) was picked up and used. To provide a more representative rating, I added an option in the plugin to automatically generate an overall score, and add that as the first rating. An example: using a search string <a title="Search results for mr chan cape town review on Google" href="https://www.google.co.za/search?q=mr+chan+cape+town+review">mr chan cape town review</a> shows the following at the bottom of the first page of results (at the time of writing):</p>
+<p><a href="https://www.google.co.za/search?q=mr+chan+cape+town+review"><img class="alignnone size-full wp-image-344" src="https://naga.co.za/wp-content/uploads/2012/04/screenshot.png" alt="" width="533" height="100" /></a></p>
+<p>Our 10-scale rating is converted to a standard 5, and is displayed as stars, giving a quick visual guide to the score.</p>
+<p>The <strong>Flexible hReview plugin</strong> can be downloaded via the Plugins menu of the WordPress dashboard, or from either of the links below.<br />
+<a title="Flexible hReview on WordPress.org's Plugin repository" href="http://wordpress.org/extend/plugins/flexible-hreview/">Download Flexible hReview from WordPress.org</a>.<br />
+<a title="Download or Fork Flexible hReview from GitHub" href="https://github.com/SteveBarnett/Flexible-hReview">Download or Fork Flexible hReview from GitHub</a>.</p>

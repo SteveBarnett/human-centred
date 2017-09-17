@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: 99 Problems but DevOps ain't one
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 941
+wordpress_url: http://naga.co.za/?p=941
+date: '2014-06-02 10:35:54 +0200'
+date_gmt: '2014-06-02 08:35:54 +0200'
+---
+<p>A few weeks ago <a href="http://www.spin.org.za/">Cape Town SPIN</a> hosted Sven Agnew of <a href="http://www.unboxedconsulting.com/">Unboxed Consulting</a>, who give <a href="http://www.meetup.com/Cape-Town-SPIN/events/167054722/">a talk about DevOps</a>. Below are my notes from his talk.</p>
+<p>Sven is a great speaker, with a very natural style. His talk was about the current state of DevOps, how we got there, and what&#8217;s next. He talked about how working with software and computers is complicated: whether you’re working with just your machine, or a big bank of servers, things change over time. </p>
+<p>Sven talked about Chef, Puppet, and Ansible in an opinionated and informed way. <a href="http://www.getchef.com/">Chef</a> is powerful, but has a brutal learning curve. <a href="http://puppetlabs.com/">Puppet</a> is easier, but the Domain-specific language can cause you problems later on. Also, it’s convergence model doesn’t guarantee the state at a particular point, and that isn&#8217;t viable for many people. <a href="http://www.ansible.com/">Ansible</a> is much easier than Chef or Puppet. You can get a good feel for it in half an hour, reading through the docs, and it scales well. </p>
+<p>Sven&#8217;s focus was on wanting to do Test-Driven Development-like things for servers. The benefits of tests are that they tell you something “works as expected,” and they let you know when something breaks. Ideally, you want to put <strong>the code for the app and the code for managing the server in the same repository</strong>. This leads to acceptance tests getting interesting: what state does the system need to be in the deliver the features? It lets you do important stuff like: when we deploy our web app, we know we have a web server that can run it. <strong>You can have your hardware as a dependency of your application</strong>. </p>
+<p>Come and join us at <a href="http://www.meetup.com/Cape-Town-SPIN/">meetup.com/Cape-Town-SPIN</a> for process-oriented and technical talks on the third Wednesday of every month.</p>

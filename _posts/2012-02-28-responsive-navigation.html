@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: Responsive Navigation
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 318
+wordpress_url: http://naga.co.za/?p=318
+date: '2012-02-28 08:56:00 +0200'
+date_gmt: '2012-02-28 06:56:00 +0200'
+---
+<p>There are plenty of posts doing the rounds talking about Responsive Web Design in the bigger picture sense: workflow, tools, and so on. (I find <a href="http://www.markboulton.co.uk/" title="Mark Boulton's blog">Mark Boulton</a> particularly eloquent on the subject: always a pleasure to read!).</p>
+<p>Two posts that really caught my eye were more focused, though:<br />
+<a href="http://bradfrostweb.com/blog/web/responsive-nav-patterns/" title="Responsive Nav Patterns by Brad Frost">responsive navigation patterns by Brad Frost</a> from a few days ago (a well thought out, well written, round up of responsive navigation patterns, with pros and cons for each.);<br />
+<a href="http://filamentgroup.com/lab/responsive_design_approach_for_navigation/" title="A Responsive Design Approach for Navigation, Part 1 by Filament Group">A Responsive Design Approach for Navigation, Part 1 by Filament Group</a> from yesterday (a step by step guide to setting up a solid, progressively enhanced, responsive navigation).</p>
+<p>Personally, I'm tending towards using a <code>select</code> for smaller screens: hooking into the native UI seems like a good thing. This could mean using JavaScript (something like Filament Group's cunning testfit in their example above) to switch the <code>select</code> out for a <code>ul</code> for larger screens.<br />
+Relying on JavaScript for anything that basic makes me uncomfortable, though, even when it's done progressively. I've been wondering about putting in both <code>select</code> and the <code>ul</code> as a starting point. (Loading extra stuff is bad, yes, but these would be tiny text snippets.) Then, using media queries or some cunning <a href="http://www.lukew.com/ff/entry.asp?1392" title="RESS by Luke W">RESS</a> action (see also <a href="http://www.dmolsen.com/mobile-in-higher-ed/2012/02/21/ress-and-the-evolution-of-responsive-web-design/" title="RESS article by Dave Olsen">Dave Olsen's excellent article</a>) to pluck out or hide the one that's not needed.</p>
+<p>Filing this under: Must Think More About It.</p>

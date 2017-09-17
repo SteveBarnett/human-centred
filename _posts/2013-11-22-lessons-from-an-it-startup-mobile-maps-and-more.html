@@ -1,0 +1,51 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Lessons from an IT startup: mobile, maps and more'
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 843
+wordpress_url: http://naga.co.za/?p=843
+date: '2013-11-22 16:18:02 +0200'
+date_gmt: '2013-11-22 14:18:02 +0200'
+---
+<p>On Thursday 21st November, the <a href="http://www.meetup.com/ctfeds/">Cape Town Front End Developers meetup</a> hosted Steven Ellis (<a href="https://twitter.com/steviecellis">@StevieCEllis</a>) of <a href="http://easy2map.com/">Easy2Map</a> and <a href="http://mydoorhandle.com/">MyDoorHandle</a>. He <a href="http://www.meetup.com/ctfeds/events/148579772/">talked about mobile, maps, emerging markets and more</a>. Below are my brief notes from his talk.</p>
+<h3>Maps</h3>
+<p>Steven started with a comparison of <a href="https://maps.google.co.za/">Google Maps</a> and <a href="http://www.openstreetmap.org/">Open Street Map</a>.</p>
+<p>Google's service is the most popular, but comes with Terms and Conditions. Roughly speaking, you can use the Google Maps API for free if you provide free access to the mapping sections of your application. You can charge for an Android App on the Play store that uses the Maps API, though. There are also usage limits that apply. To bypass these, you need a Business License that's currently EUR10,000 a year. Google takes mapping very seriously, as demonstrated by their willingness to throw lots of staff at it.</p>
+<p>Open Street Maps has some great libraries available. <a href="http://leafletjs.com/">Leaftlet.js</a> is very fast, and can be extended with <a href="https://www.mapbox.com/">MapBox</a>. The API and service is slightly better than Google's, and has big backers such as Flickr, 4square, meetup, Wikipedia, and Craigslist.</p>
+<h3>Phones in Emerging Markets</h3>
+<p>Feature phones are popular in emerging markets for a number of reasons: the low price; the dual SIM functionality; the long battery life; the dedicated social networking buttons. Steve said something that I thought was really on the mark:</p>
+<p style="padding-left: 30px;">Smartphones need to adapt to emerging markets, not the other way round.</p>
+<p>Things to consider:</p>
+<ul>
+<li>Phones are often pre-paid, so watch the amount of data you're sending, and the libraries you use. Related: test in <a href="http://www.opera.com/mobile">Opera Mini and Mobile</a>.</li>
+<li>Simple UI is key</li>
+<li>Think about getting your stuff on to <a href="http://mxit.com/">MXit</a>.</li>
+<li>Make your site Facebook-friendly (Facebook are on a mission to be on every phone on the planet).</li>
+</ul>
+<h3>Thoughts about being a startup</h3>
+<p>You <em>must</em> have a designer on your founding team. Simplicity is key: avoid the paradox of choice by giving your users fewer options, fewer choices to make. Design for the novice, but configure for the pro. Do user testing as early and often as possible to avoid any nasty surprises late in the game.</p>
+<h3>Is Twitter Bootstrap 3 the silver bullet for Responsive Web Design?</h3>
+<p>It has great legacy support, and lots of controls and widgets. It's great for prototyping, and the browser support testing has been done for you. It's not so great for using on low-end phones, though, or if you do have a designer on your team.</p>
+<p>One of the most important things to consider is the number of HTTP requests on a page. When you realise that each request has to go from the phone, to the cell tower, all the way under the sea, then through routers to the server, then all the way back again, you realise you want to make as few of those as possible.</p>
+<h4>How important is device testing?</h4>
+<p>There are many things that emulators can't do. Reasons to test on devices:</p>
+<ul>
+<li>Gives you a true measure of performance.</li>
+<li>Lets you experience the different form factors (interfaces without touch offer a very different experience).</li>
+<li>The varying pixel densities of modern phones;</li>
+<li>The effect of the network: latency, poor connection. Steve recommends doing field tests.</li>
+<li>Steve kindly mentioned a side project of mine, <a href="http://devicelab.co.za/">Device Lab</a>, as a resource to use for testing.</li>
+</ul>
+<p>The 80 / 20 rule applies, so you don't need to test on every device everywhere.</p>
+<h3>The next CTFEDs meetup</h3>
+<p>Our <a href="http://www.meetup.com/ctfeds/events/150662682/">next meetup</a> is an informal affair, on Wednesday December 4th. It's a show and tell for those of us who took part in the ongoing <a href="http://ums.sc/cssoff/">CSSOff competition</a>.</p>
+<p>&nbsp;</p>

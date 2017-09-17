@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: Opera Mini, JavaScript, and mustard
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1257
+wordpress_url: http://naga.co.za/?p=1257
+date: '2015-06-18 08:47:39 +0200'
+date_gmt: '2015-06-18 06:47:39 +0200'
+---
+<p>The rather talented <a href="http://alex.maughan.me/">Alex Maughan</a> was in our office the other day, and we got to chatting about Opera Mini and JavaScript (as FEDs in our situation are often want to do). Our chat got me thinking a bit.</p>
+<p><a href="http://www.opera.com/mobile">Opera Mini</a> is a strange little browser. There are Android, iOS, and Windows version, but the biggest market is the version that runs on low end feature phones. Opera claims that it <a href="http://www.opera.com/mobile/mini/other">&#8220;works on almost any phone&#8221;</a> and in my experience that&#8217;s certainly true.</p>
+<p>I call it strange because despite running on low end tech it&#8217;s quite advanced. The article <a href="https://dev.opera.com/articles/opera-mini-and-javascript/">Opera Mini and JavaScript</a> by Tiffany Brown on the Opera dev blog does a great job of breaking down <a href="https://dev.opera.com/articles/opera-mini-and-javascript/#what-to-know-about-javascript-in-opera-mini">exactly what (and how) Opera Mini handles JavaScript</a>. More strangeness comes in because of the way it handles things: everything requires a server round-trip. This complicates matters for things like off-canvas / side drawer menus.</p>
+<h3 id="featuretestingversusdevicedetection">Feature testing versus device detection</h3>
+<p>What Alex and I were discussing was how to solve a particular conundrum. A feature-detection test on the JavaScript required to show / hide an off-canvas menu would pass on Opera Mini, but because of the server round trip, the experience would be a bit wonky. So, do we resort to device detection, which goes against our general Progressive Enhancement principles? In her article, Ms Brown says</p>
+<blockquote>
+<p>99% of the time, you should use feature detection to determine whether a browser supports a particular feature or API. Yet sometimes browser sniffing is the right choice.</p>
+</blockquote>
+<p>and I&#8217;m thinking that for Opera Mini, that might indeed be the right approach. I want to take a <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">mustard cutting</a> approach: probably using localStorage (<a href="http://caniuse.com/#search=localstorage">support for localStorage on caniuse.com</a>) as the yardstick for &#8220;a higher end browser,&#8221; and load in the JavaScript for those only: that would exclude Opera Mini.</p>
+<p>However, <a href="https://dev.opera.com/articles/opera-mini-content-authoring-guidelines/#operamini">Opera Mini exposes a <code>window.operamini</code> object</a>. Although this is still basically the same as device detection, it feels less horrible.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>I&#8217;m still not sure, to be honest, but I&#8217;m going to stick with my mustard cutting for now. I quite like the combo of <code>localStorage</code> and <code>querySelector</code>: that gives me a set of fairly modern, fairly capable, browsers as a first pass.</p>

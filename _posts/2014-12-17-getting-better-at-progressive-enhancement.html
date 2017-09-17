@@ -1,0 +1,37 @@
+---
+layout: post
+status: publish
+published: true
+title: Getting better at Progressive Enhancement
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1120
+wordpress_url: http://naga.co.za/?p=1120
+date: '2014-12-17 07:48:40 +0200'
+date_gmt: '2014-12-17 05:48:40 +0200'
+---
+<p>Alex, smart cookie that he is, wrote <a href="http://alex.maughan.me/opposing-agendas/">a thoughtful, well-reasoned, post about PE</a> (Progressive Enhancement), in response to <a href="https://twitter.com/alexmaughan/status/540493632781189120">a conversation on The Twitters</a> (which was in response to another post of his). I think he hits the nail on the head with &quot;It’s actually an argument about practicality.&quot; If you're new to PE, it can take longer at first (like any new thing), and I think there are two big reasons why. Firstly <strong>it's a big shift in mindset</strong>. It requires you to think about a continuum of experiences, and to solve really hard problems. Secondly, <strong>it means writing different code</strong>. Here are some thoughts around how to make these things a bit easier.</p>
+<p>Aside: see also <a href="https://naga.co.za/2014/12/17/progressive-enhancement-busting-some-myths/">Progressive Enhancement: busting some myths</a></p>
+<h3 id="shiftinmindset">Shift in mindset</h3>
+<p>PE starts with design. You need to consider <strong>the simplest possible version of the thing</strong> / feature / task. Think about it in terms of what can be done using just HTML (and a trip to the server and back); ignore CSS and JS for now.</p>
+<p>Once you've found and figured out that core functionality, you can layer on some CSS. Think about how you can enhance the presentation with CSS, change the layout for larger screen sizes. Finally, layer on JS. Think about what extra behaviours and interactions you can add to aid the user completing their task.</p>
+<p>Keep in mind that this layering isn't a smooth curve. Newer devices don't automatically have better CSS and JS support for various features: <a href="http://www.pepstores.com/products/cellular/">low cost Android phones are still being released that run version 2.3</a></p>
+<p>For me, it has a lot in common with a Mobile First philosophy: <strong>solve the hardest problem first</strong>. Reduce things to their essence and think about what you can do with very little (small screen size, low browser capability, crappy network connection) to work with.</p>
+<h4 id="examples">Examples</h4>
+<p>Not picking on Le Roux, <a href="https://twitter.com/__leroux/status/543389235097907201"> but taking some of his list as ideas</a> to bat around, here as some quick thoughts on how you could PE some more complex apps. These are tricky ones, and these ideas aren't fleshed by any means, but they do try and think about <strong>what the simplest possible version of a thing is</strong>. What is the most basic version of the experience: what can we do with just HTML?</p>
+<ul>
+<li><strong>image editors</strong>. There are a number of things you might want to do: applying a filter, cropping or resizing an image. For filters, you could have checkboxes or radios with the names / examples of the filter on, and an &quot;Apply filter&quot; button that returns the filtered image from the server. For cropping, you could display the image's dimensions in pixels and ask for the new dimensions, along with a series of checkboxes for choosing the cropping direction (to the top left, left, bottom left, etc.)</li>
+<li><strong>wysiwyg layout tools</strong>. Here you want to set the position on a grid of a content module. You could use an ordered list to represent rows, with each row having an input type=&quot;number&quot; to set the row order. Each row could contain an ordered list of content items, and for each you could use input type=&quot;number&quot; to set their column position and width.</li>
+<li><strong>word processors</strong>. The core functionality here is writing. Formatting is an enhancement! What could work is to use markdown for formatting, and convert that into a wysiwyg editor for more capable browsers.</li>
+<li><strong>games</strong>. Honestly, exceptionally tricky to do with PE, except for fairly rudimentary games. PE depends on having a server-side fallback for functionality. The nature of many games kind of goes against that.</li>
+</ul>
+<h3 id="writingdifferentcode">Writing different code</h3>
+<p>Adopting a PE way of coding means doing things differently, which means writing code a bit differently. I read a lot and keep <a href="https://pinboard.in/u:maxbarners/t:progressiveenhancement/">a list of PE-related links on Pinboard</a> to help keep my brain in order.</p>
+<p>Writing <strong>modular, re-usable, components</strong> and putting them into a <a href="http://styleguides.io/">Front-end Style Guide</a> means you can share your PE modules with your team. Very importantly, this include future you (and  your team): one you've written a PE solution to a pattern, re-use it. Huge bonus points if you share your patterns with the rest of the world, via GitHub or your site.</p>
+<p>When looking for inspiration or ideas, it helps to look to the experts. I am a complete and unashamed <a href="http://www.filamentgroup.com/">Filament Group</a> fanboy. <a href="https://github.com/filamentgroup/Southstreet">Their South Street set of tools</a> is amazing and worth working through in detail. Their book <a href="http://www.filamentgroup.com/dwpe/">Designing With Progressive Enhancement</a> should be required reading for anyone writing Front-end code. <a href="http://www.filamentgroup.com/dwpe/#codeexamples">Quite a few of the code samples in the book are available on the book's page</a>. </p>

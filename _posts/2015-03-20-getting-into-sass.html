@@ -1,0 +1,64 @@
+---
+layout: post
+status: publish
+published: true
+title: Getting into Sass
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1211
+wordpress_url: http://naga.co.za/?p=1211
+date: '2015-03-20 08:00:45 +0200'
+date_gmt: '2015-03-20 06:00:45 +0200'
+---
+<p>I&#8217;ve been discussing <a href="http://sass-lang.com/">Sass</a>, the CSS pre-processor, with a few fine folk over the past couple of days, particularly the &#8220;should I use it?&#8221; angle. Here&#8217;s how I got started, and why I stuck with it. The short version is: it helps me write more readable and understandable CSS.</p>
+<p>I decided to make one change at a time to my normal CSS workflow, over the course of a couple of weeks. I chose Sass over <a href="http://lesscss.org/">Less</a> or <a href="http://learnboost.github.io/stylus/">Stylus</a> (other CSS pre-processors) because it looked a bit friendlier and there were more resources for help available, based on some quick googling.</p>
+<h2 id="compileasimplecssfile">Compile a simple CSS file</h2>
+<p>The first thing I did was to rename my <code>style.css</code> to <code>style.scss</code> and get that to compile. No using of any Sass features: just seeing if I could make a CSS file from a Sass one. (What did I use to do this? See <a href="#practicalconcerns">practical concerns</a> below).</p>
+<h2 id="variables">Variables</h2>
+<p>The next thing I looked at was using variables. Rather than having hex codes like <code>#6B0000</code> scattered throughout my code, I had <code>$primary-colour</code> and <code>$secondary-color</code>. This made the CSS more readable, and made it start to feel more like &#8220;real&#8221; code: variables and things!</p>
+<h2 id="nesting">Nesting</h2>
+<p>Next up was nesting. If you&#8217;re styling a link in a navigation list, you might write a CSS selector like this: <code>nav ul li a { /* styles */ }</code>. Sass lets you <a href="http://sass-lang.com/guide#topic-3">write those selectors inside each other</a> for much better readability.</p>
+<p>I try and write CSS in a <a href="https://smacss.com/">SMACSS</a> style, so I wanted to avoid that kind of deep nesting, and using of specific HTML patterns. Something like <code>.nav-main a</code> is kind of okay, so I used nesting there a lot.</p>
+<p>What I did find really useful was being able to nest media queries. Rather than having many media queries throughout my CSS, and I could keep all the changes over screen sizes for a particular element in one place. Here&#8217;s a short example:</p>
+<p>The css:</p>
+<pre><code class="css">h1 {
+  font-size: 2em;
+}
+
+@media (min-width: 30em) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (min-width: 60em) {
+    h1 {
+        font-size: 3em;
+    }
+}</code></pre>
+<p>The sass:</p>
+<pre><code class="sass">h1 {
+  font-size: 2em;
+  @media (min-width: 30em) {
+    font-size: 2.5em;
+  }
+  @media (min-width: 60em) {
+    font-size: 3em;
+  }
+}</code></pre>
+<p>Shorter and, for me, much more readable.</p>
+<h2 id="partials">Partials</h2>
+<p>The next change I made was to use <a href="http://sass-lang.com/guide#topic-4">partials</a>. Regular CSS lets you use <code>@import</code> to pull in another file. This is not great because it means another file to download. Sass does the cunning thing of letting use you <code>@import</code>s to pull in files, but it does that as it compiles, meaning you still end up with one CSS file at the end.</p>
+<p>I want to split my CSS rules into base, layout, normalise, typography, and other categories, to make the code easier to read. Rather than have one long CSS file with comments to split it into logical pieces, I have separate small Sass files: much easier to find existing stuff and know where to put new stuff. Sass let me do that using partials: start a Sass file name with an underscore, and it won&#8217;t get generated into a CSS file; use <code>@import</code>s to include the partials in my <code>style.css</code>.</p>
+<h2 id="practicalconcerns">Practical concerns</h2>
+<p>When I was getting started with Sass, I found the command line scary. Actually, I still find it scary now, even though I use it every day! At the moment I&#8217;m using <a href="http://gulpjs.com/">GulpJS</a> (a JavaScript task runner: write little bits of JavaScript that let you automate things like compiling sass (and a whole bunch more)) or building things with <a href="http://jekyllrb.com/">Jekyll</a> (a static site generator that handles Sass compilation for you), but for a long time I used <a href="http://incident57.com/codekit/">CodeKit</a>, and I still highly recommend it. It does many awesome things.</p>
+<h2 id="butwaittheresmore">But wait, there&#8217;s more</h2>
+<p>These days I'm looking at fancier stuff too. There's <a href="http://sass-lang.com/guide#topic-6">mixins</a> for having little functions, <a href="http://sass-lang.com/guide#topic-7">@extend</a> for grouping of things (although now it seems that maybe <code>@extend</code> <a href="https://tech.bellycard.com/blog/sass-mixins-vs-extends-the-data/0">isn&#8217;t so great</a>), and <a href="http://susy.oddbird.net/">susy</a> for easier grids.</p>
+<h2 id="summary">Summary</h2>
+<p>I find writing Sass easier and more fun than writing straight up CSS. I got into it by changing one thing at a time, and learning Sass in small chunks: variables, then nesting, then partials. There are many command line tools, and a handful of apps to help get you started.</p>

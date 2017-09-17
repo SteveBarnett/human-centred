@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: Simplicity
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1449
+wordpress_url: https://naga.co.za/?p=1449
+date: '2016-03-03 09:46:32 +0200'
+date_gmt: '2016-03-03 07:46:32 +0200'
+---
+<p>I&rsquo;m a bit predisposed to minimalism, but recently simplicity (in various forms) seems to keep bubbling up in various blogs and things. When you simplify things, it&rsquo;s often easier to see <strong>what&rsquo;s going</strong> or <strong>what went wrong</strong>.</p>
+<p>(Writing this post turned out to be a good reminder to myself at how easy it is to make things long or complicated. I kept going off on tangents or wandering of in a related, but not entirely relevant, direction.)</p>
+<p>Three particular flavours of things that I&rsquo;m been thinking about / seeing:</p>
+<ul>
+<li>debugging JavaScript;</li>
+<li>adding custom stuff to Bootstrap;</li>
+<li>having lots of WordPress Plugins.</li>
+</ul>
+<h3 id="debugging-javascript">Debugging JavaScript</h3>
+<p>The students in their first term at <a href="http://projectcodex.co/">codeX</a> are writing their first bits of JavaScript, so they&rsquo;re finding out lots about how it works. And lots about how it <em>doesn&rsquo;t</em> work!</p>
+<p><img src="https://naga.co.za/wp-content/uploads/2016/03/20160303-javascript.jpg" alt="" class="alignnone size-medium wp-image-1451" /></p>
+<p>When a new bit of code isn&rsquo;t working as expected, one way we try and find out what&rsquo;s gone funky is <strong>commenting out big chunks of code</strong>. Looking at a <strong>small amount of code and trying to find an error is much easier</strong> than looking at a big bit of code with lots of things going on (Later on we talk about modules and splitting things up into nice small chunks).</p>
+<h3 id="adding-custom-stuff-to-bootstrap">Adding custom stuff to Bootstrap</h3>
+<p>I like using <a href="http://getbootstrap.com/">Bootstrap</a> as a prototyping tool because it&rsquo;s fast to make stuff with it. It&rsquo;s also a good learning tool. If you&rsquo;re new to CSS, you can get something looking pretty good pretty fast, then dig under the hood a bit to see how it works. At the moment we&rsquo;re using it at codeX like that.</p>
+<p><img src="https://naga.co.za/wp-content/uploads/2016/03/20160303-bootstrap.jpg" alt="" class="alignnone size-full wp-image-1450" /></p>
+<p>Complexity comes in here when you want to customise Bootstrap, usually by adding a small CSS file of your own with extra styles. Bootstrap&rsquo;s styles are quite far-reaching and &ldquo;heavy&rdquo; (&ldquo;high specificity&rdquo; if you want to be fancy), so they can be difficult to override (and figure out what to override). It can lend itself to using naughty CSS like <code>!important</code>, and you end up with your own stylesheet being complicated and hard to understand.</p>
+<p>I&rsquo;m <a href="http://fef.projectcodex.co/">starting to steer people</a> towards <strong>using lighter solutions</strong> (smaller frameworks), or <strong>writing their own CSS</strong> from scratch.  I&rsquo;m also talking about the dangers of using frameworks or libraries by default, without really considering the consequences to you, your team, or your users. <strong>Adding things to get the end result you want</strong> can be easier than over-riding things to get the end result you want.</p>
+<h3 id="having-lots-of-wordpress-plugins">Having lots of WordPress Plugins</h3>
+<p>With the popularity of WordPress, and the (relative) ease of writing (WordPress-flavoured) PHP, it&rsquo;s not surprising that there are lots and lots of plugins out there. Many of these offer convenience for the author (good), at the cost of weight and speed for the reader (bad), and complexity for the developer (bad). It can be a little too easy to keep adding plugins until the Dashboard looks like <a href="https://uxmag.com/articles/when-theres-nothing-left-to-take-away">Microsoft Office products did a few years ago</a>.</p>
+<p><img src="https://naga.co.za/wp-content/uploads/2016/03/20160303-wordpress.jpg" alt="" class="alignnone size-medium wp-image-1452" /></p>
+<p>And on the reader side of the site, things can be kind of similar. When developer needs to make a change to the styles, it can become a bit of a sleuthing mission. It might come from the content or the Theme or a Plugin, and they can interact with each other in unexpected ways.</p>
+<p>One way to do deal with this is to <strong>do less</strong>. Take a long, hard, look at the things you have and ask which ones really need to be there. <strong>Focus on a handful of the most important things, and get rid of the rest</strong>. If you don&rsquo;t really need that social sharing toolbar, you can remove that Plugin. If the author is willing to learn a little HTML, you can remove that other Plugin that does fancy links and buttons and things.</p>

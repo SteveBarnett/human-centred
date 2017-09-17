@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: Two quick front-end performance-related things
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1225
+wordpress_url: http://naga.co.za/?p=1225
+date: '2015-04-09 09:30:01 +0200'
+date_gmt: '2015-04-09 07:30:01 +0200'
+---
+<p>At work I'm doing some researching and setting up of things to help improve the front-end performance of our stuff. Here are two quick things that keep bubbling up.</p>
+<h2>Prefer fewer, larger, files</h2>
+<p>Avoid many, smaller, files.</p>
+<p>This is because, broadly speaking, <a href="https://www.igvita.com/2012/07/19/latency-the-new-web-performance-bottleneck/">latency trumps bandwidth when it comes to performance concerns</a>. </p>
+<h3>Prefer simple CSS selectors</h3>
+<p>Rather have an extra class in your HTML.</p>
+<p>This is because <a href="https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations?hl=en">browsers can figure out simpler selectors faster</a>.</p>

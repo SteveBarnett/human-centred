@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: Responsive Images
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 169
+wordpress_url: http://naga.co.za/?p=169
+date: '2011-07-01 10:34:25 +0200'
+date_gmt: '2011-07-01 08:34:25 +0200'
+---
+<p>Just read an interesting post by Craig Russel from January that I've just picked up: <a href="http://www.craig-russell.co.uk/responsive-images-and-context-aware-image-sizing/">Responsive Images and Context Aware Image Sizing</a>, which has some follow-up some thoughts on <a href="http://filamentgroup.com/lab/responsive_images_experimenting_with_context_aware_image_sizing/">Filament Group's article</a>. I'm interested in this from a WordPress point-of-view, since that's what I do most of my work with.</p>
+<p>A first step would be to use <a href="http://codex.wordpress.org/Function_Reference/add_image_size">add_image_size</a> to generate the different image sizes.<br />
+One problem is deciding what set breakpoints to use.</p>
+<p>Then, rather than using Craig's getimage.php, a filter would be added to post_content, looking for WordPress images (maybe looking for <code>.wp-post-image</code>) and replacing them on the fly with the desired size.<br />
+If you wanted to do this just for featured images it would be very simple. You could write a tiny custom script to pick the right argument for the call to <a href="http://codex.wordpress.org/Function_Reference/the_post_thumbnail">the_post_thumbnail()</a>.</p>
+<p>I'm looking forward to experimenting with this on my next project to see how practical or fiddly it is.</p>

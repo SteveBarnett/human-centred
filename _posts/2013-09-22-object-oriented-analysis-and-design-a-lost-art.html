@@ -1,0 +1,75 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Object-Oriented Analysis and Design: A lost art?'
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 761
+wordpress_url: http://naga.co.za/?p=761
+date: '2013-09-22 12:47:21 +0200'
+date_gmt: '2013-09-22 10:47:21 +0200'
+---
+<h1>Object-Oriented Analysis and Design: A lost art?</h1>
+<p>At the <a href="http://www.spin.org.za/2013/09/13/ct-spin-93-object-oriented-analysis-and-design-a-lost-art/">93rd SPIN meeting</a>, Herman Lintvelt (<a href="https://twitter.com/hermanlintvelt">@hermanlintvelt</a>) of <a href="http://www.polymorph.co.za/">Polymorph</a> gave an impassioned talk about Object-Oriented Analysis and Design. He encouraged lots of audience interaction: asking for definitions of and opinions on the concepts he was discussing, and made great use of the flipboard for sketching out examples. Below are my notes from his talk. <a href="http://www.spin.org.za/wp-content/uploads/2013/09/OO_Principles_SPIN.pdf">View his slides</a>.</p>
+<p>Herman is passionate about OO, when it's done well. He believes that Agile is the best way to build software, whether you're a small company, or a large multi-national corporate. Agile and OO are often in conflict, though. His talk was about going back to basics for OO, and seeing how OO Analysis and Design complements Agile development.</p>
+<h2>What is OO Design?</h2>
+<p>What is an Object? It's a thing that has properties and performs action / it has attributes and has behaviours.</p>
+<p>Why do OO Design? It works well, it's logical, and creates reusable code. It's closer to the real word, to our mental model.</p>
+<h2>What is OO Analysis?</h2>
+<p>An example: Customers. Who, what, what do they do, etc. It's figuring out what they are and do: the conceptual objects and tasks.</p>
+<p>People often skip this stage, but they shouldn't. It can be done iteratively. Do Agile modelling, lightweight UML modelling, for understanding and communication rather than producing documentation.</p>
+<p>This should include modelling with others and creating several models in parallel (some will die, and that's okay. It's exploration, and it's cheap to do on a whiteboard). The final code design will probably diverge from this.</p>
+<h2>Static vs Dynamic modelling</h2>
+<p>Class diagrams are a classic example of static modelling. Dynamic modelling helps design system logic, behaviour of bodies. It's often the most difficult, so we often skip it, but it's also the most interesting. It's much richer than Static Modelling. Use a UML sequence diagram.</p>
+<h3>On Dynamic Modelling</h3>
+<blockquote><p>Tip #1: Spend time on **interaction** diagrams, not just class diagrams.</p></blockquote>
+<p>It will force you to think about the exact details of what objects exist and how they collaborate with messages and methods.</p>
+<h2>Responsibility Assignment</h2>
+<p>This is the core of OO. Herman recommends checking out <a href="http://www.craiglarman.com/wiki/index.php?title=Main_Page">Craig Larman</a>'s book on the topic.</p>
+<p>RDD (Responsibility Drive Development): think about responsibilities, roles, and collaboration. There are two types of responsibilities: doing and knowing.<br />
+RDD views OO Design as a community of Collaborating Responsible Objects.</p>
+<h2>CRC (Class Responsibility Collaboration) Cards</h2>
+<blockquote><p>Tip #2: Use CRC Cards.</p></blockquote>
+<p><a href="http://en.wikipedia.org/wiki/Class-responsibility-collaboration_card">CRC Cards</a> were popularised by Kent Beck and Ward Cunningham as part of XP (Extreme Programming). An index card containing containing the name, responsibilities and collaborators of an object.</p>
+<p>They're useful when talking in a group, after the analysis phase (use cases, user stories), making objects from nouns in user stories. It can be useful to play "What If?" games with the cards: pick a few cards and try to minimise the responsibilities of them. This is good for figuring out what should do what.</p>
+<h2>Object-oriented design with GRASP (General Responsibility Assignment Software Patterns)</h2>
+<blockquote><p>Tip #3: Use GRASP guidelines</p></blockquote>
+<p><a href="http://en.wikipedia.org/wiki/GRASP_(object-oriented_design">GRASP</a> defines 9 basis OO principles / patterns: basic building blocks to use. Herman uses these in the OO workshop that he runs at Polymorph. The guidelines help you to understand OO reasoning.</p>
+<p>Herman ran through an example on a whiteboard of this, and recommended reading <a href="http://martinfowler.com/eaaDev/uiArchs.html#ModelViewController">Martin Fowler's article on UI design patterns</a>.</p>
+<h2>SOLID</h2>
+<p>Herman talked through SOLID principles for OO Design.</p>
+<ul>
+<li><strong>S</strong>ingle Responsibility principle. "Just because you can, doesn't mean you should." Makes your code more flexible, loosely coupled.</li>
+<li><strong>O</strong>pen / Closed principle. "Open chest surgery is not needed when putting on a coat." Classes are open for extension, but closed for modification.</li>
+<li><strong>L</strong>iskov Substitution principle. "If it looks like a duck, quacks like a duck, but needs batteries: maybe you're using the wrong abstraction." Subtypes must be substitutable for their base types.</li>
+<li><strong>I</strong>nterface Segregation principle. "You want me to plug this in, where?" Clients should not be forced to depend upon interfaces they don't use.</li>
+<li><strong>D</strong>ependency Inversion principle. "Would you solder a lamp directly to the electrical outlet?" High level modules should not depend on low level modules: they should both depend on abstractions.</li>
+</ul>
+<h2>More tips</h2>
+<p>Doing Dynamic modelling finds problems that Static modelling doesn't.</p>
+<blockquote><p>Tip #4: Use Use Cases to test your design.</p></blockquote>
+<p>Look at the behaviour of objects.</p>
+<blockquote><p>Tip #5: Use TDD (Test Driven Development) to test the design.</p></blockquote>
+<p>Herman said Tip #5 was the most important tip of the night.</p>
+<blockquote><p>Tip #6: Remember the Law of Demeter.</p></blockquote>
+<p>Also known as <a href="http://en.wikipedia.org/wiki/Law_of_Demeter">the principle of least knowledge</a>.</p>
+<p>Ask, Don't Tell.</p>
+<blockquote><p>Tip #7: Use OO Design Patterns.</p></blockquote>
+<h2>Conclusion</h2>
+<p>You are doing OOD if your code is:</p>
+<ul>
+<li>reusable</li>
+<li>can be changed with minimal effort</li>
+<li>can be extended without changing existing code</li>
+</ul>
+<p>This doesn't mean big, upfront, planning.</p>
+<p>Herman recommended reading the article <a href="http://www.codeproject.com/Articles/93369/How-I-explained-OOD-to-my-wife">"How I explained OOD to my wife"</a>.</p>
+<h2>Discussion after the talk</h2>
+<p>In the discussion after the talk, an audience member asked if Herman could suggest an approach for good Dynamic modelling. He suggested thinking of your system as a black box at first, and looking at System events that trigger Use Cases. Start with a high level Sequence Diagram, and look System -&gt; Objects -&gt; System Diagram.</p>

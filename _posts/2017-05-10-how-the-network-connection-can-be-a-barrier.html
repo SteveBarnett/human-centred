@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: How the network connection can be a barrier
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1717
+wordpress_url: https://naga.co.za/?p=1717
+date: '2017-05-10 11:42:16 +0200'
+date_gmt: '2017-05-10 09:42:16 +0200'
+---
+<p>I’ve been thinking about the kinds of barriers that we can sometimes put up for people. One barrier that we’re aware of, but struggle to account for, is the network. The network connection that any given user is on can vary a lot. If our sites and apps don’t account for that in some way we could be putting up barriers that stop them from accessing it.</p>
+<p>There are lots of aspects to a network connection, but three big ones are: the type; the speed (and latency); the cost.</p>
+<h2 id="network-connection:-type">Network connection: type</h2>
+<p>Three big buckets could be: <strong>fixed line; wi-fi; cellular phone</strong>. For each of these, there might be variations in connection strength and in speed.</p>
+<p>A fixed line connection is usually stable, but might mess with by our service provider. Injecting ads or other dodgy things.</p>
+<p>Using wi-fi isn’t plain sailing either. Many free wi-fi spots have patchy connections. Any spot with lots of people on a shared network has a chance of having dodgy connectivity. Places like cafes, conferences, or hotels.</p>
+<p>Cellular connections can be particularly variable. Signal strength, even in the middle of a well-connected city, can vary quite a lot.</p>
+<p>Even when we do rough testing at our desk and try it on a few different devices, it’s usually still on the office wi-fi. That means we may still be getting a better connection than many of our users.</p>
+<h3 id="what-can-we-do-">What can we do?</h3>
+<p>We can <strong>test on different types of network connections</strong>.</p>
+<p>One quick and easy(ish) way is to use our browser’s built-in network throttling option. This will give us a simulation of slower speeds and a more realistic experience. If we want to automate the process a bit, we could use a service like <a href="http://www.webpagetest.org/">WebPageTest</a>. We can change the Connection type in the Advanced Settings section to one of the mobile options.</p>
+<p>Another option for this is to do some testing on a cell network instead of on wi-fi. Something I’ve done is buy a small extra bundles of data for my phone and set it up as a hotspot for my laptop to connect to. After that, I pick up my phone and test on there.</p>
+<p>If we have more time and access to some SIM cards, we can test on some real devices, or use a device lab (like my <a href="https://devicelab.co.za/">Nomad Device Lab</a> :) ). That runs our work through the grinder: testing on real devices under real network conditions.</p>
+<h2 id="network-connection:-speed--and-latency-">Network connection: speed (and latency)</h2>
+<p>Speed, and especially latency, are most variable on cell networks. It makes sense to spend most of our time testing there. Not everyone is on LTE (or even 3G). On mobile connections speed can drop once you’re outside of a big city. You might still see a few cell towers, but they’re unlikely to be supplying data at blazing fast speeds.</p>
+<p>Wi-fi can also be slow, even when it claims to be a fast connection. Shared connections with lots of users can result in speeds slow enough to be unusable. It’s not unusual in these circumstances for people to turn off their wi-fi and resort to their cell service.</p>
+<h3 id="what-can-we-do-">What can we do?</h3>
+<p>We can <strong>prioritise front-end performance in our work</strong>. We want to avoid assuming that our users have fast connections, and make choices that allow for our work to be usable on slower connections. Some things we can do:</p>
+<ul>
+<li>build smaller pages;</li>
+<li>lazy load images;</li>
+<li>asynchronously load (or defer) scripts;</li>
+<li>work on speeding up time-to-first-interaction;</li>
+<li>(for Single Page App sites) start with a server-rendered page then switch to the SPA under specific network, browser, or load conditions.</li>
+</ul>
+<h2 id="network-connection:-cost">Network connection: cost</h2>
+<p>A few weeks ago a friend and I gave <a href="https://www.meetup.com/pixelup/events/238796146/">a talk about Front-end performance</a>. We focused on the money aspect of a network connection. We talked about how large sites have lots of requests and weigh lots of megabytes. This could be costing our users more money than we should be comfortable with. There’s a quite bit of info in <a href="https://naga.co.za/2017/04/10/perfmatters/">my write up of the talk</a>.</p>
+<h3 id="what-can-we-do-">What can we do?</h3>
+<p>We can <strong>measure the front-end performance of our work.</strong> In the talk, we showed <a href="https://naga.co.za/2017/04/10/perfmatters/#L4.-now-what-">some ways that we can get better at thinking about the potential cost</a> to our users by measuring performance (using Dev Tools, PageSpeedInsights, WebPageTest, or a service like SpeedCurve).</p>
+<h2 id="summary">Summary</h2>
+<p>The network connection type, the speed and latency of it, and the cost of the data can each have a big effect of the user experience of our work. By testing on different types of network connections, and by prioritizing and measuring the front-end performance of our work, we can make our sites and apps much better for a wider range of people.</p>

@@ -1,0 +1,54 @@
+---
+layout: post
+status: publish
+published: true
+title: Off-the-shelf front-end frameworks
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1772
+wordpress_url: https://naga.co.za/?p=1772
+date: '2017-08-22 08:55:33 +0200'
+date_gmt: '2017-08-22 06:55:33 +0200'
+---
+<p>Frameworks can be useful but it’s good to be wary of using them, especially by default. They come with a set of pros and cons.</p>
+<p>It helps to think about the problem we’re solving by using a particular framework. Here are some important questions to consider. How light or heavy it is for our users? Will it be maintainable for our team to use? Do its values and choices match ours?</p>
+<p><a href="https://naga.co.za/wp-content/uploads/2017/08/thinking-about-front-end-frameworks.jpg"><img src="https://naga.co.za/wp-content/uploads/2017/08/thinking-about-front-end-frameworks-400x145.jpg" alt="" width="400" height="145" class="alignleft size-medium wp-image-1773" /></a></p>
+<h2 id="pros">Pros</h2>
+<p>Front-end frameworks:</p>
+<ul>
+<li>can <strong>make complex things simpler</strong> (so it frees up time for solving other problems);</li>
+<li>are often <strong>well maintained and well tested</strong> (so we don’t have to test it ourselves);</li>
+<li>can <strong>speed up development time in the short term</strong> (because a lot of work is already done);</li>
+<li>
+<ul>
+<li>can <strong>speed up development time in the long term</strong> (because it becomes familiar);</li>
+</ul>
+</li>
+<li>come with <strong>built-in design and development decisions</strong> (taking the responsibility for that off of us);</li>
+<li>have a <strong>clear set of rules</strong> or way of doing things (which can make communication about components easier).</li>
+</ul>
+<h2 id="cons">Cons</h2>
+<p>Front-end frameworks:</p>
+<ul>
+<li><strong>add a dependency</strong> to our project (meaning another external resource to worry about);</li>
+<li>can be <strong>painful to upgrade</strong>, especially if we’ve made customisations (so we either have to stick with an old version, or have to update lots of our code);</li>
+<li>can be <strong>overkill for the problem</strong> we are trying to solve (something smaller and lighter could work better);</li>
+<li>can have a <strong>steep learning curve</strong> (we have to learn how the framework approaches solving the problems);</li>
+<li>are <strong>solving someone else&rsquo;s problem</strong> (which might not be the same as ours).</li>
+<li>are <strong>someone else’s opinions</strong> and approach (which might not match ours now, or in a few months’ time)</li>
+<li>can have a <strong>generic look and feel</strong> to it, even though most are customisable (so our site looks like others using the framework);</li>
+<li><strong>don&rsquo;t always follow best practices for HTML</strong> (such as not using semantic elements, being verbose, or not baking in accessibilty);</li>
+<li><strong>don&rsquo;t always follow best practices for CSS</strong> (like selectors with high specificity, using rules like <code>!important</code> frequently, and size of stylesheet);</li>
+<li><strong>don&rsquo;t always follow best practices for JavaScript</strong> (like testing for support of features before using them, or having a no-JS version for failure cases);</li>
+<li>have <strong>large CSS and JS files</strong> since they are a catch-all solution (which means that pages load slower and use more of our users’ data).</li>
+<li>can be not as flexible and modular as as custom solution.</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<p><strong>It’s best for us and our users to roll our own framework, but learn from the others.</strong> <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://foundation.zurb.com/">Foundation</a>, and other frameworks provide good starting points.</p>
+<p>We need to think about the cost of using a framework against the benefits it provides, especially the cost to our users. The best way to have a tool that fits best is to write our own. We can make this small and modular so it will be fast for us to use and light for our users. Since it will match our opinions and processes, it will be more maintainable.</p>

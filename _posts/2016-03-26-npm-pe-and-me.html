@@ -1,0 +1,27 @@
+---
+layout: post
+status: publish
+published: true
+title: npm, PE, and me
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1459
+wordpress_url: https://naga.co.za/?p=1459
+date: '2016-03-26 12:06:15 +0200'
+date_gmt: '2016-03-26 10:06:15 +0200'
+---
+<p>A lot of things on the internet broke this week when <a href="https://www.npmjs.com/">npm</a> (node package manager) unpublished the <code>left-pad</code> module (<a href="http://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/">more detail on The Register</a> and <a href="http://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm">the official post on the npm blog</a>. Two things have stuck with me from the story: you can&rsquo;t rely on JavaScript; look carefully at your dependencies.</p>
+<h2 id="you-can-t-rely-on-javascript">You can&rsquo;t rely on JavaScript</h2>
+<p>Things break, and JavaScript breaks particularly easily. I love JavaScript, but I don&rsquo;t trust it. In this case, though, it wasn&rsquo;t JavaScript&rsquo;s fault. npm unpublished a module, so it was like a connection was broken, like a CDN went down. This broke a bunch of JavaScript frameworks and tools (Babel, Ember, React native). If your app depends on one of these, then you&rsquo;ve probably had a bad few days. If your app is built with Progressive Enhancement, then you&rsquo;ve probably had a much better few days: it&rsquo;s been business as usual (almost!).</p>
+<p>I&rsquo;ll be talking about these kind of things (and lots more) <a href="http://www.meetup.com/Meteor-Cape-Town/events/229419968/">at the Meteor Cape Town meetup on Wednesday 20th April</a>. Come and watch me say &ldquo;don&rsquo;t use Javascript (sort of)!&rdquo; to a bunch of people who use a JS framework. :)</p>
+<h2 id="look-carefully-at-your-dependencies">Look carefully at your dependencies</h2>
+<p>Since reading <a href="https://agilitymatters.wordpress.com/2015/08/13/libraries/">Patrick&rsquo;s post about Libraries last year</a> I&rsquo;ve become (ever more) obsessed (than usual) with minimalism in code, trimming things down to just what I need, <a href="http://www.mikeperham.com/2016/02/09/kill-your-dependencies/">killing my dependencies</a> and <a href="https://naga.co.za/2016/03/03/simplicity/">simplifying things as much as I can</a>.</p>
+<p>The left-pad modules feels like a good example of swinging a bit too far in the hyper-modularisation, lots of tiny single-purpose things, direction. It&rsquo;s 11 lines of code that pad a string on the left. That seems like the kind of thing that should be part of the utilities blob of an application, not an external dependency. David Haney has a good write-up of this, asking <a href="http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/">&ldquo;Have We Forgotten How To Program?&rdquo;</a>.</p>
+<h2 id="i-try-to-make-robust-things-that-are-simple-to-work-on">I try to make robust things that are simple to work on</h2>
+<p>I try to build things with Progressive Enhancement: I don&rsquo;t rely on JavaScript for any core functionality, and I add layers of shiny for browsers that support the fancy things I want to do. I try to minimise my external dependencies so that I understand more of the code that I put out into the world.</p>

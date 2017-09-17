@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: 'WordPress Plugin: Detector'
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 396
+wordpress_url: http://naga.co.za/?p=396
+date: '2012-07-23 09:37:23 +0200'
+date_gmt: '2012-07-23 07:37:23 +0200'
+---
+<p>Building a web site that works across a wide range of web-enabled devices is no easy task. Responsive web design is a great solution from a design perspective and building a site up, using Progressive Enhancement, from a Mobile First approach lets you layer on features that match the device browsing the site.</p>
+<p>Working on the client-side (on the user's browser) will let us do great feature-detection, but doesn't necessarily let us optimise the site as much as we could: extra data in the form of unneeded style sheets, javascript, or overly large images might be downloaded. Working on the server-side (on the web server) isn't ideal either: we'll mostly be using the User Agent string to make a "best guess" about the users' browser and its features.</p>
+<p>Enter Luke W's <a href="http://www.lukew.com/ff/entry.asp?1392">RESS: Responsive Design + Server Side Components</a>, in which he cannily suggests the pragmatic approach of taking the best of both worlds.</p>
+<blockquote><p>In a nutshell, RESS combines adaptive layouts with server side component (not full page) optimization. So a single set of page templates define an entire Web site for all devices but key components within that site have device-class specific implementations that are rendered server side.</p></blockquote>
+<p>Then Dave Olsen's <a href="http://www.dmolsen.com/mobile-in-higher-ed/2012/01/18/introducing-detector-combining-browser-feature-detection-for-your-web-app/">Detector</a> came on to the scene as a smooth and easy way to start using these ideas: drop the Detector Library into your project and take advantage of its powerful feature-detection. Since I use <a href="http://wordpress.org/">WordPress</a> for most of my work, I wanted a way to easily add Detector to my projects. I've taken the <a href="https://github.com/dmolsen/Detector">latest version of Detector</a> and wrapped it up as a WordPress Plugin. Like Detector itself, the Plugin is in beta, so should be used with caution.</p>
+<p>The Detector plugin can be downloaded via the Plugins menu of the WordPress dashboard, or from either of the links below.<br />
+<a href="http://wordpress.org/extend/plugins/detector/">Download Detector from WordPress.org</a>.<br />
+<a href="https://github.com/SteveBarnett/Detector">Download or Fork Detector WordPress Plugin on GitHub</a>.</p>

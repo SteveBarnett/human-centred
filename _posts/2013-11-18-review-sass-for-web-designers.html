@@ -1,0 +1,46 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Review: Sass for Web Designers'
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 835
+wordpress_url: http://naga.co.za/?p=835
+date: '2013-11-18 08:10:39 +0200'
+date_gmt: '2013-11-18 06:10:39 +0200'
+---
+<p>The other day I sped through <a href="http://www.abookapart.com/">A Book Apart</a>&#8217;s latest: <a href="http://www.abookapart.com/products/sass-for-web-designers">Sass for Web Designers</a> by the most excellent <a href="http://simplebits.com/">Dan Cederholm</a>. The book is a great introduction to <a href="http://sass-lang.com/">Sass</a> and its benefits. Dan is particularly at good easing the reader into Sass, reassuring them that it&#8217;s not as scary as it seems, and showing how it can be very useful.</p>
+<p>I went through the book quite quickly because some bits are already familiar to me. I&#8217;ve been using Sass for a while now, so the chapters on setting up and workflow were just nice reminders of the different ways of doing things. I initially resisted using it, for some of the same reasons mentioned in Dan&#8217;s book, but now I&#8217;m definitely a convert and wouldn&#8217;t go back to regular CSS authoring.</p>
+<h2 id="namespacenesting">Namespace Nesting</h2>
+<p>One new thing I picked up was that Sass lets you <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#nested_properties">nest name-spaced properties</a>:</p>
+<pre><code>.funky {
+    font: {
+        family: fantasy;
+        size: 30em;
+        weight: bold;
+    }
+}
+</code></pre>
+<p>I&#8217;m not sure how practically useful that is, but it&#8217;s interesting, and makes me think I should dig through the docs again and see what else I&#8217;m missing.</p>
+<h2 id="cssstyleframeworksandmethodologies">CSS Style, Frameworks, and Methodologies</h2>
+<p>There are a few bits in the book that didn&#8217;t quite sit right with me, though. After a bit of thinking about it, I realised that it comes down to my love of <a href="http://www.smacss.com/">SMACSS</a>, Jonathan Snook&#8217;s <strong>Scalable and Modular Architecture for CSS</strong>.</p>
+<p>Dan&#8217;s book is about Sass, not about CSS authoring philosophies (like SMACSS, or <a href="http://bem.info/method/">BEM</a>, or <a href="http://oocss.org/">OOCS</a>), so discussing methodologies is outside of the scope of the book. However, I couldn&#8217;t help flinching when I saw IDs being used as selectors (<code>#logo</code>), deep nested selectors (<code>“header[role=&quot;banner&quot;] #logo img”</code>), and over-qualified selectors (<code>section.main</code>).</p>
+<h3 id="extend">@extend</h3>
+<p>The other bit of Dan&#8217;s book that really got me thinking was the section in Chapter 3 on <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend">Sass&#8217;s @extend directive</a>. Dan gives the great example of using <code>@extend</code> to simplify the CSS for two buttons that are identical except for one CSS rule.</p>
+<blockquote>
+<p>&#8220;Instead of littering the markup with extra classes to handle those small exceptions, we can use Sass’s @extend function to “chain together” styles that are shared amongst multiple selectors.&#8221;</p>
+</blockquote>
+<p>My worry here is that more complicated examples can start tying things together too much. As the complexity of the CSS increases, the rules that use <code>@extend</code> become too tightly linked to each other. In the <a href="https://www.smacss.com/book/preprocessors">preprocessor section of the SMACSS site</a> (members only section, sorry!) Jonathan says:</p>
+<blockquote>
+<p>I recognize that it begins to feel like classitis where multiple (seemingly unnecessary) classes are being added to the HTML. However, these classes aren&#8217;t unnecessary. They clarify intent and increase the semantics of the element in question.</p>
+</blockquote>
+<p>I come down on the SMACSS side of this. I prefer adding an extra class or two in the HTML and keeping my CSS as loose as possible. </p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Dan&#8217;s book is an excellent introduction to Sass, and I highly recommend it for any who&#8217;s thinking of taking the plunge into CSS pre-processors: his book should convince you that it&#8217;s not as difficult to get into as it looks, and that it will make your job easier. The book isn&#8217;t strong on methodology, so ideally should be read alongside something like <a href="http://www.smacss.com/">SMACSS</a> to get the most out of it.</p>

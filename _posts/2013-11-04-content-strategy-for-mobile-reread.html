@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Content Strategy for Mobile: reread'
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 810
+wordpress_url: http://naga.co.za/?p=810
+date: '2013-11-04 09:31:04 +0200'
+date_gmt: '2013-11-04 07:31:04 +0200'
+---
+<p>I've recently taken the chance to reread Content Strategy for Mobile by Karen McGrane. I've had a look back at <a href="https://naga.co.za/2012/11/12/review-and-notes-content-strategy-for-mobile-by-karen-mcgrane/">what I wrote the first time I read through</a>, and see what's stayed with me, and what I should pick up and be doing more of.</p>
+<h3>Reflecting on previous notes</h3>
+<p>One thing that I want to push harder is the integration of all the aspects of a project together, and running shorter, more frequent, cycles. Although many developers embrace Agile (with varying degrees of sticking to dogma, and of success) there still tends to be a divide between Front End and Back End, especially when the the two are in different companies. <a href="http://grasshopperherder.com/lean-startup-in-the-enterprise-anti-pattern-the-lean-waterfall/">Tristan Kromer recently blogged</a> about how there are pockets of iterative cycles, but the process as a whole is still waterfall; he calls it The Lean Waterfall. I would love to work on projects where each feature or small bit of work gets run through an iterative process from end to end. For me, this would mean breaking things down into small chunks and working with Back End developers to finish things piece by piece. The finished product could be put together as the components are finished, or as a separate action itself.</p>
+<p>Asking clients (and colleagues) to approach projects Mobile First is becoming easier. It's still a bit of a battle, though. I think the fact that media across every discipline is talking about mobile helps: everyone on a team can see how it is affects with their job. For designers there's the challenge of tiny screens, for developers there's the need for speed.</p>
+<p>In terms of being able to produce adaptive content, there's still a lot of work to be done. Many CMSes are legacy systems, and can't (or won't) be adapted to be able to make content packages as we would hope. Instead, I've seen a lot of this work being done on the front end: setting a <code>display: none;</code> in CSS when it's being done wrong, and ajaxing in content with a width or Navigation Timing when it's done right. I'm not even going to mention images except to shake my fist in the air and go "argh!".</p>
+<h3>On the second reading</h3>
+<h4>Mobile</h4>
+<p>It was good to be reminded of the power of mobile, specifically that it can help you make better decisions: it can be used as a lens to sharpen your focus because it provides such tight constraints. It was also good to think again about the wideness, ubiquity and invasiveness of mobile: it's personal, private, always with us, and people use every device in every location, in every context, often switching between devices in one flow.</p>
+<h4>Multi-channel and multi-device</h4>
+<p>The discussion around the multi-channel nature of modern media and how our content is going into new contexts nudged me to remember to do more testing in WebView environments: so many people read links in a Facebook, Twitter, or Google Plus app. It's also prompted me to think more about the meta data I add to site's HTML and do more rigorous testing around the <a href="http://schema.org/">Schema.org</a> markup that I add. McGrane talks about meta data in terms of the CMS; I think that as a stop-gap, until the CMSes I work with catch up, we can make our content more adaptive by adding metadata like that.</p>
+<p>It was also a timely reminder that it's not just the small screen that we need to worry about. Lots of  internet cafes still do a roaring trade; here in South Africa they certainly seem to. Although almost everyone has a mobile phone, data costs are still high, so people often go to cafes for their internet access. The machines there are often quite old, have small and low-end monitors, and run Windows XP. Applying a solid progressive enhancement approach to building a site means that those users will still get a good experience. Not the same experience as the user on the latest Samsung Galaxy phone, or the user on the latest Mac with the 27 inch screen, but a fast, usable, experience nonetheless.</p>
+<h4><span style="font-size: 1em;">People and process</span></h4>
+<p>Perhaps because of my current interests / responsibilities at work, I picked up on more of the people and process side of the book this time round. McGrane talks about how important it is to have a strategy and a clear goal that you're aiming for, but that it's okay to take baby steps towards it. To move smoothly along this path, people's roles and responsibilities must be clear. Your journey along the path will be a lot smoother if you can educate and empower everyone who's contributing along the way.</p>
+<p>The book mentions the dangers of the preview button in a CMS in that it only gives you a preview for the context you're editing in. I'd like to have a look at adding something like <a href="https://github.com/bradfrost/ish.">ish</a> or <a href="http://ami.responsivedesign.is/">Am I Responsive?</a> to a CMS. For WordPress, <a href="http://wordpress.org/plugins/responsive-page-tester/">Responsive Page Tester</a> looks like a good start in the right direction. I'm thinking of it in terms of raising awareness mostly: providing a constant reminder that digital content is dynamic, flexible, fluid, and always being updated.</p>

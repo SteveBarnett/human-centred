@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: Google Developer Summit
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1346
+wordpress_url: http://naga.co.za/?p=1346
+date: '2015-08-26 07:41:54 +0200'
+date_gmt: '2015-08-26 05:41:54 +0200'
+---
+<p>Yesterday I headed out the <a href="https://events.withgoogle.com/sub-saharan-africa-google-developer-summit-2015/">Google Developers Summit</a> (the Cloud/Web track) to learn about <a href="https://jakearchibald.com/2014/offline-cookbook/">Offline Page Caching</a>, and other fun things.</p>
+<p>The morning was a few introductory talks, where we were reminded of the importance of considering network performance, battery life of devices, and of finding ways of measuring the quality of our apps and sites.</p>
+<p>I particularly enjoyed <a href="http://andyvolk.com/">Andy Volk</a>&#8217;s talk. He talked about prepaid markets: places that we often talk about as the Majority world, usually using featurephones. I thought approaching it from that angle was interesting (focusing on the money side rather than technology), and one that maybe helps hammer home the data-as-cost angle of (front-end) performance. He also mentioned reconnecting to a site or service as part of a discussion of offline access, which was good reminder of that particular use case (resuming a download or action upon reconnection).</p>
+<p><a href="https://naga.co.za/wp-content/uploads/2015/08/google-dev-summit-2015.jpg"><img src="https://naga.co.za/wp-content/uploads/2015/08/google-dev-summit-2015-400x316.jpg" data-sizes="(max-width: 400px) 100vw, 400px" srcset="https://naga.co.za/wp-content/uploads/2015/08/google-dev-summit-2015-400x316.jpg 400w, https://naga.co.za/wp-content/uploads/2015/08/google-dev-summit-2015-1024x809.jpg 1024w, https://naga.co.za/wp-content/uploads/2015/08/google-dev-summit-2015.jpg 2048w" alt="Sketchnotes from google dev summit" width="400" height="316" class="alignnone size-medium wp-image-1348" /></a></p>
+<p>The afternoon workshops were great, and I enjoyed finally having some time to play around a bit with Service Worker. My current thinking about providing offline support for devices is:</p>
+<ol>
+<li>Use serviceworker if it’s supported (checked via a <code>if('serviceWorker' in navigator) { ... }</code>);</li>
+<li>Else use appcache if it&#8217;s supported (checked via a <code>if('applicationCache' in windows) { ... }</code>, and using <a href="https://github.com/gr2m/appcache-nanny">appcache-nanny</a> as a helper);</li>
+<li>Regular old &#8220;online&#8221; access.</li>
+</ol>
+<p>I was also thinking about what to cache when. One suggested method was on-the-run: when a user visits a page, add it to the cache. Caching more pages earlier would result in better performance, but it comes at a data cost. Caching on the run is great for saving data.</p>

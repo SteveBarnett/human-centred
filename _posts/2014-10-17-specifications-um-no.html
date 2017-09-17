@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Specifications: um, no.'
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1087
+wordpress_url: http://naga.co.za/?p=1087
+date: '2014-10-17 09:05:08 +0200'
+date_gmt: '2014-10-17 07:05:08 +0200'
+---
+<p>&#8220;<a href="http://www.smashingmagazine.com/2014/10/09/front-end-development-ode-to-specifications/">A Front-End Developer’s Ode To Specifications</a>&#8221; on Smashing Magazine the other day made me kinda mad. I&#8217;m all for having a final Front-end implementation that matches up with the designer&#8217;s vision, but I think that this idea of &#8220;correctly implemented design&#8221; and pixel perfection is a damaging way of thinking about web sites because it implies there is one correct, pixel perfect, version of the design.</p>
+<p>Designs, by and large, are still created in applications that create fixed width, fixed fidelity, non-<a href="https://naga.co.za/2014/10/13/the-good-the-bad-and-the-squishy/">squishy</a>, output. This works well with the idea of a specification: &#8220;this one version of the product is the correct version.&#8221; It doesn&#8217;t work well with web sites, which are <a href="http://alistapart.com/article/dao">by their nature, flexible and changeable</a>. Trying to exert this kind of control and constraints on a web site just isn&#8217;t tenable in today&#8217;s world wide web, or <a href="http://futurefriendlyweb.com/">the future&#8217;s</a>.</p>
+<p>Even something as simple as a font is very flexible. You can specify a base font and size exactly in a specification. But how do you adjust the font size (and line height) for larger screens? And what is the font stack: if the desired font isn&#8217;t available, or doesn&#8217;t load, what fonts should be tried next?</p>
+<p>If the specs were all in percentages rather than pixels: that would be a good start. But then you still need to consider breakpoints and showing layout changes across them. The drift that the author discusses between the designer&#8217;s final version and the implementation feels wrong. The developer might get the site looking pixel perfect in the latest version of Chrome. But what about Firefox? And what about Safari on an iPad? And what about Internet Explorer 10 on a Windows machine? These will already look different from each other, even thought they're using the exact same implementation of the design. I think that <a href="http://dowebsitesneedtolookexactlythesameineverybrowser.com/">that&#8217;s completely fine</a>: but it won&#8217;t match the spec.</p>
+<p><a href="http://maban.co.uk/projects/front-end-style-guides/">Front-end style guides</a>, mentioned at the end of the article, are much more promising. They feel like a logical step into code from <a href="http://styletil.es/">Style Tiles</a>, the squishy design deliverable.</p>

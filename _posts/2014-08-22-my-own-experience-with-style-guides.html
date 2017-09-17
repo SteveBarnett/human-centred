@@ -1,0 +1,27 @@
+---
+layout: post
+status: publish
+published: true
+title: My own experience with Style Guides
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1000
+wordpress_url: http://naga.co.za/?p=1000
+date: '2014-08-22 11:43:39 +0200'
+date_gmt: '2014-08-22 09:43:39 +0200'
+---
+<p>Writing up <a href="https://naga.co.za/2014/08/22/building-a-front-end-style-guide-with-jekyll/">my thoughts on Justin&#8217;s talk</a> made me think about what I&#8217;ve been doing with style guides on client projects. Here&#8217;s a quick run-down.</p>
+<p>I&#8217;ve used Jekyll to build a style guide before, and was quite happy with it. I did have a lot of tiny files by the end, though, and it did become a bit slow and frustrating. It was also a bit fiddly getting it to play nice with <a href="http://gruntjs.com/">Grunt</a> and a live reload tool.</p>
+<h4 id="hologram">Hologram</h4>
+<p>Most recently, I&#8217;ve used <a href="http://trulia.github.io/hologram/">Hologram</a>, and am pretty happy with it. It&#8217;s a <a href="https://www.ruby-lang.org/en/">Ruby</a> gem that parses comments in your CSS and generates a Style Guide based on a template that you set up. I struggled a little with the set up, but once it&#8217;s going it&#8217;s a pleasure to use. Having the documentation and code samples right next to the relevant styles is very handy.</p>
+<p>I find that it&#8217;s very well suited to small snippets (atoms and molecules kind of sizes, to use <a href="http://bradfrostweb.com/blog/post/atomic-web-design/">Brad Frost&#8217;s terminology</a>), but it's not so great with larger snippets of HTML.</p>
+<p>One worry is that it can make your stylesheets noisy. The comments are removed when compiling and minifying the SASS or Less files into regular CSS, so there&#8217;s no worries about extra size for production CSS. The development stylesheets become much larger and can become more difficult to read, though, due to the large comment blocks.</p>
+<h4 id="alivingstyleguide">A living style guide</h4>
+<p><a href="http://rizzo.lonelyplanet.com/">Lonely Planet&#8217;s Rizzo</a> is the best example of a style guide that I&#8217;ve seen, and I want to aim for something like that for the next style guide I make. It&#8217;s the only truly <em>living</em> style guide I&#8217;ve seen: it uses the Views (templates) directly from the application rather than separate, manual, snippets of HTML.</p>
+<p>One of the problems of working in an agency environment is that I don&#8217;t, or can&#8217;t, always get direct access to the application code: my work runs in parallel to the main application, but doesn&#8217;t touch it directly. This mean that something like Rizzo can&#8217;t be done anyway, so a separate Front-end style guide using Jekyll or Hologram is he way to go.</p>

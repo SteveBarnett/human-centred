@@ -1,0 +1,22 @@
+---
+layout: post
+status: publish
+published: true
+title: Meritum Retirement Funds
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 432
+wordpress_url: http://naga.co.za/?p=432
+date: '2012-09-04 12:47:03 +0200'
+date_gmt: '2012-09-04 10:47:03 +0200'
+---
+<p>I've recently finished work on the Meritum Retirement Funds web site and have <a href="https://naga.co.za/portfolio/meritum-retirement-funds/">added it to my portfolio</a>. I want to highlight a few of the more technical bits here.</p>
+<p>The CSS was written in <a href="http://sass-lang.com/">SASS</a>, specifically <a href="http://compass-style.org/">Compass</a>, to make writing and updating the styles easier and quicker. This was my first project where I've dived in properly to using a pre-processor (rather than just tinkering) and I'm now a convert. The output is a little larger, but that can still be managed with careful writing and using of mixins (just as it can with regular CSS). I find that the trade-off in terms of time and ease of use is worth it. I also tried to take a more <a href="https://smacss.com/">SMACSS</a> approach and aimed to use as few id-based rules as possible, and element selectors only where necessary. Not that easy to do! ID attributes in the HTML were only used for locations in the document, classes for everything else.</p>
+<p>Behind the scenes, the Theme began as the excellent <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>, which I've <a href="https://github.com/SteveBarnett/html5-boilerplate/tree/sass">forked</a> to include <a href="http://sass-lang.com/">SASS</a> folders. Since the Meritum site is powered by WordPress, I pulled in many elements of <a href="http://underscores.me/">underscores</a> to handle the Post and Page bits.</p>
+<p>I also leaned strongly towards vanilla Javascript rather than <a href="http://jquery.com/">jQuery</a>. I really like jQuery, but loading the whole library when you're building Mobile First just feels wrong, especially when the JS needed was short and sweet.</p>

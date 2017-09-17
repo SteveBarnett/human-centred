@@ -1,0 +1,39 @@
+---
+layout: post
+status: publish
+published: true
+title: Dicey Devices post-mortem
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 821
+wordpress_url: http://naga.co.za/?p=821
+date: '2013-11-07 14:14:35 +0200'
+date_gmt: '2013-11-07 12:14:35 +0200'
+---
+<p>Yesterday I just about managed to finished all the bits and bobs that I wanted to for Dicey Devices. There are lots of things I’d like to improve about it, of course. It was a fun experiment, and I might like to look at it more seriously again later.</p>
+<h3>What I did finish</h3>
+<p><a href="http://stevebarnett.github.io/DiceyDevices/">Dicey Devices</a> takes six icons and throws randomly on to a 3 x 2 grid, then applies a couple of filters and transformations to them, namely:</p>
+<ul>
+<li>stretching the devices horizontally and / or vertically, by a little or a lot;</li>
+<li>apply a 3d twist to them left or right, by a little or a lot;</li>
+<li>colouring them in;</li>
+<li>by mimicking bad or old screens by fading, desaturating, blurring, darkening, or showing a crack on the screen;</li>
+<li>super secret "night-mode”.</li>
+</ul>
+<p>The site being previewed can be fed in using a query string like so: <a href="http://stevebarnett.github.io/DiceyDevices/?url=example.com">?url=example.com</a></p>
+<h3>What I didn’t finish / room for improvement</h3>
+<ul>
+<li>I used <a href="http://www.h5bp.com">h5bp</a> for my HTML template, so there are bits there I should strip out: stray js files and classes.</li>
+<li>jQuery is included, but is not necessary: the only bit I use it for is <a href="https://github.com/SteveBarnett/DiceyDevices/blob/gh-pages/js/main.js#L84">looping through two arrays</a>.</li>
+<li>modernizr is included, but not used.</li>
+<li>Simplifying the maths. I’m sure I ran myself around in circles with the SASS calcs for positioning.</li>
+<li>Randomising the sizes of the devices.</li>
+<li>To add the cracked screens effects, I added an extra div: this breaks scrolling in the iframe.</li>
+<li>Fitting it to the screen.</li>
+</ul>

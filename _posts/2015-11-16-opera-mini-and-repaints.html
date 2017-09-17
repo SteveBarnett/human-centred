@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: Opera mini and repaints
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1374
+wordpress_url: http://naga.co.za/?p=1374
+date: '2015-11-16 12:12:32 +0200'
+date_gmt: '2015-11-16 10:12:32 +0200'
+---
+<p>As part of a project, and using <a href="http://stevebarnett.github.io/fufu/">fufu</a> as a sort of base, I got bitten by a particular bug: Opera Mini and repaints.</p>
+<p>Opera Mini is awesome and has surprisingly good support for a lot of things (except, strangely, border-radius). Since <a href="http://caniuse.com/#search=%3Atarget">it supports CSS3 selectors</a>, and doesn&rsquo;t support client-side JS, I decided to use <code>:target</code> for a bit of accordion-like User Interface.</p>
+<p>I used a <code>list-accordion</code> class with a cunning combination of IDs and nested things, like this:</p>
+<pre><code class="html">&lt;ul class=&quot;list-plain list-accordion&quot;&gt;
+  &lt;li id=&quot;list-item-1&quot;&gt;
+    &lt;a href=&quot;#list-item-1&quot; class=&quot;list-accordion-header&quot;&gt;Accordion item header the first&lt;/a&gt;
+    &lt;p class=&quot;list-accordion-item&quot;&gt;Accordion item header the first&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li id=&quot;list-item-2&quot;&gt;
+    &lt;a href=&quot;#list-item-2&quot; class=&quot;list-accordion-header&quot;&gt;Accordion item header the second&lt;/a&gt;
+    &lt;p class=&quot;list-accordion-item&quot;&gt;Accordion item the second&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+<p>Here&rsquo;s <a href="http://stevebarnett.github.io/fufu/molecules/list-accordion.html">an example of the list accordion in action</a>, and here&rsquo;s <a href="https://github.com/SteveBarnett/fufu/blob/gh-pages/_sass/_modules.scss#L93:L99">the (Sass-flavoured) CSS for it</a>. Accordion items that are not the subject of a <code>:target</code> are hidden. That means that the one that <strong>is the subject</strong> of a <code>target</code> is shown (because the <code>display: none</code> isn&rsquo;t being applied). Yes, it&rsquo;s a bit odd.</p>
+<h2 id="opera-mini-fights-back">Opera Mini Fights Back</h2>
+<p>This was working great, except on Opera Mini. After some poking and prodding, I remembered that I should just search and see who else has had this problem.</p>
+<p>I found Zach Leatherman&rsquo;s issue on Scott Jehl&rsquo;s (currently quite quiet Device Bugs repo): <a href="https://github.com/scottjehl/Device-Bugs/issues/44">Opera Mini doesn’t repaint :target CSS rules after page load #44</a>. His suggested fix is to add an empty <code>onclick</code>, forcing a server request, and therefore a page load. It didn&rsquo;t quite make sense to do this for these tiny accordions, so I searched a bit more.</p>
+<p>I found another post, <a href="http://www.fatpixel.nl/example/navtarget/">Nav toggle via CSS :target</a> which seemed a bit better, and worked, but it felt like a bit of a hack.</p>
+<p>In the end, I (slightly unhappily) settled on <a href="https://github.com/SteveBarnett/fufu/blob/gh-pages/js/mustard-rape-crisis.js#L2:L4">sniffing for Opera Mini</a> (which <a href="https://dev.opera.com/articles/opera-mini-and-javascript/#using-the-user-agent-string">Opera do in fact recommend</a>), and <a href="https://github.com/SteveBarnett/fufu/blob/gh-pages/_sass/_modules.scss#L101:L109">over-riding the <code>:target</code> styles that worked for most other browsers</a>.</p>
+<p>I have learned a lot about about compromises. And that coffee and willpower can keep me coding even when I&rsquo;m kind of ill!</p>

@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: Huge images, displayed small
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 551
+wordpress_url: http://naga.co.za/?p=551
+date: '2012-11-01 15:02:17 +0200'
+date_gmt: '2012-11-01 13:02:17 +0200'
+---
+<p>One of the biggest challenges with Responsive Web Design is images. Serving as small as possible but as big as necessary images to the right devices, tiny screen featurephones around 128 x 160 at 100 ppi to Retina display Macbooks at 2560 x 1600 at 227 ppi and lots of things between and around the edges.</p>
+<p>I was very intrigued by <a href="http://blog.netvlies.nl/design-interactie/retina-revolution/">Daan Jobsis's Retina Revolution</a> where he talks about using oversized JPGs at very high compression, and using the browser to scale the size down, using width and height attributes. Scott at Filament Group followed this up a few days ago with his post<a href="http://filamentgroup.com/lab/rwd_img_compression/"> Compressive Images</a>.</p>
+<p>I had some hope that, with some tweaking, this could be used as a good stop gap for <a href="http://responsiveimages.org/">the picture element</a>. The memory issues with very large JPGs could be mitigated to some extent by fiddling with the actual size of the image, but <a href="http://filamentgroup.com/lab/rwd_img_compression/#commentNumber13">Harold Dennison's comment on Scott's post</a> has convinced me that I won't be using this method:</p>
+<blockquote><p> ... we are serving a crappy image.</p>
+<p>Now when our visitor decides to save the image, or open it on a new window, or anything not involving the CSS scalation, he’s going to get a “double sized-artifacted-blurred” image</p></blockquote>
+<p>For me, this breaks the web a bit. I often save images from the web, often via <a href="http://evernote.com/">Evernote</a>, and having this flow broken feels wrong.</p>

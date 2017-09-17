@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: Don't rely on JavaScript for key functionality
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1240
+wordpress_url: http://naga.co.za/?p=1240
+date: '2015-05-08 10:01:41 +0200'
+date_gmt: '2015-05-08 08:01:41 +0200'
+---
+<p>Inspired by seeing <a href="http://kryogenix.org/code/browser/everyonehasjs.html">Everyone has JavaScript, right?</a>, I decided to make a similar list to remind myself of all the reasons why it&#8217;s a bad idea to rely on JS (JavaScript) for key functionality.</p>
+<h3 id="therequestfails">The Request Fails</h3>
+<p>The first level of failure is the request for the JS file. Sometimes there&#8217;s a problem on the network and a request fails. Sometimes there&#8217;s a problem on the server (perhaps your CDN), and the request fails. Sometimes the user is behind a corporate firewall and a particularly eager sysadmin has blocked access to JS files.</p>
+<p>This is made worse if your file is particularly large (easy if it&#8217;s not been minified), or if you have multiple JS files.</p>
+<h3 id="javascriptisloading">JavaScript is loading</h3>
+<p>As <a href="https://twitter.com/jaffathecake/status/207096228339658752">Jake Archibald says</a> &#8220;all your users are non-JS while they&#8217;re downloading your JS.&#8221; The network can be slow: your users might be on a crappy mobile connection or a throttled ADSL connection.</p>
+<p>Couple that with the fact that <a href="http://timkadlec.com/2014/09/js-parse-and-execution-time/">JS parse times can be slow for large files</a>, especially on mobile devices, and some users will be waiting a while before they have all your JS.</p>
+<h3 id="interference">Interference</h3>
+<p>If your users have any browser extensions installed (such as AdBlock), they may inadvertently interfere with the execution of your JS. If your page has any 3rd party JS, such as ads or tracking, they can also interfere with your code.</p>
+<h3 id="errorsinyourjavascript">Errors in your JavaScript</h3>
+<p>As much as we might hate to admit it, errors creep into everyone&#8217;s code sometimes. Yes, even yours (and definitely mine!). It&#8217;s probably more likely that your user will be served broken JS than not served your JS at all. JS is brittle and fault intolerant: one mistake and your code goes boom.</p>
+<h3 id="browsersupport">Browser Support</h3>
+<p>Even if you&#8217;ve managed to pass all the hurdles above, you still have one more: Browser Support. If the user&#8217;s browser doesn&#8217;t understand your JavaScript, if will throw an error. Tools like <a href="http://caniuse.com/">caniuse.com</a> and <a href="http://modernizr.com/">Modernizr</a> can help you figure out what browsers will support the code you&#8217;re writing.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p><strong>Depending on JavaScript for key functionality could mean stopping your users from achieving their goals.</strong> There are a lot of things that could wrong! Your JS file might not reach your user, it may not load quickly enough, it may get messed with, it may have errors in it, or you might be using a feature the browser doesn&#8217;t understand. Building with Progressive Enhancement means that they&#8217;ll still be served a usable experience when things go wrong.</p>
+<p>Testing for feature support (for example, by <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">cutting the mustard</a>) lets you serve a browser only the code that it will understand. Conditionally loading your JS file based on passing that test (for example, using <a href="https://github.com/filamentgroup/loadJS">Filament Group&#8217;s loadJS</a>) means that you won&#8217;t waste your users&#8217; data by sending them code their browser can&#8217;t use. </p>

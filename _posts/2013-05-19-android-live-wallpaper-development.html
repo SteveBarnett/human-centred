@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: Android Live Wallpaper Development
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 711
+wordpress_url: http://naga.co.za/?p=711
+date: '2013-05-19 14:30:20 +0200'
+date_gmt: '2013-05-19 12:30:20 +0200'
+---
+<p>At the <a href="http://www.spin.org.za/2013/05/08/ct-spin-89-android-live-wallpaper-development/">89th SPIN meeting</a> recently, <a href="https://twitter.com/EwaldHorn">Ewald Horn</a> of <a href="http://www.wysetalk.com/">Wysetalk</a> talked about Android Live Wallpaper development. The first part of the talk was around the hows and whys, and the second part was a code demonstration. The slides and the code are available on <a href="http://www.spin.org.za/2013/05/08/ct-spin-89-android-live-wallpaper-development/">the SPIN event page</a>. Below are my brief notes from his talk.</p>
+<p><a href="http://www.livewallpapers.org/">Live wallpapers</a> are good for Android version 2.1 and up. They are very popular, and they are fun and easy to develop since Android can handle a lot of the hard work for you. They can be used as brand awareness and marketing tools They're better with the sound off, though, and can be big battery drainers. Live wallpapers offer a good starting path into Android game development. The most popular wallpapers are very similar to games (that mostly play themselves).</p>
+<p>Since live wallpapers are a service, there are a number of things that we know. Wallpapers:</p>
+<ul>
+<li><span style="line-height: 13px;">run all the time;</span></li>
+<li>have access to system resources;</li>
+<li>have access to the Android platform;</li>
+<li>don't require the <a href="http://developer.android.com/tools/sdk/ndk/index.html">NDK</a>, so you don't need to go native;</li>
+<li>need to handle a lot of events.</li>
+</ul>
+<p><a href="http://www.vogella.com/articles/AndroidLiveWallpaper/article.html">Vogella - Live Wallpaper tutorial</a> is a good starting point, but watch out for some typos and bugs.</p>
+<p>It's easy to get started because all you really need are some config files and settings in a manfiest file. The only permission required is <a href="http://developer.android.com/reference/android/Manifest.permission.html#BIND_WALLPAPER">android.permission.BIND_WALLPAPER</a>. The building blocks you need are the Live Wallpaper service (which you Extend) and the settings Activity. Use the boilerplates that are provided to make it easier for yourself. The <a href="http://developer.android.com/reference/android/service/wallpaper/WallpaperService.Engine.html">WallpaperService Engine</a> handles rendering, lifecycle and interactions. Rendering uses Canvas. It's possible to use OpenGL if you want or need to, but it's much trickier. The API is very helpful, especially for hi-dpi concerns. For the lifecycle it's important to track visibility and changes. You should be asking: can I draw, should I draw? Think about possible interactions: touch and gestures.</p>

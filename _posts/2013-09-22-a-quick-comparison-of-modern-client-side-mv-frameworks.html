@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: A quick comparison of modern client-side MV* frameworks
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 763
+wordpress_url: http://naga.co.za/?p=763
+date: '2013-09-22 15:06:00 +0200'
+date_gmt: '2013-09-22 13:06:00 +0200'
+---
+<h1>A quick comparison of modern client-side MV* frameworks</h1>
+<p>At the <a href="http://www.meetup.com/ctfeds/events/138096922/">September meetup</a> for CTFEDs (Cape Town Front End Developers), Hendrik Swanepoel of <a href="https://www.22seven.com/">22seven</a> took us through three frameworks: <a href="http://backbonejs.org/">Backbone</a>, <a href="http://emberjs.com/">Ember</a>, and <a href="http://angularjs.org/">Angular</a>. He gave a great talk outlining the general principles of each, and gave code snippets to show how they work. His slides are available on <a href="http://www.slideshare.net/HendrikSwanepoel/a-quick-comparison-of">SliderShare</a>, and below are my notes from his presentation.</p>
+<h2>Introduction</h2>
+<p>Hendrik's talk was about choice. We think we're objective in our decisions, but really we're not. It's okay to be subjective, and to use what you like.</p>
+<p><a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a> stands for Model View Controller. It's a design pattern that was introduced in the 70s, and was about separating concerns. An example of a Model at 22seven is Transactions.</p>
+<p>Robin Ward (<a href="http://eviltrout.com/">Evil Trout</a>) says that looking at the level of interactivity of your application will help you decide whether to use a client-side MVC framework or not. The more interactive your app is, the more likely a client-side MVC will be a good choice for you.</p>
+<p>Hendrik said that looking at the popularity of a framework can be a good start for choosing one. Stars on <a href="https://github.com/">GitHub</a>, how recent commits to the repository are, the frequency of commits, and the number of pull request were mentioned as metrics to consider. All three mentioned have Chrome extensions that Hendrik says are very useful.</p>
+<h2>Backbone.js</h2>
+<p><a href="http://backbonejs.org/">Backbone</a> provides a set of building blocks for developers. That's the best and worst of it, by design. A Collection in Backbone is close to a Controller. You can use any templating engine you like, but many choose <a href="http://underscorejs.org/">underscore</a>.</p>
+<p>One criticism of Backbone is that it takes a lot of boilerplate code. You can bypass this to some degree by using community-produced plugins from <a href="http://backplug.io/">BackPlug.io</a>.</p>
+<h2>Ember.js</h2>
+<p>The official description is a dry, opinionated, feature list and that tells you a lot about the framework. Models used to be done with extensions of Objects, but now can be done in pure JavaScript. This was a big change in the API and broke backwards compatibility. In this case, however, it was for the best.</p>
+<p>Hendrik showed four steps of putting together an app, demonstrating how easy it is to do a lot in a little time. You fill in the blanks in the code with details of your app. To make it work, you must use Ember in its totality.</p>
+<p>It looks a bit like <a href="http://rubyonrails.org/">Ruby on Rails</a>: some of the core contributors are also Rails contributors. Naming is important, and like RoR, Ember aims for convention over configuration.</p>
+<h3>Angular.js</h3>
+<p>Many say that Angular is what browsers will look like in the future. It uses Declarative code for UIs (e.g. HTML), and Imperative code (e.g. JS, Ruby) for business logic. It's Hendrik's favourite of the three.</p>
+<p>As an aside: looking at Routes first is a good way of getting a feel for things.</p>
+<p>Angular is declarative, expressive, and short. It uses the custom concept of <a href="http://docs.angularjs.org/guide/directive">Directives</a>. There are no <code>script</code> tags: just attributes on normal HTML. There are also element directives, with data added to attributes. Filters are used as view helpers, such as uppercase, rounding, etc. Angular uses its own custom run loop, which is why injection using <code>$scope</code> is so important.</p>
+<h3>Conclusion</h3>
+<p>22seven had a large existing client side set of data, so Angular was the right choice for them. Hendrik recommends finding the one you like, that you are passionate about. They all have flaws, but you will find workarounds and fixes for the deficiencies for the one you like.</p>
+<p><a href="http://todomvc.com/">ToDoMVC</a> is a resource that can help you decide which is right for you. It shows code for the same simple ToDo application is many frameworks.</p>
+<p>Other important tools Hendrik recommends are <a href="http://bower.io/">Bower</a> package manager and <a href="http://requirejs.org/">RequireJS</a> module loader.</p>

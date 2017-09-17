@@ -1,0 +1,37 @@
+---
+layout: post
+status: publish
+published: true
+title: The CSS bits of Progressive Enhancement
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1266
+wordpress_url: http://naga.co.za/?p=1266
+date: '2015-06-29 08:51:17 +0200'
+date_gmt: '2015-06-29 06:51:17 +0200'
+---
+<p>At work the other day we were talking about Progressive Enhancement and feature phones, particularly in terms of CSS. The feature phones part of the chat led me to write up a short <a href="http://stevebarnett.github.io/fufu/dos-and-donts.html">Dos and Don&#8217;ts of Feature phone design</a> (written for designers more than developers). The PE part of the chat made me scribble up the following pictures.</p>
+<p><img src="https://naga.co.za/wp-content/uploads/2015/06/pe-triangle-400x338.png" data-sizes="(max-width: 400px) 100vw, 400px" srcset="https://naga.co.za/wp-content/uploads/2015/06/pe-triangle-400x338.png 400w, https://naga.co.za/wp-content/uploads/2015/06/pe-triangle.png 572w" alt="" width="400" height="338" class="alignnone size-medium wp-image-1269" /></p>
+<p>Every web page looks like this. A base of HTML, with CSS layered on top, and JS layered on top of that. It’s a triangle because the balance should mostly be like that: lots of HTML, quite a lot of CSS, and as little JavaScript as possible.</p>
+<p>Practically speaking, we chop things up a bit more than this, though.</p>
+<p><img src="https://naga.co.za/wp-content/uploads/2015/06/pe-triangle-split-css-400x338.png" data-sizes="(max-width: 400px) 100vw, 400px" srcset="https://naga.co.za/wp-content/uploads/2015/06/pe-triangle-split-css-400x338.png 400w, https://naga.co.za/wp-content/uploads/2015/06/pe-triangle-split-css.png 572w" alt="" width="400" height="338" class="alignnone size-medium wp-image-1268" /></p>
+<p>First we load in a small file of simple CSS. Then we do some PE fancy magic testing stuff and load in Fancy CSS for fancy browsers.</p>
+<p>Actually, though, even the fancy CSS file is splitty too. Inside the fancy CSS file we do more little tests and give fancier browsers fancier styles.</p>
+<p><img src="https://naga.co.za/wp-content/uploads/2015/06/pe-triangle-split-css-more-400x338.png" data-sizes="(max-width: 400px) 100vw, 400px" srcset="https://naga.co.za/wp-content/uploads/2015/06/pe-triangle-split-css-more-400x338.png 400w, https://naga.co.za/wp-content/uploads/2015/06/pe-triangle-split-css-more.png 572w" alt="" width="400" height="338" class="alignnone size-medium wp-image-1267" /></p>
+<h3 id="technicaldetails">Technical details</h3>
+<p>The initial split between basic and fancy CSS files is done using a media query on a link element.</p>
+<p>The basic CSS is loaded like this:</p>
+<p><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/style.css&quot;&gt;</code></p>
+<p>All browsers get this stylesheet (and it contains simple CSS rules that all browsers will understand). The fancy CSS should be loaded like this:</p>
+<p><code>&lt;link rel=&quot;stylesheet&quot; media=&quot;screen and (min-width: 20em)&quot; href=&quot;/css/enhanced.css&quot;&gt;</code></p>
+<p>Since it&#8217;s qualified with a media query, it should be the case that only browsers that understand that media query (goodbye old Internet Explorer, and many older phones) load that stylesheet. However, <a href="http://scottjehl.github.io/CSS-Download-Tests/">Scott Jehl's tests have shown</a> that this isn't the case: browsers are greedy and download all the stylesheets, even ones they will never use!</p>
+<p>That's not so great. Ideally we'd like to improve Front-end performance by using <a href="https://github.com/filamentgroup/loadCSS">Filament Group's loadCSS</a> to asynchronously load our enhanced stylesheet (so that it doesn't block page render), but that would mean everyone downloads every stylesheet. Instead we use Scott Jehl's <a href="https://github.com/scottjehl/eCSSential/">eCSSential</a>. This lets us load the CSS file asynchronously (yay, performance!), and use matchMedia to test for <code>(min-width: 20em)</code> with JavaScript. Testing with matchMedia in JavaScript rather than than a media query on a link element <em>works</em>: browsers only download the stylesheets they need. (Of course, we also provide a no JavaScript fallback in a <code>&lt;noscript&gt;</code> tag, in case something goes wrong somewhere.)</p>
+<p>You can see <a href="https://github.com/SteveBarnett/fufu/blob/c9930c9f72505235eb6122cb999d50018a1c1633/_includes/head.html#L13:L33">an example of this in action</a> on my work in progress project, <a href="https://github.com/SteveBarnett/fufu">fufu</a> (A future friendly front-end style guide that even caters for feature phones).</p>
+<h4 id="gotchaolderandroids">Gotcha: older Androids</h4>
+<p>The use of matchMedia has me a bit conflicted. Looking at <a href="http://caniuse.com/#search=matchmedia">matchMedia on caniuse.com</a>, we see that this means that Android versions less than 3 and Opera Mini users won't get the enhanced stylesheet. If we went the loadCSS route, some Android 2.* users would get the enhanced styles (which their browsers are capable on displaying), but we increase data costs for all users, because everyone loads all the stylesheets.</p>

@@ -1,0 +1,48 @@
+[role="navigation"] {
+  padding: 0.5em 0;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px $grey;
+  ul {
+    margin: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+}
+
+[role="contentinfo"] {
+  background-color: $red;
+  color: white;
+  @media (min-width: 30em) {
+    display: flex;
+    justify-content: space-between;
+  }
+  a {
+    &:link, &:visited {
+      color: white;
+    }
+  }
+
+  a {
+    &:hover, &:active {
+      color: darken(white, 30%);
+    }
+    &:focus {
+      outline: solid 3px darken(white, 30%);
+    }
+  }
+  ul {
+    flex-basis: 33%;
+    list-style: none;
+      padding: 1em 1em 1em 0;
+    margin-left: 0;
+  }
+  li {
+    margin-bottom: 0.5em;
+  }
+}

@@ -1,0 +1,51 @@
+---
+layout: post
+status: publish
+published: true
+title: A sketch of how to do a thing with PE
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1133
+wordpress_url: http://naga.co.za/?p=1133
+date: '2014-12-19 08:43:21 +0200'
+date_gmt: '2014-12-19 06:43:21 +0200'
+---
+<p>As part of the discussion that started with <a href="http://alex.maughan.me/opposing-agendas/">Alex's post</a>, that caused me to write <a href="https://naga.co.za/2014/12/17/getting-better-at-progressive-enhancement/">mine</a>, then to Le Roux to write <a href="https://medium.com/@__leroux/best-practices-are-just-good-ideas-a77e399cb6f9">his</a>, I wanted to have a quick look at <a href="http://code.thisarmy.com/fontsinfo/">Le Roux's excellent tool for looking at the Open Type features of Google fonts</a> from a Progressive Enhancement point of view.</p>
+<p>Here's what the tool looks like normally:</p>
+<p><a href="https://naga.co.za/wp-content/uploads/2014/12/Screenshot-2014-12-18-16.57.21.png"><img src="https://naga.co.za/wp-content/uploads/2014/12/Screenshot-2014-12-18-16.57.21-400x213.png" alt="Screenshot 2014-12-18 16.57.21" width="400" height="213" class="alignnone size-medium wp-image-1136" /></a></p>
+<p>Here's what it looks like with JavaScript turned off, to simulate <a href="https://naga.co.za/2014/12/17/progressive-enhancement-busting-some-myths/#myth:itsaboutusersturningoffjavascript.">broken or failed JavaScript</a>:</p>
+<p><a href="https://naga.co.za/wp-content/uploads/2014/12/Screenshot-2014-12-18-16.57.41.png"><img src="https://naga.co.za/wp-content/uploads/2014/12/Screenshot-2014-12-18-16.57.41-400x213.png" alt="Screenshot 2014-12-18 16.57.41" width="400" height="213" class="alignnone size-medium wp-image-1137" /></a></p>
+<p>Not as awesome. To be fair, it's <a href="http://sighjavascript.tumblr.com/">not the only thing that relies on JavaScript for core functionality</a>. It's not even the only thing <em>about Typography</em> that relies on JavaScript for core functionality. Here's <a href="http://stateofwebtype.com/">The State of Web Type</a> with Javascript turned off:</p>
+<p><a href="https://naga.co.za/wp-content/uploads/2014/12/Screenshot-2014-12-18-17.05.10.png"><img src="https://naga.co.za/wp-content/uploads/2014/12/Screenshot-2014-12-18-17.05.10-400x213.png" alt="Screenshot 2014-12-18 17.05.10" width="400" height="213" class="alignnone size-medium wp-image-1138" /></a></p>
+<p>(Quick aside: checkout <a href="http://kennethormandy.com/journal/normalize-opentype-css">Kenneth Normandy's Normalize-OpenType.css</a> for some additional interesting Open Type stuff.)</p>
+<p>So I did a <em>very</em> quick and dirty bit of code to see what could the basic, core, experience of the tool look like <strong>without relying on JavaScript</strong>. Here's how I built it up.</p>
+<h2 id="itrequiresjavascript">Problem: it requires JavaScript</h2>
+<p>The tool lets you preview a Google font, and tells you what Open Type features it supports. The steps are:</p>
+<ol>
+<li>Choose a font and variant</li>
+<li>View the preview</li>
+<li>Toggle open type features on and off</li>
+</ol>
+<p>That core functionality is essentially ticking a few boxes, submitting a form, and seeing the result. This is a prime candidate for being done with Progressive Enhancement!</p>
+<h2 id="aquicksketchofasolution">A quick sketch of a solution</h2>
+<p>Here's what I came up: <a href="http://stevebarnett.github.io/fontsinfo-pe-sketch/">just HTML and a tiny bit of CSS</a>. It's a prototype. Sketch. Thing. And it looks ugly. It's not functional (because the filtering and selecting would happen on the server), but hopefully you get the idea. It doesn't contain all the fonts. For this purpose, that's okay.</p>
+<h3 id="bonusfeatures">Bonus features</h3>
+<ul>
+<li>I added <a href="https://github.com/SteveBarnett/fontsinfo-pe-sketch/blob/master/index.html#L19">some styles to make it small screen friendly</a>, which the original tool is not. A little bit of column shuffling means that people not on a large screen can also use the tool.</li>
+<li>I enabled deep linking by using the GET method on the form. That means you can share a link to a filtered version of the results (&quot;Hey, look, this font has All The Things Open Type!&quot;).</li>
+</ul>
+<h3 id="thenay-sayingcorner">The nay-saying corner</h3>
+<ul>
+<li><strong>People won't do {that} on small screen devices.</strong> Yes they will. <a href="http://www.lukew.com/ff/entry.asp?1333">People will do anything on small screens</a> if you make it good enough. Sometimes it's the only screen they have with them, sometimes it's the only screen they have.</li>
+<li><strong>That example is just PE for PE's sake.</strong> No, that's just PE: that's what it is. Taking the simplest (and to be fair, often dullest) version of an idea and building it up from there. This sketch is just the first step.</li>
+<li><strong>Why don't you just build the real thing with PE then?</strong> Because, like you, I am busy and don't have much free time. The free time I do have to code, I want to spend on my own stuff. (Like fixing up this site that is now other three years old.)</li>
+<li><strong>Ha! I told you PE takes longer!</strong> Not necessarily, but (like writing any code) it does take <em>some</em> time. See the point above.</li>
+<li><strong>You've gained nothing from a PE approach here.</strong> I think that we have. Now people on a wider range of screens could use the the tool. Now if the JavaScript fails or errors, they could still use the tool. I think those are both worthwhile things.</li>
+<li><strong>Shut up, let it go now.</strong> Okay.</li>
+</ul>

@@ -1,0 +1,52 @@
+---
+layout: post
+status: publish
+published: true
+title: jQuery vs JavaScript
+author:
+  display_name: Steve Barnett
+  login: steve
+  email: steve@naga.co.za
+  url: http://naga.co.za
+author_login: steve
+author_email: steve@naga.co.za
+author_url: http://naga.co.za
+wordpress_id: 1344
+wordpress_url: http://naga.co.za/?p=1344
+date: '2015-08-25 07:45:07 +0200'
+date_gmt: '2015-08-25 05:45:07 +0200'
+---
+<p>At the recent CTFEDs workshop, I gave a lightning talk about <strong>jQuery vs JavaScript</strong>. You can <a href="https://speakerdeck.com/stevebarnett/jquery-vs-javascript">view the slides on speakerdeck</a>, or read a bit more detail here. I&#8217;ve also gathered some links on the topic under the tag <a href="https://pinboard.in/u:maxbarners/t:ctfeds20150822">ctfeds20150822 on my pinboard bookmarks</a>.</p>
+<p>I&#8217;m not picking on <a href="https://jquery.com/">jQuery</a>. I&#8217;m just choosing to talk about it because it&#8217;s so popular. These things can apply to libraries is general.</p>
+<p>The TL;DR is: <strong>Think about it</strong>. Carefully. <strong>What&#8217;s the cost</strong> (of using jQuery, or the library of your choice)? The one thing I&#8217;d like people to do is not to use jQuery by default, but make it a conscious decision.</p>
+<p>A good question to ask yourself is: <strong>Who does this help?</strong> Me or my users?</p>
+<h2 id="goodthingsaboutjquery">Good things about jQuery</h2>
+<ul>
+<li>It makes complex things simple(r). For example: ajax. That means it can be faster to write than regular JavaScript.</li>
+<li>It&#8217;s well maintained and well tested. It has a big team working on it.</li>
+<li>It helps you avoid bugs, even in modern browsers. Although that&#8217;s less of an issue these days.</li>
+<li>It&#8217;s on a lot of <strong>C</strong>ontent <strong>D</strong>elivery <strong>N</strong>etworks, so the file will be faster to download, or the user may already have it cached in their browser. The various versions of jQuery make this slightly less likely, though.</li>
+</ul>
+<h2 id="badthingsaboutjquery">Bad things about jQuery</h2>
+<ul>
+<li><a href="http://timkadlec.com/2014/09/js-parse-and-execution-time/">Parse and execution time can be slow</a>. This one is <strong>important</strong>. Since the file is large, the time it takes a browser to read and execute the jQuery code can be slow, especially on low-powered devices. Older jQuery versions and plugins make this worse.</li>
+<li>It adds a dependency to your set up. Now you (and future you, and other people working on the project) have to know about it and use it.</li>
+<li>It can be overkill if you&#8217;re not using all of it, or if it&#8217;s something you could write quickly. These days jQuery lets you do modular builds (just pick the bits you need), which is great.</li>
+<li>It can be painful to upgrade. You might need to rewrite sections of your code.</li>
+<li>Like any library, it&#8217;s solving a particular set of problems, and these might not be the same as yours.</li>
+</ul>
+<h2 id="whatarethealternatives">What are the alternatives?</h2>
+<p>Some really useful links:</p>
+<ul>
+<li><a href="http://youmightnotneedjquery.com">youmightnotneedjquery.com</a> for regular JavaScript alternatives to jQuery things.</li>
+<li><a href="http://youmightnotneedjqueryplugins.com">youmightnotneedjqueryplugins.com</a> for alternatives to jQuery plugin.</li>
+<li><a href="http://microjs.com">microjs.com</a> for a list of micro-libraries that provide alternatives to jQuery.</li>
+</ul>
+<h2 id="andnowforsomethingcompletelydifferent">And Now for Something Completely Different</h2>
+<p>Another important thing to think about is <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">Cutting the Mustard</a>: thinking about whether or not you send JavaScript to all your users. The team at BBC news decided to serve all users the basic (fast!) HTML and CSS, but only to send the JavaScript-enhanced, bells and whistles, version to browsers that they could say where &#8220;modern enough.&#8221; Here&#8217;s the test they use:</p>
+<pre><code class="js">if(&apos;querySelector&apos; in document &amp;&amp;
+&apos;localStorage&apos; in window &amp;&amp;
+&apos;addEventListener&apos; in window) {
+	// load fancy js stuff
+}</code></pre>
+<p>Think about using less JavaScript, and any that you do use: optimise the hell out of it.</p>
