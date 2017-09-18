@@ -3,14 +3,14 @@
 <main id="content">
     <article class="hentry">
     	<header>
-    		<h2 class="entry-title"><a href="{{ post.url }}" title="Permalink to {{ page.title }}" rel="bookmark">{{ page.title }}</a></h2>
+    		<h2 class="entry-title">{{ page.title }}</h2>
 
     		<div class="post-meta">
-    			<time class="entry-date updated" datetime="{{ page.date }}" pubdate>{{ page.date | date: "%B %d, %Y" }}</time> By Steve Barnett
+    			<time class="entry-date updated" datetime="{{ page.date }}" pubdate>{{ page.date | date: "%B %d, %Y" }}</time>
     		</div>
     	</header>
 
-    	<div class="entry-content">
+    	<div class="entry-content entry-content-post">
     		{{ content }}
     	</div>
 

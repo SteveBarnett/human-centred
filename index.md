@@ -20,6 +20,7 @@ date_gmt: '2016-09-03 11:49:30 +0200'
 Hi, I'm Steve Barnett.
 
 I help software teams **have happier customers** and **make better software**. The best way to do this is by becoming **more user-centered**.
+{: .lede }
 
 It provides your business with a competitive advantage: your site is faster and reaches more people. I design and build sites and apps that **everyone can use, regardless of their device, the network they’re on, or any disabilities they might have**. I do this by by designing and building in a future friendly way, and I can help your team do it too.
 
