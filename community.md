@@ -18,21 +18,22 @@ date_gmt: '2016-09-03 11:24:53 +0200'
 permalink: /community/
 ---
 
+I like [hosting meetups](#meetups) (and attending them!), and usually have a [side project](#projects) or two on the go. I really enjoy [running workshops](#workshops) and [giving talks](#speaking) about things I've learned. Here's a bit more detail.
 ### Meetups
+
+<a href="https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg" alt="" width="400" height="282" class="pull-right pop-right half" srcset="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds-768x541.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
 
 I&#8217;m one of the organisers of the [Cape Town Front-end developers](http://ctfeds.org/) meetup group. We [host monthly events](http://www.meetup.com/ctfeds/) such as talks and workshops. We occasionally [tweet about things](https://twitter.com/ctfeds/). We started our regular meetups in March 2013.
 
-<a href="https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg" alt="ctfeds" width="400" height="282" class="alignnone size-medium wp-image-1626" srcset="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds-768x541.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
 
 With a lot of help from some friends, I started the [Cape Town chapter](https://railsbridgecapetown.org/) of [RailsBridge](http://railsbridge.org/): an organisation that offers free workshops on Rails, Ruby, and other web technologies for groups of people that are underrepresented in tech. We&#8217;ve been running quarterly workshops since July 2013.
 
-<a href="https://naga.co.za/wp-content/uploads/2016/09/railsbridge.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/railsbridge-400x225.jpg" alt="railsbridge" width="400" height="225" class="alignnone size-medium wp-image-1625" srcset="https://naga.co.za/wp-content/uploads/2016/09/railsbridge-400x225.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/railsbridge-768x432.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/railsbridge.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
-
 ### Projects
 
-I think that a great way to test the robustness of your site is to play with it on lower-end mobile devices. I joined the [Open Device Lab](http://opendevicelab.com/) community by starting the [Nomad Device Lab](http://devicelab.co.za/) in in September 2012. It&#8217;s a shared pool of internet-connected devices, and is free to use. Every few months someone will contact me through the site and I&#8217;ll go and sit with them, usually for a half a day. We test their projects across a range of devices, and discuss ways of improving the Front-end performance and User Experience. In November 2016, the lab was featured on Smashing Mag: [Where Are The World’s Best Open Device Labs?](https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/)</a>
+<a href="https://naga.co.za/wp-content/uploads/2016/09/devicelab.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/devicelab-400x225.jpg" alt="devicelab" width="400" height="225" class="pull-right pop-right half" srcset="https://naga.co.za/wp-content/uploads/2016/09/devicelab-400x225.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/devicelab-768x432.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/devicelab-1024x576.jpg 1024w, https://naga.co.za/wp-content/uploads/2016/09/devicelab.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" /></a>
 
-<a href="https://naga.co.za/wp-content/uploads/2016/09/devicelab.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/devicelab-400x225.jpg" alt="devicelab" width="400" height="225" class="alignnone size-medium wp-image-1627" srcset="https://naga.co.za/wp-content/uploads/2016/09/devicelab-400x225.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/devicelab-768x432.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/devicelab-1024x576.jpg 1024w, https://naga.co.za/wp-content/uploads/2016/09/devicelab.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+I think that a great way to test the robustness of your site is to play with it on lower-end mobile devices. I joined the [Open Device Lab](http://opendevicelab.com/) community by starting the [Nomad Device Lab](http://devicelab.co.za/) in in September 2012. It&#8217;s a shared pool of internet-connected devices, and is free to use. Every few months someone will contact me through the site and I&#8217;ll go and sit with them, usually for a half a day. We test their projects across a range of devices, and discuss ways of improving the front-end performance and user experience. In November 2016, the lab was featured on Smashing Mag: [Where Are The World’s Best Open Device Labs?](https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/)
+
 
 I&#8217;m a big believer in building things that are Future Friendly, so I made [a tiny site](http://futurefriendly.co.za/) to join the call to arms. You can read more about the technical details of what that means on my [How I Do Things](http://naga.co.za/how-i-do-things/) page.
 
