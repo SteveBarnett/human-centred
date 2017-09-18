@@ -6,11 +6,13 @@
     		<h2 class="entry-title">{{ page.title }}</h2>
 
     		<div class="post-meta">
-    			<time class="entry-date updated" datetime="{{ page.date }}" pubdate>{{ page.date | date: "%B %d, %Y" }}</time>
+    			<time class="entry-date published" datetime="{{ page.date }}" pubdate>{{ page.date | date: "%B %d, %Y" }}</time>
+                <span class="vcard visuallyhidden"><span class="fn">Steve Barnett</span> <span class="org">Naga</span></span>
+                 <a class="visuallyhidden" href="{{ page.url }}" rel="bookmark">{{ page.title }}</a>
     		</div>
     	</header>
 
-    	<div class="entry-content entry-content-post">
+    	<div class="entry-content entry-content-post ">
     		{{ content }}
     	</div>
 
