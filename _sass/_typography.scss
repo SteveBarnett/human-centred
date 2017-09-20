@@ -97,14 +97,22 @@ h4 {
   }
 }
 
-blockquote,
-.lede,
-.entry-content-post p:first-of-type {
+blockquote {
   font-size: 1.125em;
   line-height: 1.11111111;
   @media (min-width: 43.75em) {
       line-height: 1.22222222;
   }
+}
+
+.lede,
+.entry-content-post p:first-of-type {
+    font-size: 1.125em;
+    line-height: 1.11111111;
+    @media (min-width: 43.75em) {
+        font-size: 1.375em;
+        line-height: 1.13636364;
+    }
 }
 
 a {
@@ -120,7 +128,7 @@ a {
   }
   &:focus {
     outline: solid 3px $red;
-    text-decoration: none;
+    // text-decoration: none;
   }
 }
 
