@@ -13,6 +13,16 @@
     display: inline-block;
     margin-right: 1em;
   }
+  .active {
+    a {
+        color: #222;
+        text-decoration: none;
+        &:hover, &:active {
+          color: lighten($red, 20%);
+          text-decoration: underline;
+        }
+    }
+  }
 }
 
 [role="contentinfo"] {
