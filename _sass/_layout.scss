@@ -46,6 +46,10 @@ section {
 }
 
 .pull-left {
+    img {
+        margin: 0 auto;
+        display: block;
+    }
     @media (min-width: $bp-m) {
         float: left;
         margin: 0 1em 1em 0;
@@ -53,6 +57,10 @@ section {
 }
 
 .pull-right {
+    img {
+        margin: 0 auto;
+        display: block;
+    }
     @media (min-width: $bp-m) {
         float: right;
         margin: 0 0 1em 1em;

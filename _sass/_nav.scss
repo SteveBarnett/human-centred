@@ -26,6 +26,7 @@ nav {
 }
 
 footer {
+    clear: both;
   background-color: $red;
   color: white;
   @media (min-width: 30em) {
