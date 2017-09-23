@@ -43,6 +43,8 @@ I love helping people learn new things, or get better at things they already kno
 
 #### 2017
 
+- November - **Inclusive Design: more heart ❤, more humans workshop** at [UX South Africa](http://uxsouthafrica.com/) with [Nicola du Toit](http://nicoladutoit.com/).
+- October - **Inclusive Design: more heart ❤, more humans workshop** at [WordPress Cape Town](https://2017.capetown.wordcamp.org/session/inclusive-design-more-heart-%E2%9D%A4-more-humans-2/) with [Nicola du Toit](http://nicoladutoit.com/).
 - August - **Open Design Cape Town workshop** at [CTFEDs](https://www.meetup.com/ctfeds/events/236867974/) with [Danielle Eriksen](http://ctfeds.org/organisers/#danielle-eriksen) and [Justin Slack](https://justinslack.com/).
 - August - **"Speak up!" workshop: the fine art of sharing and presenting** at [CTFEDs](https://www.meetup.com/ctfeds/events/240987563/), with [Danielle Eriksen](http://ctfeds.org/organisers/#danielle-eriksen): [materials](https://ctfeds.github.io/Speaker-Workshop-2017/).
 - May - **Global Accessibility Awareness Day** at [CTFEDs](https://www.meetup.com/ctfeds/events/239478519/) with [Justin Slack](https://justinslack.com/): [materials](http://ctfeds.github.io/Global-Accessibility-Awareness-Day-2017).
