@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Steve Barnett is a **front-end developer and user experience consultant**. He loves the One Web and applying user-centered design principles to front-end development.
+Steve Barnett is a **front-end developer and user experience consultant**. He loves applying user-centered design principles to front-end development.
 
 He's been building things for the web professionally since 2005 (and built things for fun for a while before that). In the past few years he’s worked as a front-end developer and UX person at [Unboxed Consulting](https://unboxed.co/), [Flow](http://www.userexperience.co.za/) (now part of Deloitte Digital), and [Praekelt Foundation](http://praekelt.org/). He’s also worked as a code mentor at [codeX](http://www.projectcodex.co/), helping people learn front-end and back-end development.
 
