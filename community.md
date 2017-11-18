@@ -43,7 +43,7 @@ I love helping people learn new things, or get better at things they already kno
 
 #### 2017
 
-- November - **Inclusive Design: more heart ❤, more humans workshop** at [UX South Africa](http://uxsouthafrica.com/) with [Nicola du Toit](http://nicoladutoit.com/).
+- November - **Inclusive Design: more heart ❤, more humans workshop** at [UX South Africa](http://uxsouthafrica.com/) with [Nicola du Toit](http://nicoladutoit.com/). Materials: [resources](//bit.ly/emplab200); [workshop activities](//bit.ly/emplab201); [our slide deck](//bit.ly/emplab202).
 - October - **Inclusive Design: more heart ❤, more humans workshop** at [WordPress Cape Town](https://2017.capetown.wordcamp.org/session/inclusive-design-more-heart-%E2%9D%A4-more-humans-2/) with [Nicola du Toit](http://nicoladutoit.com/).
 - August - **Open Design Cape Town workshop** at [CTFEDs](https://www.meetup.com/ctfeds/events/236867974/) with [Danielle Eriksen](http://ctfeds.org/organisers/#danielle-eriksen) and [Justin Slack](https://justinslack.com/).
 - August - **"Speak up!" workshop: the fine art of sharing and presenting** at [CTFEDs](https://www.meetup.com/ctfeds/events/240987563/), with [Danielle Eriksen](http://ctfeds.org/organisers/#danielle-eriksen): [materials](https://ctfeds.github.io/Speaker-Workshop-2017/).
@@ -74,6 +74,7 @@ I like sharing what I learn, so I give talks at local meetups and conferences.
 
 #### 2017
 
+- November - **MC** at the [UX South Africa](http://uxsouthafrica.com/) conference.
 - July - **The Hidden Costs of Page Builders: What You Don’t See Is What They Get** with [Deb Butler](http://startumproject.co.za/) at the [WordPress Cape Town meetup group](https://www.meetup.com/WordPress-Cape-Town/events/241266840/); [our slides](https://docs.google.com/presentation/d/1uBuoFgW01eSwrtXwvU76A7FU1daf20X40IkN0MYgnBU/edit?usp=sharing).
 - June - **MC** at [the Idea Hackathon](https://www.theideahackathon.co.za/).
 - April - **Performance Matters** with [Danielle Eriksen](https://www.linkedin.com/in/danielle-eriksen-771522116/) at the [Pixel Up! meetup](https://www.meetup.com/pixelup/events/238796146/); [our slides](https://speakerdeck.com/stevebarnett/performance-matters).
