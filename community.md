@@ -21,7 +21,7 @@ permalink: /community/
 I like [hosting meetups](#meetups) (and attending them!), and usually have a [side project](#projects) or two on the go. I really enjoy [running workshops](#workshops) and [giving talks](#speaking) about things I've learned. Here's a bit more detail.
 ### Meetups
 
-<a href="https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg" alt="" width="400" height="282" class="pull-right pop-right half" srcset="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds-768x541.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+<a href="https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg" alt="Me at a Global Accessiblity Awareness Day workshop for CTFEDs" width="400" height="282" class="pull-right pop-right half" srcset="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds-768x541.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
 
 I&#8217;m one of the organisers of the [Cape Town Front-end developers](http://ctfeds.org/) meetup group. We [host monthly events](http://www.meetup.com/ctfeds/) such as talks and workshops. We occasionally [tweet about things](https://twitter.com/ctfeds/). We started our regular meetups in March 2013.
 

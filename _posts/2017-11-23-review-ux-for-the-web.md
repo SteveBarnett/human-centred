@@ -6,7 +6,7 @@ layout: post
 The other day I got a copy of [UX for the Web](UX for the Web) by
 [Marli Ritter](https://www.linkedin.com/in/marliritter/) and [Cara Winterbottom](https://www.linkedin.com/in/carawinterbottom/). It's a great book that gives a broad introduction to many of the building blocks of User Experience (not just the Web). It offers a great jumping off point for further research and reading.
 
-[![](/img/2017/11/ux-for-the-web.jpg)](https://www.packtpub.com/web-development/ux-web){:.pull-right .pop-right}
+[![Book cover of UX for the Web](/img/2017/11/ux-for-the-web.jpg)](https://www.packtpub.com/web-development/ux-web){:.pull-right .pop-right}
 
 Marli and Cara give **lots of good advice and the book is very practical**. They provide lots of samples of things, like usability testing scripts, then show you how to apply the theory. There are plenty of How To sections, and they point out the links between each topic and explain them. They **ask lots of great questions**, and encourage the reader to do the same.
 

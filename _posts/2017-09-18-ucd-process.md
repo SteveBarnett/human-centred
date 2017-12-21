@@ -5,7 +5,7 @@ layout: post
 
 I like to iterate on things. When I use something a lot, I tend to iterate on it a lot. Here's the current version of my UCD process.
 
-[![](/img/ucd-process-700.png)](/img/ucd-process.png)
+[![My UCD process: Discover, Design, Make, Measure](/img/ucd-process-700.png)](/img/ucd-process.png)
 
 It still uses the same four steps, but with slightly different names, and a slightly clearer overview.
 

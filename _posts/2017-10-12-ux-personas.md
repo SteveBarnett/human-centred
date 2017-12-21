@@ -37,4 +37,4 @@ The **Share** phase is about getting people outside the workshop to see the pers
 
 Here's an example I use showing what I think are the essential elements: Name, Job, Role, Picture, Quote, and some details. If you search for "UX personas" you'll often find something with a lot more detail. Those look really great, but I find them hard to use, especially as a decision-making tool. It feels a bit like information overload.
 
-[![](/img/2017/10/persona-example-600.jpg)](/img/2017/10/persona-example.jpg)
+[![An example persona, with annotations](/img/2017/10/persona-example-600.jpg)](/img/2017/10/persona-example.jpg)
