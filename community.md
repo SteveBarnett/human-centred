@@ -72,6 +72,10 @@ I love helping people learn new things, or get better at things they already kno
 
 I like sharing what I learn, so I give talks at local meetups and conferences.
 
+#### 2018
+
+- February - **Mistakes Were Made (By Me)** at the [Cape Town Creative Academy](http://ctca.co.za/); [my slides](https://speakerdeck.com/stevebarnett/mistakes-were-made-by-me)
+
 #### 2017
 
 - November - **MC** at the [UX South Africa](http://uxsouthafrica.com/) conference.
