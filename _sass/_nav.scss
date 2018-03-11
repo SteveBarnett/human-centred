@@ -26,16 +26,16 @@ nav {
 }
 
 footer {
-    clear: both;
+  clear: both;
   background-color: $red;
   color: white;
-  @media (min-width: 30em) {
-    display: flex;
-    justify-content: space-between;
-  }
+  padding-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
   h1, h2, h3, h4 {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
   }
 
   a {
@@ -52,12 +52,13 @@ footer {
       outline: solid 3px darken(white, 30%);
     }
   }
+
   ul {
-    flex-basis: 33%;
     list-style: none;
-      padding: 1em 1em 1em 0;
     margin-left: 0;
+    flex: 1 0 15em;
   }
+
   li {
     margin-bottom: 0.5em;
   }
