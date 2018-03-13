@@ -44,7 +44,7 @@ I love helping people learn new things, or get better at things they already kno
 #### 2017
 {: #workshops-2017 }
 
-- November - **Inclusive Design: more heart ❤, more humans workshop** at [UX South Africa](http://uxsouthafrica.com/) with [Nicola du Toit](http://nicoladutoit.com/). Materials: [resources](//bit.ly/emplab200); [workshop activities](//bit.ly/emplab201); [our slide deck](//bit.ly/emplab202).
+- November - **Inclusive Design: more heart ❤, more humans workshop** at [UX South Africa](http://uxsouthafrica.com/cpt2017/schedule/heart-%E2%9D%A4-humans-inclusive-design/) with [Nicola du Toit](http://nicoladutoit.com/). Materials: [resources](//bit.ly/emplab200); [workshop activities](//bit.ly/emplab201); [our slide deck](//bit.ly/emplab202).
 - October - **Inclusive Design: more heart ❤, more humans workshop** at [WordCamp Cape Town](https://2017.capetown.wordcamp.org/session/inclusive-design-more-heart-%E2%9D%A4-more-humans-2/) with [Nicola du Toit](http://nicoladutoit.com/).
 - August - **Open Design Cape Town workshop** at [CTFEDs](https://www.meetup.com/ctfeds/events/236867974/) with [Danielle Eriksen](http://ctfeds.org/organisers/#danielle-eriksen) and [Justin Slack](https://justinslack.com/).
 - August - **"Speak up!" workshop: the fine art of sharing and presenting** at [CTFEDs](https://www.meetup.com/ctfeds/events/240987563/), with [Danielle Eriksen](http://ctfeds.org/organisers/#danielle-eriksen): [materials](https://ctfeds.github.io/Speaker-Workshop-2017/).
