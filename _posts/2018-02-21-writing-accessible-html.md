@@ -1,6 +1,8 @@
 ---
 title: Writing accessible HTML
 layout: post
+description: A quick round-up of how I try and write accessible HTML
+image: /img/2018/02/naga-wave.jpg
 ---
 
 Here's a quick round-up of how I try and write accessible HTML. I use a handful of tools that do similar things from different angles. It's a mix of command line things, CSS, and my brain.
