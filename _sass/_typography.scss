@@ -10,10 +10,19 @@ body {
   }
 }
 
-h1, h2, h3, h4, strong {
+h1, h2, h3, h4 {
   margin-top: 0;
   font-weight: normal;
   clear: both;
+  &:target {
+    &:before {
+        content: "→";
+        margin-right: 0.25em;
+    }
+  }
+}
+
+strong {
   &:target {
     &:before {
         content: "→";
