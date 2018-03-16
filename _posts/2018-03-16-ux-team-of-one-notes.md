@@ -1,7 +1,7 @@
 ---
 title: "User Experience Team of One: brief book review"
 layout: post
-description:
+description: The UX Team of One is practical, useful, book for any UX person.
 image: /img/2018/03/ux-team-of-one-notes.jpg
 ---
 
