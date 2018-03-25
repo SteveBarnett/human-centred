@@ -1,0 +1,1 @@
+He's on Twitter as [@maxbarners](https://twitter.com/maxbarners), on GitHub as [SteveBarnett](https://github.com/SteveBarnett/), on [LinkedIn](https://za.linkedin.com/in/steve-barnett-2a924a4a), and on this site as, erm, himself.
