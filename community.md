@@ -1,24 +1,9 @@
 ---
 layout: page
-status: publish
-published: true
 title: Community
-author:
-  display_name: Steve Barnett
-  login: steve
-  email: steve@naga.co.za
-  url: http://naga.co.za
-author_login: steve
-author_email: steve@naga.co.za
-author_url: http://naga.co.za
-wordpress_id: 1555
-wordpress_url: https://naga.co.za/?page_id=1555
-date: '2016-09-03 13:24:53 +0200'
-date_gmt: '2016-09-03 11:24:53 +0200'
-permalink: /community/
 ---
 
-I like [hosting meetups](#meetups) (and attending them!), and usually have a [side project](#projects) or two on the go. I really enjoy [running workshops](#workshops) and [giving talks](#speaking) about things I've learned. Here's a bit more detail.
+I like [hosting meetups](#meetups) (and attending them!), and usually have a [side project](#projects) or two on the go. I really enjoy [running workshops](#workshops) and [giving talks](#speaking). Here's a bit more detail.
 ### Meetups
 
 <a href="https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg" alt="Me at a Global Accessiblity Awareness Day workshop for CTFEDs" width="400" height="282" class="pull-right pop-right half" srcset="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds-768x541.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
@@ -32,14 +17,14 @@ With a lot of help from some friends, I started the [Cape Town chapter](https://
 
 <a href="https://naga.co.za/wp-content/uploads/2016/09/devicelab.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/devicelab-400x225.jpg" alt="devicelab" width="400" height="225" class="pull-right pop-right half" srcset="https://naga.co.za/wp-content/uploads/2016/09/devicelab-400x225.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/devicelab-768x432.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/devicelab-1024x576.jpg 1024w, https://naga.co.za/wp-content/uploads/2016/09/devicelab.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" /></a>
 
-I think that a great way to test the robustness of your site is to play with it on lower-end mobile devices. I joined the [Open Device Lab](http://opendevicelab.com/) community by starting the [Nomad Device Lab](http://devicelab.co.za/) in in September 2012. It&#8217;s a shared pool of internet-connected devices, and is free to use. Every few months someone will contact me through the site and I&#8217;ll go and sit with them, usually for a half a day. We test their projects across a range of devices, and discuss ways of improving the front-end performance and user experience. In November 2016, the lab was featured on Smashing Mag: [Where Are The World’s Best Open Device Labs?](https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/)
+I think that a great way to test the robustness and resilience of your site is to play with it on lower-end mobile devices. I joined the [Open Device Lab](http://opendevicelab.com/) community by starting the [Nomad Device Lab](http://devicelab.co.za/) in in September 2012. It&#8217;s a shared pool of internet-connected devices, and is free to use. Every few months someone will contact me through the site and I&#8217;ll go and sit with them, usually for a half a day. We test their projects across a range of devices, and discuss ways of improving the front-end performance and user experience. In November 2016, the lab was featured on Smashing Mag: [Where Are The World’s Best Open Device Labs?](https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/)
 
 
 I&#8217;m a big believer in building things that are Future Friendly, so I made [a tiny site](http://futurefriendly.co.za/) to join the call to arms. You can read more about the technical details of what that means on my [How I Do Things](http://naga.co.za/how-i-do-things/) page.
 
 ### Workshops
 
-I love helping people learn new things, or get better at things they already known. Here are some workshop that I&#8217;ve helped design and run.
+I love helping people learn new things, or get better at things they already known. Here are some workshops that I&#8217;ve helped design and run.
 
 #### 2017
 {: #workshops-2017 }
