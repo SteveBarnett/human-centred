@@ -10,7 +10,7 @@ Hi, I'm Steve Barnett.
 I'm a **front-end developer and user experience consultant**. I help software teams **have happier customers and make better software**.
 {: .lede }
 
-I do this by helping your team become **more user-centered**. That provides your business with a competitive advantage: your site is faster and reaches more people on more browsers. I design and build sites and apps in a future friendly way, with an eye towards inclusive design and accessibility. That means a site that everyone can use, regardless of their device, the network they’re on, or any disabilities they might have. I can help your team do it too.
+I do this by helping your team become **more user-centered**. That provides your business with a competitive advantage: your site is faster and reaches more people on more browsers. I design and build sites and apps in a future friendly way. I design and develop with an eye towards inclusive design, accessibility, and performance. That means a site that everyone can use, regardless of their device, the network they’re on, or any disabilities they might have. I can help your team do it too.
 
 <a href="https://naga.co.za/wp-content/uploads/2016/09/workshop-opening.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/workshop-opening-400x225.jpg" alt="workshop-opening" width="400" height="225" class="pull-left pop-left" /></a>
 
