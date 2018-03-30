@@ -4,6 +4,7 @@ title: Community
 ---
 
 I like [hosting meetups](#meetups) (and attending them!), and usually have a [side project](#projects) or two on the go. I really enjoy [running workshops](#workshops) and [giving talks](#speaking). Here's a bit more detail.
+
 ### Meetups
 
 <a href="https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg" alt="Me at a Global Accessiblity Awareness Day workshop for CTFEDs" width="400" height="282" class="pull-right pop-right half" srcset="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds-768x541.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
@@ -63,7 +64,8 @@ I like sharing what I learn, so I give talks at local meetups and conferences.
 #### 2018
 {: #speaking-2018 }
 
-- February - **Mistakes Were Made (By Me)** at the [Cape Town Creative Academy](http://ctca.co.za/); [my slides](https://speakerdeck.com/stevebarnett/mistakes-were-made-by-me)
+- March - **Inclusive Design: more heart ❤, more humans: lightning talk** at the [Scrum User Group South Africa](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/248695980/) with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-lightning-talk).
+- February - **Mistakes Were Made (By Me)** at the [Cape Town Creative Academy](http://ctca.co.za/); [my slides](https://speakerdeck.com/stevebarnett/mistakes-were-made-by-me).
 
 #### 2017
 {: #speaking-2017 }
