@@ -94,3 +94,13 @@ section {
       margin-right: -$margin-xl;
     }
 }
+
+.entry-slides {
+  .pull-left {
+    clear: left;
+  }
+  hr {
+    border-color: transparent;
+    clear: left;
+  }
+}

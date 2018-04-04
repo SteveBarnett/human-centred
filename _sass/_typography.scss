@@ -120,8 +120,14 @@ blockquote {
   }
 }
 
+.entry-slides {
+  blockquote {
+    font-size: 1em;
+  }
+}
+
 .lede,
-.entry-content-post p:first-of-type {
+.entry-content-post > p:first-of-type {
     font-size: 1.125em;
     line-height: 1.11111111;
     @media (min-width: 43.75em) {
@@ -158,4 +164,8 @@ ul, ol {
 .entry-title,
 .entry-title-page {
   margin-bottom: 0.25em;
+}
+
+.text-center {
+  text-align: center;
 }
