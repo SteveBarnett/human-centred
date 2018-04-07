@@ -2,6 +2,12 @@ body {
   font-family: sans-serif;
   line-height: 1.25;
   font-size: 125%;
+  hyphens: auto;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-chars: 6 3 2;
+  hyphenate-limit-zone: 8%;
+  hyphenate-limit-last: always;
+  font-variant-numeric: oldstyle-nums lining-nums;
 }
 
 .wf-active {
@@ -14,6 +20,7 @@ h1, h2, h3, h4 {
   margin-top: 0;
   font-weight: normal;
   clear: both;
+  // font-variant-ligatures: discretionary-ligatures historical-ligatures;
   &:target {
     &:before {
         content: "→";
@@ -67,7 +74,6 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 
 h1 {
   font-size: 2em;
-  line-height: 1.25;
   @media (min-width: 43.75em) {
       font-size: 2.5em;
       line-height: 1.125;
@@ -113,16 +119,21 @@ h4 {
 }
 
 blockquote {
-  font-size: 1.125em;
-  line-height: 1.11111111;
-  @media (min-width: 43.75em) {
-      line-height: 1.22222222;
-  }
+  margin-right: 0;
+  // font-style: italic;
+  font-size: 0.95em;
 }
 
-.entry-slides {
-  blockquote {
-    font-size: 1em;
+.quoted {
+  p {
+    quotes: '“' '”' '‘’' '’';
+    &:before {
+      content: open-quote;
+      margin-left: -0.9ch;
+    }
+    &:after {
+      content: close-quote;
+    }
   }
 }
 
@@ -134,13 +145,16 @@ blockquote {
         font-size: 1.375em;
         line-height: 1.13636364;
     }
+    // &:first-line {
+    //   font-variant: small-caps;
+    // }
+    // initial-letter: 3;
 }
 
 a {
   &:link, &:visited {
     color: $red;
   }
-  text-decoration-skip: ink;
 }
 
 a {
@@ -154,11 +168,22 @@ a {
 
 p {
   margin-top: 0;
+  margin-bottom: 1em; // <= 1em, about half line-height
 }
 
 ul, ol {
-  padding: 0 0 0 1em;
-  margin-left: 1em;
+  padding: 0;
+  margin-top: 0.75em;
+}
+
+ol {
+  margin-left: 0;
+}
+
+.outdent {
+  list-style: none;
+  margin-left: 0.75em;
+  text-indent: -0.75em;
 }
 
 .entry-title,
@@ -168,4 +193,26 @@ ul, ol {
 
 .text-center {
   text-align: center;
+}
+
+abbr {
+  font-variant-caps: all-small-caps;
+}
+
+sub {
+  @supports (font-variant-position: sub) {
+    vertical-align: inherit;
+    font-size: inherit;
+    font-feature-settings: normal;
+    font-variant-position: sub;
+  }
+}
+
+sup {
+  @supports (font-variant-position: super) {
+    vertical-align: inherit;
+    font-size: inherit;
+    font-feature-settings: normal;
+    font-variant-position: super;
+  }
 }
