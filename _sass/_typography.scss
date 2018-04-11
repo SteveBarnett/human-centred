@@ -2,11 +2,6 @@ body {
   font-family: sans-serif;
   line-height: 1.25;
   font-size: 125%;
-  hyphens: auto;
-  hyphenate-limit-lines: 2;
-  hyphenate-limit-chars: 6 3 2;
-  hyphenate-limit-zone: 8%;
-  hyphenate-limit-last: always;
   font-variant-numeric: oldstyle-nums lining-nums;
 }
 
@@ -58,6 +53,14 @@ h3 {
 
 h4 {
 
+}
+
+main {
+  hyphens: auto;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-chars: 6 3 2;
+  hyphenate-limit-zone: 8%;
+  hyphenate-limit-last: always;
 }
 
 // http://typecast.com/blog/a-more-modern-scale-for-web-typography
