@@ -76,3 +76,24 @@ Some notes on presenting ideas. Make it...
   - Make concrete plans. Use WOOP (Wish, Outcome, Obstacle, Plan) or 5Ws and 1H.
 
 Related: [big picture ideas](/writing-workshops-and-talks-big-picture/) (for writing, workshops, and talks).
+
+---
+
+### Closing activity
+
+#### For Now
+
+- **What** will you do?
+- **When** will you do it?
+- **Where** will you do it?
+- **Who** will be involved?
+- **How** will you do it?
+- **Why** do *this*?
+
+Write a sentence starting with "I will..."
+
+#### For Later
+
+- **Small steps**<br>Focus on progress
+- **Accountability Buddy**<br>Check-in with them regularly
+- **Try an Action Trigger**<br>Have an “If This, Then That” plan
