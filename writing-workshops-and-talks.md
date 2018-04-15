@@ -97,3 +97,7 @@ Write a sentence starting with "I will..."
 - **Small steps**<br>Focus on progress
 - **Accountability Buddy**<br>Check-in with them regularly
 - **Try an Action Trigger**<br>Have an “If This, Then That” plan
+
+---
+
+{% include _sources.md %}
