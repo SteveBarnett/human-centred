@@ -11,7 +11,6 @@ I like [hosting meetups](#meetups) (and attending them!), and usually have a [si
 
 I&#8217;m one of the organisers of the [Cape Town Front-end developers](http://ctfeds.org/) meetup group. We [host monthly events](http://www.meetup.com/ctfeds/) such as talks and workshops. We occasionally [tweet about things](https://twitter.com/ctfeds/). We started our regular meetups in March 2013.
 
-
 With a lot of help from some friends, I started the [Cape Town chapter](https://railsbridgecapetown.org/) of [RailsBridge](http://railsbridge.org/): an organisation that offers free workshops on Rails, Ruby, and other web technologies for groups of people that are underrepresented in tech. We&#8217;ve been running quarterly workshops since July 2013.
 
 ### Projects
@@ -20,12 +19,16 @@ With a lot of help from some friends, I started the [Cape Town chapter](https://
 
 I think that a great way to test the robustness and resilience of your site is to play with it on lower-end mobile devices. I joined the [Open Device Lab](http://opendevicelab.com/) community by starting the [Nomad Device Lab](http://devicelab.co.za/) in September 2012. It&#8217;s a shared pool of internet-connected devices, and is free to use. Every few months someone will contact me through the site and I&#8217;ll go and sit with them, usually for a half a day. We test their projects across a range of devices, and discuss ways of improving the front-end performance and user experience. In November 2016, the lab was featured on Smashing Mag: [Where Are The World’s Best Open Device Labs?](https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/)
 
-
 I&#8217;m a big believer in building things that are Future Friendly, so I made [a tiny site](http://futurefriendly.co.za/) to join the call to arms. You can read more about the technical details of what that means on my [How I Do Things](http://naga.co.za/how-i-do-things/) page.
 
 ### Workshops
 
 I love helping people learn new things, or get better at things they already known. Here are some workshops that I&#8217;ve helped design and run.
+
+#### 2018
+{: #workshops-2018 }
+
+- April - **"Speak up!" workshop: the fine art of sharing and presenting** at [SUGSA](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/248915693/), with [Justin Slack](http://ctfeds.org/organisers/#justin-slack): [materials](https://ctfeds.github.io/Speaker-Workshop-2018/).
 
 #### 2017
 {: #workshops-2017 }
