@@ -1,7 +1,7 @@
 ---
 ---
-const version = '0.0.2';
-const staticCacheName = version + 'staticfiles';
+const version = '0.0.3';
+const staticCacheName = 'staticfiles-' + version;
 const imagesCacheName = 'images';
 const pagesCacheName = 'pages';
 
@@ -131,7 +131,7 @@ self.addEventListener('fetch', event => {
         .catch( () => {
           // If the request is for an image, show an offline placeholder
           if (request.headers.get('Accept').includes('image')) {
-            caches.match('img/fallback.svg');
+            return caches.match('/img/fallback.svg');
           }
         });
       })
