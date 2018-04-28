@@ -13,7 +13,7 @@ nav {
     display: inline-block;
     margin-right: 1em;
   }
-  .active {
+  [aria-current='page'] {
     a {
         color: #222;
         text-decoration: none;
