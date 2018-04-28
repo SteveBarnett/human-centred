@@ -1,0 +1,22 @@
+{
+  "lang": "en-ZA",
+  "name": "Naga",
+  "short_name": "Naga",
+  "description": "Thoughts and things on Front-end development and related topics, by Steve Barnett.",
+  "theme_color": "#700",
+  "background_color": "#700",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "icons": [
+    {
+      "src": "/img/logo.jpg",
+      "sizes": "50x50",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/img/logo-1276.png",
+      "sizes": "1276x1276",
+      "type": "image/png"
+    }
+  ]
+}
