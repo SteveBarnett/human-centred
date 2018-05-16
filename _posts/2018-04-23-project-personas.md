@@ -2,7 +2,6 @@
 title: Project Personas
 layout: post
 description: Short-lived, project-based, personas might be worth exploring.
-image: /img/2018/02/
 ---
 
 At the [UX Book Club](https://www.meetup.com/UX-Book-Club-CPT/) the other day, I misheard someone and wondered about making "Project Personas." Short-lived, project-based, personas that keep the attention of the team for the duration of the project.
