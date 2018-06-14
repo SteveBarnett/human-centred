@@ -24,7 +24,7 @@ h1, h2, h3, h4 {
   }
 }
 
-strong, p {
+strong, p, li {
   &:target {
     &:before {
         content: "→";
