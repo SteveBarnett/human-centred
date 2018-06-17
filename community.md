@@ -67,6 +67,7 @@ I like sharing what I learn, so I give talks at local meetups and conferences.
 #### 2018
 {: #speaking-2018 }
 
+* June - **Inclusive Design: more heart ❤, more humans** at [the Cape Town Dribbble Meetup](https://www.meetup.com/Cape-Town-Dribbble-Community/events/250981919/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-3?slide=1)
 * May - **Inclusive Design: more heart ❤, more humans** at [IxDA Cape Town](https://www.meetup.com/IxDA-Cape-Town/events/249698603/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-slightly-more-design-y-edition).
 * May - **Inclusive Design: more heart ❤, more humans** at [Cape Town Testing meetup](https://www.meetup.com/cape-town-testing-meetup/events/247813816/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-1).
 * May - **Inclusive Design: more heart ❤, more humans** at [The IO Powwow](https://www.meetup.com/IO-Powwow/events/249633653/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-1).
