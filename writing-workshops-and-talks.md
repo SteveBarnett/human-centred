@@ -92,6 +92,13 @@ Related: [big picture ideas](/writing-workshops-and-talks-big-picture/) (for wri
 
 Write a sentence starting with "I will..."
 
+#### For Now Now
+
+- How likely are you to do this? Give it a score out of 10. 1/10 = Nope. 10/10 = Very yes.
+    - No judgement! Be realistic.
+- Why isn't your score **lower**?
+- Is there something small you can do to make your score **higher**?
+
 #### For Later
 
 - **Small steps**<br>Focus on progress
