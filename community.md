@@ -28,6 +28,7 @@ I love helping people learn new things, or get better at things they already kno
 #### 2018
 {: #workshops-2018 }
 
+- June - **HTML pages and CSS layout** at [ColorCode](http://colorcode.org.za/). [Workshop deck](https://speakerdeck.com/stevebarnett/html-pages-and-css-lay-out).
 * May - **Global Accessibility Awareness Day workshop** at [CTFEDs](https://www.meetup.com/ctfeds/events/245587180/), with [Nicola du Toit](http://nicoladutoit.com/). Workshop: [activities](//bit.ly/emplab401); [resources](//bit.ly/emplab400); [slides](https://speakerdeck.com/stevebarnett/global-accessibility-awareness-day-workshop-deck).
 * April - **"Speak up!" workshop: the fine art of sharing and presenting** at [SUGSA](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/248915693/), with [Justin Slack](http://ctfeds.org/organisers/#justin-slack): [materials](https://ctfeds.github.io/Speaker-Workshop-2018/).
 
