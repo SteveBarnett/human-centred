@@ -55,7 +55,7 @@ h4 {
   text-transform: uppercase;
 }
 
-.entry-content {
+.entry-content p:not(:first-of-type) {
   hyphens: auto;
   hyphenate-limit-lines: 2;
   hyphenate-limit-chars: 6 3 2;
