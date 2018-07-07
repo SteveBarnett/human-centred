@@ -9,9 +9,9 @@ I like [hosting meetups](#meetups) (and attending them!), and usually have a [si
 
 <a href="https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg" alt="Me at a Global Accessiblity Awareness Day workshop for CTFEDs" width="400" height="282" class="pull-right pop-right half" srcset="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds-768x541.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
 
-I&#8217;m one of the organisers of the [Cape Town Front-end developers](http://ctfeds.org/) meetup group. We [host monthly events](http://www.meetup.com/ctfeds/) such as talks and workshops. We occasionally [tweet about things](https://twitter.com/ctfeds/). We started our regular meetups in March 2013.
+From October 2012 until July 2018, I was one of the organisers of the [Cape Town Front-end developers](http://ctfeds.org/) meetup group. The group [hosts monthly events](http://www.meetup.com/ctfeds/) such as talks and workshops. 
 
-With a lot of help from some friends, I started the [Cape Town chapter](https://railsbridgecapetown.org/) of [RailsBridge](http://railsbridge.org/): an organisation that offers free workshops on Rails, Ruby, and other web technologies for groups of people that are underrepresented in tech. We&#8217;ve been running quarterly workshops since July 2013.
+With a lot of help from some friends, I started the [Cape Town chapter](https://railsbridgecapetown.org/) of [RailsBridge](http://railsbridge.org/): an organisation that offers free workshops on Rails, Ruby, and other web technologies for groups of people that are underrepresented in tech. From April 2013 until March 2018, I helped organise and mentor at the quarterly workshops.
 
 ### Projects
 
