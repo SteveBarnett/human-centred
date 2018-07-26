@@ -21,16 +21,29 @@ I think that a great way to test the robustness and resilience of your site is t
 
 I&#8217;m a big believer in building things that are Future Friendly, so I made [a tiny site](http://futurefriendly.co.za/) to join the call to arms. You can read more about the technical details of what that means on my [How I Do Things](http://naga.co.za/how-i-do-things/) page.
 
+### Workshops and speaking
+
+I love helping people learn new things, or get better at things they already known. I like sharing what I learn, so I give talks at local meetups and conferences. Here are some workshops I&#8217;ve helped design and run, and some talks I've given, this year.
+
+- July - **Inclusive Design: more heart ❤, more humans** at [Make Games SA](https://www.facebook.com/events/1761102413958155/), with [Nicola du Toit](http://nicoladutoit.com/).
+- July - **Inclusive Design: more heart ❤, more humans** at [the UX Masterclass](https://www.meetup.com/UX-Masterclass-Cape-Town/events/252935557/), with [Nicola du Toit](http://nicoladutoit.com/).
+- June - **HTML pages and CSS layout workshop** at [ColorCode](http://colorcode.org.za/). [Workshop deck](https://speakerdeck.com/stevebarnett/html-pages-and-css-lay-out).
+- June - **Inclusive Design: more heart ❤, more humans** at [the Cape Town Dribbble Meetup](https://www.meetup.com/Cape-Town-Dribbble-Community/events/250981919/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-3?slide=1)
+- May - **Global Accessibility Awareness Day workshop** at [CTFEDs](https://www.meetup.com/ctfeds/events/245587180/), with [Nicola du Toit](http://nicoladutoit.com/). Workshop: [activities](//bit.ly/emplab401); [resources](//bit.ly/emplab400); [slides](https://speakerdeck.com/stevebarnett/global-accessibility-awareness-day-workshop-deck).
+- May - **Inclusive Design: more heart ❤, more humans** at [IxDA Cape Town](https://www.meetup.com/IxDA-Cape-Town/events/249698603/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-slightly-more-design-y-edition).
+- May - **Inclusive Design: more heart ❤, more humans** at [Cape Town Testing meetup](https://www.meetup.com/cape-town-testing-meetup/events/247813816/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-1).
+- May - **Inclusive Design: more heart ❤, more humans** at [The IO Powwow](https://www.meetup.com/IO-Powwow/events/249633653/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-1).
+- April - **"Speak up!" workshop: the fine art of sharing and presenting** at [SUGSA](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/248915693/), with [Justin Slack](http://ctfeds.org/organisers/#justin-slack): [materials](https://ctfeds.github.io/Speaker-Workshop-2018/).
+- March - **Inclusive Design: more heart ❤, more humans: lightning talk** at the [Scrum User Group South Africa](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/248695980/) with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-lightning-talk).
+- February - **Mistakes Were Made (By Me)** at the [Cape Town Creative Academy](http://ctca.co.za/); [my slides](https://speakerdeck.com/stevebarnett/mistakes-were-made-by-me).
+
+### Workshops and speaking
+
+I've been at this for a few years. Here are some workshops from the more distant past.
+
 ### Workshops
 
-I love helping people learn new things, or get better at things they already known. Here are some workshops that I&#8217;ve helped design and run.
-
-#### 2018
-{: #workshops-2018 }
-
-- June - **HTML pages and CSS layout** at [ColorCode](http://colorcode.org.za/). [Workshop deck](https://speakerdeck.com/stevebarnett/html-pages-and-css-lay-out).
-* May - **Global Accessibility Awareness Day workshop** at [CTFEDs](https://www.meetup.com/ctfeds/events/245587180/), with [Nicola du Toit](http://nicoladutoit.com/). Workshop: [activities](//bit.ly/emplab401); [resources](//bit.ly/emplab400); [slides](https://speakerdeck.com/stevebarnett/global-accessibility-awareness-day-workshop-deck).
-* April - **"Speak up!" workshop: the fine art of sharing and presenting** at [SUGSA](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/248915693/), with [Justin Slack](http://ctfeds.org/organisers/#justin-slack): [materials](https://ctfeds.github.io/Speaker-Workshop-2018/).
+{: #workshops-archive}
 
 #### 2017
 {: #workshops-2017 }
@@ -61,21 +74,9 @@ I love helping people learn new things, or get better at things they already kno
 * November - **Future Friendly UX Design** with [Justin Slack](https://justinslack.com/) at the [2015 UX South Africa conference in Cape Town](http://www.uxsouthafrica.com/conference/cape-town-2015): [materials](http://ctfeds.github.io/UXSouthAfrica2015Workshop/).
 * August - **Design is for Tomorrow** [workshop](http://www.meetup.com/ctfeds/events/223987693/) with [Justin Slack](https://justinslack.com/) for [Open Design Cape Town](http://opendesignct.com/) 2015.
 
+
 ### Speaking
-
-I like sharing what I learn, so I give talks at local meetups and conferences.
-
-#### 2018
-{: #speaking-2018 }
-
-* July - **Inclusive Design: more heart ❤, more humans** at [Make Games SA](https://www.facebook.com/events/1761102413958155/), with [Nicola du Toit](http://nicoladutoit.com/).
-* July - **Inclusive Design: more heart ❤, more humans** at [the UX Masterclass](https://www.meetup.com/UX-Masterclass-Cape-Town/events/252935557/), with [Nicola du Toit](http://nicoladutoit.com/).
-* June - **Inclusive Design: more heart ❤, more humans** at [the Cape Town Dribbble Meetup](https://www.meetup.com/Cape-Town-Dribbble-Community/events/250981919/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-3?slide=1)
-* May - **Inclusive Design: more heart ❤, more humans** at [IxDA Cape Town](https://www.meetup.com/IxDA-Cape-Town/events/249698603/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-slightly-more-design-y-edition).
-* May - **Inclusive Design: more heart ❤, more humans** at [Cape Town Testing meetup](https://www.meetup.com/cape-town-testing-meetup/events/247813816/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-1).
-* May - **Inclusive Design: more heart ❤, more humans** at [The IO Powwow](https://www.meetup.com/IO-Powwow/events/249633653/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-1).
-* March - **Inclusive Design: more heart ❤, more humans: lightning talk** at the [Scrum User Group South Africa](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/248695980/) with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-lightning-talk).
-* February - **Mistakes Were Made (By Me)** at the [Cape Town Creative Academy](http://ctca.co.za/); [my slides](https://speakerdeck.com/stevebarnett/mistakes-were-made-by-me).
+{: #speaking-archive}
 
 #### 2017
 {: #speaking-2017 }
