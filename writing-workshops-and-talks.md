@@ -29,6 +29,7 @@ Some notes on presenting ideas. Make it...
     - Frame changes as experiments (that are safe to fail).
     - Focus on effort and progress (not ability or setbacks)
     - → (Re)trial → Feedback → Reflection ↵
+    - Use Spaced Retrieval to make it stick
 - **Emotional**{: #emotional }
     - Use an emotional argument. Entertain and excite to overcome indifference, disinterest, apathy.
     - Use human-scale stats or vivid details. Show a big, emotional, display of the problem. Bring reality into the room.
@@ -43,12 +44,12 @@ Some notes on presenting ideas. Make it...
     - Have a strong closing.
 - **Flexible**{: #flexible }
     - Vary type and length of activities, senses used.
-    - Have a responsive curriculum (modular, chosen by learner)
+    - Have a responsive curriculum (modular, chosen by learner).
     - Recognise and accept diversity.
 - **Concrete**{: #concrete }
     - Have integrity: be the example.
-    - Use concrete examples to help focus. Use images. Look at good examples and analyse why they're good.
-    - Positive Injunctive > Negative Informational.
+    - Use concrete examples to help focus. Look at good examples and analyse why they're good.
+    - Use images to make it more memorable. Use metaphors to make connections.
 - **Questioning**{: #questioning }
     - Ask questions rather than give answers. Provide a curiosity gap.
     - Let people draw their own conclusions, discover the answers themselves.
@@ -61,15 +62,17 @@ Some notes on presenting ideas. Make it...
     - Show how to get started with small wins that stack up and lead to big ones.
     - Do the work. Tell learners to bring their stuff.
     - Provide a toolkit with clear, actionable, steps.
+    - Practice different techniques and choosing the best fit.
 - **Empathetic**{: #empathetic }
     - Understand why the change is difficult and frustrating. It takes time and needs supports.
     - Understand both sides. The pros and cons.
     - Make the change sufficiently alluring.
 - **Nudging**{: #nudging }
-  - Use anchoring
-  - Use loss aversion
-  - Use availability bias
-  - Use mere measurement effect (ask, for details)
+  - Use anchoring.
+  - Use loss aversion.
+  - Use availability bias.
+  - Use mere measurement effect (ask, for details).
+  - Positive Injunctive > Negative Informational.
 - **Entrenched**{: #entrenched }
   - Make it repeatable, regular, ritual.
   - Help them establish habits.
