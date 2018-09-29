@@ -8,3 +8,5 @@ title: Bio
 {% include community.md %}
 
 {% include elsewhere.md %} {% include shrug.md %}
+
+[Hi-res headshot](/img/me.jpg)
