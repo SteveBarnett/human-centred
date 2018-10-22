@@ -1,7 +1,7 @@
 ---
 title: "Usability testing facilitation do's and don'ts"
 layout: post
-description: "Some do's and don'ts for facilitating usability testing sessions"
+description: Some do's and don'ts for facilitating usability testing sessions
 ---
 
 One of my favourite parts of my job is running usability testing sessions. Here's are two little lists that I try and keep in mind for the main section: "[the chat](https://naga.co.za/2017/09/07/talking-to-people-thoughts-on-usability-testing/#the-chat)."
