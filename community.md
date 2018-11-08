@@ -23,8 +23,9 @@ I&#8217;m a big believer in building things that are Future Friendly, so I made 
 
 ### Workshops and speaking
 
-I love helping people learn new things, or get better at things they already known. I like sharing what I learn, so I give talks at local meetups and conferences. Here are some workshops I&#8217;ve helped design and run, and some talks I've given, this year.
+I love helping people learn new things, or get better at things they already known. I like sharing what I learn, so I give talks at local meetups and conferences. Here are some workshops I&#8217;ve helped design and run, and some talks I've given in 2018.
 
+- November - **More heart ❤ and more humans with Inclusive Design** at [Agile Testing Days](https://agiletestingdays.com/2018/session/more-heart-and-more-humans-with-inclusive-design/) in Potsdam, Germany, with [Nicola du Toit](http://nicoladutoit.com/).
 - July - **Inclusive Design: more heart ❤, more humans** at [Make Games SA](https://www.facebook.com/events/1761102413958155/), with [Nicola du Toit](http://nicoladutoit.com/).
 - July - **Inclusive Design: more heart ❤, more humans** at [the UX Masterclass](https://www.meetup.com/UX-Masterclass-Cape-Town/events/252935557/), with [Nicola du Toit](http://nicoladutoit.com/).
 - June - **HTML pages and CSS layout workshop** at [ColorCode](http://colorcode.org.za/). [Workshop deck](https://speakerdeck.com/stevebarnett/html-pages-and-css-lay-out).
