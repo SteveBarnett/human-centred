@@ -11,7 +11,7 @@ He's been building things for the web professionally since 2005 (and built thing
 
 {% include community.md %}
 
-### Out there on the web
+### Elsewhere
 
 {% include elsewhere.md %}
 
