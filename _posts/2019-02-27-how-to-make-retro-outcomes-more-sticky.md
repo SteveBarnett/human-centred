@@ -53,7 +53,7 @@ In a few recent workshops I've tried [this 5W1H format](/writing-workshops-and-t
 - **How** will you do it?
 - **Why** do *this*?
 
-Of course, once I switch to this, I felt like I now missing what WOOP have brought in! Ahem. I was poking around at some [cognitive behavioral therapy](https://en.wikipedia.org/wiki/Cognitive_behavioral_therapy) stuff at the time, and in there I found a technique I liked: refining a plan, with an eye to obstacles or what might go wrong. And it jived well with a [Growth mindest](https://mindsetonline.com/).
+Of course, once I switch to this, I felt like I now missing what WOOP have brought in! Ahem. I was poking around at some [cognitive behavioral therapy](https://en.wikipedia.org/wiki/Cognitive_behavioral_therapy) stuff at the time, and in there I found a technique I liked: refining a plan, with an eye to obstacles or what might go wrong. And it jived well with a [Growth mindset](https://mindsetonline.com/).
 
 ### Revise it
 
