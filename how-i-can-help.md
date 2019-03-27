@@ -19,9 +19,9 @@ I slot in with the existing process of the team I'm working with. I particularly
 
 ## FED stuff
 
-I work on the front-end of projects across various tech stacks, building templates and front-end Style Guides. I've worked with Rails, Django, .NET MVC, Ember, WordPress, and static site generators like Jekyll (which [powers this site](https://github.com/SteveBarnett/nagacoza/)). I've worked with front-end frameworks like Angular, React, and Vue. 
+I work on the front-end of projects across various tech stacks, building templates and front-end Style Guides. I work with Rails, Django, Node, .NET, Laravel, WordPress, and static site generators like Jekyll (which [powers this site](https://github.com/SteveBarnett/nagacoza/)). I use templating engines like ERB, Jinja, Handlebars, Razor, Blade, Liquid. I also work with front-end JavaScript frameworks like Angular (a fair bit), and React and Vue (a little). 
 
-I work best in the view layer of a framework. I can write and edit enough code to use APIs and make the most of the framework, but I tend not to touch models or controllers (even in the front-end frameworks). I focus on the HTML and CSS (and [UX stuff](#ux-stuff)), and add small amounts of JavaScript (sometimes ES6, usually sprinkled using Babel) where necessary.
+I work best in the view layer. I can write and edit enough code to use APIs and make the most of the framework, but I tend not to touch models or controllers (even in the front-end frameworks). I focus on the HTML and CSS (and [UX stuff](#ux-stuff)), and add small amounts of JavaScript (sometimes ES6, usually sprinkled using Babel) where necessary.
 
 I set up and use task runners like Gulp and Grunt, and use [pre-processors like Sass](/2015/03/20/getting-into-sass/) and Less to make CSS a bit friendlier to use.
 
