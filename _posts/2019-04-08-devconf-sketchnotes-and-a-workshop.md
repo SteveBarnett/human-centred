@@ -1,8 +1,8 @@
 ---
 title: "DevConf: sketchnotes and a workshop"
 layout: post
-description: "My sketchnotes and takeaway from DevConf, and a quick outline of a workshop I ran with a friend."
-image: /img/2019/04
+description: "My sketchnotes and takeaways from DevConf, and a quick outline of a workshop I ran with a friend."
+image: /img/2019/04/GYIM-handbook.jpg
 ---
 
 A few weeks ago [DevConf](https://www.devconf.co.za/) was in town. I was lucky enough to attend, and I ran a meta workshop where we [took people for a walk under the trees, played memory games, chatted, met people, and chilled](https://twitter.com/lor_krs/status/1114765844083556352). Here are my sketchnotes from the talks I went to, and a bit of info on the workshop.
