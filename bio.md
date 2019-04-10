@@ -5,7 +5,7 @@ title: Bio
 
 {% include steve-barnett-is.md %}
 
-{% include community.md %}
+{% include community.md person="he" %}
 
 {% include elsewhere.md %} {% include shrug.md %}
 
