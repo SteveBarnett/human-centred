@@ -11,9 +11,11 @@ Hi, I'm Steve Barnett.
 
 {% include more-uc.md %}
 
+{% include fedux-work.md %}
+
 <a href="https://naga.co.za/wp-content/uploads/2016/09/workshop-opening.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/workshop-opening-400x225.jpg" alt="workshop-opening" width="400" height="225" class="pull-left pop-left" /></a>
 
-{% include fedux-and-small-teams.md %}
+{% include small-teams.md %}
 
 ## What next?
 
