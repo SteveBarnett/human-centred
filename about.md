@@ -9,7 +9,7 @@ title: About
 
 He's worked as a front-end developer and UX person at [Unboxed Consulting](https://unboxed.co/), Flow (now part of Deloitte Digital), [Praekelt Foundation](http://praekelt.org/), and as a code mentor at [codeX](http://www.projectcodex.co/) helping people learn front-end and back-end development. Since October 2016, he's been consulting full-time and has worked with teams at dev shops, design studios, and more. Clients include [Code Collective](https://codecollective.com/), [SnapScan](http://www.snapscan.co.za/), [Fire and Lion](https://fireandlion.com), [Isoflow](http://isoflow.co.za/), [WorldAware](https://www.worldaware.com/), [MDA Property Systems](https://mdapropsys.com/), and [Vulcan Labs](http://www.vulcanlabs.com/).
 
-{% include community.md %}
+{% include community.md person="he" %}
 
 ### Elsewhere
 
