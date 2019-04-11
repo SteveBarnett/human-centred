@@ -11,6 +11,8 @@ He's worked as a front-end developer and UX person at [Unboxed Consulting](https
 
 {% include community.md person="he" %}
 
+{% include recent-work.md %}
+
 ### Elsewhere
 
 {% include elsewhere.md %}

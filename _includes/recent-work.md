@@ -1,30 +1,27 @@
 ### Recent work
 
-Here are a few of my favourite projects from the past few years.
+Here are a few of his favourite projects from the past few years.
 
-#### Code Collective
+#### [Code Collective](https://codecollective.com/)
 
-- Refactored front-end of legacy ASP.NET Web Forms application to make it responsive, improve UX and performance, and match updated designs.
-- Updated .NET / Knockout JS web app, refactored legacy CSS mixed with Bootstrap.
-- Planned and conducted usability testing with team. Made Personas, Journey Maps, UX
-checklist. Made wireframes for new features, then pair programmed to build them.
+- Improved clarity and performance of a legacy ASP.NET Web Forms application by refactoring HTML and CSS, making it responsive, and applying updated designs.
+- Made front-end more maintainable by doing a large scale refactor of legacy CSS mixed with Bootstrap. Designed new features in Balsamiq then pair programmed to build them.
 
-#### SnapScan
+#### [SnapScan](https://www.snapscan.co.za/)
 
-- Conducted UX review of customer sign-up process to increase conversion and speed. Worked with Ruby on Rails developers and UI designers to implement the changes.
-- Interviewed and ran usability tests with Operations staff. Improved speed, accuracy, and clarity of the team's in-app compliance workflow. Used Pull Requests for daily deploys.
+- Increased conversion and speed of customer sign-up process by conducting UX review and working with Ruby on Rails developers and UI designers to implement the changes.
+- Improved speed, accuracy, and clarity of the team's in-app compliance workflow by interviewing Operations staff and running usability tests. Pull Requests for code reviews.
 
-#### Isoflow
+#### [Isoflow](https://www.isoflow.co.za/)
 
-- Worked with UI and UX Designers to build front-end Style Guides from wireframes and designs. Found compromises between desirable and feasible.
-- Coached and coded with front-end development team to increase speed and consistency, and to develop standards.
+- Found compromises between desirable and feasible to speed up workflow and improve consistency of implementation by working with UI and UX Designers to build style guides. 
+- Increased speed of workflow, improved code quality, and developed team standards by coaching front-end development team. Introduced Pull Requests for code review.
 
-#### Electric book Works
+#### [Electric book Works](https://electricbookworks.com/)
 
-- Worked in Liquid-flavoured HTML (in Jekyll), Sass-flavoured CSS (including complex
-Paged Media styles), and Progressively-Enhanced vanilla JavaScript.
-- Made sketches and annotated wireframes in Balsamiq for GUI wrapper of text editing, version control, and build processes. Usability tested with the team’s content editors.
+- Produced a huge multiformat [economics textbook](https://core-econ.org/the-economy/) using Liquid-flavoured HTML (Jekyll), Sass (including complex Paged Media styles), and progressively-enhanced JavaScript.
+- Designed GUI wrapper of text editing, version control, and build processes using sketches and annotated wireframes in Balsamiq. Improved the flow with usability testing.
 
-#### Cape Town Creative Academy
+#### [Cape Town Creative Academy](http://ctca.co.za/)
 
 - Developed and taught the “Evaluating Design with User Testing” module of the BA in Interaction Design. Covered User Experience, Agile and business, and learning and neuroscience topics. Gathered regular student feedback to continuously improve.
