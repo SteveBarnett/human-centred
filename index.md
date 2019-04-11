@@ -3,19 +3,26 @@ layout: home
 title: Home
 ---
 
-Hi, I'm Steve Barnett.
-
 ![](/img/SteveBarnett.jpg){:.pull-right}
+
+Hi, I'm Steve Barnett.
 
 {% include fedux.md %}{: .lede }
 
+{% include fedux-work.md %}
+
 {% include more-uc.md %}
 
-{% include fedux-work.md %}
+
+## Who I work with
+
+{% include small-teams.md %}
+
+## How I work
 
 <a href="https://naga.co.za/wp-content/uploads/2016/09/workshop-opening.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/workshop-opening-400x225.jpg" alt="workshop-opening" width="400" height="225" class="pull-left pop-left" /></a>
 
-{% include small-teams.md %}
+{% include how-i-work.md %}
 
 ## What next?
 
