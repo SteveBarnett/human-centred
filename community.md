@@ -24,6 +24,7 @@ Here are some recent talks and workshops that I've done.
 #### 2019
 {: #workshops-and-talks-2019 }
 
+- May - **Global Accessibility Awareness Day (workshop)** at [CTFEDs](https://www.meetup.com/ctfeds/events/260880140/), with [Danielle Eriksen](http://ctfeds.org/organisers/#danielle-eriksen). [View the activities we used](//bit.ly/emplab601) (Google doc).
 - March - **Get Your Ideas Moving (workshop)** at [DevConf Cape Town](https://www.devconf.co.za/), with [Lorraine Steyn](https://twitter.com/lor_krs); [the handbook we made](https://docs.google.com/document/d/1vIgi0bzENoffStpPTjN8W9ym-zfG7J8lyZ6H3Wc7ciY/edit?usp=sharing) (This was a last minute bonus session, in addition to the published schedule).
 - February - **Usability testing with no time, no budget and no support (workshop)** at [Cape Town Scrum User Group - SUGSA](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/258494250/), with [Cara Winterbottom](https://www.linkedin.com/in/carawinterbottom/); [our resources doc](https://docs.google.com/document/d/19BULzliXEgDFKANtI0ov4KqXz5j279UmFL2V-FrIbZg/edit?usp=sharing).
 
