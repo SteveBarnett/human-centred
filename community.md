@@ -9,7 +9,7 @@ I like hosting and attending meetups, and usually have a side project or two on 
 
 ### Hosting meetups
 
-<a href="https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg" alt="Me at a Global Accessiblity Awareness Day workshop for CTFEDs" width="400" height="282" class="pull-right pop-right half" srcset="https://naga.co.za/wp-content/uploads/2016/09/ctfeds-400x282.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds-768x541.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/ctfeds.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+<a href="/wp-content/uploads/2016/09/ctfeds.jpg"><img src="/wp-content/uploads/2016/09/ctfeds-400x282.jpg" alt="Me at a Global Accessiblity Awareness Day workshop for CTFEDs" width="400" height="282" class="pull-right pop-right half" srcset="/wp-content/uploads/2016/09/ctfeds-400x282.jpg 400w, /wp-content/uploads/2016/09/ctfeds-768x541.jpg 768w, /wp-content/uploads/2016/09/ctfeds.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
 
 From October 2012 until July 2018, I was one of the organisers of the [Cape Town Front-end developers](http://ctfeds.org/) meetup group. The group [hosts monthly events](http://www.meetup.com/ctfeds/) such as talks and workshops. 
 
@@ -51,7 +51,7 @@ I've been doing speaking and workshops since October 2014. Have a look at my [co
 
 ### Projects
 
-<a href="https://naga.co.za/wp-content/uploads/2016/09/devicelab.jpg"><img src="https://naga.co.za/wp-content/uploads/2016/09/devicelab-400x225.jpg" alt="devicelab" width="400" height="225" class="pull-right pop-right half" srcset="https://naga.co.za/wp-content/uploads/2016/09/devicelab-400x225.jpg 400w, https://naga.co.za/wp-content/uploads/2016/09/devicelab-768x432.jpg 768w, https://naga.co.za/wp-content/uploads/2016/09/devicelab-1024x576.jpg 1024w, https://naga.co.za/wp-content/uploads/2016/09/devicelab.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+<a href="/wp-content/uploads/2016/09/devicelab.jpg"><img src="/wp-content/uploads/2016/09/devicelab-400x225.jpg" alt="devicelab" width="400" height="225" class="pull-right pop-right half" srcset="/wp-content/uploads/2016/09/devicelab-400x225.jpg 400w, /wp-content/uploads/2016/09/devicelab-768x432.jpg 768w, /wp-content/uploads/2016/09/devicelab-1024x576.jpg 1024w, /wp-content/uploads/2016/09/devicelab.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" loading="lazy" /></a>
 
 I think that a great way to test the robustness and resilience of your site is to play with it on lower-end mobile devices. I joined the [Open Device Lab](http://opendevicelab.com/) community by starting the [Nomad Device Lab](http://devicelab.co.za/) in September 2012. It&#8217;s a shared pool of internet-connected devices, and is free to use. Every few months someone will contact me through the site and I&#8217;ll go and sit with them, usually for a half a day. We test their projects across a range of devices, and discuss ways of improving the front-end performance and user experience. In November 2016, the lab was featured on Smashing Mag: [Where Are The World’s Best Open Device Labs?](https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/)
 
