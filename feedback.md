@@ -6,8 +6,8 @@ title: Feedback
 ### Giving feedback
 
 - **Timely**. Give feedback as close to the event as possible, but choose the right time: when the person is likely to be receptive.
-- **Behaviours**. Have specific examples of behaviours, not traits or emotions. It's possible to objectively observe behaviour. Mention the results of behaviours.
-- **Actionable** and future-focused. Outline specific places for improvement and highlight successful behaviours and techniques. We can change the future, but we can't change the past.
+- **Behaviours**. Have specific examples of behaviours, not traits or emotions. It's possible to objectively observe behaviour. Describe the impact of behaviours.
+- **Actionable** and future-focused (we can change the future, but we can't change the past). Make specific requests for behaviour changes, or ask questions about current behaviour. Highlight successful behaviours and techniques.
 - **Relevant**. Align the feedback with the goal / objective. What's the problem that's trying to be solved?
 
 ### Receiving feedback
