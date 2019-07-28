@@ -2,6 +2,11 @@
 
 Here are a few of his favourite projects from the past few years.
 
+#### [Prodigy Finance](https://prodigyfinance.com/)
+
+- Part of a team building out a dashboard and management app for student loans. Updating and adding new features to a React app, using Jest and Enzyme for testing, Redux and Saga for state.
+- Providing a UI and UX balance on a team that’s strong on front-end development.
+
 #### [Code Collective](https://codecollective.com/)
 
 - Improved clarity and performance of a legacy ASP.NET Web Forms application by refactoring HTML and CSS, making it responsive, and applying updated designs.
