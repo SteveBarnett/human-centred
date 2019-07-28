@@ -15,7 +15,7 @@ From October 2012 until July 2018, I was one of the organisers of the [Cape Town
 
 With a lot of help from some friends, I started the [Cape Town chapter](https://railsbridgecapetown.org/) of [RailsBridge](http://railsbridge.org/): an organisation that offers free workshops on Rails, Ruby, and other web technologies for groups of people that are underrepresented in tech. From April 2013 until March 2018, I helped organise and mentor at the quarterly workshops.
 
-Near the start of 2018 I realised I was overdoing things a bit and taking on too much. I decided to take a break from being in an organiser role, and focus more on giving talks and workshops.
+Near the start of 2018 I realised I was overdoing things a bit and taking on too much. I decided to take a break from being in an organiser role, and focus more on giving talks and workshops. That didn't stop me from doing some mentoring at [ColorCode](https://colorcode.org.za/) (a consistent, inclusive, community for learning to solve problems with code) every few weeks, though!
 
 ### Workshops and speaking
 
