@@ -62,6 +62,17 @@ Some notes on the big picture side of presenting ideas.
 - Motivate the Elephant
 - Shape the Path
 
+### Three realms of disagreement
+
+- What is true?
+- What is meaningful?
+- What is useful?
+
+Things to check:
+
+- Is everyone arguing in the same realm?
+- Is it actually about urgency, priority, grieving, solidarity?
+
 ---
 
 {% include _sources.md %}
