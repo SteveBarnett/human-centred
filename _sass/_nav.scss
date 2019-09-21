@@ -63,20 +63,28 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
 
-  h1, h2, h3, h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     margin-bottom: 0.5em;
   }
 
   a {
-    &:link, &:visited {
+
+    &:link,
+    &:visited {
       color: white;
     }
   }
 
   a {
-    &:hover, &:active {
+
+    &:hover,
+    &:active {
       color: darken(white, 30%);
     }
+
     &:focus {
       outline: solid 3px darken(white, 30%);
     }
@@ -86,6 +94,7 @@ footer {
     list-style: none;
     margin-left: 0;
     flex: 1 0 14em;
+
     ul {
       margin-top: 0.5em;
       margin-left: 1em;

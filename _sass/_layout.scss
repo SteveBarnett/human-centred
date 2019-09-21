@@ -21,18 +21,22 @@ footer {
   // Preferred measure: 22-38em
   padding-left: 1em;
   padding-right: 1em;
+
   @media (min-width: $bp-s) {
     padding-left: $margin-s;
     padding-right: $margin-s;
   }
+
   @media (min-width: $bp-m) {
     padding-left: $margin-m;
     padding-right: $margin-m;
   }
+
   @media (min-width: $bp-l) {
     padding-left: $margin-l;
     padding-right: $margin-l;
   }
+
   @media (min-width: $bp-xl) {
     padding-left: $margin-xl;
     padding-right: $margin-xl;
@@ -50,59 +54,66 @@ section {
 }
 
 .pull-left {
-    img {
-        margin: 0 auto;
-        display: block;
-    }
-    @media (min-width: $bp-m) {
-        float: left;
-        margin: 0 1em 1em 0;
-    }
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  @media (min-width: $bp-m) {
+    float: left;
+    margin: 0 1em 1em 0;
+  }
 }
 
 .pull-right {
-    img {
-        margin: 0 auto;
-        display: block;
-    }
-    @media (min-width: $bp-m) {
-        float: right;
-        margin: 0 0 1em 1em;
-    }
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  @media (min-width: $bp-m) {
+    float: right;
+    margin: 0 0 1em 1em;
+  }
 }
 
 .half {
-    max-width: 50%;
+  max-width: 50%;
 }
 
 .pop-left {
-    @media (min-width: $bp-m) {
-      margin-left: -$margin-m;
-    }
-    @media (min-width: $bp-l) {
-      margin-left: -$margin-l;
-    }
-    @media (min-width: $bp-xl) {
-      margin-left: -$margin-xl;
-    }
+  @media (min-width: $bp-m) {
+    margin-left: -$margin-m;
+  }
+
+  @media (min-width: $bp-l) {
+    margin-left: -$margin-l;
+  }
+
+  @media (min-width: $bp-xl) {
+    margin-left: -$margin-xl;
+  }
 }
 
 .pop-right {
-    @media (min-width: $bp-m) {
-      margin-right: -$margin-m;
-    }
-    @media (min-width: $bp-l) {
-      margin-right: -$margin-l;
-    }
-    @media (min-width: $bp-xl) {
-      margin-right: -$margin-xl;
-    }
+  @media (min-width: $bp-m) {
+    margin-right: -$margin-m;
+  }
+
+  @media (min-width: $bp-l) {
+    margin-right: -$margin-l;
+  }
+
+  @media (min-width: $bp-xl) {
+    margin-right: -$margin-xl;
+  }
 }
 
 .entry-slides {
   .pull-left {
     clear: left;
   }
+
   hr {
     border-color: transparent;
     clear: left;
