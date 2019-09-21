@@ -5,24 +5,44 @@ nav {
   align-items: center;
   justify-content: space-between;
   border-bottom: solid 3px $grey;
+
+  @media (prefers-color-scheme: dark) {
+    border-bottom: solid 3px $red;
+  }
+
   ul {
     margin: 0;
     list-style: none;
   }
+
   li {
     display: inline-block;
     margin-right: 1em;
   }
+
   [aria-current='page'] {
     a {
-        color: #222;
-        text-decoration: none;
-        &:hover, &:active {
-          color: lighten($red, 20%);
-          text-decoration: underline;
+      color: #222;
+
+      @media (prefers-color-scheme: dark) {
+        color: $white;
+      }
+
+      text-decoration: none;
+
+      &:hover,
+      &:active {
+        color: lighten($red, 20%);
+
+        @media (prefers-color-scheme: dark) {
+          color: darken($white, 20%);
         }
+
+        text-decoration: underline;
+      }
     }
   }
+
   h1 {
     margin-right: 0.25em;
   }
@@ -31,6 +51,12 @@ nav {
 footer {
   clear: both;
   background-color: $red;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $darkred;
+    border-top: 6px solid $red;
+  }
+
   color: white;
   padding-top: 1em;
   display: flex;

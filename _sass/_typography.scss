@@ -1,3 +1,10 @@
+html {
+  @media (prefers-color-scheme: dark) {
+    color: $white;
+    background-color: $darkred;
+  }
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.25;
@@ -193,6 +200,10 @@ a {
   &:link,
   &:visited {
     color: $red;
+
+    @media (prefers-color-scheme: dark) {
+      color: $white;
+    }
   }
 }
 
@@ -201,10 +212,18 @@ a {
   &:hover,
   &:active {
     color: lighten($red, 20%);
+
+    @media (prefers-color-scheme: dark) {
+      color: darken($white, 20%);
+    }
   }
 
   &:focus {
     outline: solid 3px $red;
+
+    @media (prefers-color-scheme: dark) {
+      outline: solid 3px $white;
+    }
   }
 }
 
