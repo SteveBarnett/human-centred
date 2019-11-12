@@ -77,6 +77,10 @@ section {
   }
 }
 
+.boxed {
+  border: 3px solid currentColor;
+}
+
 .half {
   max-width: 50%;
 }
