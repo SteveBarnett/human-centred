@@ -166,7 +166,7 @@ blockquote {
 
 .quoted {
   p {
-    quotes: '“''”''‘’''’';
+    quotes: "“" "”" "‘’" "’";
 
     &:before {
       content: open-quote;
@@ -180,7 +180,7 @@ blockquote {
 }
 
 .lede,
-.entry-content-post>p:first-of-type {
+.entry-content-post > p:first-of-type {
   font-size: 1.125em;
   line-height: 1.11111111;
 
@@ -196,7 +196,6 @@ blockquote {
 }
 
 a {
-
   &:link,
   &:visited {
     color: $red;
@@ -208,7 +207,6 @@ a {
 }
 
 a {
-
   &:hover,
   &:active {
     color: lighten($red, 20%);
@@ -283,4 +281,29 @@ sup {
     font-feature-settings: normal;
     font-variant-position: super;
   }
+}
+
+table {
+  margin-bottom: 1em;
+}
+
+caption {
+  margin-bottom: 1em;
+}
+
+tr {
+  border-top: 1px solid $grey;
+  &:first-of-type {
+    border-top: none;
+  }
+}
+
+td,
+th {
+  padding: 0.5em;
+  line-height: 1;
+}
+
+th {
+  text-align: left;
 }
