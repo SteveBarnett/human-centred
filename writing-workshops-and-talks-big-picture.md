@@ -59,8 +59,19 @@ Some notes on the big picture side of presenting ideas.
 ### Motivate change
 
 - Direct the Rider
+  - Follow the bright spots
+  - Have a destination postcard
+  - Script the critical steps
 - Motivate the Elephant
+  - Find the feeling
+  - Shrink the change
+  - Promote a growth mindset
 - Shape the Path
+  - Tweak the environment
+  - Rally the herd
+  - Make it a habit
+
+Careful of the Fundamental Attribution Error: maybe it's the situation and not the person.
 
 ### Three realms of disagreement
 
