@@ -10,3 +10,4 @@
 - [Mindset](https://mindsetonline.com/)
 - [The User Experience Team of One](https://rosenfeldmedia.com/books/the-user-experience-team-of-one/)
 - [Responsibility For Justice](https://www.goodreads.com/book/show/9593753-responsibility-for-justice)
+- [WebAIM’s Hierarchy for Motivating Accessibility Change](https://webaim.org/blog/motivating-accessibility-change/)
