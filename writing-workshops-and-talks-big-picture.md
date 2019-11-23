@@ -14,24 +14,24 @@ Some notes on the big picture side of presenting ideas.
 ### Four phases of learning
 
 - Preparation
-    - Interest. Positive feelings, optimal state for learning.
+  - Interest. Positive feelings, optimal state for learning.
 - Presentation
-    - Encounter. Interesting, enjoyable, relevant, multi-sensory.
+  - Encounter. Interesting, enjoyable, relevant, multi-sensory.
 - Practice
-    - Integration. Incorporate new knowledge.
+  - Integration. Incorporate new knowledge.
 - Performance
-    - Application. Apply and extend knowledge.
+  - Application. Apply and extend knowledge.
 
 ### Ingredients of Accelerated Learning
 
 - Somatic
-    - moving and doing
+  - moving and doing
 - Auditory
-    - talking and hearing
+  - talking and hearing
 - Visual
-    - observing and picturing
+  - observing and picturing
 - Intellectual
-    - problem-solving and reflecting
+  - problem-solving and reflecting
 
 ### Better > Worse
 
@@ -45,15 +45,15 @@ Some notes on the big picture side of presenting ideas.
 ### Training From The Back Of The Room
 
 - Connections
-    - to each other
-    - to the topic
-    - to learning goals and outcomes
+  - to each other
+  - to the topic
+  - to learning goals and outcomes
 - Concepts
-    - Teach only the need to know information
-    - Use graphic organisers
-    - Include 1 minute reviews
+  - Teach only the need to know information
+  - Use graphic organisers
+  - Include 1 minute reviews
 - Concrete Practice
-    - Mistakes are allowed (expected!)
+  - Mistakes are allowed (expected!)
 - Celebrations
 
 ### Motivate change
