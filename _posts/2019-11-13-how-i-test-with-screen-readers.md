@@ -7,6 +7,8 @@ image: /img/2019/11/VoiceOver.jpg
 
 Testing with a screen reader is an important part of accessibility work. It helps anyone who uses that particular assistive technology (such as blind people and people with other visual disabilities). It helps me check that my code is robust and semantic.
 
+Note: [an updated version of this post](/2019/11/29/testing-with-screen-readers/) is available.
+
 ### What I test
 
 The amount of time I have available for testing determines how in-depth I can test. It's only when I have plenty of time that I sit and use a screen reader to read through the whole content of the page in detail. My usual check list looks like this:
