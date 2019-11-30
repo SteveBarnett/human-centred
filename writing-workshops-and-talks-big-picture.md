@@ -5,13 +5,9 @@ title: Writing, Workshops, and Talks (big picture)
 
 Some notes on the big picture side of presenting ideas.
 
-### A, B, C
+### Teaching and learning
 
-- **Asking:** the statement or action you're asking for.
-- **Becausing:** the data and facts that explain why.
-- **Convincing:** the response to anticipated challenges.
-
-### Four phases of learning
+#### Four phases of learning
 
 - Preparation
   - Interest. Positive feelings, optimal state for learning.
@@ -22,7 +18,7 @@ Some notes on the big picture side of presenting ideas.
 - Performance
   - Application. Apply and extend knowledge.
 
-### Ingredients of Accelerated Learning
+#### Ingredients of Accelerated Learning
 
 - Somatic
   - moving and doing
@@ -33,7 +29,7 @@ Some notes on the big picture side of presenting ideas.
 - Intellectual
   - problem-solving and reflecting
 
-### Better > Worse
+#### Better > Worse
 
 - Movement > Sitting
 - Talking > Listening
@@ -42,7 +38,7 @@ Some notes on the big picture side of presenting ideas.
 - Shorter > Longer
 - Different > Same
 
-### Training From The Back Of The Room
+#### Training From The Back Of The Room
 
 - Connections
   - to each other
@@ -56,7 +52,15 @@ Some notes on the big picture side of presenting ideas.
   - Mistakes are allowed (expected!)
 - Celebrations
 
-### Motivate change
+### Change and motivation
+
+#### A, B, C
+
+- **Asking:** the statement or action you're asking for.
+- **Becausing:** the data and facts that explain why.
+- **Convincing:** the response to anticipated challenges.
+
+#### Motivate change
 
 - Direct the Rider
   - Follow the bright spots
@@ -73,7 +77,7 @@ Some notes on the big picture side of presenting ideas.
 
 Careful of the Fundamental Attribution Error: maybe it's the situation and not the person.
 
-### Three realms of disagreement
+#### Three realms of disagreement
 
 - What is true?
 - What is meaningful?
@@ -84,7 +88,22 @@ Things to check:
 - Is everyone arguing in the same realm?
 - Is it actually about urgency, priority, grieving, solidarity?
 
-### Heirarchy for motivating change
+#### Diagreement Template
+
+- Learn
+  - Facts and evidence
+  - (Multiple, diverse) Interpretations
+  - (Multiple) Values
+- Orient
+  - Shared values
+  - Proposal
+  - Discussion
+- Act
+  - Commit
+  - Check-in tripwire
+  - Measurement of success
+
+#### Heirarchy for motivating change
 
 - Intrinsic motivation (enlighten, inspire)
   - Feels like: the right thing to do; the smart thing to do; making a difference; helping people.
@@ -94,6 +113,17 @@ Things to check:
   - Can result in doing it just for the reward.
 - External control (guilt, punishment)
   - Sets a low bar. Can result in doing the minimum amount of work necessary and othering the beneficaries.
+
+#### Planning the change
+
+- Attractive
+  - Link a reward with a good action
+- Satisfying
+  - Use a habit tracker, visual record of progress
+- Easy
+  - Start with small, quick, wins
+- Obvious
+  - Use Implementation Intentions, tweak the environment
 
 ---
 
