@@ -41,7 +41,7 @@ Alternative methods:
 
 ### How I check for meaningful text context
 
-My preferred method: use a screen reader (in my case, VoiceOver for Mac OS) and cycle through the groups (of links, buttons, and images). (I've also writeen up how I do more thorough [testing with screen readers](https://naga.co.za/2019/11/13/how-i-test-with-screen-readers/)).
+My preferred method: use a screen reader (in my case, VoiceOver for Mac OS) and cycle through the groups (of links, buttons, and images). (I've also written up how I do more thorough [testing with screen readers](https://naga.co.za/2019/11/13/how-i-test-with-screen-readers/)).
 
 I like using a screen reader for this because it:
 
@@ -56,6 +56,13 @@ Alternative methods:
 - manually check each link, button, and image.
 
 ![The Paciello Group's ARC Toolkit Chrome extension in action, showing detailed accessiblity testing results.](/img/2019/11/thumbs/arc-toolkit-browser-extension.jpg)
+
+#### Adding extra text for Assistive Tech
+
+When it's not possible or desirable to change the visual representation of the text, there are still ways to improve links (like repeated "Read more"s).
+
+- Add an `aria-labelledby` attribute that points at a nearby useful thing, such as a heading.
+- Add extra text and wrap it in a `sr-only` class (like [H5BP's sr-only styles](https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css#L113:L150)) that visually hide the extra text.
 
 ### Summary
 
