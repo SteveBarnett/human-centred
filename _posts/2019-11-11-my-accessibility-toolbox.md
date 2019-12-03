@@ -71,6 +71,13 @@ Review the design through the lens of [HTML for IA](https://naga.co.za/html-for-
   - a name for every group of related controls;
   - headings for each block of content.
 
+### Check the colour palette visually
+
+Use different colours modes to see how robust the colour palette is.
+
+- Windows: Use High Contrast mode. Start button, Settings > Ease of Access > High contrast.
+- Mac OS: System Preferences > Accessibility > Display. Select Display > Invert Colours for high contrast. Select Colour Filters > Greyscale.
+
 ### Interactions and forms
 
 Check that interaction states are designed:
