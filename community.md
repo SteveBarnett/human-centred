@@ -37,7 +37,7 @@ Here are some recent talks and workshops that I've done.
 
 - **More heart ❤ and more humans with Inclusive Design** with [Nicola du Toit](http://nicoladutoit.com/)
   - November - Workshop at [Agile Testing Days](https://agiletestingdays.com/2018/session/more-heart-and-more-humans-with-inclusive-design/) in Potsdam, Germany.
-  - July - Talk at [Make Games SA](https://www.facebook.com/events/1761102413958155/). - July - Talk at [UX Masterclass](https://www.meetup.com/UX-Masterclass-Cape-Town/events/252935557/).
+  - July - Talk at [Make Games SA](https://www.facebook.com/events/1761102413958155/)- July - Talk at [UX Masterclass](https://www.meetup.com/UX-Masterclass-Cape-Town/events/252935557/).
   - June - Talk at [Cape Town Dribbble Meetup](https://www.meetup.com/Cape-Town-Dribbble-Community/events/250981919/), [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-3?slide=1)
   - May - Talk at [IxDA Cape Town](https://www.meetup.com/IxDA-Cape-Town/events/249698603/), [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-slightly-more-design-y-edition).
   - May - Talk at [Cape Town Testing meetup](https://www.meetup.com/cape-town-testing-meetup/events/247813816/), [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-1).
