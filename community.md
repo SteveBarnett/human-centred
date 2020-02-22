@@ -21,6 +21,10 @@ Near the start of 2018 I realised I was overdoing things a bit and taking on too
 
 Here are some recent talks and workshops that I've done.
 
+#### 2020
+
+- February - **The WebAIM Million and making our stuff more accessible** lightning talk at the [Wellington Open Source Show And Tell meetup](https://www.meetup.com/WOSSAT/events/267741635/); [my slides](https://speakerdeck.com/stevebarnett/the-webaim-million-and-making-our-stuff-more-accessible)
+
 #### 2019
 
 {: #workshops-and-talks-2019 }
