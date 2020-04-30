@@ -9,10 +9,8 @@
     </title>
 
     <link rel="stylesheet" id="theme-styles-css" href="/css/style.css?ver={{ site.css-version }}" type="text/css" media="all" />
-    {% if site.url contains "localhost" %}<link rel="stylesheet" href="/css/revenge.css" />
-    <link rel="stylesheet" href="/css/a11y-en_error.css" />
-    <link rel="stylesheet" href="/css/a11y-en_warning.css" />
-    <link rel="stylesheet" href="/css/wcag-1-4-12.css" />
+    {% if page.layout == "sounds-like" %}
+    <link rel="stylesheet" href="/css/highlight.css" />
     {% endif %}
     <link rel="canonical" href="https://naga.co.za{{ page.url }}" />
     <link rel="manifest" href="/manifest.json" />

@@ -307,3 +307,40 @@ th {
 th {
   text-align: left;
 }
+
+.code-sample {
+  margin-bottom: 1em;
+  [type="radio"] {
+    margin-left: 1em;
+  }
+}
+
+.highlight {
+  margin-right: 0;
+  margin-left: 0;
+  pre {
+    padding: 0.5em 0;
+  }
+}
+
+.sounds-like {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.label-fancy {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.5em 0.25em;
+  border: solid 1px #ccc;
+  border-radius: 0.25em;
+}
+
+:checked + .label-fancy {
+  background-color: #ccc;
+  border-color: #333;
+  font-weight: bold;
+}
+
+legend {
+  margin-bottom: 1em;
+}

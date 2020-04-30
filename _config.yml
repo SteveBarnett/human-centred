@@ -4,7 +4,7 @@ author: Steve Barnett
 email: steve@naga.co.za
 description: Thoughts and things on Front-end development and related topics, by Steve Barnett.
 twitter_username: maxbarners
-github_username:  SteveBarnett
+github_username: SteveBarnett
 image: /img/me.jpg
 
 permalink: pretty
@@ -19,4 +19,12 @@ exclude:
 sass:
   style: compressed
 
-css-version: 1.1.9
+collections:
+  sounds-like-inputs:
+    output: true
+  sounds-like-groups-radios:
+    output: true
+  sounds-like-groups:
+    output: true
+
+css-version: 1.2.0

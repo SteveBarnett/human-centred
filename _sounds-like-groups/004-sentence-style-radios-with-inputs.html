@@ -1,0 +1,35 @@
+---
+layout: sounds-like
+title: Radios with sentence style contents and form controls in them
+sounds-like: Recurring options group, Repeat frequency, radio button, not checked. [tab] Recurring options group, Number, 1, combo box.
+comment: The radios are choices in a group so (they share a name attribute and) we wrap them all in one fieldset. Since we're using a fieldset we add a legend, but visually hide it. The contents of each radio is too complex to be a label so we use aria-label instead. In this example we don't want to show labels for the selects, so we use aria-label there too (a visually hidden label would also work). Some non-relevant attributes in the code are omitted for brevity.
+---
+
+<fieldset>
+  <legend class="visuallyhidden">Recurring options</legend>
+
+  <input aria-label="Repeat frequency" type="radio" name="recurring-options" />
+
+  every
+
+  <select aria-label="Number">
+    <option>1</option>
+    <option>etc</option>
+  </select>
+
+  <select aria-label="Unit">
+    <option>day</option>
+    <option>etc</option>
+  </select>
+
+  <br />
+
+  <input aria-label="Repeat weekday" type="radio" name="recurring-options" />
+
+  on
+
+  <select aria-label="Weekday">
+    <option>Monday</option>
+    <option>etc</option>
+  </select>
+</fieldset>

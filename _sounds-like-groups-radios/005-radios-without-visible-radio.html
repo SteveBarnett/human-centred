@@ -1,0 +1,29 @@
+---
+layout: sounds-like
+title: Radios without a visible radio button
+sounds-like: Frequency grouping, Once-off, radio button, not checked, 1 of 2
+comment: This is great because the user knows the name of the group of controls and how many there are. We can visually hide the input and style the label for a different look and feel.
+---
+
+<fieldset>
+  <legend>Frequency</legend>
+
+  <input
+    class="visuallyhidden"
+    checked="checked"
+    type="radio"
+    id="once-off"
+    name="repetition"
+    value="Once-off"
+  />
+  <label class="label-fancy" for="once-off">Once-off</label>
+
+  <input
+    class="visuallyhidden"
+    type="radio"
+    id="repeating"
+    name="repetition"
+    value="repeating"
+  />
+  <label class="label-fancy" for="repeating">Repeating</label>
+</fieldset>

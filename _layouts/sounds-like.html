@@ -1,0 +1,31 @@
+{% include header.html %}
+
+<main id="content">
+  <article class="hentry">
+    <header>
+      <h2 class="entry-title entry-title-page">
+        {{ page.title }}
+      </h2>
+    </header>
+
+    <div class="entry-content">
+      <h3>What it sounds like (on focus of the first field)</h3>
+      <div class="sounds-like">{{ page.sounds-like | markdownify }}</div>
+
+      {{ page.comment | markdownify }}
+
+      <h3>What it looks like</h3>
+      <div class="code-sample">
+        {{ content | remove: '
+        <p>' | remove: '</p>
+        ' }}
+      </div>
+
+      {% highlight html %}{{ content | remove: '
+      <p>' | remove: '</p>
+      ' }}{% endhighlight %}
+    </div>
+  </article>
+</main>
+
+{% include footer.html %}

@@ -1,0 +1,34 @@
+---
+layout: sounds-like
+title: Four part date control without visible names
+sounds-like: Event date group, Day, 1, combo box
+comment: Every form control needs a name (visible or not), and every group of controls needs a name (visible or not). We can visually hide the legend and add aria-label attributes to
+---
+
+<fieldset>
+  <legend class="visuallyhidden">Event date</legend>
+
+  <select aria-label="Day" id="event-date-day" name="event-date-day">
+    <option>1</option>
+    <option>etc</option>
+  </select>
+
+  <select aria-label="Month" id="event-date-month" name="event-date-month">
+    <option>January</option>
+    <option>etc</option>
+  </select>
+
+  <select aria-label="Year" id="event-date-year" name="event-date-year">
+    <option>2020</option>
+    <option>etc</option>
+  </select>
+
+  <select
+    aria-label="Timezone"
+    id="event-date-timezone"
+    name="event-date-timezone"
+  >
+    <option value="12.0">(GMT +12:00) Wellington</option>
+    <option>etc</option>
+  </select>
+</fieldset>
