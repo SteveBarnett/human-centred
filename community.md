@@ -33,25 +33,6 @@ Here are some recent talks and workshops that I've done.
 - March - **Get Your Ideas Moving (workshop)** at [DevConf Cape Town](https://www.devconf.co.za/), with [Lorraine Steyn](https://twitter.com/lor_krs); [the handbook we made](https://docs.google.com/document/d/1vIgi0bzENoffStpPTjN8W9ym-zfG7J8lyZ6H3Wc7ciY/edit?usp=sharing) (This was a last minute bonus session, in addition to the published schedule).
 - February - **Usability testing with no time, no budget and no support (workshop)** at [Cape Town Scrum User Group - SUGSA](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/258494250/), with [Cara Winterbottom](https://www.linkedin.com/in/carawinterbottom/); [our resources doc](https://docs.google.com/document/d/19BULzliXEgDFKANtI0ov4KqXz5j279UmFL2V-FrIbZg/edit?usp=sharing).
 
-#### 2018
-
-{: #workshops-and-talks-2018 }
-
-2018 was a busy year! In particular, [Nicola du Toit](http://nicoladutoit.com/) and I went on the road lots of Inclusive Design talks and workshop.
-
-- **More heart ❤ and more humans with Inclusive Design** with [Nicola du Toit](http://nicoladutoit.com/)
-  - November - Workshop at [Agile Testing Days](https://agiletestingdays.com/2018/session/more-heart-and-more-humans-with-inclusive-design/) in Potsdam, Germany.
-  - July - Talk at [Make Games SA](https://www.facebook.com/events/1761102413958155/)- July - Talk at [UX Masterclass](https://www.meetup.com/UX-Masterclass-Cape-Town/events/252935557/).
-  - June - Talk at [Cape Town Dribbble Meetup](https://www.meetup.com/Cape-Town-Dribbble-Community/events/250981919/), [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-3?slide=1)
-  - May - Talk at [IxDA Cape Town](https://www.meetup.com/IxDA-Cape-Town/events/249698603/), [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-slightly-more-design-y-edition).
-  - May - Talk at [Cape Town Testing meetup](https://www.meetup.com/cape-town-testing-meetup/events/247813816/), [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-1).
-  - May - Talk at [The IO Powwow](https://www.meetup.com/IO-Powwow/events/249633653/), [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-1).
-  - March - Lightning talk at the [Scrum User Group South Africa](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/248695980/), [our slides](https://speakerdeck.com/stevebarnett/inclusive-design-more-heart-more-humans-lightning-talk).
-- June - **HTML pages and CSS layout (workshop)** at [ColorCode](http://colorcode.org.za/). [Workshop deck](https://speakerdeck.com/stevebarnett/html-pages-and-css-lay-out).
-- May - **Global Accessibility Awareness Day (workshop)** at [CTFEDs](https://www.meetup.com/ctfeds/events/245587180/), with [Nicola du Toit](http://nicoladutoit.com/). Workshop: [activities](//bit.ly/emplab401); [resources](//bit.ly/emplab400); [slides](https://speakerdeck.com/stevebarnett/global-accessibility-awareness-day-workshop-deck).
-- April - **"Speak up!": the fine art of sharing and presenting (workshop)** at [SUGSA](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/248915693/), with [Justin Slack](http://ctfeds.org/organisers/#justin-slack): [materials](https://ctfeds.github.io/Speaker-Workshop-2018/).
-- February - **Mistakes Were Made (By Me)** at the [Cape Town Creative Academy](http://ctca.co.za/); [my slides](https://speakerdeck.com/stevebarnett/mistakes-were-made-by-me).
-
 I've been doing speaking and workshops since October 2014. Have a look at my [community archive](/community-archive/) for the full list.
 
 ### Projects
