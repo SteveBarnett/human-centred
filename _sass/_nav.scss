@@ -4,11 +4,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: solid 3px $grey;
-
-  @media (prefers-color-scheme: dark) {
-    border-bottom: solid 3px $red;
-  }
+  border-bottom: solid 2px $red;
 
   ul {
     margin: 0;
