@@ -3,11 +3,12 @@ layout: page
 title: Sounds like
 ---
 
-Some HTML bits and what they sound like to a screen reader. Two big things to remember are:
+Some HTML bits and what they sound like to a screen reader. Some big things to remember are:
 
 - every form control needs a name (visible or not);
 - every group of controls needs a name (visible or not);
-- generally prefer (correctly marked-up) visible names as they work for all users.
+- generally prefer (correctly marked-up) visible names as they work for all users;
+- when we don't use the right HTML, things can be invisible or opaque to screen reader users.
 
 Here are a bunch of tiny samples:
 
