@@ -46,3 +46,15 @@ Here are a bunch of tiny samples:
     </li>
     {% endfor %}
 </ol>
+
+### Inputs and errors
+
+<ol>
+    {% for sounds-like-error in site.sounds-like-errors %}
+    <li>
+        {% if sounds-like-error.best %}<span aria-hidden="true">✔️</span>{% endif %}
+        {% if sounds-like-error.bad %}<span aria-hidden="true">🚫</span>{% endif %}
+            <a href="{{ sounds-like-error.url }}">{% if sounds-like-error.best %}<strong>{% endif %}{{ sounds-like-error.title }}{% if sounds-like-error.best %}</strong>{% endif %}</a> sounds like <code>{{ sounds-like-error.sounds-like }}</code> {% if sounds-like-error.best %} (best choice){% endif %}
+    </li>
+    {% endfor %}
+</ol>

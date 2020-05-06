@@ -26,5 +26,7 @@ collections:
     output: true
   sounds-like-groups:
     output: true
+  sounds-like-errors:
+    output: true
 
-css-version: 1.2.1
+css-version: 1.2.2

@@ -330,8 +330,21 @@ th {
   }
 }
 
+.sounds-like-header {
+  font-size: 1em;
+}
+
 .sounds-like {
   font-family: "Courier New", Courier, monospace;
+  background-color: #333;
+  color: #fff;
+  border-radius: 0.25em;
+  padding: 0.5em 1em;
+  p {
+    margin-bottom: 0;
+  }
+  margin-bottom: 1em;
+  outline: solid 1px #fff;
 }
 
 .label-fancy {
@@ -350,4 +363,21 @@ th {
 
 legend {
   margin-bottom: 1em;
+}
+
+input:invalid,
+input.has-error {
+  border: solid 3px #c00;
+  border-radius: 0.15em;
+}
+
+input:focus {
+  outline: solid 3px #fb5;
+}
+
+.error-message {
+  margin-top: 0.5em;
+  padding: 0.15em;
+  border: solid 3px #c00;
+  background-color: #ffdada;
 }

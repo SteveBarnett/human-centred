@@ -1,0 +1,11 @@
+---
+layout: sounds-like
+title: Input with aria-required, error-state error message not linked
+sounds-like: Username, edit text, required.
+comment: The error message doesn't have any attributes linking it to the field, so the error message isn't communicated to the user.
+bad: true
+---
+
+<label for="sle-3">Username</label>
+<input id="sle-3" aria-required="true" class="has-error" />
+<p class="error-message">Please enter a value.</p>

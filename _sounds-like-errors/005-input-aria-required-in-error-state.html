@@ -1,0 +1,11 @@
+---
+layout: sounds-like
+title: Input with aria-required, aria-invalid, and aria-describedby error message
+sounds-like: Username, edit text, required, invalid entry. Please enter a value.
+comment: "The aria-describedby message is read after a short pause. It be can before or after the input in the DOM."
+best: true
+---
+
+<label for="sle-5">Username</label>
+<input id="sle-5" aria-invalid="true" aria-required="true" aria-describedby="sle-5-2" class="has-error" />
+<p id="sle-5-2" class="error-message">Please enter a value.</p>

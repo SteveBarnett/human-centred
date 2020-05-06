@@ -1,0 +1,11 @@
+---
+layout: sounds-like
+title: Input with aria-required and aria-describedby error message, initial state
+sounds-like: Username, edit text, required.
+comment: "Before validation occurs, the linked error message should be set to display: none, or be empty."
+best: true
+---
+
+<label for="sle-4">Username</label>
+<input id="sle-4" aria-required="true" aria-describedby="sle-4" />
+<p id="sle-4" class="visuallyhidden">Please enter a value.</p>

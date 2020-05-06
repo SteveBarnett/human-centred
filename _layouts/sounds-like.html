@@ -9,7 +9,7 @@
     </header>
 
     <div class="entry-content">
-      <h3>What it sounds like (on focus of the first field)</h3>
+      <h3 class="sounds-like-header">What it sounds like</h3>
       <div class="sounds-like">{{ page.sounds-like | markdownify }}</div>
 
       {{ page.comment | markdownify }}
@@ -21,9 +21,7 @@
         ' }}
       </div>
 
-      {% highlight html %}{{ content | remove: '
-      <p>' | remove: '</p>
-      ' }}{% endhighlight %}
+      {% highlight html %}{{ content }}{% endhighlight %}
     </div>
   </article>
 </main>
