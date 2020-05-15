@@ -7,14 +7,6 @@ img {
   border-radius: 0.2em;
 }
 
-html {
-  border-top: solid 6px $red;
-
-  @media (prefers-color-scheme: dark) {
-    border-top: solid 6px $white;
-  }
-}
-
 main,
 nav {
   // Preferred measure: 22-38em

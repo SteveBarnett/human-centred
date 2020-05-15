@@ -22,6 +22,7 @@ body {
   h3,
   h4 {
     font-family: pt-serif, serif;
+    font-weight: 700;
   }
 }
 
@@ -112,19 +113,19 @@ h6 {
   }
 }
 
-h1 {
-  font-size: 2em;
+// h1 {
+//   font-size: 2em;
 
-  @media (min-width: 43.75em) {
-    font-size: 2.5em;
-    line-height: 1.125;
-  }
+//   @media (min-width: 43.75em) {
+//     font-size: 2.5em;
+//     line-height: 1.125;
+//   }
 
-  @media (min-width: 56.25em) {
-    font-size: 3em;
-    line-height: 1.05;
-  }
-}
+//   @media (min-width: 56.25em) {
+//     font-size: 3em;
+//     line-height: 1.05;
+//   }
+// }
 
 h2 {
   font-size: 1.625em;
