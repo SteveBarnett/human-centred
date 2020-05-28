@@ -28,5 +28,7 @@ collections:
     output: true
   sounds-like-errors:
     output: true
+  sounds-like-describedbys:
+    output: true
 
 css-version: 1.2.2

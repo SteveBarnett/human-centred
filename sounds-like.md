@@ -59,3 +59,15 @@ Here are a bunch of tiny samples:
     </li>
     {% endfor %}
 </ol>
+
+### Described By
+
+<ol>
+    {% for sounds-like-describedby in site.sounds-like-describedbys %}
+    <li>
+        {% if sounds-like-describedby.best %}<span aria-hidden="true">✔️</span>{% endif %}
+        {% if sounds-like-describedby.bad %}<span aria-hidden="true">🚫</span>{% endif %}
+            <a href="{{ sounds-like-describedby.url }}">{% if sounds-like-describedby.best %}<strong>{% endif %}{{ sounds-like-describedby.title }}{% if sounds-like-describedby.best %}</strong>{% endif %}</a> sounds like <code>{{ sounds-like-describedby.sounds-like }}</code> {% if sounds-like-describedby.best %} (best choice){% endif %}
+    </li>
+    {% endfor %}
+</ol>
