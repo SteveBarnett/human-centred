@@ -1,33 +1,24 @@
 ---
-title: Accessible Design 🌈
+title: Accessible Design
 layout: post
 description: 3 lenses to consider and 3 things to note for designing more accessibly
 image: /img/2020/06/favourite-colour-example-annotated.jpg
 ---
 
-Here are some things we can think about when trying to design more accessible interfaces.
+Here are some things I try to think about when trying to design more accessible interfaces.
 
 I like to frame the thinking as "What level of difficulty do we want our product to be for our users?" With a bit of extra thinking, we can make it easier. And in some cases take it from can't use to can use.
-
-### 3 lens and 3 things
-
-There's a lot to think about when designing accessibly. I like to find little lists and shortcuts that can help me remember things to think about.
-
-When making or review a design, I like to look at it through three lens: Cognitive, Physical, Visual.
-
-When I'm designing forms specifically, I try note these three things: every form control needs a name; every group of controls needs a name; standard controls are much better for accessibility.
 
 ### Most important takeaway for designing more accessibly
 
 **Every interactive thing needs a name**.
 
-What's a "thing"? Inputs, button, links.
-If it has no name, it's invisible / opaque. Users either won't understand it or won't even see it!
-In forms mode, a screen reader sees only the thing (not the surrounding text).
+What's a "thing"? Anything interactive: inputs, buttons, links.
+If it has no name, it can be invisible or opaque. Users either won't understand it or won't see it!.
 
 ### 3 lenses to consider
 
-Here are three examples of lenses to consider when designing User Interfaces.
+Here are three possible lenses to consider when designing User Interfaces.
 
 #### Cognitive lens
 
@@ -48,7 +39,7 @@ Interactions like drag and drop will take longer. Moving through the page is mor
 Example: a (blind) screen reader user. Not all screen reader users are blind, but for this thought experiment, let's consider a blind user. They get a text-only version of the interface.
 
 What might make things more difficult for this kind of user?
-They can't see layout. They can't see icons. What will they hear?
+They can't see layout, so it's as though the content is one one column. They can't see icons, so we need to provide text that conveys the same information or meaning.
 
 ### 3 things to note
 
