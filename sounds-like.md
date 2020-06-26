@@ -71,3 +71,15 @@ Here are a bunch of tiny samples:
     </li>
     {% endfor %}
 </ol>
+
+### Accessible names
+
+<ol>
+    {% for sounds-like-accessible-name in site.sounds-like-accessible-names %}
+    <li>
+        {% if sounds-like-accessible-name.best %}<span aria-hidden="true">✔️</span>{% endif %}
+        {% if sounds-like-accessible-name.bad %}<span aria-hidden="true">🚫</span>{% endif %}
+            <a href="{{ sounds-like-accessible-name.url }}">{% if sounds-like-accessible-name.best %}<strong>{% endif %}{{ sounds-like-accessible-name.title }}{% if sounds-like-accessible-name.best %}</strong>{% endif %}</a> sounds like <code>{{ sounds-like-accessible-name.sounds-like }}</code> {% if sounds-like-accessible-name.best %} (best choice){% endif %}
+    </li>
+    {% endfor %}
+</ol>

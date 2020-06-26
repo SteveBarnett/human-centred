@@ -1,0 +1,12 @@
+---
+layout: sounds-like
+title: Button with just an icon in it, aria-labelledby
+sounds-like: Add a question, Button
+comment: If there's visible text, we prefer to use that for accessible names. Note how aria-labelledby overrides both the aria-label and the text of the button. It's better to have the text in the button.
+---
+
+<p id="button-text">Add a question</p>
+
+<button type="button" aria-label="Add" aria-labelledby="button-text">
+  +
+</button>

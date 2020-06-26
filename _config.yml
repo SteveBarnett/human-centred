@@ -30,5 +30,7 @@ collections:
     output: true
   sounds-like-describedbys:
     output: true
+  sounds-like-accessible-names:
+    output: true
 
 css-version: 1.2.2
