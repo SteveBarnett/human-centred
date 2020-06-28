@@ -3,6 +3,8 @@ layout: page
 title: Community - Archive
 ---
 
+Reaad about more recent workshops and talks on [my community page](/community/#workshops-and-speaking).
+
 #### 2018
 
 {: #workshops-and-talks-2018 }
