@@ -11,10 +11,10 @@ When we talk about usability, we talk about making our work understandable, clea
 
 When we talk about usability, what we usually mean making it usable for a particular slice of our users. The ones that sit in the middle of a bell curve.
 
-![A bell curve showing the middle section filled in](/img/2020/09/usability.jpg)
+![A bell curve showing the middle section filled in](/img/2020/09/thumbs/usability.jpg)
 
 For me, accessibility means extending our definition of usable to include a wider audience. How do we make our work usable for more of our users?
 
-![A bell curve showing the middle section, and two extra bits on either side, filled in](/img/2020/09/accessibility.jpg)
+![A bell curve showing the middle section, and two extra bits on either side, filled in](/img/2020/09/thumbs/accessibility.jpg)
 
 We can never make it usable for every single human on the planet. But we can aim for that and make our work more usable, and more accessible, for more of users.
