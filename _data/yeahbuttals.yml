@@ -1,0 +1,32 @@
+- yeahbut: people with disabilities are not our target market.
+  rebuttals: Disability is a spectrum, not a binary. A disability can be permanent, temporary, or contextual.
+- yeahbut: it's too difficult to do.
+  rebuttals:
+    - It gets easier with practice, like most new things.
+    - Part of our job is continuous learning and improvement. For example, we've learned responsive web design.
+    - Plain old semantic HTML gives you lots of a11y for free.
+- yeahbut: we don't have time to do it.
+  rebuttals:
+    - "Do small bits at first: five minute piggybacks on top of other things."
+    - Make a choice to replace one small bit of existing work with an a11y tasks, as an experiment.
+    - It's not doing more work, it's doing the same work differently.
+- yeahbut: we don't have support to do it.
+  rebuttals:
+    - Get buy-in with a small, high-value, example.
+    - Set up a tiny test for people to do, so they can see the problem, feel it.
+    - Talk about how it gives us more, happier, customers, and what metrics that increases.
+- yeahbut: it's boring.
+  rebuttals:
+    - It's an exciting challenge, working within stronger constraints. It requires more creativity to find good solutions.
+    - It's being a superhero to our users. In the best case scenario, we take something from can’t use to can use. In the worst case, we make it easier to use for everyone.
+- yeahbut: it's not important.
+  rebuttals:
+    - Tim Berners-Lee, W3C Director and inventor of the World Wide Web, said "[The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.](https://www.w3.org/WAI/fundamentals/accessibility-intro/#context)" That sounds important!
+    - It's part of professional, high quality, work. Work we can be really proud of.
+    - The [W3C's Priority of Constituencies](https://www.w3.org/TR/html-design-principles/#priority-of-constituencies) says "In case of conflict, consider users over authors over implementors over specifiers over theoretical purity". Our users are more important than our our own.
+- yeahbut: it's limiting
+  rebuttals: "The accessible version of something doesn't have to be the only version. We need to provide keyboard support, but that doesn't mean only keyboard support: of course we should support mouse (and touch) too!"
+- yeahbut: "it's only realistic / practical / possible on small projects."
+  rebuttals:
+    - "Yes, remediation on large projects is difficult and costly. The way to approach this is to [shift left](https://www.deque.com/shift-left/) and address problems earlier, when they're cheaper to fix."
+    - '"It doesn&#39;t have to be perfect. Just a little bit better than yesterday." - [Leonie Watson](https://tink.uk/)'
