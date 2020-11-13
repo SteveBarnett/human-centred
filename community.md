@@ -23,7 +23,8 @@ Here are some recent talks and workshops that I've done.
 
 #### 2020
 
-- February - **The WebAIM Million and making our stuff more accessible** lightning talk at the [Wellington Open Source Show And Tell meetup](https://www.meetup.com/WOSSAT/events/267741635/); [my slides](https://speakerdeck.com/stevebarnett/the-webaim-million-and-making-our-stuff-more-accessible)
+- November - **Love in the Time of Coronavirus: what the pandemic can teach us about creating a more caring, inclusive, and equitable world** talk at [UX South Africa](https://uxsouthafrica.com/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/love-in-the-time-of-coronavirus-what-the-pandemic-can-teach-us-about-creating-a-more-caring-inclusive-and-equitable-world), [the talk on YouTube](https://www.youtube.com/watch?v=PaAupzvrnI8).
+- February - **The WebAIM Million and making our stuff more accessible** lightning talk at the [Wellington Open Source Show And Tell meetup](https://www.meetup.com/WOSSAT/events/267741635/); [my slides](https://speakerdeck.com/stevebarnett/the-webaim-million-and-making-our-stuff-more-accessible).
 
 #### 2019
 
