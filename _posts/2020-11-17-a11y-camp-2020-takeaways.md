@@ -13,13 +13,13 @@ I managed to catch a few of the talks at this year’s [A11y Camp](https://a11yc
 - Have a monthly a11y hour (to share some knowledge)
 - Benchmark everything (so you can see improvement)
 
-## [Ross Mullen: Not another checklist! – A testing methodology which explains the what and how of manual accessibility testing](https://a11ycamp.org.au/program/presentations/not-another-checklist-a-testing-methodology-which-explains-the-what-and-how-of-manual-accessibility-testing/)
+### [Ross Mullen: Not another checklist! – A testing methodology which explains the what and how of manual accessibility testing](https://a11ycamp.org.au/program/presentations/not-another-checklist-a-testing-methodology-which-explains-the-what-and-how-of-manual-accessibility-testing/)
 
 - **Distill WCAG into something easier to test**
 - Test should have a clear pass / fail / not applicable result
 - If your organisations a11y maturity is low, start with just a few tests to set a baseline
 
-## [Stewart Hay: How to create a kick ass business case for accessibility](https://a11ycamp.org.au/program/presentations/how-to-create-a-kick-ass-business-case-for-accessibility/)
+### [Stewart Hay: How to create a kick ass business case for accessibility](https://a11ycamp.org.au/program/presentations/how-to-create-a-kick-ass-business-case-for-accessibility/)
 
 - **The more hooks you have for accessibility, the better (more convincing)**
 - Remember that a business case is a decision-making tool (demonstrate a clear business benefit)
