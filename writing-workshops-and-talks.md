@@ -81,6 +81,11 @@ Some notes on presenting ideas. Make it...
   - Understand that complex, systemic, changes are needed for the big problems. They tend to be from multiple, large scale, long-term, structural causes (rather than individual bad actors).
   - Focus outward, on future actions (rather than (only) inwards, on past blame and guilt)
   - Promote helpful co-operation (rather getting squirming defensiveness from blaming)
+- **Accessible**{: #accessible }
+  - Share (shortened) links early, or in advance
+  - Mind your language: sexism, ableism, swearing, weird references
+  - Speak the alt text of content images
+  - Distribute accessible slides, maybe a transcript or article
 
 Related: [big picture ideas](/writing-workshops-and-talks-big-picture/) (for writing, workshops, and talks).
 
