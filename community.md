@@ -23,6 +23,11 @@ Near the start of 2018 I realised I was overdoing things a bit and taking on too
 
 Here are some recent talks and workshops that I've done.
 
+#### 2021
+
+- May - **Oh my GAAD! (The wide world of accessibility)** talk at the [Wellington Open Source Show And Tell meetup](https://www.meetup.com/WOSSAT/events/278074181/); [my slides](https://speakerdeck.com/stevebarnett/oh-my-gaad-the-wide-world-of-accessibility).
+- May - **From myth-busting to "but/and"-ing: Persuading people to do accessibility work** talk at [A11y Bytes 2021](https://a11ybytes.org/bytes-2021/); [my slides](https://speakerdeck.com/stevebarnett/and-ing-persuading-people-to-do-accessibility-work); [video on YouTube](https://www.youtube.com/watch?v=lioeqgOopa0).
+
 #### 2020
 
 - November - **Love in the Time of Coronavirus: what the pandemic can teach us about creating a more caring, inclusive, and equitable world** talk at [UX South Africa](https://uxsouthafrica.com/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/love-in-the-time-of-coronavirus-what-the-pandemic-can-teach-us-about-creating-a-more-caring-inclusive-and-equitable-world), [the talk on YouTube](https://www.youtube.com/watch?v=PaAupzvrnI8).
