@@ -119,3 +119,14 @@ section {
     clear: left;
   }
 }
+
+.linked-thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    margin: 0 0.5em 0.5em 0;
+  }
+  img {
+    border: 3px solid $darkred;
+  }
+}
