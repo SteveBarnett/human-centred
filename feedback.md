@@ -17,6 +17,17 @@ title: Feedback
 - **Reflect**. Ask clarifying questions. Take notes so you remember what was said and why.
 - **Respond**. Decide if you want to act on the feedback. You don't have to decide immediately.
 
+### Praise and criticism
+
+- Praise
+	- in public;
+	- specific and sincere;
+	- include a challenge.
+- Criticism
+	- in private;
+	- kind (long-term best, not short-term easiest) and clear;
+	- humble, helpful, in person.
+
 ### Four types of feedback
 
 - **Positive and expected**: Something we already know we do well.
