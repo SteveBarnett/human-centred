@@ -382,3 +382,19 @@ input:focus {
   border: solid 3px #c00;
   background-color: #ffdada;
 }
+
+code.attr {
+  color: #007070;
+}
+
+code.el {
+  color: #000080;
+}
+
+kbd {
+  padding: 0 0.25em;
+  background: #eee;
+  border: solid 1px #999;
+  border-radius: 0.15em;
+  box-shadow: 1px 1px 1px #333;
+}
