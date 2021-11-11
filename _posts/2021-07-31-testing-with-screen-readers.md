@@ -140,6 +140,8 @@ TalkBack is most frequently used with Chrome, so test with that.
   - Swipe right to move to the next item (text or interactive controls)
   - Swipe left to move to the previous item
 - Scroll with two fingers
+- Local context menu (headings, links, controls): swipe up then right
+- Global context menu (reading options, settings): swipe down then right
 
 ### Summary
 
