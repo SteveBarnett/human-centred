@@ -250,6 +250,13 @@ ol {
   }
 }
 
+details {
+  ul,
+  ol {
+    padding-left: 2em;
+  }
+}
+
 ol {
   margin-left: 0;
 }
@@ -397,4 +404,22 @@ kbd {
   border: solid 1px #999;
   border-radius: 0.15em;
   box-shadow: 1px 1px 1px #333;
+}
+
+summary {
+  padding: 0.25em 0.5em;
+  &:focus {
+    outline: solid 3px $red;
+    outline-offset: -0.3em;
+  }
+}
+
+details {
+  border: solid 2px $darkred;
+  border-radius: 0.5em;
+  &[open] {
+    summary {
+      border-bottom: solid 2px $red;
+    }
+  }
 }
