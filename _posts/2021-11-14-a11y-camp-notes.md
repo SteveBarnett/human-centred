@@ -97,7 +97,7 @@ Last week was [A11y Camp](https://a11ycamp.org.au/schedule-2021/), which was exc
   - Confirmation bias
   - Affinity bias
   - Benevolence bias
-- Disability - Impairment + Barrier. Biases create barriers.
+- Disability = Impairment + Barrier. Biases create barriers.
 </div>
 </details>
 
