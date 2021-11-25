@@ -28,6 +28,7 @@ I've been doing speaking and workshops since October 2014. Have a look at my [co
 
 ### Writing in other places
 
+- [Helping People Learn to Code](https://www.offerzen.com/blog/helping-people-learn-to-code) on the OfferZen blog.
 - [Reviewing a design for accessibility](https://www.a11yproject.com/posts/2021-08-14-reviewing-a-design-for-accessibility/) on the A11Y project, August 14, 2021.
 - [Starting a design with accessibility](https://www.a11yproject.com/posts/2021-08-25-starting-a-design-with-accessibility/) on the A11Y project, August 25, 2021.
 
