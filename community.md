@@ -24,23 +24,17 @@ Near the start of 2018 I realised I was overdoing things a bit and taking on too
 Here are some recent talks and workshops that I've done.
 
 #### 2021
+{: #workshops-and-talks-2021 }
 
 - November 2021 - **Getting the most out of jest-axe** talk at [A11y Camp](https://a11ycamp.org.au/schedule-2021/): [my slides](https://speakerdeck.com/stevebarnett/getting-the-most-out-of-jest-axe); [video on YouTube](https://youtu.be/GpNAfvhadIo).
 - May - **Oh my GAAD! (The wide world of accessibility)** talk at the [Wellington Open Source Show And Tell meetup](https://www.meetup.com/WOSSAT/events/278074181/); [my slides](https://speakerdeck.com/stevebarnett/oh-my-gaad-the-wide-world-of-accessibility).
 - May - **From myth-busting to "but/and"-ing: Persuading people to do accessibility work** talk at [A11y Bytes 2021](https://a11ybytes.org/bytes-2021/); [my slides](https://speakerdeck.com/stevebarnett/and-ing-persuading-people-to-do-accessibility-work); [video on YouTube](https://www.youtube.com/watch?v=lioeqgOopa0).
 
 #### 2020
+{: #workshops-and-talks-2020 }
 
 - November - **Love in the Time of Coronavirus: what the pandemic can teach us about creating a more caring, inclusive, and equitable world** talk at [UX South Africa](https://uxsouthafrica.com/), with [Nicola du Toit](http://nicoladutoit.com/); [our slides](https://speakerdeck.com/stevebarnett/love-in-the-time-of-coronavirus-what-the-pandemic-can-teach-us-about-creating-a-more-caring-inclusive-and-equitable-world), [the talk on YouTube](https://www.youtube.com/watch?v=PaAupzvrnI8).
 - February - **The WebAIM Million and making our stuff more accessible** lightning talk at the [Wellington Open Source Show And Tell meetup](https://www.meetup.com/WOSSAT/events/267741635/); [my slides](https://speakerdeck.com/stevebarnett/the-webaim-million-and-making-our-stuff-more-accessible).
-
-#### 2019
-
-{: #workshops-and-talks-2019 }
-
-- May - **Global Accessibility Awareness Day (workshop)** at [CTFEDs](https://www.meetup.com/ctfeds/events/260880140/), with [Danielle Eriksen](http://ctfeds.org/organisers/#danielle-eriksen). [View the activities we used](//bit.ly/emplab601) (Google doc).
-- March - **Get Your Ideas Moving (workshop)** at [DevConf Cape Town](https://www.devconf.co.za/), with [Lorraine Steyn](https://twitter.com/lor_krs); [the handbook we made](https://docs.google.com/document/d/1vIgi0bzENoffStpPTjN8W9ym-zfG7J8lyZ6H3Wc7ciY/edit?usp=sharing) (This was a last minute bonus session, in addition to the published schedule).
-- February - **Usability testing with no time, no budget and no support (workshop)** at [Cape Town Scrum User Group - SUGSA](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/258494250/), with [Cara Winterbottom](https://www.linkedin.com/in/carawinterbottom/); [our resources doc](https://docs.google.com/document/d/19BULzliXEgDFKANtI0ov4KqXz5j279UmFL2V-FrIbZg/edit?usp=sharing).
 
 I've been doing speaking and workshops since October 2014. Have a look at my [community archive](/community-archive/) for the full list.
 
