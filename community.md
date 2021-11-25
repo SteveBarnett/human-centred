@@ -25,6 +25,7 @@ Here are some recent talks and workshops that I've done.
 
 #### 2021
 
+- November 2021 - **Getting the most out of jest-axe** talk at [A11y Camp](https://a11ycamp.org.au/schedule-2021/): [my slides](https://speakerdeck.com/stevebarnett/getting-the-most-out-of-jest-axe); [video on YouTube](https://youtu.be/GpNAfvhadIo).
 - May - **Oh my GAAD! (The wide world of accessibility)** talk at the [Wellington Open Source Show And Tell meetup](https://www.meetup.com/WOSSAT/events/278074181/); [my slides](https://speakerdeck.com/stevebarnett/oh-my-gaad-the-wide-world-of-accessibility).
 - May - **From myth-busting to "but/and"-ing: Persuading people to do accessibility work** talk at [A11y Bytes 2021](https://a11ybytes.org/bytes-2021/); [my slides](https://speakerdeck.com/stevebarnett/and-ing-persuading-people-to-do-accessibility-work); [video on YouTube](https://www.youtube.com/watch?v=lioeqgOopa0).
 
