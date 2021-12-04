@@ -5,9 +5,9 @@ title: Writing, Workshops, and Talks (big picture)
 
 Some notes on the big picture side of presenting ideas.
 
-### Teaching and learning
+## Teaching and learning
 
-#### Four phases of learning
+### Four phases of learning
 
 - Preparation
   - Interest. Positive feelings, optimal state for learning.
@@ -18,7 +18,7 @@ Some notes on the big picture side of presenting ideas.
 - Performance
   - Application. Apply and extend knowledge.
 
-#### Ingredients of Accelerated Learning
+### Ingredients of Accelerated Learning
 
 - Somatic
   - moving and doing
@@ -29,7 +29,7 @@ Some notes on the big picture side of presenting ideas.
 - Intellectual
   - problem-solving and reflecting
 
-#### Better > Worse
+### Better > Worse
 
 - Movement > Sitting
 - Talking > Listening
@@ -38,7 +38,7 @@ Some notes on the big picture side of presenting ideas.
 - Shorter > Longer
 - Different > Same
 
-#### Training From The Back Of The Room
+### Training From The Back Of The Room
 
 - Connections
   - to each other
@@ -52,15 +52,15 @@ Some notes on the big picture side of presenting ideas.
   - Mistakes are allowed (expected!)
 - Celebrations
 
-### Change and motivation
+## Change and motivation
 
-#### A, B, C
+### A, B, C
 
 - **Asking:** the statement or action you're asking for.
 - **Becausing:** the data and facts that explain why.
 - **Convincing:** the response to anticipated challenges.
 
-#### Motivate change
+### Motivate change
 
 - Direct the Rider
   - Follow the bright spots
@@ -77,7 +77,7 @@ Some notes on the big picture side of presenting ideas.
 
 Careful of the Fundamental Attribution Error: maybe it's the situation and not the person.
 
-#### Three realms of disagreement
+### Three realms of disagreement
 
 - What is true?
 - What is meaningful?
@@ -88,7 +88,7 @@ Things to check:
 - Is everyone arguing in the same realm?
 - Is it actually about urgency, priority, grieving, solidarity?
 
-#### Diagreement Template
+### Diagreement Template
 
 - Learn
   - Facts and evidence
@@ -103,7 +103,7 @@ Things to check:
   - Check-in tripwire
   - Measurement of success
 
-#### Heirarchy for motivating change
+### Heirarchy for motivating change
 
 - Intrinsic motivation (enlighten, inspire)
   - Feels like: the right thing to do; the smart thing to do; making a difference; helping people.
@@ -114,7 +114,7 @@ Things to check:
 - External control (guilt, punishment)
   - Sets a low bar. Can result in doing the minimum amount of work necessary and othering the beneficaries.
 
-#### Planning the change
+### Planning the change
 
 - Attractive
   - Link a reward with a good action

@@ -7,15 +7,15 @@ image: /img/2021/11/a11y-camp.jpg
 
 Last week was [A11y Camp](https://a11ycamp.org.au/schedule-2021/), which was excellent as usual. I watched a lot of talks and took notes for some of them. Here are my sketchnotes (with text alternative immediately after them) and my top three takeaways.
 
-### My personal top three takeaways
+## My personal top three takeaways
 
 - Become more aware of my biases (because they create barriers to access)
 - Help people employ a healthy level of scepticism about assuming things are accessible (so that they test more thoroughly)
 - Think more about learning pathways (to keep people engaged)
 
-### My notes from a few of the talks
+## My notes from a few of the talks
 
-#### <a href="https://www.youtube.com/watch?v=Ep2lRHzzZuk&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=1">Eloise Cleary and Samuel Yu - The I in Inclusion <span class="visuallyhidden">(video on YouTube)</span></a>
+### <a href="https://www.youtube.com/watch?v=Ep2lRHzzZuk&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=1">Eloise Cleary and Samuel Yu - The I in Inclusion <span class="visuallyhidden">(video on YouTube)</span></a>
 
 ![Sketchnotes for Eloise Cleary and Samuel Yu - The I in Inclusion](/img/2021/11/the i in inclusion - eloise cleary and sam yu.jpg)
 
@@ -42,7 +42,7 @@ Last week was [A11y Camp](https://a11ycamp.org.au/schedule-2021/), which was exc
 </div>
 </details>
 
-#### <a href="https://www.youtube.com/watch?v=N3s53aYT_mM&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=2">Josh Goldberg - Accessible Accessibility <span class="visuallyhidden">(video on YouTube)</span></a>
+### <a href="https://www.youtube.com/watch?v=N3s53aYT_mM&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=2">Josh Goldberg - Accessible Accessibility <span class="visuallyhidden">(video on YouTube)</span></a>
 
 ![Sketchnotes for Josh Goldberg - Accessible Accessibility](/img/2021/11/accessible accessibility - josh goldberg.jpg)
 
@@ -62,7 +62,7 @@ Last week was [A11y Camp](https://a11ycamp.org.au/schedule-2021/), which was exc
 </div>
 </details>
 
-#### <a href="https://www.youtube.com/watch?v=mbkhIrz0fOg&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=3">Allison Ravenhall - Don't believe the hype <span class="visuallyhidden">(video on YouTube)</span></a>
+### <a href="https://www.youtube.com/watch?v=mbkhIrz0fOg&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=3">Allison Ravenhall - Don't believe the hype <span class="visuallyhidden">(video on YouTube)</span></a>
 
 ![Sketchnotes for Allison Ravenhall - Don't believe the hype](/img/2021/11/don't believe the hype - allison ravenhall.jpg)
 
@@ -78,7 +78,7 @@ Last week was [A11y Camp](https://a11ycamp.org.au/schedule-2021/), which was exc
 </div>
 </details>
 
-#### <a href="https://www.youtube.com/watch?v=mbkhIrz0fOg&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=4">Zoë Rose - Accessibility for bad guys <span class="visuallyhidden">(video on YouTube)</span></a>
+### <a href="https://www.youtube.com/watch?v=mbkhIrz0fOg&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=4">Zoë Rose - Accessibility for bad guys <span class="visuallyhidden">(video on YouTube)</span></a>
 
 ![Sketchnotes for Zoë Rose - Accessibility for bad guys](/img/2021/11/accessibility for bad guys - zoe rose.jpg)
 
@@ -101,7 +101,7 @@ Last week was [A11y Camp](https://a11ycamp.org.au/schedule-2021/), which was exc
 </div>
 </details>
 
-#### <a href="https://www.youtube.com/watch?v=mbkhIrz0fOg&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=5">Sagar Barbhaya - Expand Your Outreach with an Accessibility Champions Program <span class="visuallyhidden">(video on YouTube)</span></a>
+### <a href="https://www.youtube.com/watch?v=mbkhIrz0fOg&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=5">Sagar Barbhaya - Expand Your Outreach with an Accessibility Champions Program <span class="visuallyhidden">(video on YouTube)</span></a>
 
 ![Sketchnotes for Sagar Barbhaya - Expand Your Outreach with an Accessibility Champions Program](/img/2021/11/expand your outreach with an accessibility champions program - sagara barbhaya.jpg)
 
@@ -119,7 +119,7 @@ Last week was [A11y Camp](https://a11ycamp.org.au/schedule-2021/), which was exc
 </div>
 </details>
 
-#### <a href="https://www.youtube.com/watch?v=14kMHWENbYE&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=21">Frankie Balfour - How to get large organisations to prioritise accessibility <span class="visuallyhidden">(video on YouTube)</span></a>
+### <a href="https://www.youtube.com/watch?v=14kMHWENbYE&list=PLuWM-v_C0DZQnQbQYWLBnFvhydqHE-6lT&index=21">Frankie Balfour - How to get large organisations to prioritise accessibility <span class="visuallyhidden">(video on YouTube)</span></a>
 
 ![Sketchnotes for Frankie Balfour - How to get large organisations to prioritise accessibility](/img/2021/11/how to get large organisations to prioritise accessibility - frankie balfour.jpg)
 

@@ -13,7 +13,7 @@ He's worked as a front-end developer and UX person at [Unboxed Consulting](https
 
 {% include recent-work.md %}
 
-### Elsewhere
+## Elsewhere
 
 {% include elsewhere.md %}
 

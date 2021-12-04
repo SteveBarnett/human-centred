@@ -1,16 +1,13 @@
 {% include header.html %}
 
 <main id="content">
-	<article class="hentry">
-		<header>
-			<h2 class="entry-title entry-title-page">{{ page.title }}</h2>
-		</header>
+  <article class="hentry">
+    <header>
+      <h1 class="entry-title entry-title-page">{{ page.title }}</h1>
+    </header>
 
-		<div class="entry-content">
-			{{ content }}
-		</div>
-
-	</article>
+    <div class="entry-content">{{ content }}</div>
+  </article>
 </main>
 
 {% include footer.html %}

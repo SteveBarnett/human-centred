@@ -10,7 +10,7 @@ Using the right element for the job is not just about doing the right thing for 
 
 Jeremy Keith calls it [material honesty](https://resilientwebdesign.com/chapter2/): using the right element lets users know what to expect. For example: if it looks like a link, I should be able to open it in a new tab, copy the address or bookmark it for later. You can't do that with a bookmark.
 
-### Red flags
+## Red flags
 
 A few things that stop me in my tracks and make me ask questions.
 
@@ -22,7 +22,7 @@ A few things that stop me in my tracks and make me ask questions.
 
 You can make a `div` or a `span` into a link or a button by adding a `role`, `tabindex="0"`, and handlers for click, <kbd>Space</kbd>, <kbd>Enter</kbd> events. But you're making more work for yourself, so please just use an `a` or a `button` instead! 😅
 
-### Links
+## Links
 
 Links are used to navigate the user to a new page or view or bit of a page: to move away from current context. They:
 
@@ -46,7 +46,7 @@ Links are used to navigate the user to a new page or view or bit of a page: to m
 <span role="link" tabindex="0" href="/profile">click here</a> <!-- faking a link instead of using a link -->
 ```
 
-#### Link Do's
+### Link Do's
 
 - Do add `alt` text to an image that's the content of an `a`.
 - Do make sure links are visually distinct from the surrounding text.
@@ -54,13 +54,13 @@ Links are used to navigate the user to a new page or view or bit of a page: to m
 - Do try and make link text unique on the page. This benefits users of assistive tech and makes for better UX.
 - Do add `aria-current="page"` to the `a` in a nav list, if it's the current page.
 
-#### Link Don'ts
+### Link Don'ts
 
 - Don't add a `title` attribute: use the text of the link instead.
 - Don't wrap chunks of content in an `a`, even though it's technically allowed in the spec. Screen readers read the whole chunk of content as the content of the link (rather than the more appropriate "Read the rest of this article.")
 - Don't use a link with `href="#"`. You should probably be using a button in that case! 😅
 
-### Buttons
+## Buttons
 
 Buttons are for Doing Things like submitting forms or showing and hiding things.
 
@@ -99,17 +99,17 @@ They:
 <!-- divs aren't valid inside buttons -->
 ```
 
-#### Button Do's
+### Button Do's
 
 - Do always provide an accessible name. - Put text inside the button. If there's also an image, that can have `alt=""`. - Use an `aria-label` on the `button` **or** `alt` text on the image if the image is the only thing inside the `button`.
 - Do make the accessible name describe the action that will occur when the user hits the button. Ideally it should be unique too: "Show messages" rather than just "Show". This benefits users of assistive tech and makes for better UX.
 - Do have an explanation why if you make a `button` disabled. Use `aria-describedby` to point at the ID of the element containing the explanation.
 
-#### Button Don'ts
+### Button Don'ts
 
 - Don't add `div`s as children elements of a `button`. But you can add inline things like `span`s.
 
-### Further Reading
+## Further Reading
 
 - [A Complete Guide to Links and Buttons](https://css-tricks.com/a-complete-guide-to-links-and-buttons/)
 - [Links vs. Buttons in Modern Web Applications](https://marcysutton.com/links-vs-buttons-in-modern-web-applications)

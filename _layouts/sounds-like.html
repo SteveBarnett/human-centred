@@ -3,18 +3,16 @@
 <main id="content">
   <article class="hentry">
     <header>
-      <h2 class="entry-title entry-title-page">
-        {{ page.title }}
-      </h2>
+      <h1 class="entry-title entry-title-page">{{ page.title }}</h1>
     </header>
 
     <div class="entry-content">
-      <h3 class="sounds-like-header">What it sounds like</h3>
+      <h2 class="sounds-like-header">What it sounds like</h2>
       <div class="sounds-like">{{ page.sounds-like | markdownify }}</div>
 
       {{ page.comment | markdownify }}
 
-      <h3>What it looks like</h3>
+      <h2>What it looks like</h2>
       <div class="code-sample">
         {{ content | remove: '
         <p>' | remove: '</p>

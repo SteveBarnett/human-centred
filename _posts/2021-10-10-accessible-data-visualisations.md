@@ -13,7 +13,7 @@ The first thing I did was go into research mode. At the end of this post is [a l
 
 We should always provide an HTML `table`{: .el} as a backup version of the data. The individual data points should always be available in a text format. Usually we can do better than that, though, as we'll go through below.
 
-### All charts
+## All charts
 
 - **For a chart's title**, we use a `text`{: .el} element in the SVG. We add `aria-labelledby`{: .attr} to the SVG element, pointing at the title.
   - The `title`{: .el} element for an SVG is a bit like the `alt`{: .attr } attribute for an `img`{: .el}: it's a text alternative for the image as a whole. However, since it's not displayed on the screen (like `alt` text), we choose to use a `text`{: .el} element instead since it will also be available to sighted users.
@@ -26,11 +26,11 @@ We should always provide an HTML `table`{: .el} as a backup version of the data.
 - If we want to label the axes with ARIA attributes as well, we can wrap the axis labels in a `g`{: .el} (group) with an `aria-label`{: .attr} of the axis name.
   - For example: "X axis, months"
 
-### Explanatory charts
+## Explanatory charts
 
 We have a story about the data that we want to tell. We probably want to add some summary data to tell the story. What exactly will depend on the chart type and the type of data. This story should be the **chart's description**. This needs to be written by a human, since it requires judgement and nuance.
 
-### Exploratory charts
+## Exploratory charts
 
 We want to present the chart and data to the reader and let them drawn their own conclusions. These are often automatically generated charts, and/or charts where the data is updated regularly.
 
@@ -51,14 +51,14 @@ We might provide some summaries of the data to help the reader. Some of these we
 - For pie charts: ratios between the slices; the smallest and largest slices.
 - For scatter plots: the correlation coefficient; the spread of values on each axis.
 
-### Summary
+## Summary
 
 - Whatever type and purpose of the chart, we provide a title and description. We use `text`{: .el } elements and ARIA attributes to add semantics to these.
 - For explanatory charts, we use the description to tell a story. We provide an HTML `table`{: .el } version of the data too.
 - For exploratory charts, we label the data points in a meaningful way by adding ARIA attributes to make the data a list or a table.
   - We might also add some summary data in the description. The summary data we provide will vary according to chart type and data type. These could be generated with the chart.
 
-### Resources
+## Resources
 
 - [How to create a screen reader accessible graph like Apple's with D3.js](https://fossheim.io/writing/posts/apple-dataviz-a11y-tutorial/) by Sarah L. Fossheim
 - [Accessible SVGs](https://css-tricks.com/accessible-svgs/) by Heather Migliorisi on CSS Tricks

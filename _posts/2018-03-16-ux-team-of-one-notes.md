@@ -13,7 +13,7 @@ I found the sections on dealing with issues (people and organisational) very hel
 
 My favourite thing in the book was the idea of **using bathroom / hallway UX to promote awareness**. I am definitely stealing this for the next talk or workshop I do! I'm planning to use it as a sneaky way to "advertise" for it and get people thinking about the ideas.
 
-### How I try to remember what I read
+## How I try to remember what I read
 
 [![Hand-written index cards with my notew from The User Experience of One](/img/2018/03/thumbs/ux-team-of-one-notes.jpg)](/img/2018/03/ux-team-of-one-notes.jpg){: .pull-right}
 

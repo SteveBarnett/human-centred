@@ -1,12 +1,12 @@
 ---
-title: 'The Feasibility Spectrum (aka how difficult is it to build this?)'
+title: "The Feasibility Spectrum (aka how difficult is it to build this?)"
 layout: post
-description: 'A look at the feasibility spectrum between design and development.'
+description: "A look at the feasibility spectrum between design and development."
 ---
 
 Anything a designer imagines, a developer can build. It comes with a caveat though: is it worth it, given the time and money it'll cost to build? The answer, as always, is: "it depends."
 
-### Feasi-whut-now?
+## Feasi-whut-now?
 
 Over the years I've come across various versions of the "ooh, this is good" Product Venn diagram. It's the sweet spot for a team building a product. One I've seen recently in [Sense and Respond](https://senseandrespond.co/) states it like this:
 
@@ -18,11 +18,11 @@ Feasibility is a spectrum. It's almost never the case that it's a hard no: "it's
 
 Will it be worth the time and money building **this version of the design**? What about a "good enough" alternative that will be faster and cheaper to build? This doesn't mean that the the fastest and cheapest version is the right choice. It only means that there are options, choices to be made.
 
-### Designs are fixed but websites are fluid
+## Designs are fixed but websites are fluid
 
 The UI design (e.g. Sketch files) is not the thing. The UX design (e.g. wireframes) is not the thing. Even the code, until it's done and out there in the real world, is not the thing.
 
-#### A small selection of things that will "break" a design
+### A small selection of things that will "break" a design
 
 As a front-end developer, one of the things I try and keep in mind is that the real world is a hot mess 💩.
 
@@ -39,7 +39,7 @@ I call these wobbles "breaking" a design, because that's how we tend to think ab
 
 The thing is, for websites, **we only provide suggestions.** Suggestions to the browser of how we, ideally, would like the site to be shown. It's up to the browser, the user, and any custom settings they've applied (zoomed-in text, custom stylesheets, using an ad blocker, and so on) to decide how they actually end up seeing it.
 
-### Pessimism-Driven Development
+## Pessimism-Driven Development
 
 The best we can realistically hope for is "Looks and works good enough everywhere." "Looks and works identically everywhere" is impossible, in practical terms. Even "Looks and works great everywhere" is tricky if you have or want a broad user base. Looking back at the CrossBrowserTesting and BrowserStack links helps remind us of that.
 

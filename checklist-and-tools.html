@@ -13,212 +13,449 @@ author_email: steve@naga.co.za
 author_url: http://naga.co.za
 wordpress_id: 482
 wordpress_url: http://naga.co.za/?page_id=482
-date: '2012-09-19 17:05:10 +0200'
-date_gmt: '2012-09-19 15:05:10 +0200'
+date: "2012-09-19 17:05:10 +0200"
+date_gmt: "2012-09-19 15:05:10 +0200"
 permalink: /checklist-and-tools/
 ---
-<h2 id="checklist">Checklist</h2>
-<p id="html">Building a site Mobile First isn't always possible: sometimes an existing site needs to be Responsively retro-fitted. Here are a few small steps to check that can kickstart the process.</p>
+
+<h1 id="checklist">Checklist</h1>
+<p id="html">
+  Building a site Mobile First isn't always possible: sometimes an existing site
+  needs to be Responsively retro-fitted. Here are a few small steps to check
+  that can kickstart the process.
+</p>
 <ul>
-<li class="checklist-item"><strong>HTML</strong>: <code>&lt;meta name="viewport" content="width=device-width"&gt;</code> added.</li>
-<li class="checklist-item"><strong>HTML</strong>: HTML5 elements used where possible, especially <code>input</code> types</li>
-<li class="checklist-item"><strong>CSS</strong>: used relative units (<code>%<span style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;"> and </span></code><code>em</code>), not <code>px,</code>where appropriate.</li>
-<li class="checklist-item"><strong>CSS</strong>: <code>img { max-width: 100%; height: auto; }</code> used for fluid images (and <code>img { width: 100%; }</code> for IE&lt;7)</li>
-<li class="checklist-item"><strong>CSS</strong>, <strong>JS</strong>: minimise the number of HTTP requests by combining CSS files and combining JS files.</li>
-<li class="checklist-item"><strong>CSS</strong>, <strong>JS</strong>, <strong>Images</strong>: reduce sizes of CSS files, JS files, and images (minify them).</li>
-<li class="checklist-item"><strong>JS</strong>: HTML5 shim included (to provide support for IE &lt; 9)</li>
-<li class="checklist-item"><strong>UX</strong>: special attention paid to navigation on smaller screens</li>
+  <li class="checklist-item">
+    <strong>HTML</strong>: <code
+      >&lt;meta name="viewport" content="width=device-width"&gt;</code
+    >
+    added.
+  </li>
+  <li class="checklist-item">
+    <strong>HTML</strong>: HTML5 elements used where possible, especially
+    <code>input</code> types
+  </li>
+  <li class="checklist-item">
+    <strong>CSS</strong>: used relative units (<code
+      >%<span
+        style="
+          font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times,
+            serif;
+        "
+        > and </span
+      ></code
+    ><code>em</code>), not <code>px,</code>where appropriate.
+  </li>
+  <li class="checklist-item">
+    <strong>CSS</strong>:
+    <code>img { max-width: 100%; height: auto; }</code> used for fluid images
+    (and <code>img { width: 100%; }</code> for IE&lt;7)
+  </li>
+  <li class="checklist-item">
+    <strong>CSS</strong>, <strong>JS</strong>: minimise the number of HTTP
+    requests by combining CSS files and combining JS files.
+  </li>
+  <li class="checklist-item">
+    <strong>CSS</strong>, <strong>JS</strong>, <strong>Images</strong>: reduce
+    sizes of CSS files, JS files, and images (minify them).
+  </li>
+  <li class="checklist-item">
+    <strong>JS</strong>: HTML5 shim included (to provide support for IE &lt; 9)
+  </li>
+  <li class="checklist-item">
+    <strong>UX</strong>: special attention paid to navigation on smaller screens
+  </li>
 </ul>
-<p><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a> is an excellent starting point and contains a lot of best practice guidance in <a href="https://github.com/h5bp/html5-boilerplate/blob/v4.0.0/doc/README.md">the documentation</a>. Listed below are a few more items that I found useful.</p>
+<p>
+  <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a> is an excellent
+  starting point and contains a lot of best practice guidance in
+  <a href="https://github.com/h5bp/html5-boilerplate/blob/v4.0.0/doc/README.md"
+    >the documentation</a
+  >. Listed below are a few more items that I found useful.
+</p>
 <h3 id="html">HTML</h3>
 <ul>
-<li class="checklist-item"><code>html</code> element has <code>lang</code> attribute</li>
-<li class="checklist-item"><code>meta</code> elements present: <code>charset</code>, <code>description</code>, <code>copyright</code>.</li>
-<li class="checklist-item">semantic markup used, especially for new elements : <code>section</code>, <code>article</code>, <code>header</code>, <code>footer</code>, <code>nav</code></li>
-<li>Document outline checked:
-<ul>
-<li class="checklist-item">each <code>section</code>, <code>article</code>, has a <code>header</code></li>
-<li class="checklist-item">Use hierarchical headers (h1 &gt; h2 &gt; etc.) for best result on screen readers</li>
-</ul>
-</li>
-<li class="checklist-item">All images have <code>alt</code> attribute</li>
-<li class="checklist-item"><code>form</code> fields have <code>label</code>s, <code>label</code>s have <code>for</code> attributes</li>
-<li class="checklist-item"><code>link rel=“author”</code> added for <a href="https://plus.google.com/authorship">author photo in SERPs</a></li>
-<li class="checklist-item">Metadata added: <a href="http://microformats.org/">Microformats</a>; <a href="http://schema.org/">Schema.org</a>; <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=99170">Google's Rich Snippets</a>.</li>
+  <li class="checklist-item">
+    <code>html</code> element has <code>lang</code> attribute
+  </li>
+  <li class="checklist-item">
+    <code>meta</code> elements
+    present: <code>charset</code>, <code>description</code>,
+    <code>copyright</code>.
+  </li>
+  <li class="checklist-item">
+    semantic markup used, especially for new elements
+    : <code>section</code>, <code>article</code>, <code>header</code>, <code>footer</code>, <code
+      >nav</code
+    >
+  </li>
+  <li>
+    Document outline checked:
+    <ul>
+      <li class="checklist-item">
+        each <code>section</code>, <code>article</code>, has a <code
+          >header</code
+        >
+      </li>
+      <li class="checklist-item">
+        Use hierarchical headers (h1 &gt; h2 &gt; etc.) for best result on
+        screen readers
+      </li>
+    </ul>
+  </li>
+  <li class="checklist-item">All images have <code>alt</code> attribute</li>
+  <li class="checklist-item">
+    <code>form</code> fields have <code>label</code>s, <code>label</code>s
+    have <code>for</code> attributes
+  </li>
+  <li class="checklist-item">
+    <code>link rel=“author”</code> added for
+    <a href="https://plus.google.com/authorship">author photo in SERPs</a>
+  </li>
+  <li class="checklist-item">
+    Metadata added: <a href="http://microformats.org/">Microformats</a>;
+    <a href="http://schema.org/">Schema.org</a>;
+    <a
+      href="http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=99170"
+      >Google's Rich Snippets</a
+    >.
+  </li>
 </ul>
 <h3 id="css">CSS</h3>
 <ul>
-<li class="checklist-item">No inline CSS used</li>
-<li class="checklist-item">CSS3 used instead of images where possible</li>
-<li class="checklist-item">CSS sprites used</li>
-<li class="checklist-item">All <code>a</code> styles applied: <code>link</code>, <code>visited</code>, <code>hover</code>, <code>active</code>, <code>focus</code>.</li>
-<li class="checklist-item">Don't rely on <code>background-image</code>s for <code>background</code> and <code>color</code> contrast: use <code>background-color</code> too.</li>
-<li class="checklist-item"><code>background-images</code> applied using <code>data-*</code>URIs? Be aware of IE</li>
-<li class="checklist-item"><code>:focus</code> styles applied</li>
-<li class="checklist-item">Visually hidden items don't use <code>display: none</code></li>
+  <li class="checklist-item">No inline CSS used</li>
+  <li class="checklist-item">CSS3 used instead of images where possible</li>
+  <li class="checklist-item">CSS sprites used</li>
+  <li class="checklist-item">
+    All <code>a</code> styles applied: <code>link</code>, <code>visited</code>,
+    <code>hover</code>, <code>active</code>, <code>focus</code>.
+  </li>
+  <li class="checklist-item">
+    Don't rely on <code>background-image</code>s for <code>background</code> and
+    <code>color</code> contrast: use <code>background-color</code> too.
+  </li>
+  <li class="checklist-item">
+    <code>background-images</code> applied using <code>data-*</code>URIs? Be
+    aware of IE
+  </li>
+  <li class="checklist-item"><code>:focus</code> styles applied</li>
+  <li class="checklist-item">
+    Visually hidden items don't use <code>display: none</code>
+  </li>
 </ul>
 <h3 id="javascript">JavaScript</h3>
 <ul>
-<li>Applied using Progressive Enhancement.
-<ul>
-<li class="checklist-item">try and avoid inline JS</li>
-<li class="checklist-item">site functions without JS</li>
-<li class="checklist-item">JS used to add any extra markup that it needs</li>
-</ul>
-</li>
-<li class="checklist-item"><code>script</code>s mostly placed at the bottom of the page</li>
-<li class="checklist-item"><a href="http://modernizr.com/">Modernizr</a> used for feature detection (<a href="http://yepnopejs.com/">YepNope.js</a>, included in Modernizr, used for conditional loading of JS and CSS)</li>
-<li class="checklist-item">JQuery added only if necessary. Plain JS or <a href="http://microjs.com/">microframework</a> used instead?</li>
-<li class="checklist-item"><a href="http://www.google.com/analytics/">Google Analytics</a> added</li>
-<li class="checklist-item">Used lazy loading where appropriate.</li>
+  <li>
+    Applied using Progressive Enhancement.
+    <ul>
+      <li class="checklist-item">try and avoid inline JS</li>
+      <li class="checklist-item">site functions without JS</li>
+      <li class="checklist-item">
+        JS used to add any extra markup that it needs
+      </li>
+    </ul>
+  </li>
+  <li class="checklist-item">
+    <code>script</code>s mostly placed at the bottom of the page
+  </li>
+  <li class="checklist-item">
+    <a href="http://modernizr.com/">Modernizr</a> used for feature detection (<a
+      href="http://yepnopejs.com/"
+      >YepNope.js</a
+    >, included in Modernizr, used for conditional loading of JS and CSS)
+  </li>
+  <li class="checklist-item">
+    JQuery added only if necessary. Plain JS or
+    <a href="http://microjs.com/">microframework</a> used instead?
+  </li>
+  <li class="checklist-item">
+    <a href="http://www.google.com/analytics/">Google Analytics</a> added
+  </li>
+  <li class="checklist-item">Used lazy loading where appropriate.</li>
 </ul>
 <h3 id="ux">UX</h3>
 <ul>
-<li>User interface conventions followed
-<ul>
-<li class="checklist-item">Logo links to home page</li>
-<li class="checklist-item">Search is displayed top right</li>
-<li class="checklist-item">Home is included in navigation</li>
-</ul>
-</li>
-<li class="checklist-item">Pages have meaningful Titles</li>
-<li>Navigation
-<ul>
-<li class="checklist-item">Well prioritised according to user goals</li>
-<li class="checklist-item">Navigation by browsing checked</li>
-<li class="checklist-item">Navigation by searching checked</li>
-<li class="checklist-item">Current location is highlighted, path is shown</li>
-</ul>
-</li>
-<li class="checklist-item">UI controls consider the user's device's form factor, and scale with the device</li>
-<li>Visual hierarchy checked
-<ul>
-<li class="checklist-item">Clarity and consistency</li>
-<li class="checklist-item">Calls To Action are clear (e.g. Contact details in the footer)</li>
-<li class="checklist-item">Content is prioritised over navigation</li>
-</ul>
-</li>
-<li>System status
-<ul>
-<li class="checklist-item">always clear</li>
-<li class="checklist-item">immediate feedback given, while next resource loads</li>
-<li class="checklist-item">Messages for error prevention and error recovery have been checked, and are written in user's language.</li>
-<li class="checklist-item">Button labels are specific to the action, rather than generic "submit."</li>
-</ul>
-</li>
+  <li>
+    User interface conventions followed
+    <ul>
+      <li class="checklist-item">Logo links to home page</li>
+      <li class="checklist-item">Search is displayed top right</li>
+      <li class="checklist-item">Home is included in navigation</li>
+    </ul>
+  </li>
+  <li class="checklist-item">Pages have meaningful Titles</li>
+  <li>
+    Navigation
+    <ul>
+      <li class="checklist-item">Well prioritised according to user goals</li>
+      <li class="checklist-item">Navigation by browsing checked</li>
+      <li class="checklist-item">Navigation by searching checked</li>
+      <li class="checklist-item">
+        Current location is highlighted, path is shown
+      </li>
+    </ul>
+  </li>
+  <li class="checklist-item">
+    UI controls consider the user's device's form factor, and scale with the
+    device
+  </li>
+  <li>
+    Visual hierarchy checked
+    <ul>
+      <li class="checklist-item">Clarity and consistency</li>
+      <li class="checklist-item">
+        Calls To Action are clear (e.g. Contact details in the footer)
+      </li>
+      <li class="checklist-item">Content is prioritised over navigation</li>
+    </ul>
+  </li>
+  <li>
+    System status
+    <ul>
+      <li class="checklist-item">always clear</li>
+      <li class="checklist-item">
+        immediate feedback given, while next resource loads
+      </li>
+      <li class="checklist-item">
+        Messages for error prevention and error recovery have been checked, and
+        are written in user's language.
+      </li>
+      <li class="checklist-item">
+        Button labels are specific to the action, rather than generic "submit."
+      </li>
+    </ul>
+  </li>
 </ul>
 <h3 id="accessibilty">Accessibility</h3>
 <ul>
-<li>Links
-<ul>
-<li class="checklist-item">text indicates the nature of the link target, is not “click here” or “read more”</li>
-<li class="checklist-item">text is unique on the page</li>
-<li class="checklist-item">are displayed underlined</li>
-<li class="checklist-item">are not given <code>title</code> attributes</li>
-</ul>
-</li>
-<li class="checklist-item">WAI-ARIA landmarks used: <code>banner</code>, <code>main</code>, <code>contentinfo</code>, <code>navigation</code>, <code>complementary</code>, <code>form</code>, <code>search</code></li>
-<li class="checklist-item"><code>aria-labelledby</code> used (if text visible) or <code>aria-label</code> used (if text not visible) for <code>navigation</code> roles, especially repeated ones</li>
-<li class="checklist-item">Keyboard navigation checked - page can be navigated by tabbing through links</li>
-<li class="checklist-item"><code>accesskey</code>s added for navigation</li>
-<li>colour
-<ul>
-<li class="checklist-item">contrast checked: <a href="http://www.checkmycolours.com/">checkmycolours.com</a></li>
-<li class="checklist-item">grayscale checked: <a href="http://graybit.com/">GrayBit</a>, <a href="http://webaim.org/blog/styles-for-checking-color-reliance/">using additional CSS</a></li>
-<li class="checklist-item">colour blindness checked: <a href="http://colorfilter.wickline.org/">Colorblind Web Page Filter</a>, <a href="http://www.vischeck.com/vischeck/vischeckURL.php">Vischeck</a></li>
-</ul>
-</li>
-<li class="checklist-item">WCAG guidelines followed: <a href="http://www.w3.org/TR/WCAG10/">WCAG 1.0</a>, <a href="http://www.w3.org/TR/WCAG/">WCAG 2.0</a></li>
+  <li>
+    Links
+    <ul>
+      <li class="checklist-item">
+        text indicates the nature of the link target, is not “click here” or
+        “read more”
+      </li>
+      <li class="checklist-item">text is unique on the page</li>
+      <li class="checklist-item">are displayed underlined</li>
+      <li class="checklist-item">
+        are not given <code>title</code> attributes
+      </li>
+    </ul>
+  </li>
+  <li class="checklist-item">
+    WAI-ARIA landmarks used: <code>banner</code>, <code>main</code>,
+    <code>contentinfo</code>, <code>navigation</code>,
+    <code>complementary</code>, <code>form</code>, <code>search</code>
+  </li>
+  <li class="checklist-item">
+    <code>aria-labelledby</code> used (if text visible) or
+    <code>aria-label</code> used (if text not visible) for
+    <code>navigation</code> roles, especially repeated ones
+  </li>
+  <li class="checklist-item">
+    Keyboard navigation checked - page can be navigated by tabbing through links
+  </li>
+  <li class="checklist-item"><code>accesskey</code>s added for navigation</li>
+  <li>
+    colour
+    <ul>
+      <li class="checklist-item">
+        contrast checked:
+        <a href="http://www.checkmycolours.com/">checkmycolours.com</a>
+      </li>
+      <li class="checklist-item">
+        grayscale checked: <a href="http://graybit.com/">GrayBit</a>,
+        <a href="http://webaim.org/blog/styles-for-checking-color-reliance/"
+          >using additional CSS</a
+        >
+      </li>
+      <li class="checklist-item">
+        colour blindness checked:
+        <a href="http://colorfilter.wickline.org/">Colorblind Web Page Filter</a
+        >,
+        <a href="http://www.vischeck.com/vischeck/vischeckURL.php">Vischeck</a>
+      </li>
+    </ul>
+  </li>
+  <li class="checklist-item">
+    WCAG guidelines followed:
+    <a href="http://www.w3.org/TR/WCAG10/">WCAG 1.0</a>,
+    <a href="http://www.w3.org/TR/WCAG/">WCAG 2.0</a>
+  </li>
 </ul>
 <h3 id="other">Other</h3>
 <ul>
-<li>Use <a href="http://gruntjs.com/">Grunt</a> for running tasks (such as minification, concatenation, and optimising images). <a href="https://github.com/SteveBarnett/grunt">View my (work in progress) Grunt set up on GitHub</a>.</li>
-<li>Use Caching</li>
-<li>Images
-<ul>
-<li class="checklist-item"><code>img</code> only used for images that convey information. All others in CSS as <code>background-image</code>s</li>
-<li class="checklist-item">Optimised (e.g. <a href="http://www.jpegmini.com/">JPEGmini</a>)</li>
-<li class="checklist-item"><code>PNG</code>s preferred to <code>GIF</code>s</li>
-<li class="checklist-item">Icon fonts used where possible</li>
-</ul>
-</li>
-<li class="checklist-item">favicon and apple touch icon(s) added in web root</li>
-<li>Sitemaps added
-<ul>
-<li class="checklist-item">Page for humans</li>
-<li class="checklist-item">sitemap.xml for robots</li>
-</ul>
-</li>
-<li class="checklist-item"><a href="http://www.robotstxt.org/">robots.txt</a> added</li>
-<li class="checklist-item"><a href="http://humanstxt.org/">humans.txt</a> added</li>
+  <li>
+    Use <a href="http://gruntjs.com/">Grunt</a> for running tasks (such as
+    minification, concatenation, and optimising images).
+    <a href="https://github.com/SteveBarnett/grunt"
+      >View my (work in progress) Grunt set up on GitHub</a
+    >.
+  </li>
+  <li>Use Caching</li>
+  <li>
+    Images
+    <ul>
+      <li class="checklist-item">
+        <code>img</code> only used for images that convey information. All
+        others in CSS as <code>background-image</code>s
+      </li>
+      <li class="checklist-item">
+        Optimised (e.g. <a href="http://www.jpegmini.com/">JPEGmini</a>)
+      </li>
+      <li class="checklist-item">
+        <code>PNG</code>s preferred to <code>GIF</code>s
+      </li>
+      <li class="checklist-item">Icon fonts used where possible</li>
+    </ul>
+  </li>
+  <li class="checklist-item">
+    favicon and apple touch icon(s) added in web root
+  </li>
+  <li>
+    Sitemaps added
+    <ul>
+      <li class="checklist-item">Page for humans</li>
+      <li class="checklist-item">sitemap.xml for robots</li>
+    </ul>
+  </li>
+  <li class="checklist-item">
+    <a href="http://www.robotstxt.org/">robots.txt</a> added
+  </li>
+  <li class="checklist-item">
+    <a href="http://humanstxt.org/">humans.txt</a> added
+  </li>
 </ul>
 <h3 id="mobile">Mobile</h3>
 <ul>
-<li class="checklist-item">Text checked: font size, line height, readability, legibility</li>
-<li class="checklist-item">Link targets checked: size (44px x 44px is a good minimum), spacing, distinction from other text</li>
-<li class="checklist-item">Page lengths checked</li>
-<li class="checklist-item">Portrait and landscape orientations tested</li>
-<li class="checklist-item">Content first, navigation second</li>
-<li class="checklist-item">Forms checked: short, labels at top</li>
-<li class="checklist-item">Touch support added as part of Progressive Enhancement strategy (e.g. used <a href="http://modernizr.com/docs/">Modernizr.touch</a>, <a href="http://eightmedia.github.com/hammer.js/">Hammer.js</a>).Gestures made obvious, hints provided.</li>
-<li class="checklist-item">Telephone numbers made tappable</li>
-<li class="checklist-item"><a href="https://github.com/scottjehl/Device-Bugs/issues">Scott Jehl’s Device Bugs Issues on github</a> checked, updated if applicable</li>
-<li class="checklist-item">Tested over Wi-Fi, 3G, EDGE/GPRS</li>
+  <li class="checklist-item">
+    Text checked: font size, line height, readability, legibility
+  </li>
+  <li class="checklist-item">
+    Link targets checked: size (44px x 44px is a good minimum), spacing,
+    distinction from other text
+  </li>
+  <li class="checklist-item">Page lengths checked</li>
+  <li class="checklist-item">Portrait and landscape orientations tested</li>
+  <li class="checklist-item">Content first, navigation second</li>
+  <li class="checklist-item">Forms checked: short, labels at top</li>
+  <li class="checklist-item">
+    Touch support added as part of Progressive Enhancement strategy (e.g. used
+    <a href="http://modernizr.com/docs/">Modernizr.touch</a>,
+    <a href="http://eightmedia.github.com/hammer.js/">Hammer.js</a>).Gestures
+    made obvious, hints provided.
+  </li>
+  <li class="checklist-item">Telephone numbers made tappable</li>
+  <li class="checklist-item">
+    <a href="https://github.com/scottjehl/Device-Bugs/issues"
+      >Scott Jehl’s Device Bugs Issues on github</a
+    >
+    checked, updated if applicable
+  </li>
+  <li class="checklist-item">Tested over Wi-Fi, 3G, EDGE/GPRS</li>
 </ul>
 <h3 id="wordpress">WordPress</h3>
 <ul>
-<li class="checklist-item"><a href="https://github.com/h5bp/html5-boilerplate/blob/v4.0.0/doc/htaccess.md#cache-busting">htaccess updated for versioning</a></li>
-<li class="checklist-item">Cleaned header.php</li>
-<li class="checklist-item">Cleaned footer.php</li>
-<li class="checklist-item">Cleaned directories</li>
-<li class="checklist-item">Added screenshot</li>
-<li class="checklist-item">Checked Plugins, removed unused</li>
+  <li class="checklist-item">
+    <a
+      href="https://github.com/h5bp/html5-boilerplate/blob/v4.0.0/doc/htaccess.md#cache-busting"
+      >htaccess updated for versioning</a
+    >
+  </li>
+  <li class="checklist-item">Cleaned header.php</li>
+  <li class="checklist-item">Cleaned footer.php</li>
+  <li class="checklist-item">Cleaned directories</li>
+  <li class="checklist-item">Added screenshot</li>
+  <li class="checklist-item">Checked Plugins, removed unused</li>
 </ul>
 <h2 id="tools">Tools</h2>
-<p>Cody Lindley has an excellent <a href="https://github.com/codylindley/frontend-tools">list of tools for Front-End development</a>. A lot of other tools such as validators are built in to applications such as <a href="http://incident57.com/codekit/">CodeKit</a> (Mac only).</p>
+<p>
+  Cody Lindley has an excellent
+  <a href="https://github.com/codylindley/frontend-tools"
+    >list of tools for Front-End development</a
+  >. A lot of other tools such as validators are built in to applications such
+  as <a href="http://incident57.com/codekit/">CodeKit</a> (Mac only).
+</p>
 <ul>
-<li><a href="http://jsbin.com/">JS Bin</a></li>
-<li>Validators
-<ul>
-<li><a href="http://validator.w3.org/">W3C HTML5 Validator</a></li>
-<li><a href="http://jigsaw.w3.org/css-validator/">W3C CSS Validator</a></li>
-<li><a href="http://csslint.net/">CSS Lint</a></li>
-<li><a href="http://www.jshint.com/">JS Hint</a></li>
-<li><a href="http://www.google.com/webmasters/tools/richsnippets">Rich Snippet / Microformat testing</a></li>
-</ul>
-</li>
-<li>Performance
-<ul>
-<li><a href="http://developer.yahoo.com/yslow/">YSlow</a></li>
-<li><a href="https://developers.google.com/speed/pagespeed/insights">Page Speed Online</a></li>
-<li><a href="http://tools.pingdom.com/fpt/">Pingdom load time</a></li>
-</ul>
-</li>
-<li>Accessibility
-<ul>
-<li><a href="http://wave.webaim.org/">WAVE</a></li>
-<li><a href="http://atutor.ca/achecker/">AChecker</a></li>
-</ul>
-</li>
-<li>Mobile
-<ul>
-<li><a href="http://validator.w3.org/mobile/">W3C Mobile Checker</a></li>
-<li><a href="http://mobiready.com/">mobiready.com</a></li>
-</ul>
-</li>
-<li>Resources
-<ul>
-<li><a href="http://mobilewebbestpractices.com/">mobilewebbestpractices.com</a></li>
-<li><a href="http://mobilehtml5.org/">mobilehtml5.org</a></li>
-<li><a href="http://caniuse.com/">Can I Use</a></li>
-<li><a href="http://sass-lang.com/">Sass</a>, <a href="http://compass-style.org/">Compass</a>, <a href="http://lesscss.org/">Less</a>.</li>
-<li><a href="http://twitter.github.com/bootstrap/">Bootstrap</a></li>
-<li><a href="http://foundation.zurb.com/">Foundation</a></li>
-<li><a href="http://futurefriendly.co.za/">Future Friendly</a></li>
-<li><a href="http://developer.yahoo.com/performance/rules.html">Performance checklist at Yahoo</a></li>
-<li>Filament Group’s <a href="https://github.com/filamentgroup/Southstreet">Southstreet on github</a></li>
-<li><a href="http://responsive.rga.com/">This is Responsive</a></li>
-<li><a href="https://pinboard.in/u:maxbarners">my public links on Pinboard</a> often contain web development-related items.</li>
-</ul>
-</li>
+  <li><a href="http://jsbin.com/">JS Bin</a></li>
+  <li>
+    Validators
+    <ul>
+      <li><a href="http://validator.w3.org/">W3C HTML5 Validator</a></li>
+      <li>
+        <a href="http://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>
+      </li>
+      <li><a href="http://csslint.net/">CSS Lint</a></li>
+      <li><a href="http://www.jshint.com/">JS Hint</a></li>
+      <li>
+        <a href="http://www.google.com/webmasters/tools/richsnippets"
+          >Rich Snippet / Microformat testing</a
+        >
+      </li>
+    </ul>
+  </li>
+  <li>
+    Performance
+    <ul>
+      <li><a href="http://developer.yahoo.com/yslow/">YSlow</a></li>
+      <li>
+        <a href="https://developers.google.com/speed/pagespeed/insights"
+          >Page Speed Online</a
+        >
+      </li>
+      <li><a href="http://tools.pingdom.com/fpt/">Pingdom load time</a></li>
+    </ul>
+  </li>
+  <li>
+    Accessibility
+    <ul>
+      <li><a href="http://wave.webaim.org/">WAVE</a></li>
+      <li><a href="http://atutor.ca/achecker/">AChecker</a></li>
+    </ul>
+  </li>
+  <li>
+    Mobile
+    <ul>
+      <li><a href="http://validator.w3.org/mobile/">W3C Mobile Checker</a></li>
+      <li><a href="http://mobiready.com/">mobiready.com</a></li>
+    </ul>
+  </li>
+  <li>
+    Resources
+    <ul>
+      <li>
+        <a href="http://mobilewebbestpractices.com/"
+          >mobilewebbestpractices.com</a
+        >
+      </li>
+      <li><a href="http://mobilehtml5.org/">mobilehtml5.org</a></li>
+      <li><a href="http://caniuse.com/">Can I Use</a></li>
+      <li>
+        <a href="http://sass-lang.com/">Sass</a>,
+        <a href="http://compass-style.org/">Compass</a>,
+        <a href="http://lesscss.org/">Less</a>.
+      </li>
+      <li><a href="http://twitter.github.com/bootstrap/">Bootstrap</a></li>
+      <li><a href="http://foundation.zurb.com/">Foundation</a></li>
+      <li><a href="http://futurefriendly.co.za/">Future Friendly</a></li>
+      <li>
+        <a href="http://developer.yahoo.com/performance/rules.html"
+          >Performance checklist at Yahoo</a
+        >
+      </li>
+      <li>
+        Filament Group’s
+        <a href="https://github.com/filamentgroup/Southstreet"
+          >Southstreet on github</a
+        >
+      </li>
+      <li><a href="http://responsive.rga.com/">This is Responsive</a></li>
+      <li>
+        <a href="https://pinboard.in/u:maxbarners"
+          >my public links on Pinboard</a
+        >
+        often contain web development-related items.
+      </li>
+    </ul>
+  </li>
 </ul>

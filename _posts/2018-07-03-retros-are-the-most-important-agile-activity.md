@@ -33,18 +33,18 @@ I often use [the Retromat](https://retromat.org/en/) to find activities that fit
 
 Here's a classic format that I've used quite a few times.
 
-- 	`:) :| :(`
-	- Write one of the emoticons on a sticky.
+-     `:) :| :(`
+  - Write one of the emoticons on a sticky.
 - What went well? What would we have done differently (knowing what we know now)?
-	- Write one thing per sticky. Write at least one sticky for each question.
-	- Look for patterns in the stickies.
+  - Write one thing per sticky. Write at least one sticky for each question.
+  - Look for patterns in the stickies.
 - What did I learn?
-	- Based on the previous questions and the patterns that emerged.
-	- Write it on a sticky.
+  - Based on the previous questions and the patterns that emerged.
+  - Write it on a sticky.
 - SMART goal
-	- Write on a sticky and take with you.
+  - Write on a sticky and take with you.
 - Star rating
-	- Give the retro a star rating: 1 (the worst) to 5 (the best).
+  - Give the retro a star rating: 1 (the worst) to 5 (the best).
 
 I also keep [a GitHub repository of retrospective agendas](https://github.com/SteveBarnett/Retrospective-Agendas).
 

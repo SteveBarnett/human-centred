@@ -9,7 +9,7 @@ image: /img/2018/05/design-systems.jpg
 
 Here I'm pulling together my notes and thoughts to apply what I learned to my next project. It's a little bit more bullet-y and checklist-y than article-y. I've added stars ★ to the bits that really jumped out at me, or had me nodding along as I was reading.
 
-### Design Principles
+## Design Principles
 
 [![](/img/2018/05/thumbs/design-systems-design-principles.jpg)](/img/2018/05/design-systems-design-principles.jpg)
 
@@ -18,7 +18,7 @@ Here I'm pulling together my notes and thoughts to apply what I learned to my ne
 - Make them actionable, opinionated, memorable
 - Test and evolve them over time.
 
-### Functional Patterns (think HTML)
+## Functional Patterns (think HTML)
 
 [![](/img/2018/05/thumbs/design-systems-functional-patterns.jpg)](/img/2018/05/design-systems-functional-patterns.jpg)
 
@@ -26,7 +26,7 @@ Here I'm pulling together my notes and thoughts to apply what I learned to my ne
 - Link them to the **purpose**.
 - ★ Link them to user behaviours, patterns that encourage those behaviours. Makes for more **robust** modules.
 
-### Perceptual Patterns (think CSS, JS)
+## Perceptual Patterns (think CSS, JS)
 
 [![](/img/2018/05/thumbs/design-systems-perceptual-patterns.jpg)](/img/2018/05/design-systems-perceptual-patterns.jpg)
 
@@ -34,51 +34,51 @@ Here I'm pulling together my notes and thoughts to apply what I learned to my ne
 - ★ These **connect** the parts of the system.
 - Note: there will always be custom bits and once-off tweaks.
 
-### Shared Language
+## Shared Language
 
-[![](/img/2018/05/thumbs/design-systems-shared-language-1.jpg)](/img/2018/05/design-systems-shared-language-1.jpg) 
+[![](/img/2018/05/thumbs/design-systems-shared-language-1.jpg)](/img/2018/05/design-systems-shared-language-1.jpg)
 [![](/img/2018/05/thumbs/design-systems-shared-language-2.jpg)](/img/2018/05/design-systems-shared-language-2.jpg)
 
 - Bridges the gap between the **system image** and the **user model**.
 - ★ Know the **most effective patterns** and **what makes them work**.
 - **Wording is fundamental**
-    - Names shape an object's future.
-    - Don't use presentational ones.
+  - Names shape an object's future.
+  - Don't use presentational ones.
 - ★ Good names: are based on metaphors; have personality; communicate the purpose; give guidance / inspiration on where to use.
 - Name collaboratively.
 - Refer to them by their name in day-to-day conversations.
 
-### Planning and practicalities
+## Planning and practicalities
 
 [![](/img/2018/05/thumbs/design-systems-planning-and-practicalities.jpg)](/img/2018/05/design-systems-planning-and-practicalities.jpg)
 
 - Show the **business case**
-    - ★ Meet the business goals **faster, at a lower cost**
-    - Reusable, so save time on design and dev
-    - Save time on site-wide changes
-    - Launch new things faster
+  - ★ Meet the business goals **faster, at a lower cost**
+  - Reusable, so save time on design and dev
+  - Save time on site-wide changes
+  - Launch new things faster
 - Also: visual consistency, better collaboration
 - Share successes, ★ stumbling blocks, knowledge across teams and disciplines
 
 ★ The right approach is one where you can **manage the downsides**.
 
-### Systematising Functional Patterns
+## Systematising Functional Patterns
 
 [![](/img/2018/05/thumbs/design-systems-systematising-functional-patterns.jpg)](/img/2018/05/design-systems-systematising-functional-patterns.jpg)
 
 Do the **Essential / Fundamental** patterns first.
 
 1. Identify key behaviours.
-    - Break down into actions.
+   - Break down into actions.
 2. Group by purpose.
 3. Define patterns.
-    - Specificity scale is tricky. Name helps.
-    - Content structure, with variants.
+   - Specificity scale is tricky. Name helps.
+   - Content structure, with variants.
 4. Repeat 1, 2, 3, at small scale.
 
 Have **consistent expression of purpose**.
 
-### Systematising Perceptual Patterns
+## Systematising Perceptual Patterns
 
 [![](/img/2018/05/thumbs/design-systems-systematising-perceptual-patterns.jpg)](/img/2018/05/design-systems-systematising-perceptual-patterns.jpg)
 
@@ -95,7 +95,7 @@ Note
 - ★ Should **feel** like it acts.
 - Shared **use**, **role** of colour (not just the RGB).
 
-### Pattern Libraries
+## Pattern Libraries
 
 [![](/img/2018/05/thumbs/design-systems-pattern-libraries.jpg)](/img/2018/05/design-systems-pattern-libraries.jpg)
 

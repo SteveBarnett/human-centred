@@ -5,14 +5,16 @@ title: Community - Archive
 
 Read about more recent workshops and talks on [my community page](/community/#workshops-and-speaking).
 
-#### 2019
+### 2019
+
 {: #workshops-and-talks-2019 }
 
 - May - **Global Accessibility Awareness Day (workshop)** at [CTFEDs](https://www.meetup.com/ctfeds/events/260880140/), with [Danielle Eriksen](http://ctfeds.org/organisers/#danielle-eriksen). [View the activities we used](//bit.ly/emplab601) (Google doc).
 - March - **Get Your Ideas Moving (workshop)** at [DevConf Cape Town](https://www.devconf.co.za/), with [Lorraine Steyn](https://twitter.com/lor_krs); [the handbook we made](https://docs.google.com/document/d/1vIgi0bzENoffStpPTjN8W9ym-zfG7J8lyZ6H3Wc7ciY/edit?usp=sharing) (This was a last minute bonus session, in addition to the published schedule).
 - February - **Usability testing with no time, no budget and no support (workshop)** at [Cape Town Scrum User Group - SUGSA](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/258494250/), with [Cara Winterbottom](https://www.linkedin.com/in/carawinterbottom/); [our resources doc](https://docs.google.com/document/d/19BULzliXEgDFKANtI0ov4KqXz5j279UmFL2V-FrIbZg/edit?usp=sharing).
 
-#### 2018
+### 2018
+
 {: #workshops-and-talks-2018 }
 
 2018 was a busy year! In particular, [Nicola du Toit](http://nicoladutoit.com/) and I went on the road lots of Inclusive Design talks and workshop.
@@ -31,7 +33,8 @@ Read about more recent workshops and talks on [my community page](/community/#wo
 - April - **"Speak up!": the fine art of sharing and presenting (workshop)** at [SUGSA](https://www.meetup.com/Cape-Town-Scrum-User-Group-SUGSA/events/248915693/), with [Justin Slack](http://ctfeds.org/organisers/#justin-slack): [materials](https://ctfeds.github.io/Speaker-Workshop-2018/).
 - February - **Mistakes Were Made (By Me)** at the [Cape Town Creative Academy](http://ctca.co.za/); [my slides](https://speakerdeck.com/stevebarnett/mistakes-were-made-by-me).
 
-#### 2017
+### 2017
+
 {: #workshops-and-talks-2017 }
 
 - November - **Inclusive Design: more heart ❤, more humans workshop** at [UX South Africa](http://uxsouthafrica.com/cpt2017/schedule/heart-%E2%9D%A4-humans-inclusive-design/) with [Nicola du Toit](http://nicoladutoit.com/). Materials: [resources](//bit.ly/emplab200); [workshop activities](//bit.ly/emplab201); [our slide deck](//bit.ly/emplab202).
@@ -45,7 +48,8 @@ Read about more recent workshops and talks on [my community page](/community/#wo
 - April - **Performance Matters** with [Danielle Eriksen](https://www.linkedin.com/in/danielle-eriksen-771522116/) at the [Pixel Up! meetup](https://www.meetup.com/pixelup/events/238796146/); [our slides](https://speakerdeck.com/stevebarnett/performance-matters).
 - March - **LGBT Hackathon** at [CTFEDs](https://www.meetup.com/ctfeds/events/237868915/), with [Danielle Eriksen](http://ctfeds.org/organisers/#danielle-eriksen): [materials](https://ctfeds.github.io/LGBT-hackathon/).
 
-#### 2016
+### 2016
+
 {: #workshops-and-talks-2016 }
 
 - November - **Playing the Game of Thrones with PopcornFlow workshop** at [Scrum Gathering South Africa 2016](http://sugsa.org.za/event/scrum-gathering-south-africa-2016/) with [Austin Fagan](https://twitter.com/austin_fagan).
@@ -59,7 +63,8 @@ Read about more recent workshops and talks on [my community page](/community/#wo
 - April - **Future Friendly UX Design** with [Justin Slack](https://justinslack.com/) at the [2016 UX South Africa workshop sessions in Cape Town](http://www.uxsouthafrica.com/conference/cape-town-2014): [materials](http://ctfeds.github.io/FutureFriendlyUXWorkshopApril2016/).
 - April - **Progressive Enhancement** at the [Meteor Cape Town meetup](http://www.meetup.com/Meteor-Cape-Town/events/229419968/): [my write-up](https://naga.co.za/2016/04/29/progressive-enhancement/).
 
-#### 2015
+### 2015
+
 {: #workshops-and-talks-2015 }
 
 - November - **Future Friendly UX Design** with [Justin Slack](https://justinslack.com/) at the [2015 UX South Africa conference in Cape Town](http://www.uxsouthafrica.com/conference/cape-town-2015): [materials](http://ctfeds.github.io/UXSouthAfrica2015Workshop/).
@@ -70,7 +75,8 @@ Read about more recent workshops and talks on [my community page](/community/#wo
 - August - **#fedlyfe** at [Friends of Design](http://friendsofdesign.net/): [slides](https://speakerdeck.com/stevebarnett/number-fedlyfe).
 - February - **Gathering Stats and Herding Cats** at [SUGSA](http://sugsa.org.za/): [slides](https://speakerdeck.com/stevebarnett/gathering-stats-and-herding-cats)
 
-#### 2014
+### 2014
+
 {: #speaking-2014 }
 
 - October - **If I Was King Of The World** with [Rich Archer](http://richarcher.co.uk/), at [CTFEDs](http://ctfeds.org/): [slides](https://speakerdeck.com/stevebarnett/if-i-was-king-of-the-world).

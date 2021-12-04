@@ -21,23 +21,23 @@ I tend to define myself by work quite a bit, and I like to keep busy. I find it 
 
 Here are some of my notes from those topics, from those books.
 
-### Do less to do more
+## Do less to do more
 
 One way to "do less to do more" is to **work fewer hours**. Having fewer hours forces you to spend them more wisely. It forces you to pick better things to work on instead of working longer hours to get it all done. Another aspect is **saying no more often**: do less, maybe nothing. Doing less makes it easier to get to a sustainable pace. It lets you go for depth in a topic, not breadth.
 
-### Focus and concentration
+## Focus and concentration
 
 **Working in big blocks** really helps with focus and concentration. These blocks need to be **distraction and interruption free**: maintain a single focus on the problem you're working on. Context switching leaves attention residue (part of our brain is still thinking about the other thing). Fleeing boredom (by checking email or chat during a big block) weakens our concentration ability and our focus capacity.
 
 It helps to **schedule not-the-real-work** stuff like meetings and emails. That stuff is seldom actually urgent. It can (usually) wait.
 
-### The metric black hole
+## The metric black hole
 
 In [Deep Work](https://www.goodreads.com/book/show/27985224-deep-work), Cal Newport talks about the metric black hole. It's **hard to measure the productivity of modern knowledge work**, so we fallback on what we know: hours, like we used in the industrial era. This means sometimes we try and brute force problems by throwing more hours at them, but that's not how these (creative) problems work. The amount of hours spent on a problem doesn't necessarily determine the importance of it. **It's more important to be effective** than it is to be "productive."
 
 The flipside of the metric black hole is that it's also **hard to measure the cost of distractions and interruptions**. That means we can underrate their (negative) impact.
 
-### The importance of downtime
+## The importance of downtime
 
 The most important thing is: **don't cheat sleep**. Sleep deprivation affects focus, stress, judgement, performance, ability to learn, health.
 
@@ -45,7 +45,7 @@ It's important to have downtime. It's important to have **strong, hard, boundari
 
 It's important to note that rest doesn't mean checking out or binge-watching TV series. Structured hobbies are best: the brain likes change, not rest. Something that's relaxing, provides you a mastery, learning, experience and gives you mental detachment from work.
 
-### Further reading
+## Further reading
 
 What else should I read that'll give me a fresh perspective on these topics?
 

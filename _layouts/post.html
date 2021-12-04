@@ -1,22 +1,32 @@
 {% include header.html %}
 
 <main id="content">
-    <article class="hentry">
-    	<header>
-    		<h2 class="entry-title">{{ page.title }}</h2>
+  <article class="hentry">
+    <header>
+      <h1 class="entry-title">{{ page.title }}</h1>
 
-    		<div class="post-meta">
-    			<time class="entry-date published" datetime="{{ page.date }}" pubdate>{{ page.date | date: "%B %d, %Y" }}</time>
-                <span aria-hidden="true" class="vcard visuallyhidden"><span class="fn">Steve Barnett</span> <span class="org">Naga</span></span>
-                 <a aria-hidden="true" class="visuallyhidden" href="{{ page.url }}" rel="bookmark">{{ page.title }}</a>
-    		</div>
-    	</header>
+      <div class="post-meta">
+        <time class="entry-date published" datetime="{{ page.date }}" pubdate
+          >{{ page.date | date: "%B %d, %Y" }}</time
+        >
+        <span aria-hidden="true" class="vcard visuallyhidden"
+          ><span class="fn">Steve Barnett</span>
+          <span class="org">Naga</span></span
+        >
+        <a
+          aria-hidden="true"
+          class="visuallyhidden"
+          href="{{ page.url }}"
+          rel="bookmark"
+          >{{ page.title }}</a
+        >
+      </div>
+    </header>
 
-    	<div class="entry-content entry-content-post {{ page.article-style }}">
-    		{{ content }}
-    	</div>
-
-    </article>
+    <div class="entry-content entry-content-post {{ page.article-style }}">
+      {{ content }}
+    </div>
+  </article>
 </main>
 
 {% include footer.html %}

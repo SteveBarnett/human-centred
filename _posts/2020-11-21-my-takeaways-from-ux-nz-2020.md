@@ -7,7 +7,7 @@ image: /img/2020/11/??????????
 
 I joined the online version of [UX New Zealand](https://www.uxnewzealand.com/) this year. Here's one thing that stood out for me from each of a few of the talks.
 
-### Day one
+## Day one
 
 - Stop looking for who to include and start looking at what practices and mindsets are exclusionary (from "Consider the periphery" by [Elizabeth Lang](https://www.uxnewzealand.com/2020-speakers/elizabeth-lang/)).
 - Make sure you don't stop at the MVP: keep refining it (from "More than an MVP: The case for continuous improvement in the COVID era" by [James Ford](https://www.uxnewzealand.com/2020-speakers/james-ford/) and [Pete Lister](https://www.uxnewzealand.com/2020-speakers/pete-lister/)).
@@ -31,7 +31,7 @@ I also made some sketchnotes 👇.
 
 </div>
 
-### Day two
+## Day two
 
 - Value people's time (from "Design with mental health in mind" by [Bradley Gabr-Ryn](https://www.uxnewzealand.com/2020-speakers/bradley-gabr-ryn/)).
 - Call things what they are (use clear, plain, language), e.g. "period care" not "feminine hygiene" or "sanitary products" (from "Wine, bacon and periods: Product categories and our journey to wrangle them" by [Jennie Leng](https://www.uxnewzealand.com/2020-speakers/jennie-leng/)).
@@ -52,7 +52,7 @@ I also made some sketchnotes 👇.
 
 </div>
 
-### Summary
+## Summary
 
 Phew! There was a lot in two days! I'll definitely be back next year.
 

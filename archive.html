@@ -3,22 +3,23 @@ layout: page
 title: Article Archive
 ---
 
-{% for post in site.posts %}
-    {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
-    {% capture nextmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
-    {% capture previousmonth %}{{ post.previous.date | date: '%m%Y' }}{% endcapture %}
-    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-    {% capture nextyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-    {% capture previousyear %}{{ post.previous.date | date: '%Y' }}{% endcapture %}
-        {% if year != nextyear %}
-        <section>
-            <h3>{{ post.date | date: '%Y' }}</h3>
-        {% endif %}
-            {% if month != nextmonth %}<h4>{{ post.date | date: '%B' }}</h4>{% endif %}
-            {% if month != nextmonth %}<ul>{% endif %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% if month != previousmonth %}</ul>{% endif %}
-        {% if year != previousyear %}
-        </section>
-        {% endif %}
-{% endfor %}
+{% for post in site.posts %} {% capture month %}{{ post.date | date: '%m%Y' }}{%
+endcapture %} {% capture nextmonth %}{{ post.next.date | date: '%m%Y' }}{%
+endcapture %} {% capture previousmonth %}{{ post.previous.date | date: '%m%Y'
+}}{% endcapture %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture
+%} {% capture nextyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {%
+capture previousyear %}{{ post.previous.date | date: '%Y' }}{% endcapture %} {%
+if year != nextyear %}
+<section>
+  <h2>{{ post.date | date: '%Y' }}</h2>
+  {% endif %} {% if month != nextmonth %}
+  <h3>{{ post.date | date: '%B' }}</h3>
+  {% endif %} {% if month != nextmonth %}
+  <ul>
+    {% endif %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% if month != previousmonth %}
+  </ul>
+  {% endif %} {% if year != previousyear %}
+</section>
+{% endif %} {% endfor %}

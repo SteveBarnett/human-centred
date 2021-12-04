@@ -7,14 +7,14 @@ image: /img/2019/11/do-group-write-here.jpg
 
 When I do talks or workshops, I like have only little bits of me talking and lots of bits of people **doing stuff**. I use [my big "writing, workshops, and talks" list](/writing-workshops-and-talks/) to plan the thing as a whole. I use something a bit smaller for planning the specific activities throughout: a little facilitation bingo board.
 
-### General Principles for activities
+## General Principles for activities
 
 - keep them short;
 - mix them up;
 - make them active;
 - ask questions.
 
-### The bingo board
+## The bingo board
 
 <table>
 <caption>My facilitation bingo board: how I vary activities by process, humans, format and location.</caption>

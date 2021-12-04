@@ -9,7 +9,7 @@ I've just finished working my way through "Scrum Master Workbook Part 1". It's r
 
 Here are some of the things that I've picked up and am either doing already or have a concrete plan to start doing soon.
 
-### Things for me to do for myself
+## Things for me to do for myself
 
 - After every meeting, do a tiny mini-retro on my own. Look at:
   - was it valuable;
@@ -20,12 +20,12 @@ Here are some of the things that I've picked up and am either doing already or h
   - what low value things can be stopped or delegated;
   - what high value and high time things can be made faster, simpler, or automated.
 
-### Things to "wait and see"
+## Things to "wait and see"
 
 - Stop chasing up the team for standups. Wait and see what bad stuff, if anything, happens.
 - See what happens when people don't look at the backlog in advance of Sprint Planning. Ask the team about it.
 
-### Things to just do
+## Things to just do
 
 - Show the team my reminders once a week at stand-up.
   - Focus on finishing work, not starting work.

@@ -16,7 +16,7 @@ I recently got around to reading [Sheri Byrne-Haber](https://sheribyrnehaber.med
   - Have more PwD involved in the process.
   - Solicit vocal executive support.
 
-### Ways to approach people who don't give a damn
+## Ways to approach people who don't give a damn
 
 One of my favourite frameworks for thinking about behaviour change is outlined in [the Heath Brothers book Switch](https://heathbrothers.com/books/switch/). They talk about three areas to consider: the Rider (the rational); the Elephant (the emotional); the Path (the environment). Different problems require different approaches.
 

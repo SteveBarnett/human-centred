@@ -8,7 +8,7 @@ Infinite scroll is hard to do well in terms of UX and accessibility. We're usual
 
 At work the other day we were discussing implementing an infinite scroll. I took the chance to do a bit of a deep dive into the details. Here's a summary of what I found.
 
-### The options
+## The options
 
 Broadly speaking, there are four options for pages with a lot of items (like a category listing or a search results page):
 
@@ -19,7 +19,7 @@ Broadly speaking, there are four options for pages with a lot of items (like a c
 
 Infinite scrolling has its pros, but some heavy cons for users, especially those with disabilities.
 
-### Fit for purpose?
+## Fit for purpose?
 
 Goal-oriented (search / finding a specific thing in the list, comparing things in the list) tasks tend not to be a good fit for infinite scroll. Search results, for example, tend to be sorted by relevance, so we don't expect users to go through many (pages of) items.
 
@@ -27,13 +27,13 @@ Browsing and exploring tasks tend to be a better fit for infinite scrolling, esp
 
 As with most things, though, it's still best to test with our users and see what works best for them.
 
-### Infinite scrolling pros
+## Infinite scrolling pros
 
 - A smooth and seamless experience of browsing items.
 - Easy product discovery as it lets users browse more items.
 - Can show a whole list, so it's good for scanning the whole result set.
 
-### Infinite scrolling cons
+## Infinite scrolling cons
 
 - Harder or impossible (e.g. for keyboard users) to get to the footer.
 - Breaks the scrollbar, which people use as a guide to page length.
@@ -42,7 +42,7 @@ As with most things, though, it's still best to test with our users and see what
 - No way to jump ahead a few "pages" to quickly get to content further down the list (e.g. stuff from a few weeks ago).
 - Most implementations don't return the user to the same spot in the list when returning via the browser's back button.
 
-### Accessibility concerns
+## Accessibility concerns
 
 The [ARIA pattern `role="feed"`](https://w3c.github.io/aria-practices/#feed) was introduced to make infinite scrolling more accessible for screen readers users. It does still cause problems for users with other disabilities.
 
@@ -51,7 +51,7 @@ The [ARIA pattern `role="feed"`](https://w3c.github.io/aria-practices/#feed) was
 - Uses with cognitive disabilities. Infinite scroll has a high cognitive load that is extremely taxing.
 - Users who are new to screen readers. They may not know about this (uncommon) widget type.
 
-### User-initiated Infinite Scroll
+## User-initiated Infinite Scroll
 
 A pattern that takes the good bits of infinite scroll and mitigates the bad bits is to have short bursts of infinite scrolling, prompted by the user.
 
@@ -60,7 +60,7 @@ A pattern that takes the good bits of infinite scroll and mitigates the bad bits
 
 The pause in the infinite scroll gives the user a chance to access the footer and think about whether search or filtering would be better.
 
-### Accessible infinite scroll summary
+## Accessible infinite scroll summary
 
 Don't use `role="feed"`. It requires a fair amount of extra work (keyboard support, scroll listeners) for a solid implementation.
 
@@ -77,7 +77,7 @@ I made a (very!) light sketch of this at [SteveBarnett / Accessible-Infinite-Scr
 
 ---
 
-### Resources
+## Resources
 
 - [Automatic infinite scrolling & accessibility](http://simplyaccessible.com/article/infinite-scrolling/)
 - [Infinite Scrolling, Pagination Or “Load More” Buttons? Usability Findings In eCommerce](https://www.smashingmagazine.com/2016/03/pagination-infinite-scrolling-load-more-buttons/)

@@ -7,7 +7,7 @@ image: /img/2019/04/GYIM-handbook.jpg
 
 A few weeks ago [DevConf](https://www.devconf.co.za/) was in town. I was lucky enough to attend, and I ran a meta workshop where we [took people for a walk under the trees, played memory games, chatted, met people, and chilled](https://twitter.com/lor_krs/status/1114765844083556352). Here are my sketchnotes from the talks I went to, and a bit of info on the workshop.
 
-### DevConf Cape Town 2019: my takeaways
+## DevConf Cape Town 2019: my takeaways
 
 At any conference, there's a lot of information that comes at you. I do sketchnotes to try and **pick out just a few things from each talk**: the bits that are most important or relevant to me, in my day-to-day job. I try and end up with **one key takeaway from each talk**. Even that "little" means I get a lot from the conference overall!
 
@@ -17,13 +17,13 @@ The next talk I saw was "Microfrontends as a solution to legacy JavaScript" by [
 
 [![My sketchnotes for The Age of the Modern Developer](/img/2019/04/thumbs/the-age-of-the-modern-developer.jpg)](/img/2019/04/the-age-of-the-modern-developer.jpg) [![My sketchnotes for Microfrontends as a solution to legacy JavaScript](/img/2019/04/thumbs/microfrontends-as-a-solution-to-legacy-javascript.jpg)](/img/2019/04/microfrontends-as-a-solution-to-legacy-javascript.jpg)
 
-Next up for me was "Pink hardhats and other anomalies" by [Claire Wood](https://twitter.com/oscarwhiskylima). I went to this talk because I care about diversity and inclusion. (Doing stuff like [RailsBridge Cape Town](https://railsbridgecapetown.org/) and trying to get [more diverse speakers for CTFEDs](https://ctfeds.org/call-for-speakers/) (Although I kinda burned out and have stepped back from those, and other things, for a while.) and by [talking and doing workshops on accessibility and inclusive design](/community/#workshops-and-speaking)). My key takeaway: **diverse teams are more creative, more analytical, more creative, because they make us think more**. 
+Next up for me was "Pink hardhats and other anomalies" by [Claire Wood](https://twitter.com/oscarwhiskylima). I went to this talk because I care about diversity and inclusion. (Doing stuff like [RailsBridge Cape Town](https://railsbridgecapetown.org/) and trying to get [more diverse speakers for CTFEDs](https://ctfeds.org/call-for-speakers/) (Although I kinda burned out and have stepped back from those, and other things, for a while.) and by [talking and doing workshops on accessibility and inclusive design](/community/#workshops-and-speaking)). My key takeaway: **diverse teams are more creative, more analytical, more creative, because they make us think more**.
 
 Another talk I went to was "Why I decided to ditch Dev and dive into UX." I went to this talk because it's kind of the journey I'm taking, and I wanted to see how other people have experienced it. My key takeaways: **everyone is a UX Designer; do User Research to build empathy.**
 
 [![My sketchnotes for Pink hardhats and other anomalies](/img/2019/04/thumbs/pink-hard-hats-and-other-anomalies.jpg)](/img/2019/04/pink-hard-hats-and-other-anomalies.jpg) [![My sketchnotes for Why I decided to ditch Dev and dive into UX](/img/2019/04/thumbs/why-i-decided-to-ditch-dev-and-dive-into-ux.jpg)](/img/2019/04/why-i-decided-to-ditch-dev-and-dive-into-ux.jpg)
 
-### Get Your Ideas Moving workshop
+## Get Your Ideas Moving workshop
 
 [![Cute little printed copies of the Get Your Ideas Moving handbook that we used](/img/2019/04/thumbs/GYIM-handbook.jpg)](/img/2019/04/GYIM-handbook.jpg)
 
@@ -42,4 +42,3 @@ We made and printed [a little handbook](https://docs.google.com/document/d/1vIgi
 - A discussion of the 5 memory tips in the handbook, for the afternoon talks
 
 And a hat tip to some of the resources we used to make the workshop: [Training from the Back of the Room!](https://www.goodreads.com/book/show/8141935-training-from-the-back-of-the-room) by Sharon Bowman; [The Accelerated Learning Handbook](https://www.goodreads.com/book/show/389185.The_Accelerated_Learning_Handbook) by Dave Meier; [Remember It!](https://www.goodreads.com/book/show/38657042-remember-it) by Nelson Dellis; [Learning How to Learn](https://www.goodreads.com/book/show/36647421-learning-how-to-learn) by Barbara Oakley, Terrence J. Sejnowski.
-

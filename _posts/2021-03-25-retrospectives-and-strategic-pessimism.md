@@ -11,7 +11,7 @@ I got some great feedback from my colleagues as part of my review. But one thing
 
 I think this approach of mine comes through in some of the retro activities I choose to run for my team. I like to do activities that ask them to adopt a strategic pessimist approach. To consider the worst that could happen, then flip it and look at ways of achieving the best that could happen. Here's an example.
 
-### Pessimise / [The Worst We Could Do](https://retromat.org/en/?id=69).
+## Pessimise / [The Worst We Could Do](https://retromat.org/en/?id=69).
 
 > Explore how to ruin the next iteration for sure.
 

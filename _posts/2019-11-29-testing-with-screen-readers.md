@@ -9,7 +9,7 @@ Testing with a screen reader is an important part of accessibility work. It help
 
 This is an updated version of [a previous post: Testing with screen readers](https://naga.co.za/2019/11/13/how-i-test-with-screen-readers/). I've split this up into [what I test](#what-i-test) (tech-agnostic), [Testing with VoiceOver on MacOS](#testing-with-voiceover-on-macos), and [Testing with NVDA on Windows](#testing-with-nvda-on-windows).
 
-### What I test
+## What I test
 
 The amount of time I have available for testing determines how in-depth I can test. It's only when I have plenty of time that I sit and use a screen reader to read through the whole content of the page in detail. My usual check list looks like this:
 
@@ -35,7 +35,7 @@ The amount of time I have available for testing determines how in-depth I can te
 
 ![Screenshot of me using VoiceOver on a Mac showing "heading level 2"](/img/2019/11/VoiceOver.jpg){: .boxed }
 
-### Getting some help
+## Getting some help
 
 Both Deque University and WebAIM have great guides.
 
@@ -46,9 +46,9 @@ Both Deque University and WebAIM have great guides.
   - [Deque's NVDA Keyboard Shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
   - [WebAIM's Using NVDA to Evaluate Web Accessibility](https://webaim.org/articles/nvda/)
 
-### Testing with VoiceOver on MacOS
+## Testing with VoiceOver on MacOS
 
-#### First time set up
+### First time set up
 
 Before getting going for the first time, I needed to do some once-off set up of my system and Safari. I use Firefox and Chrome as my usual browsers, but VoiceOver and Safari work better together.
 
@@ -58,7 +58,7 @@ Before getting going for the first time, I needed to do some once-off set up of 
    1. Advanced tab > Accessibility item, tick "Press Tab to highlight each item on a web page."
    2. AutoFill tab > untick all. (I do this to make VoiceOver less noisy on form fields)
 
-#### Each time set up
+### Each time set up
 
 Here's what I do each time to get started testing.
 
@@ -68,7 +68,7 @@ Here's what I do each time to get started testing.
   - This means I can use the activation keys without having to hold <kbd>Ctrl</kbd> + <kbd>Option</kbd> each time.
 - Press <kbd>Shift</kbd> + <kbd>↓</kbd> to jump into the page.
 
-#### Testing
+### Testing
 
 - Open the Rotor with <kbd>U</kbd> (and later exit it with <kbd>Esc</kbd>).
   - Use the <kbd>←</kbd> and <kbd>→</kbd> keys to move between menus and <kbd>↑</kbd> and <kbd>↓</kbd> inside menus. (Test landmarks, headings, links, and forms from here.)
@@ -77,13 +77,13 @@ Here's what I do each time to get started testing.
 - Start reading with <kbd>A</kbd>. Jump through the page with <kbd>→</kbd>. Stop reading with <kbd>Ctrl</kbd>.
 - Jump to the top of the page with <kbd>Fn</kbd> + <kbd>←</kbd>.
 
-### Testing with NVDA on Windows
+## Testing with NVDA on Windows
 
-#### First time set up
+### First time set up
 
 Turn on Speech Viewer in Tools. This displays the speech as text on the screen. I find it very helpful!
 
-#### Testing
+### Testing
 
 - Turn off Num Lock. (I tend to have it on for day to day use)
 - Start NVDA with <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd>.
@@ -93,7 +93,7 @@ Turn on Speech Viewer in Tools. This displays the speech as text on the screen. 
 - Use <kbd>Ins</kbd> + <kbd>Space</kbd> to switch between Browse mode (reading) and Focus mode (entering data in forms) if needed.
 - Jump to the top of the page with Numpad <kbd>+</kbd>.
 
-### Summary
+## Summary
 
 Testing with a screen reader has the potential to be complicated and time-consuming. To do a full-on test, it kinda is. I've tried to get around this a bit by:
 

@@ -12,7 +12,7 @@ Some HTML bits and what they sound like to a screen reader. Some big things to r
 
 Here are a bunch of tiny samples:
 
-### Single inputs
+## Single inputs
 
 <ol>
     {% for sounds-like-input in site.sounds-like-inputs %}
@@ -24,7 +24,7 @@ Here are a bunch of tiny samples:
     {% endfor %}
 </ol>
 
-### Grouped inputs, radios
+## Grouped inputs, radios
 
 <ol>
     {% for sounds-like-group in site.sounds-like-groups-radios %}
@@ -36,7 +36,7 @@ Here are a bunch of tiny samples:
     {% endfor %}
 </ol>
 
-### Grouped inputs
+## Grouped inputs
 
 <ol>
     {% for sounds-like-group in site.sounds-like-groups %}
@@ -48,7 +48,7 @@ Here are a bunch of tiny samples:
     {% endfor %}
 </ol>
 
-### Inputs and errors
+## Inputs and errors
 
 <ol>
     {% for sounds-like-error in site.sounds-like-errors %}
@@ -60,7 +60,7 @@ Here are a bunch of tiny samples:
     {% endfor %}
 </ol>
 
-### Described By
+## Described By
 
 <ol>
     {% for sounds-like-describedby in site.sounds-like-describedbys %}
@@ -72,7 +72,7 @@ Here are a bunch of tiny samples:
     {% endfor %}
 </ol>
 
-### Accessible names
+## Accessible names
 
 <ol>
     {% for sounds-like-accessible-name in site.sounds-like-accessible-names %}

@@ -6,7 +6,7 @@ description: A quick guide to keyboard interactions
 
 It depends on the HTML element that has focus and what is selected, but some keyboard interactions are similar for every focusable element.
 
-### General keyboard interactions
+## General keyboard interactions
 
 - <kbd>Tab</kbd>: moves to the next focusable element / group.
 - <kbd>Shift</kbd> + <kbd>Tab</kbd>: moves to the previous focusable element / group.
@@ -16,9 +16,9 @@ It depends on the HTML element that has focus and what is selected, but some key
 
 A group is a set of items where only one item can be selected. For example: `radio`s, tabs, or `select`s. Slightly confusingly this does not include `checkbox`es, because you can select multiple items.
 
-### Terminology clarification
+## Terminology clarification
 
-#### Name, Role, Value
+### Name, Role, Value
 
 Every interactive element must have a name, a `role`, and a `value`.
 
@@ -26,20 +26,20 @@ Every interactive element must have a name, a `role`, and a `value`.
 - The `role` is usually implied from the HTML element. For example, a `button` has `role` of `button`.
 - The `value` is the data, such as the typed-in text in a text input.
 
-#### Focus and selection
+### Focus and selection
 
 When tabbing to an HTML `select`, it gains **focus**. When the `select` is opened using <kbd>Space</kbd>, it still has **focus**. Using <kbd>↑</kbd> <kbd>↓</kbd> to move changes the option **selection**. Using <kbd>Enter</kbd> performs the action of accepting the current **selection**, and sets the `value` of the `select`.
 
-### Specific keyboard interactions
+## Specific keyboard interactions
 
-#### Single-line text inputs (`input type=“text”`)
+### Single-line text inputs (`input type=“text”`)
 
 - Printable characters (e.g. letters, punctuation, <kbd>Space</kbd>)
   - enters the characters, setting the `value` of the input
 - <kbd>→</kbd>, <kbd>←</kbd>
   - moves the cursor inside the text input
 
-#### Autocomplete
+### Autocomplete
 
 Note: these use an `input type=“text”` to enter the text and follow those keyboard interactions, plus the following.
 
@@ -50,14 +50,14 @@ Note: these use an `input type=“text”` to enter the text and follow those ke
 
 Note: for _inline_ autocomplete the first match is automatically selected, and the `value` of the autocomplete is set.
 
-#### `button`s
+### `button`s
 
 - <kbd>Space</kbd>
   - presses the `button`
 - <kbd>Enter</kbd>
   - presses the `button`
 
-#### `select`s
+### `select`s
 
 - <kbd>Space</kbd>
   - opens the focused `select`
@@ -68,7 +68,7 @@ Note: for _inline_ autocomplete the first match is automatically selected, and t
 - <kbd>↑</kbd>, <kbd>↓</kbd>:
   - moves between items
 
-#### `radio`s (pick only one)
+### `radio`s (pick only one)
 
 - <kbd>Space</kbd>
   - selects the focused radio
@@ -80,16 +80,16 @@ Note: for _inline_ autocomplete the first match is automatically selected, and t
 - <kbd>↑</kbd>, <kbd>→</kbd>, <kbd>↓</kbd>, <kbd>←</kbd> (Arrow keys):
   - moves between elements in the group
 
-#### `checkbox`es (pick multiple)
+### `checkbox`es (pick multiple)
 
 - <kbd>Space</kbd>
   - toggles the focused checkbox
 
-### Which elements receive focus?
+## Which elements receive focus?
 
 Only interactive elements (a link, a button, any kind of form control) automatically get keyboard focus. We can send focus to other elements, but this should be done infrequently and carefully. We can autofocus elements on page (or modal) load, but this should be done infrequently and carefully.
 
-### What if no interactive element has focus?
+## What if no interactive element has focus?
 
 The default keyboard action takes place:
 
@@ -101,12 +101,12 @@ The default keyboard action takes place:
 - <kbd>→</kbd>, <kbd>←</kbd>: does nothing
 - <kbd>Esc</kbd>: does nothing
 
-### Who uses just the keyboard?
+## Who uses just the keyboard?
 
 - Power users use the keyboard because it's faster.
 - People with motor impairments use the keyboard because it doesn't require precise movement like pointers do.
 - People who use screen readers often use just the keyboard.
 
-### Where can I read more?
+## Where can I read more?
 
 For more complex examples, we consult the [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.2/). The examples tend to be solid technically, but not very visually appealing!

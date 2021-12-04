@@ -9,7 +9,7 @@ Testing with a screen reader is an important part of accessibility work. It help
 
 Note: [an updated version of this post](/2019/11/29/testing-with-screen-readers/) is available.
 
-### What I test
+## What I test
 
 The amount of time I have available for testing determines how in-depth I can test. It's only when I have plenty of time that I sit and use a screen reader to read through the whole content of the page in detail. My usual check list looks like this:
 
@@ -23,7 +23,7 @@ I work on a Mac, so I mostly test with VoiceOver. It's not a very popular combo:
 
 ![Screenshot of me using VoiceOver on a Mac showing "heading level 2"](/img/2019/11/VoiceOver.jpg){: .boxed }
 
-### First time set up
+## First time set up
 
 Before getting going for the first time, I needed to do some once-off set up of my system and Safari. I use Firefox and Chrome as my usual browsers, but VoiceOver and Safari work better together.
 
@@ -33,11 +33,11 @@ Before getting going for the first time, I needed to do some once-off set up of 
    1. Advanced tab > Accessibility item, tick "Press Tab to highlight each item on a web page."
    2. AutoFill tab > untick all. (I do this to make VoiceOver less noisy on form fields)
 
-### Getting some help
+## Getting some help
 
 Both Deque University and WebAIM have great guides to using VoiceOver: [Deque University's VoiceOver Keyboard Shortcuts on a Mac](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts#vo-mac-basics) and [WebAIM's Using VoiceOver to Evaluate Web Accessibility](https://webaim.org/articles/voiceover/). I'm a big fan of [Deque's single-page printer-friendly PDF version of their guide](https://dequeuniversity.com/assets/pdf/screenreaders/voiceover-macos-guide.pdf).
 
-### Getting started
+## Getting started
 
 Here's what I do each time to get started testing.
 
@@ -56,7 +56,7 @@ And here are the commands I use for testing.
 - Start reading with <kbd>A</kbd>. Jump through the page with <kbd>→</kbd>. Stop reading with <kbd>Ctrl</kbd>.
 - Jump to the top of the page with <kbd>Fn</kbd> + <kbd>←</kbd>.
 
-### Do the checks
+## Do the checks
 
 1. Check **structure**
    - Rotor > **Landmarks**
@@ -84,7 +84,7 @@ And here are the commands I use for testing.
      - are errors announced? (add `aria-live="assertive"` so it announces and `aria-relevant="additions removals"` so it isn't overly verbose. `role="alert"` gets `aria-atomic="true"` by default, so re-reads the whole thing each time.)
 5. Does the **order of content** make sense?
 
-### Summary
+## Summary
 
 Testing with a screen reader has the potential to be complicated and time-consuming. To do a full-on test, it kinda is. I've tried to get around this a bit by:
 

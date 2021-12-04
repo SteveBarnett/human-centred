@@ -9,8 +9,7 @@ Here's a quick round-up of how I try and write accessible HTML. I use a handful 
 
 I use a mix of tools because I try and be a bit pessimistic about how good I'll be at fixing everything. I want to give future-me several chances to catch the things that past-me overlooked or missed.
 
-
-### My process
+## My process
 
 [![](/img/2018/02/thumbs/naga-wave.jpg)](/img/2018/02/naga-wave.jpg)
 {: .pull-right}
@@ -29,7 +28,8 @@ See below for more detail on the [CSS debuggers](#css-debuggers) and [CLI tools]
 - [WebAIM's WAVE](http://wave.webaim.org/) when I want to test a page and share the results with someone;
 - the **Audits** tab in Chrome dev tools.
 
-### CSS debuggers
+## CSS debuggers
+
 {: tabindex="-1"}
 
 I use [my fork of Heydon Pickering's Revenge.css](https://github.com/SteveBarnett/REVENGE.CSS) and the warnings and errors files from [a11y.css](https://github.com/ffoodd/a11y.css) to highlight where I've made HTML mistakes.
@@ -38,7 +38,8 @@ In [the (Jekyll-flavoured) header of this site](https://github.com/SteveBarnett/
 
 Where appropriate, I also add a `component-name.test.css` that has more specific rules.
 
-### CLI tools
+## CLI tools
+
 {: tabindex="-1"}
 
 [![](/img/2018/02/thumbs/naga-pa11y.jpg)](/img/2018/02/naga-pa11y.jpg)
@@ -54,6 +55,6 @@ I use [Pa11y](https://github.com/pa11y/pa11y). It can be quite verbose and a bit
 
 I'm still figuring out the best way of integrating this with other tests and things. I want to use [Gulp aXe web driver](https://github.com/felixzapata/gulp-axe-webdriver) as part of the build process in my next project. aXe has a different approach to pa11y. Where pa11y is loud, aXe is quiet: they aim for no false positives, so they output is much quieter.
 
-### And you?
+## And you?
 
 **How do you test your stuff for accessibility?** And if you don't yet, what's the first thing you'll test? Putting a (publicly accessible) URL into [WAVE](http://wave.webaim.org/) is a great, low effort, first step. Here's [this site put through the wringer](http://wave.webaim.org/report#/naga.co.za). When starting work on a new site, I like to run WAVE and see if there's one error that I can do a tiny, quick, fix for.

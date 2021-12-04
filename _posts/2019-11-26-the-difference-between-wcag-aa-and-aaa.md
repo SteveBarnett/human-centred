@@ -7,13 +7,13 @@ image: /img/2019/11/thumbs/wcag-quick-ref.png
 
 Sometimes the difference between, and the importance of, WCAG AA vs AAA levels aren't entirely clear. Here's my take on it.
 
-### To AA or to AAA?
+## To AA or to AAA?
 
 Broadly speaking I aim for AA, and try for AAA where I can, given the time, money, and other constraints. In terms of the [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method): **Must have** AA compliance (everything passes AA); **Should have** some AAA Successes; **Could have** AAA compliance (but unlikely to).
 
 Achieving AA means we're doing great at making our sites accessible. This is also what legal and compliance types will want. Achieving AAA means we're doing **amazing** at making our sites accessible. It's difficult and not always possible, though.
 
-### What's the difference between AA and AA
+## What's the difference between AA and AA
 
 To really get into it, we need to read through the WCAG docs. I'm a fan of [the Quick Reference version of the docs](https://www.w3.org/WAI/WCAG21/quickref/).
 
@@ -34,7 +34,7 @@ It takes a while to go through the whole lot, though, so I like to think of the 
   - Additional things that improve accessibility (and usability).
     - These include: **extra navigation** like breadcrumbs, a site map, highlighting the current page and section in the nav; **extra semantic markup** and ARIA; **help documentation**.
 
-### Easy AAA
+## Easy AAA
 
 A handful of the AAA items feel like they just need a little bit of extra work from me. Here are a few AAA itesms that I try to always include.
 
@@ -46,6 +46,6 @@ A handful of the AAA items feel like they just need a little bit of extra work f
 
 It's important to note that we must meet all the AA criteria to be AA compliant. It's great for our users to meet some AAA items on top of the AA ones. We should do that from a base of AA compliance, though.
 
-### Summary
+## Summary
 
 Achieving WCAG AAA is pretty tricky and isn't always a practical option. However, if we're already aiming at (or achieving) AA, there are a handful of things we can stretch a little further to achieve AAA for those. Doing so makes our stuff more accessible to more people. Yay!

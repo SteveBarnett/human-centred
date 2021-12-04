@@ -7,11 +7,11 @@ image: /img/2019/11/axe-browser-extension.jpg
 
 A little while ago, I updated my accessibility testing process based on the results of [the WebAIM Million survey](https://webaim.org/projects/million/). I decided on a way to do a quick and easy first pass at accessibility testing.
 
-### Background
+## Background
 
 In February 2019, WebAIM conducted an accessibility analysis of the top 1,000,000 home pages on the web. They noted [the six most common WCAG failures for these pages](https://webaim.org/projects/million/#wcag). I used this as a base for "what should I test first?", then I extended it a little.
 
-### My checklists
+## My checklists
 
 **My first pass is for errors**. Automated tools are great for picking these up as they can be tested for a clear true of false result.
 
@@ -28,7 +28,7 @@ In February 2019, WebAIM conducted an accessibility analysis of the top 1,000,00
 - `button` text describes the action that will happen.
 - `alt` text conveys the content and function of each image.
 
-### How I check for errors
+## How I check for errors
 
 My preferred method: run [Deque's axe browser extension](https://www.deque.com/axe/).
 
@@ -39,7 +39,7 @@ Alternative methods:
 - run the Fast Pass of [Microsoft's Accessibility Insights](https://accessibilityinsights.io/) Chrome extension. (This runs axe behind the scenes)
 - run [WebAIM's WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) either as browser extension, or using their web interface.
 
-### How I check for meaningful text context
+## How I check for meaningful text context
 
 My preferred method: use a screen reader (in my case, VoiceOver for Mac OS) and cycle through the groups (of links, buttons, and images). (I've also written up how I do more thorough [testing with screen readers](https://naga.co.za/2019/11/13/how-i-test-with-screen-readers/)).
 
@@ -57,14 +57,14 @@ Alternative methods:
 
 ![The Paciello Group's ARC Toolkit Chrome extension in action, showing detailed accessiblity testing results.](/img/2019/11/thumbs/arc-toolkit-browser-extension.jpg)
 
-#### Adding extra text for Assistive Tech
+### Adding extra text for Assistive Tech
 
 When it's not possible or desirable to change the visual representation of the text, there are still ways to improve links (like repeated "Read more"s).
 
 - Add an `aria-labelledby` attribute that points at a nearby useful thing, such as a heading.
 - Add extra text and wrap it in a `sr-only` class (like [H5BP's sr-only styles](https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css#L113:L150)) that visually hide the extra text.
 
-### Summary
+## Summary
 
 Running a handful of tools and making a few spot checks can result in catching some low-hanging accessibility fruit. Delicious!
 
