@@ -22,7 +22,7 @@ The videos that prompted me to scribble down these thoughts were:
 
 ## What do games do that the web does too?
 
-Many of the things that games and the web both do are handled on the web by the Operating System (Windows, Mac OS, or Linux), the Browser (most often Chrome, Edge, or Firefox), or the Assistive Technology (like a screen reader or magnification tool).
+Many of the things that games and the web both do the Operating System (Windows, Mac OS, or Linux), the Browser (most often Chrome, Edge, or Firefox), or the Assistive Technology (like a screen reader or magnification tool) handle on the web.
 
 ### Controller options
 
@@ -38,11 +38,11 @@ On the web we have pointer devices like a mouse or trackpad. These have had trac
 
 ### Subtitles and Captions
 
-Subtitles are text of the dialogue. Captions are text of the dialogue, plus descriptions of other audio like sound effects and music. Assuming subtitle and captions tracks have been provided, what options are available?
+Subtitles are text of the dialogue. Captions are text of the dialogue, plus descriptions of other audio like sound effects and music. Assuming the authors have provided subtitle and captions tracks, what options are available?
 
 Most games these days have a setting to turn on subtitles. Many have subtitles on by default. Some also provide a setting for captions, with some offering captions only. Some provide settings for the display of this text: text colour, background colour, text size, background opacity.
 
-On the web the subtitles and captions settings come from the player.These can be styled with CSS. The [WCAG Guideline 1.2 – Time-based Media](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_overview#time-based-media) has several Success Criteria about supplying captions and audio descriptions, but doesn't mention customisation of the display of these.
+On the web the subtitles and captions settings come from the player. We can style these with CSS. The [WCAG Guideline 1.2 – Time-based Media](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_overview#time-based-media) has several Success Criteria about supplying captions and audio descriptions. It doesn't mention customisation of the display of these.
 
 ### Assist mode
 
@@ -52,13 +52,15 @@ As Mark Brown says in his ["How Accessible Were This Year's Games?" video](https
 
 > accessibility is about reaching a wider group of people by making design decisions and providing options that can help **remove the barriers that get in the way of the fun**.
 
-I think this is especially true for assist mode.
+This is especially true for assist mode.
 
-The web has similar concepts to assist mode in a generic sense: autofill, password managers, grammar and spelling checkers. Again, these are provided by the OS / Browser / AT. They can be enhanced or improved by site.
+The web has similar concepts to assist mode in a generic sense: autofill, password managers, grammar and spelling checkers. The OS / Browser / AT provides these. The site can improve or enhance these.
 
 There are some site-specific things that could classify as assist mode features: the choice of default settings; a typeahead autocomplete; machine-learning-based suggestions.
 
-Site "tours" perhaps fall into this category too. The "big up front" versions are less useful, but the "just in time" versions could maybe be categorised as assist mode features.
+Site "tours" fall into this category too. The "big up front" versions are less useful, but the "just in time" versions could be categorised as assist mode features.
+
+I don't think that help text and error messaging in forms quite falls into the assist mode category. Assist mode in games mostly feels like invisible help, though. You choose a setting at the start, then you don't explicitly see it again.
 
 ## What do games do that the web doesn't?
 
@@ -68,13 +70,13 @@ There are a few things that I've seen in games accessibility that don't quite ha
 
 Some games take you straight into the accessibility menu on your first load of the game. This has been a pattern for a while for things like choosing UI language and voice acting language.
 
-On the web, many accessibility settings are at the system level. Some of these are prompted for during the first install, or on upgrade, but most are under Preferences or Settings.
+On the web, many accessibility settings are at the system level. The first install, or an upgrade, sometimes prompts the user for these, but most are under Preferences or Settings.
 
 The Authoring Tool Accessibility Guidelines mention [making accessible options at least as prominent as non-accessible options](https://www.w3.org/TR/ATAG20/#gl_b22).
 
 #### How might we use this on the web?
 
-Offering a handful of site-specific accessibility settings on first log-in could be a good way of surfacing these, and of setting some defaults. These could also be surfaced as "just in time" prompts when users access a new section for the first time.
+Offering a handful of site-specific accessibility settings on first log-in could be a good way of surfacing these, and of setting some defaults. We could also surface these as "just in time" prompts when users access a new section for the first time.
 
 ### Very granular customisation
 
@@ -82,7 +84,7 @@ Some games offer preset "packs" of accessibility options. For instance, choosing
 
 #### How might we use this on the web?
 
-On the web, modern design and development practices lend themselves nicely to high customisability. Many organisations will have a design system. Colour, spacing, and font choice are usually controlled with variables (either in Sass or with CSS custom properties). Having a settings page that lets the user change some of these seems like a viable way to offer more customisation.
+On the web, modern design and development practices lend themselves well to high customisability. Many organisations will have a design system. Colour, spacing, and font choice are usually controlled with variables (either in Sass or with CSS custom properties). Having a settings page that lets the user change some of these seems like a viable way to offer more customisation.
 
 Progressive disclosure might be one way to offer a lot of customisation without revealing a large number of options all at once. That is: show a handful of the most used settings up front, and offer an easy way to access the full list. Offering "packs" of accessibility options might also be good.
 
@@ -90,9 +92,9 @@ Progressive disclosure might be one way to offer a lot of customisation without 
 
 One of the things that seems like a way around making an accessible site is having a [Conforming Alternate Version](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-conforming-alt-versions-head). This is usually not a good path to follow because it means maintaining two versions of the same site.
 
-However, there is a pattern some games follow that could offer an, ahem, alternative to this. In games that apply special visual effects (such as very pixelated art style, handwritten text on screen, glitch-y displays) there is sometimes an option to turn these effects off.
+There is a pattern some games follow that could offer an alternative to this. In games that apply special visual effects (such as very pixelated art style, handwritten text on screen, glitch-y displays) there is sometimes an option to turn these effects off.
 
-The key thing here is that the effects are a layer. There's the base version of the game. Then there's the version enhanced with the special effects. If this is taken into account from the start of the process, it's relatively low complexity to implement. It's [shifting left](https://www.deque.com/shift-left/)!
+The key thing here is that the effects are a layer. There's the base version of the game. Then there's the version enhanced with the special effects. If we take this into account from the start of the process, it's relatively low complexity to implement. It's [shifting left](https://www.deque.com/shift-left/)!
 
 The default version is accessible. But you can choose to change settings that may impact on the accessibility. For example, it's become popular for games to have subtitles on by default.
 
@@ -104,7 +106,7 @@ I'm a big fan of open source. It made me very happy to see that EA have (sort of
 
 At the moment that includes:
 
-- the Ping System, a way of sending a short text description of something that would usually be done over voice chat;
+- the Ping System, a way of sending a short text description of something that the player would usually send over voice chat;
 - an automated way to process images that improves them for people with colour vision impairments;
 - a contrast ratio checker.
 
