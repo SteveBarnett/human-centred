@@ -15,6 +15,6 @@ He's worked as a front-end developer and UX person at [Unboxed Consulting](https
 
 {% include elsewhere.md %}
 
-He loves open source so he keeps lots of things on GitHub like [the contract he uses](https://github.com/SteveBarnett/Contract), [the questions he asks clients](https://github.com/SteveBarnett/Client-Questionnaire), [a template for lightweight UX Personas](https://github.com/SteveBarnett/Personas-Template), [checklists for UX and accessibility](https://github.com/SteveBarnett/Checklists), and [retrospective templates](https://github.com/SteveBarnett/Freelancer-Friday-Flections).
+He loves open source so he keeps lots of things on GitHub like [accessibility demos and tests](https://github.com/SteveBarnett/a11y-demos-and-tests), [notes-to-self on the WebAim Million](https://github.com/SteveBarnett/WebAIM-Million), [retrospective templates](https://github.com/SteveBarnett/Freelancer-Friday-Flections), and [checklists for UX and accessibility](https://github.com/SteveBarnett/Checklists).
 
 {% include shrug.md %}
