@@ -4,8 +4,9 @@ title: '"Yeah, but" - objections to doing accessibility work, and ideas for disc
 ---
 
 <ul>
+    {% assign counter = 0 %}
     {% for yeahbuttal in site.data.yeahbuttals %}
-    <li>
+    <li id="yeahbut-{{ counter }}">
         <strong>"Yeah, but {{ yeahbuttal.yeahbut }}"</strong>
         <ul>
             {% for rebuttal in yeahbuttal.rebuttals %}
@@ -15,5 +16,6 @@ title: '"Yeah, but" - objections to doing accessibility work, and ideas for disc
             {% endfor %}
         </ul>
     </li>
+    {% assign counter = counter | plus: 1 %}
     {% endfor %}
 </ul>
