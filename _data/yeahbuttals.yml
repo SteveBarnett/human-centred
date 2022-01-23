@@ -30,3 +30,12 @@
   rebuttals:
     - "Yes, remediation on large projects is difficult and costly. The way to approach this is to [shift left](https://www.deque.com/shift-left/) and address problems earlier, when they're cheaper to fix."
     - '"It doesn&#39;t have to be perfect. Just a little bit better than yesterday." - [Leonie Watson](https://tink.uk/)'
+- yeahbut: "[FAANG](https://en.wikipedia.org/wiki/Big_Tech) does it this (inaccessible) way"
+  rebuttals:
+    - We are not FAANG. Our problems are different problems and of a very different scale to theirs.
+    - How sure are we about how that decision was made, tested, and usability tested?
+    - What if this is a chance for us to do something better than them?
+- yeahbut: it doesn't look pretty
+  rebuttals:
+    - Every choice is a trade-off. Do we want it to look pretty for some people? Or do we want everyone to be able to ([Perceive](https://www.w3.org/WAI/WCAG21/Understanding/intro#understanding-the-four-principles-of-accessibility)) it?
+    - Is there a different solution that is accesssible and also pretty?
