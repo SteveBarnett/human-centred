@@ -16,7 +16,7 @@ Here's my process for conducting accessibility audits. I try to present the resu
 
 ## Low complexity
 
-1. <span aria-hidden="true">🧭</span> **Check the page title.** It should unique and describe the page content.
+1. <span aria-hidden="true">🧭</span> **Check the page title.** It should be unique and describe the page content. It will usually match the `h1`.
 2. <span aria-hidden="true">🔡</span> **Check the page headings.** Check for order and nesting. Highlight them visually using the [Headings accessibility bookmarklet](https://accessibility-bookmarklets.org/install.html).
 3. <span aria-hidden="true">🎹</span> **Test with the keyboard.** Check for clear focus styles and that all functionality is available.
 4. <span aria-hidden="true">🔍</span> **Test zoomed in to 400%.** Check for visibility of all content (no truncation) and that all functionality is available.
