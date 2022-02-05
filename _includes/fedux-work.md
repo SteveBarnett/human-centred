@@ -1,1 +1,0 @@
-I  live somewhere between the worlds of back-end development and interface design. I help **bridge the gap between development and design** by switching between my FED and UX roles as needed; often I do one, then the other. I make personas and wireframes with the designers (what should we build?) and write code and tests with the developers (how should we build it?). 

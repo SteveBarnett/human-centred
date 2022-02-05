@@ -1,1 +1,0 @@
-I design and develop sites and apps in a future friendly way: with an eye towards **inclusive design**, **accessibility**, and **performance**. That means a site that everyone can use, regardless of their device, the network they’re on, or any disabilities they might have.
