@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Article Archive
+title: Article Archive – older posts
 ---
 
 {%- for post in site.posts -%}
@@ -12,7 +12,8 @@ title: Article Archive
   {%- capture nextyear -%}{{ post.next.date | date: '%Y' }}{%- endcapture -%}
   {%- capture previousyear -%}{{ post.previous.date | date: '%Y' }}{%- endcapture -%}
 
-{%- if year == "2022" or year == "2021" -%}
+{%- if year != "2022" -%}
+{%- if year != "2021" -%}
 {%- if year != nextyear -%}
 <section>
   <h2 id="{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</h2>
@@ -30,7 +31,8 @@ title: Article Archive
 </section>
 {%- endif -%}
 {%- endif -%}
+{%- endif -%}
 
 {%- endfor -%}
 
-<p><a href="/archive-older/">Older articles</a></p>
+<p><a href="/archive/">Newer posts</a></p>
