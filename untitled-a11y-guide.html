@@ -1,0 +1,17 @@
+---
+layout: page
+title: Untitled a11y guide
+---
+
+{% assign chapters = site.untitled-a11y-guide-chapters | sort: "number" %}
+{% for chapter in chapters %}
+<h2><a href="{{ chapter.url }}">Chapter {{ chapter.number }}: {{ chapter.title }}</a></h2>
+
+{% assign sections = site.untitled-a11y-guide | where: "chapter", chapter.title | sort: "order" %}
+<ol>
+{%- for section in sections -%}
+	<li><a href="{{ section.url}}">{{ section.title }}</a></li>
+{%- endfor -%}
+</ol>	
+{%- assign chaptercount = chaptercount | plus: 1 -%}
+{% endfor %}

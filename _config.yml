@@ -31,5 +31,10 @@ collections:
     output: true
   sounds-like-accessible-names:
     output: true
+  untitled-a11y-guide-chapters:
+    output: true
+    permalink: /untitled-a11y-guide/:name
+  untitled-a11y-guide:
+    output: true
 
 css-version: 1.2.5
