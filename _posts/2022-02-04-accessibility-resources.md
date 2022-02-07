@@ -59,9 +59,11 @@ For checking against WCAG specifically, I find the Quick Reference version most 
 
 - [Web Accessibility by Google on Udacity](https://www.udacity.com/course/web-accessibility--ud891)
 - [Introduction to Web Accessibility by edX and the W3c](https://www.edx.org/course/web-accessibility-introduction)
-- [Start Building Accessible Web Applications Today by Marcy Sutton (ace a11y FED) on egghead](https://egghead.io/courses/start-building-accessible-web-applications-today)
+- [Start Building Accessible Web Applications Today by Marcy Sutton on egghead](https://egghead.io/courses/start-building-accessible-web-applications-today)
 - [Introduction To Accessibility Testing on Ministry of Testing](https://trailhead.salesforce.com/en/content/learn/trails/get-started-with-web-accessibility)
 - [Get Started with Web Accessibility on Trailhead](https://trailhead.salesforce.com/en/content/learn/trails/get-started-with-web-accessibility)
+- [Accessibility training by Intopia](https://intopia.digital/services/accessibility-training/)
+- [Accessibility and Inclusive Design Training by AbilityNet](https://abilitynet.org.uk/training)
 - [A whole bunch of courses on A11y Collective](https://www.a11y-collective.com/courses-overview/)
 
 ## Conferences and event
