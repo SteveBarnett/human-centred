@@ -10,12 +10,9 @@
     </header>
 
     <div class="entry-content">
-      {% assign sections = site.untitled-a11y-guide | where: "chapter", page.title | sort: "order" %}
-      {%- for section in sections -%}
-      <h2 id="{{ section.title | slugify }}">{{ section.title }}</h2>
+      <h2>{{ page.title }}</h2>
 
-      {{ section.content }}
-      {%- endfor -%}
+      {{ page.content }}
     </div>
   </article>
 </main>
