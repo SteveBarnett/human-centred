@@ -64,6 +64,7 @@ For checking against WCAG specifically, I find the Quick Reference version most 
 - [Get Started with Web Accessibility on Trailhead](https://trailhead.salesforce.com/en/content/learn/trails/get-started-with-web-accessibility)
 - [Accessibility training by Intopia](https://intopia.digital/services/accessibility-training/)
 - [Accessibility and Inclusive Design Training by AbilityNet](https://abilitynet.org.uk/training)
+- [Instructor-led training by TetraLogical](https://tetralogical.com/services/instructor-led-training/)
 - [A whole bunch of courses on A11y Collective](https://www.a11y-collective.com/courses-overview/)
 
 ## Conferences and event
