@@ -69,4 +69,4 @@ We might provide some summaries of the data to help the reader. Some of these we
   Watson
 - [A11yNYC June 13 2019 - Data Visualization with Doug Schepers - YouTube](https://www.youtube.com/watch?v=hmCC9XlaB9E)
 - [Writing Alt Text for Data Visualization](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) by Amy Cesal
-- [Making data visualizations more accessible | MIT News | Massachusetts Institute of Technology](https://news.mit.edu/2021/data-visualizations-accessible-blind-1012)
+- [Making data visualizations more accessible](https://news.mit.edu/2021/data-visualizations-accessible-blind-1012)
