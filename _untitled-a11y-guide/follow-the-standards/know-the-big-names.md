@@ -2,6 +2,7 @@
 layout: untitled-a11y-guide-section
 chapternumber: 5
 chapter: Follow the Standards
+title: Know the big names
 order: 3
 ---
 
@@ -17,3 +18,6 @@ order: 3
 - Microsoft
 	- [Inclusive Design](https://www.microsoft.com/design/inclusive/)
 	- [Accessibility Insights](https://accessibilityinsights.io/)
+- MDN
+	- [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+	- [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)

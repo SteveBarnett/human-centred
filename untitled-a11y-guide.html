@@ -3,15 +3,19 @@ layout: page
 title: Untitled a11y guide
 ---
 
+<p>This is the <strong>UAG</strong> (Untitled Accessibility Guide). It's pronounced "wag," like the movement of a dog's tail. It's a guide to making more accessible products.</p>
+
 {% assign chapters = site.untitled-a11y-guide-chapters | sort: "number" %}
 {% for chapter in chapters %}
-<h2><a href="{{ chapter.url }}">Chapter {{ chapter.number }}: {{ chapter.title }}</a></h2>
+<h2>Chapter {{ chapter.number }}: {{ chapter.title }}</h2>
+
+<p>{{ chapter.why }}</p>
 
 {% assign sections = site.untitled-a11y-guide | where: "chapter", chapter.title | sort: "order" %}
-<ol>
 {%- for section in sections -%}
-	<li><a href="{{ section.url}}">{{ section.title }}</a></li>
+<h3>{{ section.title }}</h3>
+
+		{{ section.content }}
 {%- endfor -%}
-</ol>	
 {%- assign chaptercount = chaptercount | plus: 1 -%}
 {% endfor %}

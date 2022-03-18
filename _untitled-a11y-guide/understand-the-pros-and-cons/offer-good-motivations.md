@@ -2,6 +2,7 @@
 layout: page
 chapternumber: 3
 chapter: Understand the pros and cons
+title: Offer good motivations
 order: 1
 ---
 

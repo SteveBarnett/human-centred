@@ -2,6 +2,7 @@
 layout: untitled-a11y-guide-section
 chapternumber: 5
 chapter: Follow the Standards
+title: Know the Standards
 order: 2
 ---
 

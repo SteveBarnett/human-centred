@@ -2,6 +2,7 @@
 layout: untitled-a11y-guide-section
 chapternumber: 7
 chapter: Design Accessibly
+title: Add annotations to designs
 order: 2
 ---
 

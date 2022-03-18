@@ -2,6 +2,7 @@
 layout: untitled-a11y-guide-section
 chapternumber: 6
 chapter: Shift Left
+title: Look for common problems
 order: 1
 ---
 
