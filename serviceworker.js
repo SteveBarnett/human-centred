@@ -1,6 +1,6 @@
 -- -
 -- -
-const version = '0.1.0';
+const version = '0.2.0';
 const staticCacheName = 'staticfiles-' + version;
 const imagesCacheName = 'images';
 const pagesCacheName = 'pages';
@@ -24,11 +24,7 @@ function updateStaticCache() {
       // These items won't block the installation of the Service Worker
       cache.addAll([
         '/img/logo.jpg',
-        '/wp-content/uploads/2016/09/ctfeds-400x282.jpg',
-        '/wp-content/uploads/2016/09/devicelab-400x225.jpg',
-        '/img/SteveBarnett.jpg',
-        '/wp-content/uploads/2016/09/workshop-opening-400x225.jpg',
-        '/wp-content/uploads/2016/09/IMG_1422-400x266.jpg'
+        '/img/SteveBarnett.jpg'
       ]);
       // These items must be cached for the Service Worker to complete installation
       return cache.addAll([
