@@ -2,7 +2,7 @@
 layout: untitled-a11y-guide-action
 ideanumber: 2
 idea: Avoid barriers to access
-title: More usable for more people
+title: Make it more usable for more people
 order: 1
 ---
 

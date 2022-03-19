@@ -2,7 +2,7 @@
 layout: untitled-a11y-guide-action
 ideanumber: 6
 idea: Shift Left
-title: Look for common problems
+title: Check for common problems
 order: 1
 ---
 

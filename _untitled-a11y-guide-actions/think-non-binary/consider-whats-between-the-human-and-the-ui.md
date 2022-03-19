@@ -2,7 +2,7 @@
 layout: untitled-a11y-guide-action
 ideanumber: 1
 idea: Think non-binary
-title: Check between the human and the UI
+title: Consider what's between the human and the UI
 order: 2
 ---
 
