@@ -1,0 +1,26 @@
+---
+layout: page
+title: More Accessible Products
+---
+
+<p>Hello! This is a map to, uh, <strong>MAP</strong> (More Accessible Products).</p>
+
+{% assign ideas = site.more-accessible-products-ideas | sort: "number" %}
+
+<p>It's made up of {{ ideas | size }} <strong>ideas</strong>. Each idea has a set of <strong>actions</strong>.
+
+
+{%- for idea in ideas -%}
+{%- assign actions = site.more-accessible-products-actions | where: "idea", idea.title | sort: "order" -%}
+
+<h2 class="map-idea" id="idea-{{ idea.number }}">Idea {{ idea.number }}: {{ idea.title }}</h2>
+
+<p>{{ idea.why }}</p>
+
+{%- for action in actions -%}
+<h3 class="map-action">{{ action.title }}</h3>
+
+{{ action.content }}
+{%- endfor -%}
+
+{%- endfor -%}

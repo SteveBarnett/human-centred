@@ -31,10 +31,10 @@ collections:
     output: true
   sounds-like-accessible-names:
     output: true
-  untitled-a11y-guide-ideas:
+  more-accessible-products-ideas:
     output: true
-    permalink: /untitled-a11y-guide/:name
-  untitled-a11y-guide-actions:
+    permalink: /more-accessible-products/:name
+  more-accessible-products-actions:
     output: true
 
 css-version: 1.3.0
