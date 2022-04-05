@@ -13,12 +13,12 @@ title: More Accessible Products
 {%- for idea in ideas -%}
 {%- assign actions = site.more-accessible-products-actions | where: "idea", idea.title | sort: "order" -%}
 
-<h2 class="map-idea" id="idea-{{ idea.number }}">Idea {{ idea.number }}: {{ idea.title }}</h2>
+<h2 class="map-idea" id="{{ idea.title | slugify }}">Idea {{ idea.number }}: {{ idea.title }}</h2>
 
 <p>{{ idea.why }}</p>
 
 {%- for action in actions -%}
-<h3 class="map-action">{{ action.title }}</h3>
+<h3 class="map-action" id="{{ action.title | slugify }}">{{ action.title }}</h3>
 
 {{ action.content }}
 {%- endfor -%}
