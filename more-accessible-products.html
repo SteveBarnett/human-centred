@@ -9,18 +9,30 @@ title: More Accessible Products
 
 <p>It's made up of {{ ideas | size }} <strong>ideas</strong>. Each idea has a set of <strong>actions</strong>.
 
+<ul hidden>
+	{%- for idea in ideas -%}
+	{%- assign actions = site.more-accessible-products-actions | where: "idea", idea.title | sort: "order" -%}
+	<li>
+		Idea {{ idea.number }}: {{ idea.title }}
+		<ul>
+			{%- for action in actions -%}
+			<li>{{ action.title }}</li>
+			{%- endfor -%}
+		</ul>
+	</li>
+	{%- endfor -%}
+</ul>
 
 {%- for idea in ideas -%}
-{%- assign actions = site.more-accessible-products-actions | where: "idea", idea.title | sort: "order" -%}
-
 <h2 class="map-idea" id="{{ idea.title | slugify }}">Idea {{ idea.number }}: {{ idea.title }}</h2>
 
 <p>{{ idea.why }}</p>
 
-{%- for action in actions -%}
-<h3 class="map-action" id="{{ action.title | slugify }}">{{ action.title }}</h3>
+	{%- assign actions = site.more-accessible-products-actions | where: "idea", idea.title | sort: "order" -%}
+	{%- for action in actions -%}
+	<h3 class="map-action" id="{{ action.title | slugify }}">{{ action.title }}</h3>
 
-{{ action.content }}
-{%- endfor -%}
+	{{ action.content }}
+	{%- endfor -%}
 
 {%- endfor -%}
