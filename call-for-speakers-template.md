@@ -14,7 +14,7 @@ Each meetup is about an hour long. Your talk can be anywhere between 10 minutes 
 We would love to help you and offer guidance on putting together a talk (or a workshop). We’ll be with you every step of the way that you’d like help with, on the iterative feedback process.
 
 * **Deciding on a theme.** What are you interested in? What do you want to find out more about?
-* **Thinking of the elevator pitch.** What makes an in interesting story?
+* **Thinking of the elevator pitch.** What makes an interesting story?
 * **Putting together an outline.** Bullet points FTW! What's the one main point you want to get across, and how do you start and end?
 * **Making slides.** Making your own, or [using a template](http://alicebartlett.co.uk/blog/how-to-do-ok-at-slides).
 * **Practising the talk or discussing the workshop content**. We’ll be an appreciative and supportive audience that will provide constructive feedback.
