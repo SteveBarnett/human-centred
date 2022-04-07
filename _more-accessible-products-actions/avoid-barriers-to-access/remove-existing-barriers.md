@@ -6,4 +6,4 @@ title: Remove existing barriers
 order: 2
 ---
 
-Examples of barriers: Auditory, Cognitive, Physical, Vision. People often more than one at a time. Consider the intersections with a person's other identities.
+Check where a person's ability might come into conflict with the product.

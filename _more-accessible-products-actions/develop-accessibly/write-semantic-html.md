@@ -6,3 +6,4 @@ order: 1
 title: Write semantic HTML
 ---
 
+Use the most appropriate HTML element for thing.

@@ -3,11 +3,11 @@ layout: page
 title: More Accessible Products
 ---
 
-<p>Hello! This is a map to, uh, <strong>MAP</strong> (More Accessible Products).</p>
+<p>Hello! This is a map to <strong>MAP</strong> (More Accessible Products): a product that everyone can use, regardless of their device they're using or any disabilities they might have.</p>
 
 {% assign ideas = site.more-accessible-products-ideas | sort: "number" %}
 
-<p>It's made up of {{ ideas | size }} <strong>ideas</strong>. Each idea has a set of <strong>actions</strong>.
+<p>The MAP is made up of {{ ideas | size }} <strong>ideas</strong>. Each idea has a set of <strong>actions</strong>.
 
 <ul hidden>
 	{%- for idea in ideas -%}
@@ -25,6 +25,10 @@ title: More Accessible Products
 
 {%- for idea in ideas -%}
 <h2 class="map-idea" id="{{ idea.title | slugify }}">Idea {{ idea.number }}: {{ idea.title }}</h2>
+
+<p>{{ idea.content }}</p>
+
+<p>{{ idea.what }}</p>
 
 <p>{{ idea.why }}</p>
 

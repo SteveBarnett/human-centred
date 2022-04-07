@@ -6,7 +6,7 @@ title: Be ready for objections
 order: 2
 ---
 
-Be ready for objections with rebuttals and “but/and”s.
+Have rebuttals and “but/and”s ready to deal with oppositions.
 
 <details>
 	<summary>Some common objections</summary>

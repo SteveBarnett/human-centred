@@ -6,6 +6,8 @@ title: Know the big names
 order: 3
 ---
 
+Be familiar with a handful of big names in the industry. They provide useful tools and resources for using and learning.
+
 - Deque
 	- [axe](https://www.deque.com/axe/)
 	- [Deque university](https://dequeuniversity.com/)

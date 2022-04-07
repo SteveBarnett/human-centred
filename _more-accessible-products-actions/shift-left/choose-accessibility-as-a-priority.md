@@ -6,4 +6,4 @@ title: Choose accessibility as a priority
 order: 2
 ---
 
-Choose accessibility as a priority, even other other things.
+Be clear on your list of priorities, and choose to put accessibility high up that list.
