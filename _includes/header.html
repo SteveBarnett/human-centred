@@ -11,6 +11,8 @@
     <link rel="stylesheet" id="theme-styles-css" href="/css/style.css?ver={{ site.css-version }}" type="text/css" media="all" />
     {% if page.layout == "sounds-like" %}
     <link rel="stylesheet" href="/css/highlight.css" />
+    {% elsif page.includesyntaxhighlight == true %}
+    <link rel="stylesheet" href="/css/highlight.css" />
     {% endif %}
     <link rel="canonical" href="https://naga.co.za{{ page.url }}" />
     <link rel="manifest" href="/manifest.json" />
