@@ -3,7 +3,9 @@ layout: page
 title: Writing, Workshops, and Talks
 ---
 
-Some notes on presenting ideas. Make it...
+Some notes on presenting ideas.
+
+## Workshops and talks
 
 - **Social**{: #social }
   - Connect everyone by showing shared experiences, especially struggles and failures.
@@ -17,23 +19,15 @@ Some notes on presenting ideas. Make it...
   - Have a physical environment that's not classroom-like.
   - Promote empathy, kindness, perspective, compassion.
   - Use love and charm, not guilt and blame. Positive emotions greatly improve learning (and negative ones hinder).
-- **Relevant**{: #relevant }
-  - Put the why before the what.
-  - Have clear, meaningful, relevant, goals.
-  - Have outcomes-based actions with observable impact.
-- **Identity-based**{: #identity }
-  - Connect to the past and the familiar, things and truths they already know.
-  - Highlight the values and beliefs that make it important, since they guide behaviour.
-  - Find things that are widely relevant, not locally specific.
-- **Looped**{: #looped }
-  - Frame changes as experiments (that are safe to fail).
-  - Focus on effort and progress (not ability or setbacks)
-  - → (Re)trial → Feedback → Reflection ↵
-  - Use Spaced Retrieval to make it stick
-- **Emotional**{: #emotional }
-  - Use an emotional argument. Entertain and excite to overcome indifference, disinterest, apathy.
-  - Use human-scale stats or vivid details. Show a big, emotional, display of the problem. Bring reality into the room.
-  - Show before and after to motivate the change.
+- **Structured**{: #structured }
+  - Have something to complete or fill in.
+  - Frame it. Have an agenda, outline, overview.
+  - Pull the whole thing together with a narrative.
+- **Practical**{: #practical }
+  - Show how to get started with small wins that stack up and lead to big ones.
+  - Do the work. Tell learners to bring their stuff.
+  - Provide a toolkit with clear, actionable, steps.
+  - Practice different techniques and choosing the best fit.
 - **Short**{: #short }
   - Keep it simple and prioritise. What's the key message or concept?
   - Make small but meaningful milestones. Find the short-term reward linked to the long-term benefit.
@@ -50,50 +44,77 @@ Some notes on presenting ideas. Make it...
   - Have integrity: be the example.
   - Use concrete examples to help focus. Look at good examples and analyse why they're good.
   - Use images to make it more memorable. Use metaphors to make connections.
-- **Questioning**{: #questioning }
-  - Ask questions rather than give answers. Provide a curiosity gap.
-  - Let people draw their own conclusions, discover the answers themselves.
-  - Promote a growth mindset, not a fixed mindset.
-- **Structured**{: #structured }
-  - Have something to complete or fill in.
-  - Frame it. Have an agenda, outline, overview.
-  - Pull the whole thing together with a narrative.
-- **Practical**{: #practical }
-  - Show how to get started with small wins that stack up and lead to big ones.
-  - Do the work. Tell learners to bring their stuff.
-  - Provide a toolkit with clear, actionable, steps.
-  - Practice different techniques and choosing the best fit.
-- **Empathetic**{: #empathetic }
-  - Understand why the change is difficult and frustrating. It takes time and needs supports.
-  - Understand both sides. The pros and cons.
-  - Make the change sufficiently alluring.
-- **Nudging**{: #nudging }
-  - Use anchoring.
-  - Use loss aversion.
-  - Use availability bias.
-  - Use mere measurement effect (ask, for details).
-  - Positive Injunctive > Negative Informational.
 - **Entrenched**{: #entrenched }
   - Make it repeatable, regular, ritual.
   - Help them establish habits.
   - Make concrete plans. Use WOOP (Wish, Outcome, Obstacle, Plan) or 5Ws and 1H.
-- **A shared responsibility**{: #a-shared-responsiblity }
-  - Understand that complex, systemic, changes are needed for the big problems. They tend to be from multiple, large scale, long-term, structural causes (rather than individual bad actors).
-  - Focus outward, on future actions (rather than (only) inwards, on past blame and guilt)
-  - Promote helpful co-operation (rather getting squirming defensiveness from blaming)
 - **Accessible**{: #accessible }
   - Share (shortened) links early, or in advance
   - Mind your language: sexism, ableism, swearing, weird references
   - Speak the alt text of content images
   - Distribute accessible slides, maybe a transcript or article
 
+## Persuasion
+
+- **A shared responsibility**{: #a-shared-responsiblity }
+  - Understand that complex, systemic, changes are needed for the big problems. They tend to be from multiple, large scale, long-term, structural causes (rather than individual bad actors).
+  - Focus outward, on future actions (rather than (only) inwards, on past blame and guilt)
+  - Promote helpful co-operation (rather getting squirming defensiveness from blaming)
+- **Nudging**{: #nudging }
+  - Use anchoring.
+  - Use loss aversion.
+  - Use availability bias.
+  - Use mere measurement effect (ask, for details).
+  - Positive Injunctive > Negative Informational.
+- **Emotional**{: #emotional }
+  - Use an emotional argument. Entertain and excite to overcome indifference, disinterest, apathy.
+  - Use human-scale stats or vivid details. Show a big, emotional, display of the problem. Bring reality into the room.
+  - Show before and after to motivate the change.
+- **Empathetic**{: #empathetic }
+  - Understand why the change is difficult and frustrating. It takes time and needs supports.
+  - Understand both sides. The pros and cons.
+  - Make the change sufficiently alluring.
+- **Questioning**{: #questioning }
+  - Ask questions rather than give answers. Provide a curiosity gap.
+  - Let people draw their own conclusions, discover the answers themselves.
+  - Promote a growth mindset, not a fixed mindset.
+- **Identity-based**{: #identity }
+  - Connect to the past and the familiar, things and truths they already know.
+  - Highlight the values and beliefs that make it important, since they guide behaviour.
+  - Find things that are widely relevant, not locally specific.
+- **Looped**{: #looped }
+  - Frame changes as experiments (that are safe to fail).
+  - Focus on effort and progress (not ability or setbacks)
+  - → (Re)trial → Feedback → Reflection ↵
+  - Use Spaced Retrieval to make it stick
+- **Relevant**{: #relevant }
+  - Put the why before the what.
+  - Have clear, meaningful, relevant, goals.
+  - Have outcomes-based actions with observable impact.
+
+## Writing
+
+- **Article structure**
+  - Summary at the top
+  - Images
+  - Credit where it's due
+  - Bullet recap at the bottom
+- **Article content**
+  - Teach something you learned
+  - Take people behind the scenes
+  - Have a clear takeaway
+  - Have a call to action
+  - Answer "why?"
+
+---
+
 Related: [big picture ideas](/writing-workshops-and-talks-big-picture/) (for writing, workshops, and talks).
 
 ---
 
-### Closing activity
+## Workshop closing activities
 
-#### For Now
+### For Now
 
 - **What** will you do?
 - **When** will you do it?
@@ -104,14 +125,14 @@ Related: [big picture ideas](/writing-workshops-and-talks-big-picture/) (for wri
 
 Write a sentence starting with "I will..."
 
-#### For Now Now
+### For Now Now
 
 - How likely are you to do this? Give it a score out of 10. 1/10 = Nope. 10/10 = Very yes.
   - No judgement! Be realistic.
 - Why isn't your score **lower**?
 - Is there something small you can do to make your score **higher**?
 
-#### For Later
+### For Later
 
 - **Small steps**<br>Focus on progress
 - **Accountability Buddy**<br>Check-in with them regularly
