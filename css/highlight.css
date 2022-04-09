@@ -1,8 +1,14 @@
+div.highlight {
+  color:  #222;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border: 2px solid #666;
+  margin-bottom: 1em;
+}
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight .cm {
   color: #999988;
-  font-style: italic;
 }
 .highlight .cp {
   color: #999999;
@@ -10,16 +16,13 @@
 }
 .highlight .c1 {
   color: #999988;
-  font-style: italic;
 }
 .highlight .cs {
   color: #999999;
   font-weight: bold;
-  font-style: italic;
 }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
-  color: #999988;
-  font-style: italic;
+  color: #666;
 }
 .highlight .err {
   color: #a61717;
@@ -31,7 +34,6 @@
 }
 .highlight .ge {
   color: #000000;
-  font-style: italic;
 }
 .highlight .gr {
   color: #aa0000;
@@ -141,7 +143,7 @@
   color: #d14;
 }
 .highlight .na {
-  color: #008080;
+  color: #077;
 }
 .highlight .bp {
   color: #999999;
