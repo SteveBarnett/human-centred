@@ -8,7 +8,7 @@ includesyntaxhighlight: true
 
 Automated accessibility testing is great. It can pick up some of the common, obvious, issues. It misses some stuff too, though.
 
-Accessibility done well with almost always pass an automated test. Accessibility done not so well won't always fail an automated test. That difference oftem comes down to the difference between "wrong" (clear errors, omissions) and "bad" (debatable quality, unusual code).
+Accessibility done well with almost always pass an automated test. Accessibility done not so well won't always fail an automated test. That difference often comes down to the difference between "wrong" (clear errors, omissions) and "bad" (debatable quality, unusual code).
 
 The best thing to use for our tests is some form of [axe](https://www.deque.com/axe/). It's the industry-leading testing engine, made by Deque, and it's used inside lots of other tools. Deque has [a lot of axe-related repos](https://github.com/orgs/dequelabs/repositories?language=&q=axe&sort=&type=all). There are packages for most unit and E2E testing frameworks.
 
