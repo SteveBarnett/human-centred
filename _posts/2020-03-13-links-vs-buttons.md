@@ -1,7 +1,8 @@
 ---
 title: Links vs Buttons and Do's & Don'ts for Accessibility
 layout: post
-description: Links and Buttons, when to use which, and what the accessibility implications are.
+description: "Links and Buttons, when to use which, and what the accessibility implications are."
+includesyntaxhighlight: true
 ---
 
 Summary: if it's for navigation, use a link; if it's for an action, use a button. Then use CSS to make it look like the designs.
