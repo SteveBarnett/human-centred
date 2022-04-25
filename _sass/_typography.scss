@@ -428,3 +428,13 @@ details {
   padding-top: 0.5em;
   border-top: 1px solid #700;
 }
+
+img.highlight {
+  border: 2px dashed $red;
+}
+
+a:hover {
+  img.highlight {
+    border-color: lighten($red, 20%);;
+  }
+}
