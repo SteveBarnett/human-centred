@@ -148,7 +148,7 @@ The link text describes the destination of the link. It's meaningful, understand
 
 Here are some more in-depth resources on text alternatives.
 
-- [An alt Decision Tree at W3C](https://www.w3.org/WAI/tutorials/images/decision-tree/)
+- [An alt Decision Tree at W3C](https://www.w3.org/WAI/tutorials/images/decision-tree/) and [Text alternatives - a decision tree](https://4syllables.com.au/articles/text-alternatives-decision-tree)
 - [Alternative Text at WebAIM](https://webaim.org/techniques/alttext/)
 - [How to write great alt text at A11y Collective](https://www.a11y-collective.com/how-to-write-great-alt-text/)
 - [Alt-texts: The Ultimate Guide on Axess Lab](https://axesslab.com/alt-texts/)
