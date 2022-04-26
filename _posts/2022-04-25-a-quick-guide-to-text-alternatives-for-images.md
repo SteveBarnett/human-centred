@@ -34,6 +34,8 @@ Do this for each image on the page.
 
 ### Example 1: an icon button
 
+Let's compare descriptive and functional text alternatives.
+
 #### Bad example
 
 <button><img src="/img/2022/04/edit.png" alt="Pencil" /></button>
@@ -56,6 +58,8 @@ The text alternative describes the function of the button. It's meaningful, unde
 
 ### Example 2: an icon-and-text button
 
+Let's compare when a text alternative is and isn't needed.
+
 #### Bad example
 
 <button>Edit <img src="/img/2022/04/edit.png" alt="Edit" /></button>
@@ -77,6 +81,8 @@ Let's replace the image with it's text alternative.
 The button is meaningful, understandable, and usable. Yay!
 
 ### Example 3: a photo
+
+Let's compare empty and descriptive text alternatives.
 
 Note: I've added a red dashed border to images to help with the demonstration.
 
@@ -102,6 +108,8 @@ The text alternative conveys the same information as the image. It's meaningful,
 
 ### Example 4: a linked image
 
+Let's compare descriptive and functional text alternatives.
+
 #### Bad example
 
 <a href="https://wellingtonzoo.com/things-to-do/close-encounters/capybara"><img class="highlight" src="/img/2022/04/capybara.jpg" alt="A very pleased capybara getting their tummy scratched with a scratching stick" /></a>
@@ -123,6 +131,8 @@ Let's replace the image with it's text alternative.
 The text alternative describes the function of the image: the destination of the link. The link text is meaningful, understandable, and usable. Yay!
 
 ### Example 5: an image-and-text link
+
+Let's compare when a text alternative is and isn't needed. This is similar to Example 2 (an icon-and-text button).
 
 #### Bad example
 
