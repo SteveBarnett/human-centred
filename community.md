@@ -9,6 +9,11 @@ title: Community
 
 Here are some recent talks and workshops that I've done.
 
+### 2022
+{: #workshops-and-talks-2022 }
+
+- April 2022 - **Introduction to Accessibility** talk at [Wellington Xero talks](https://www.meetup.com/wellington-xero-talks/events/285221095/).
+
 ### 2021
 
 {: #workshops-and-talks-2021 }
