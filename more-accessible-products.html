@@ -24,7 +24,7 @@ title: More Accessible Products
 </ul>
 
 {%- for idea in ideas -%}
-<h2 class="map-idea" id="{{ idea.title | slugify }}">Idea {{ idea.number }}: {{ idea.title }}</h2>
+<h2 class="map-idea" id="{{ idea.title | slugify }}" tabindex="-1">Idea {{ idea.number }}: {{ idea.title }}</h2>
 
 <p>{{ idea.content }}</p>
 
@@ -34,7 +34,7 @@ title: More Accessible Products
 
 	{%- assign actions = site.more-accessible-products-actions | where: "idea", idea.title | sort: "order" -%}
 	{%- for action in actions -%}
-	<h3 class="map-action" id="{{ action.title | slugify }}">{{ action.title }}</h3>
+	<h3 class="map-action" id="{{ action.title | slugify }}" tabindex="-1">{{ action.title }}</h3>
 
 	{{ action.content }}
 	{%- endfor -%}

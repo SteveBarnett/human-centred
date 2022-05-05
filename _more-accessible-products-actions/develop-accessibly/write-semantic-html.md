@@ -7,3 +7,5 @@ title: Write semantic HTML
 ---
 
 Use the most appropriate HTML element for thing.
+
+[Understand ARIA](#understand-aria) and is sparingly and carefully.
