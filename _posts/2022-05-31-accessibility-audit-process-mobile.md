@@ -17,7 +17,7 @@ It's bit trickier to do automated checking of accessibility on native apps, espe
 - <span aria-hidden="true">🅰️</span> **Test with larger text.**
 	- Does all text resize?
 	- Is any text truncated?
-- <span aria-hidden="true">🗣</span> **Test with VoiceOver.**
+- <span aria-hidden="true">🗣</span> **Test with a screen reader.**
 	- Do elements have appropriate semantics (buttons, links, forms)?
 	- Do non-text elements (images, video, audio) have text alternatives that convey the content or function?
 	- Are decorative images hidden?
