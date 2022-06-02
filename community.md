@@ -13,7 +13,7 @@ Here are some recent talks and workshops that I've done.
 {: #workshops-and-talks-2022 }
 
 - May 2002 - **How to get the most (accessibility) out of a design system** talk at [A11y Bytes 2022](https://a11ybytes.org/bytes-2022/): [my slides](https://speakerdeck.com/stevebarnett/how-to-get-the-most-accessibility-out-of-a-design-system); [video on YouTube](https://www.youtube.com/watch?v=E5l7eGVfJNM).
-- April 2022 - **Introduction to Accessibility** talk at [Wellington Xero talks](https://www.meetup.com/wellington-xero-talks/events/285221095/).
+- April 2022 - **Introduction to Accessibility** talk at [Wellington Xero talks](https://www.meetup.com/wellington-xero-talks/events/285221095/): [my slides](https://speakerdeck.com/stevebarnett/introduction-to-accessibility-29178d36-14ac-4ff1-8c9f-f44d43beb520).
 
 ### 2021
 
