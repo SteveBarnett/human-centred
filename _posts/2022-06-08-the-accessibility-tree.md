@@ -41,7 +41,7 @@ Each node in the tree has a name, a role, sometimes a value, and sometimes a sta
 The thing to note here is that there have been two "best guess" jumps between the code and the human.
 
 - Best guess one: the browser makes the DOM from the code.
-- Best guess 2: the browser makes the accessibility tree from DOM.
+- Best guess two: the browser makes the accessibility tree from DOM.
 
 We can't make this perfect, but we can increase our confidence in the browser making good guesses. We do this by: 
 

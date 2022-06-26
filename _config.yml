@@ -31,6 +31,8 @@ collections:
     output: true
   sounds-like-accessible-names:
     output: true
+  more-accessible-products-sections:
+    output: false
   more-accessible-products-ideas:
     output: true
     permalink: /more-accessible-products/:name

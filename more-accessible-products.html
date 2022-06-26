@@ -3,40 +3,36 @@ layout: page
 title: More Accessible Products
 ---
 
-<p>Hello! This is a (work in progress) map to <strong>MAP</strong> (More Accessible Products): a product that everyone can use, regardless of the technology they're using or any disabilities they might have.</p>
+<p>Hello! This is a (work in progress) map to <strong>MAP</strong> (More Accessible Products): a product that everyone can use, regardless of the technology they're using, or any disabilities they might have.</p>
+
+<p>It's important to remember that "the map is not the territory." Any list like this can't be exhaustive. It can only be pointers to some helpful things. Earlier items on the list are more broad and conceptual. Later items on the list are more specific and practical.</p>
 
 {% assign ideas = site.more-accessible-products-ideas | sort: "number" %}
 
-<p>The MAP is made up of {{ ideas | size }} <strong>ideas</strong>. Each idea has a set of <strong>actions</strong>.
-
-<ul hidden>
-	{%- for idea in ideas -%}
-	{%- assign actions = site.more-accessible-products-actions | where: "idea", idea.title | sort: "order" -%}
-	<li>
-		Idea {{ idea.number }}: {{ idea.title }}
-		<ul>
-			{%- for action in actions -%}
-			<li>{{ action.title }}</li>
-			{%- endfor -%}
-		</ul>
-	</li>
-	{%- endfor -%}
-</ul>
+{%- assign previoussection = "" -%}
 
 {%- for idea in ideas -%}
-<h2 class="map-idea" id="{{ idea.title | slugify }}" tabindex="-1">Idea {{ idea.number }}: {{ idea.title }}</h2>
 
-<p>{{ idea.content }}</p>
+{%- if idea.section != previoussection -%}
+<h2 class="map-section">{{ idea.section }}</h2>
+{%- endif -%}
+{%- assign previoussection = idea.section -%}
 
-<p>{{ idea.what }}</p>
+<div class="map-idea-section">
+	<h3 class="map-idea" id="{{ idea.title | slugify }}" tabindex="-1">{{ idea.number }}: {{ idea.title }}</h3>
 
-<p>{{ idea.why }}</p>
+	<p>{{ idea.content }}</p>
+	<p>{{ idea.what }}</p>
+	<p>{{ idea.why }}</p>
+</div>
 
+	<div class="map-action-section">
 	{%- assign actions = site.more-accessible-products-actions | where: "idea", idea.title | sort: "order" -%}
 	{%- for action in actions -%}
-	<h3 class="map-action" id="{{ action.title | slugify }}" tabindex="-1">{{ action.title }}</h3>
+	<h4 class="map-action" id="{{ action.title | slugify }}" tabindex="-1">{{ action.title }}</h4>
 
 	{{ action.content }}
 	{%- endfor -%}
+	</div>
 
 {%- endfor -%}

@@ -65,9 +65,9 @@ h4 {
 }
 
 // hierarchy
-h4 {
-  text-transform: uppercase;
-}
+// h4 {
+//   text-transform: uppercase;
+// }
 
 .entry-content p:not(:first-of-type) {
   hyphens: auto;
@@ -419,14 +419,20 @@ details {
   font-size: 0.5em;
 }
 
-.map-idea {
-  padding-top: 0.5em;
+.map-section {
+  padding-top: 0.25em;
   border-top: 3px solid #700;
 }
 
-.map-action {
-  padding-top: 0.5em;
+.map-action-section {
+  padding-left: 1em;
+}
+
+.map-idea-section {
   border-top: 1px solid #700;
+  padding-top: 1em;
+  border-bottom: 1px solid #700;
+  margin-bottom: 1em;
 }
 
 img.highlight {
