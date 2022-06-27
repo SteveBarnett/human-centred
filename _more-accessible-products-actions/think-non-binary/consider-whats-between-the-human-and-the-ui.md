@@ -7,3 +7,5 @@ order: 2
 ---
 
 Think about input methods, browser, operating system, screen size and resolution, user preferences and choices, network connection (cost, speed, latency), age and condition of hardware, age of the person, experience level, assistive technology.
+
+Think about options and preferences, not accessibility options.
