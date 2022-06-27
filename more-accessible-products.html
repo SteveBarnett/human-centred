@@ -14,7 +14,7 @@ title: More Accessible Products
 {%- for idea in ideas -%}
 
 {%- if idea.section != previoussection -%}
-<h2 class="map-section">{{ idea.section }}</h2>
+<h2 class="map-section" id="{{ idea.section | slugify }}">{{ idea.section }}</h2>
 {%- endif -%}
 {%- assign previoussection = idea.section -%}
 
