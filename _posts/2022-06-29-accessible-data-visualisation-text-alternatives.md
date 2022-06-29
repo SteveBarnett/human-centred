@@ -3,6 +3,7 @@ title: "Accessible data visualisation: text alternatives"
 layout: post
 description: Pulling together some thoughts on text alternatives for charts
 image: /img/2022/06/charts.png
+includesyntaxhighlight: true
 ---
 
 Complex images like charts must have a `table` of the data and “alt text” on the chart noting where the table is. Any functionality available on hover must be available from the keyboard.
@@ -23,7 +24,8 @@ We should provide
 
 This provides a (structured) text version of the content of the chart: the data.
 
-<p id=“options-for-position-of-the-table”>Options for the position of the table:</p>
+Options for the position of the table:
+{: #options-for-position-of-the-table }
 
 - Before the chart.
 - After the chart.
@@ -31,6 +33,13 @@ This provides a (structured) text version of the content of the chart: the data.
 - Instead of the chart, via a toggle button. The toggle button must appear before the chart.
 - On another page.
     - We must provide a link to the table with the chart. The link text should describe the link destination and its relation to the chart. Template: “View table of `[type of data]`”. For example: “View table of income from January 2022 to June 2022”.
+  
+#### Chart as link
+
+We can make the whole chart a link (by wrapping it in an `a`), but this should be carefully considered.
+
+- If we do this the text alternative of the chart will function as the link text. The text alternative should then follow our rules for link text.
+- We can only do this if the chart contains no hover interactions (and therefore no keyboard interactions). This is because we can't nest interactive elements: we can't have a button inside a link.
 
 #### Technical notes
 
