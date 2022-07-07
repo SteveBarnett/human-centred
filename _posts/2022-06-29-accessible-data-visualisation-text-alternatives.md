@@ -8,7 +8,7 @@ includesyntaxhighlight: true
 
 Complex images like charts must have a `table` of the data and “alt text” on the chart noting where the table is. Any functionality available on hover must be available from the keyboard.
 
-All non-text content must have a text alternative that converts the content or function of the non-text content.
+All non-text content must have a text alternative that conveys the content or function of the non-text content.
 
 - **Simple images can use a concise sentence as a text alternative.** We put this in the `alt` attribute for `img`s or `title` element for `svg`s. We often call both “alt text” as a shorthand for “text alternative”.
 - **Complex images like charts need a two-part text alternative.** The content of the chart is the data. This is too long to use for “alt text”. It also usually needs some structure (for example rows and columns) to adequately convey its meaning. This isn’t possible in an `alt` attribute or `title` element.
@@ -43,7 +43,7 @@ We can make the whole chart a link (by wrapping it in an `a`), but this should b
 
 #### Technical notes
 
-- The skip link will be an in-page link: `<a href=“#id-of-the-table”></a>`.
+- The skip link will be an in-page link: `<a href=“#id-of-the-table”>Skip to data table</a>`.
 - The skip link can optionally be visually hidden until it receives focus, like a skip link at the very start of a page.
 - The table will need an `id` to point to, and a `tabindex=“-1”` to allow it to receive focus (from the skip link).
 
@@ -60,8 +60,8 @@ We use the text alternative on the chart to tell the user where the table is. We
 
 To make the chart component as accessible as possible by default, we should:
 
-- include the generation of the table.
-- include options for the position of the table (see [Options for the position of the table](#options-for-position-of-the-table) earlier on this page).
+- include the generation of the table;
+- include options for the position of the table (see [Options for the position of the table](#options-for-position-of-the-table) earlier on this page);
 - provide a default text alternative on the chart image noting where the table is.
 
 ## Up next
@@ -70,7 +70,7 @@ This was all about the text alternatives for charts. We didn’t look at all at 
 
 ## References
 
-- The [WAI’s Complex Images tutorial](https://www.w3.org/WAI/tutorials/images/complex/) has lots of great information.
+- The [WAI’s Complex Images tutorial](https://www.w3.org/WAI/tutorials/images/complex/) has lots of great information
 - [Accessible SVGs](https://css-tricks.com/accessible-svgs/) by Heather Migliorisi on CSS Tricks
 - [Case Study: Implementing Accessible Data Charts for the Khan Academy 2018 Annual Report](https://www.sarasoueidan.com/blog/accessible-data-charts-for-khan-academy-2018-annual-report/) by Sara Soueidan
 - [Writing Alt Text for Data Visualization](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) by Amy Cesal
