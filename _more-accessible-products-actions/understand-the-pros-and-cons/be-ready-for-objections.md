@@ -26,3 +26,5 @@ Have rebuttals and “but/and”s ready to deal with objections. Refer to how it
 	- Then we haven't found the right solution yet!
 	- It does provide more constraints, but that's an opportunity for more creative solutions.
 - **Other things are higher priority.**
+- **It's third party software / someone else's responsibility** (even though it's on our site)
+- **Other sites aren't accessible, so why should we be?**
