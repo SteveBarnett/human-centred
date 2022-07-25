@@ -68,7 +68,7 @@ To make the chart component as accessible as possible by default, we should:
 
 ## Up next
 
-This was all about the text alternatives for charts. We didn’t look at all at “Any functionality available on hover must be available from the keyboard.” That’s a topic for another article.
+This was all about the text alternatives for charts. We didn’t look at all at “Any functionality available on hover must be available from the keyboard.” That’s a topic for another article: [Accessible data visualisation: keyboard interactions](/2022/07/24/accessible-data-visualisation-keyboard-interactions/)
 
 ## References
 
