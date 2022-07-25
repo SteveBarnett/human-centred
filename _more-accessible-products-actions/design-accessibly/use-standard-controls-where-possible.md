@@ -6,4 +6,4 @@ title: Use standard controls where possible
 order: 3
 ---
 
-Use standard controls where possible. Give a rationale for deviations from standards.
+Give a rationale for deviations from standards.
