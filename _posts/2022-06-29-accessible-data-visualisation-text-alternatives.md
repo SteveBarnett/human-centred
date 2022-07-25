@@ -13,6 +13,8 @@ All non-text content must have a text alternative that conveys the content or fu
 - **Simple images can use a concise sentence as a text alternative.** We put this in the `alt` attribute for `img`s or `title` element for `svg`s. We often call both “alt text” as a shorthand for “text alternative”.
 - **Complex images like charts need a two-part text alternative.** The content of the chart is the data. This is too long to use for “alt text”. It also usually needs some structure (for example rows and columns) to adequately convey its meaning. This isn’t possible in an `alt` attribute or `title` element.
 
+**Note:** SVGs that contain text via `text` elements will probably need `aria-hidden="true"` to make sure they are not read out by screen readers. (When they're not hidden, a screen reader experience will be reading out all the visible text without context: axes labels, axe ticks, and data points!)
+
 ## Text alternatives for complex images like charts
 
 We should provide 
