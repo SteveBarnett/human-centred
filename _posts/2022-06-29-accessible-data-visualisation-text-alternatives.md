@@ -35,6 +35,8 @@ Options for the position of the table:
 - Instead of the chart, via a toggle button. The toggle button must appear before the chart.
 - On another page.
     - We must provide a link to the table with the chart. The link text should describe the link destination and its relation to the chart. Template: “View table of `[type of data]`”. For example: “View table of income from January 2022 to June 2022”.
+
+Note: the table should not be visually hidden. This could lead to a confusing experience for sighted screen reader users.
   
 #### Chart as link
 
