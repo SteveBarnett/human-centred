@@ -29,7 +29,7 @@ We can make a `div` or a `span` into a link or a button by adding a `role`, `tab
 **Links go places**. They navigate the user to a new page or view or bit of a page: they move away from the current context. They:
 
 - are focusable by default when they have an `href` attribute (no need to add a `tabindex`);
-- respond with a click event to the <kdb>Enter</kdb> key;
+- respond with a click event to the <kbd>Enter</kbd> key;
 - can't be disabled (they can be made inert with `tabindex="-1"` and `aria-hidden="true"`, but be sure that's what you need. );
 - accept `:link`, `:visited`, `:focus`, `:hover`, `:active` styles;
 - are communicated as links to screen readers (no need to add `role="link"`)
@@ -75,7 +75,7 @@ We can make a `div` or a `span` into a link or a button by adding a `role`, `tab
 They:
 
 - receive keyboard focus by default (no need to add `tabindex`);
-- respond with a click event to the <kdb>Space</kdb> key or <kdb>Enter</kdb> key;
+- respond with a click event to the <kbd>Space</kbd> key or <kbd>Enter</kbd> key;
 - can be disabled with the `disabled` attribute;
 - are communicated as buttons to screen readers (no need to add `role="button"`);
 - accept `:focus`, `:hover`, `:active`, `:disabled` styles.
