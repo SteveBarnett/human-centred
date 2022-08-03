@@ -32,9 +32,9 @@ It's bit trickier to do automated checking of accessibility on native apps, espe
 	- [Set up shortcut and captions](/2021/07/31/testing-with-screen-readers/#first-time-set-up-2)
 	- Navigate by swiping right and left
 - <span aria-hidden="true">🕵️</span> **Use XCode's Accessibility Inspector.**
-       - XCode > Open Developer Tool > Accessibility Inspector
-       - In the top left, change the target to the USB-connected iOS device
-       - Use the Navigation previous and next buttons
+        - XCode > Open Developer Tool > Accessibility Inspector
+        - In the top left, change the target to the USB-connected iOS device
+        - Use the Navigation previous and next buttons
 
 ## Android settings
 
