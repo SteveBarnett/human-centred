@@ -20,7 +20,8 @@ Here's my process for conducting accessibility audits. I try to present the resu
 2. <span aria-hidden="true">🔡</span> **Check the page headings.** Check for order and nesting. Highlight them visually using the [Headings accessibility bookmarklet](https://accessibility-bookmarklets.org/install.html).
 3. <span aria-hidden="true">🎹</span> **Test with the keyboard.** Check for clear focus styles and that all functionality is available.
 4. <span aria-hidden="true">🔍</span> **Test zoomed in to 400%.** Check for visibility of all content (no truncation) and that all functionality is available.
-5. <span aria-hidden="true">🪓</span> **Run the [aXe browser extension](https://www.deque.com/axe/).** This is a good tool to run first since its philosophy of 'zero false positives' means the list of errors is usually short.
+5. <span aria-hidden="true">☯️</span> **Test with WHCM (Windows High Contrast Mode).** Check interactive elements, focus styles, and SVG icons are visible. (Note: we don’t need to check colour contrast ratios, since colours are set by the user)
+6. <span aria-hidden="true">🪓</span> **Run the [aXe browser extension](https://www.deque.com/axe/).** This is a good tool to run first since its philosophy of 'zero false positives' means the list of errors is usually short.
 
 ## Medium complexity
 
