@@ -28,3 +28,4 @@ Have rebuttals and “but/and”s ready to deal with objections. Refer to how it
 - **Other things are higher priority.**
 - **It's third party software / someone else's responsibility** (even though it's on our site)
 - **Other sites aren't accessible, so why should we be?**
+- **It's time-consuming**. Counter “we don’t have time to cater to special needs” by focusing on the core human need.
