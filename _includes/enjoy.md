@@ -1,1 +1,1 @@
-<p id="enjoy">The things I enjoy most about my job are (in order of doing-it-myself to help-others-do-it): coding, supporting, teaching / training, writing, and presenting.</p>
+<p id="enjoy">The things I most enjoy doing at work are: supporting, teaching / training, writing, presenting, and coding. There's some overlap between these.</p>
