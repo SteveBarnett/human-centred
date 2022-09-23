@@ -6,7 +6,7 @@ description: Thoughts and things on Front-end development and related topics, by
 github_username: SteveBarnett
 image: /img/me.jpg
 
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 
 # Build settings
 plugins:
