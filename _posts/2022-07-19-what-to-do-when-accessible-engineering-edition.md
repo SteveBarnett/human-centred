@@ -36,7 +36,8 @@ This is a trimmed and jiggled version of things from a larger (and Work In Progr
 - Do Static Analysis
     - [axe Accessibility Linter](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter) for VS Code
     - [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y) for the command line
-- Use [XUI carefully]()
+- Use [the design system carefully](https://naga.co.za/2022/05/25/how-to-get-the-most-(accessibility)-out-of-a-design-system/)
+- If using Storybook, add the [Accessibility Addon](https://storybook.js.org/addons/@storybook/addon-a11y)
 - Include a11y in Code Reviews. Check that new Pull Requests are “axe clean” (there are no errors flagged by a11y automated tests).
 
 ## Automated Testing
