@@ -45,8 +45,8 @@ This is useful! But it's a fixed, static, thing and the product is a fluid, chan
 
 Carrot good, stick bad.
 
-Intrinsic motivation is better than extrinsic motivation is better external control.
+Intrinsic motivation is better than extrinsic motivation is better than external control.
 
-The outcomes from using the carrot approach are harder to measure. But they are more effective at making change and making than change last.
+The outcomes from using the carrot approach are harder to measure. But they are more effective at making change and making that change last.
 
 Having said all that: we do usually need both! 🙈 It's another flavour of [crab claw](/2022/09/21/crab-claw/) / "why can't it be both?". But I believe we need a lot more carrot than we need stick.
