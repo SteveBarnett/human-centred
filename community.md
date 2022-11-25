@@ -12,7 +12,8 @@ Here are some recent talks and workshops that I've done.
 ### 2022
 {: #workshops-and-talks-2022 }
 
-- May 2002 - **How to get the most (accessibility) out of a design system** talk at [A11y Bytes 2022](https://a11ybytes.org/bytes-2022/): [my slides](https://speakerdeck.com/stevebarnett/how-to-get-the-most-accessibility-out-of-a-design-system); [video on YouTube](https://www.youtube.com/watch?v=E5l7eGVfJNM).
+- November 2022 - **Sounds like a good idea: how to get started testing with a screen reader** talk at [A11y Camp 2022](https://a11ycamp.org.au/speakers-and-presentations-2022/#steve): [text version of the talk](https://naga.co.za/2022/10/15/sounds-like-a-good-idea/); [video on YouTube](https://www.youtube.com/watch?v=xqjkSjZOUSI).
+- May 2022 - **How to get the most (accessibility) out of a design system** talk at [A11y Bytes 2022](https://a11ybytes.org/bytes-2022/): [my slides](https://speakerdeck.com/stevebarnett/how-to-get-the-most-accessibility-out-of-a-design-system); [video on YouTube](https://www.youtube.com/watch?v=E5l7eGVfJNM).
 - April 2022 - **Introduction to Accessibility** talk at [Wellington Xero talks](https://www.meetup.com/wellington-xero-talks/events/285221095/): [my slides](https://speakerdeck.com/stevebarnett/introduction-to-accessibility-29178d36-14ac-4ff1-8c9f-f44d43beb520).
 
 ### 2021
