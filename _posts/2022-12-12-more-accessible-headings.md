@@ -12,7 +12,7 @@ Headings are used by:
 
 - search engines to figure out what’s on the page;
 - screen reader users to hear what’s on the page, and to jump to a section of the page;
-- sighted users who visually scanning a page.
+- sighted users who are visually scanning a page.
 
 ## 1. Plan out our headings
 
