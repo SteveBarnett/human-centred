@@ -24,6 +24,8 @@ Headings are used by:
 
 The list of headings should read a bit like a table of contents for the page.
 
+“Section”s here refer to logically distinct pieces of the page. If we’re using headings well, we can use `div`s or `section`s and the end result is essentially the same (in terms of accessibility). See [Scott O’Hara’s Accessibility of the section element](https://www.scottohara.me/blog/2021/07/16/section.html) for more detail.
+
 ## 2. Check our headings
 
 ### High-level checks
