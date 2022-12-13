@@ -31,14 +31,14 @@ The list of headings should read a bit like a table of contents for the page.
 - Headings are nested correctly and ordered correctly.
 - Headings divide the page into meaningful sections and describe the content immediately after the heading.
 
-### Detailed Acceptance Criteria
+### Detailed Page-level Acceptance Criteria
 
 - Page should contain an `h1`.
 - Page should contain only one `h1`.
 - `h1` **must** describe the topic or purpose of the page.
 - `h1` should be similar to the `title`.
 - `h1` could be the first heading on the page.
-- Heading levels should increase only be one.
+- Heading levels should increase only by one.
 - Headings **must** describe the topic or purpose of content immediately after it.
 - Text that looks like a heading **must** be marked up as a heading.
 
