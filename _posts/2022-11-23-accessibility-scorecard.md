@@ -49,7 +49,7 @@ Your overall score is the average of the four scores of the big “We...” stat
 
 ## 🧪 We test accessibly
 
-- Including `jest-axe` in some unit tests and `axe-playwright` (or `cypress-axe`) in some E2E tests.
+- Including accessibility in some unit tests and in some end-to-end tests. (For example: `jest-axe` for units tests and `axe-playwright` or `cypress-axe` for E2E tests).
 - Doing some [QACs (Quick Accessibility Checks) 🦆](/2021/12/13/qac/).
 - Testing with assistive technology, in particular [testing with screen readers](/2022/10/14/testing-with-a-screen-reader/).
 - Doing (or asking for) an [accessibility audit](/2022/01/24/accessibility-audit-process/).
