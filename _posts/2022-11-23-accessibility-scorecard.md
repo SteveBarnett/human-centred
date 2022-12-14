@@ -22,7 +22,7 @@ For each of the four big “We...” statements below, pick a score between -2 t
 | 1 | Agree |
 | 2 | Strongly agree |
 
-Use the list in each "We..." section to help inform your score. If you do most of the activities on the list, you’ll probably be Agree. If you do none of them, you’ll probably be Strongly disagree.
+Make a list of about four things for each section that you’ll use to help inform your score. I’ve included some examples below. If you do most of the activities on the list, you’ll probably be Agree. If you do none of them, you’ll probably be Strongly disagree.
 
 Your overall score is the average of the four scores of the big “We...” statements. Add the scores together and divide by four.
 
