@@ -448,3 +448,9 @@ a:hover {
     border-color: lighten($red, 20%);;
   }
 }
+
+blockquote {
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: solid 3px #aaa;
+}
