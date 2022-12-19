@@ -24,7 +24,7 @@ For each of the four big “We...” statements below, pick a score from 1 to 5.
 
 We choose a score for each of the four sections below. The list of activities is to help us decide what our score is. If we do most of the activities on the list, we’ll probably be **Agree**. If we do none of them, we’ll probably be **Strongly disagree**.
 
-**Note:** scores are always whole numbers. These measures and subjective and approximate. That means it’s more useful and appropriate to say our score is “about 4” instead of ”exactly 4.25”.
+**Note:** scores are always whole numbers. These measures are subjective and approximate. That means it’s a better fit to say our score is “about 4” instead of ”exactly 4.25”.
 
 ### Scores
 
