@@ -12,19 +12,32 @@ This pulls together a few different ideas from [What to do when – Accessible D
 
 ## 📈 Score
 
-For each of the four big “We...” statements below, pick a score between -2 to +2. The score follows something like a classic Likert scale:
+For each of the four big “We...” statements below, pick a score from 1 to 5. The score follows something like a classic Likert scale:
 
 | Score | Meaning |
 |--|--|
-| -2 | Strongly disagree |
-| -1 | Disagree |
-| 0 | Neither agree nor disagree |
-| 1 | Agree |
-| 2 | Strongly agree |
+| 1 | Strongly disagree |
+| 2 | Disagree |
+| 3 | Neither agree nor disagree |
+| 4 | Agree |
+| 5 | Strongly agree |
 
-Make a list of about four things for each section that you’ll use to help inform your score. I’ve included some examples below. If you do most of the activities on the list, you’ll probably be Agree. If you do none of them, you’ll probably be Strongly disagree.
+We choose a score for each of the four sections below. The list of activities is to help us decide what our score is. If we do most of the activities on the list, we’ll probably be **Agree**. If we do none of them, we’ll probably be **Strongly disagree**.
 
-Your overall score is the average of the four scores of the big “We...” statements. Add the scores together and divide by four.
+**Note:** scores are always whole numbers. These measures and subjective and approximate. That means it’s more useful and appropriate to say our score is “about 4” instead of ”exactly 4.25”.
+
+### Scores
+
+We can choose how much detail we want for the score.
+
+- Four scores, one for each section below.
+- Two scores, one for Accessible Design and one for Accessible Engineering.
+  - The Accessible Design score is the average of the two Design sections (We understand our customers and We create accessible experiences).
+  - The Accessible Engineering score is the average of the two Engineering sections (We develop accessibly and We test accessibly).
+- One score, for Overall Accessibility.
+  - This is the average of the four individual scores (We understand our customers, We create accessible experiences, We develop accessibly, and We test accessibly).
+
+**Note:** averages are rounded to the nearest whole number.
 
 ## 🤔 We understand our customers
 
