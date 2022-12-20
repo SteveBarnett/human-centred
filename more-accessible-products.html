@@ -7,6 +7,34 @@ title: More Accessible Products
 
 <p>It's important to remember that "the map is not the territory." Any list like this can't be exhaustive. It can only be pointers to some helpful things. Earlier items on the list are more broad and conceptual. Later items on the list are more specific and practical.</p>
 
+<details id="toc" tabindex="-1">
+	<summary>
+		Table of contents
+	</summary>
+
+	{% assign ideas = site.more-accessible-products-ideas | sort: "number" %}
+	<ol>
+	{%- for idea in ideas -%}
+		<li>
+			<a href="#{{ idea.title | slugify }}">{{ idea.title }}</a>
+			{%- assign actions = site.more-accessible-products-actions | where: "idea", idea.title | sort: "order" -%}
+
+			{%- assign actions = site.more-accessible-products-actions | where: "idea", idea.title | sort: "order" -%}
+			<ul>
+			{%- for action in actions -%}
+				<li>
+				<a href="#{{ action.title | slugify }}">{{ action.title }}</a>
+				</li>
+			{%- endfor -%}
+			</ul>
+		</li>
+	{%- endfor -%}
+	</ol>
+</details>
+
+
+
+
 {% assign ideas = site.more-accessible-products-ideas | sort: "number" %}
 
 {%- assign previoussection = "" -%}
