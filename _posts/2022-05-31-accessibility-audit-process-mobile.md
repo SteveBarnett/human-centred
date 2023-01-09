@@ -17,6 +17,8 @@ It's bit trickier to do automated checking of accessibility on native apps, espe
 - <span aria-hidden="true">🅰️</span> **Test with larger text.**
 	- Does all text resize?
 	- Is any text truncated?
+- <span aria-hidden="true">🤖</span> **Run an accessibility audit tool or scanner.**
+	- Are there no errors?
 - <span aria-hidden="true">🗣️</span> **Test with a screen reader.**
 	- Do elements have appropriate semantics (buttons, links, forms)?
 	- Do non-text elements (images, video, audio) have text alternatives that convey the content or function?
@@ -26,6 +28,7 @@ It's bit trickier to do automated checking of accessibility on native apps, espe
 
 - <span aria-hidden="true">🎨</span> **Check use of colour.**
 	- `Settings → Accessibility → Display & Text Size, Color Filters → Greyscale`
+	- `Settings → General → Accessibility → Display Accomodations → Invert Colours`
 - <span aria-hidden="true">🅰️</span> **Test with larger text.**
 	- `Settings → Accessibility → Display & Text Size, Larger text`
 - <span aria-hidden="true">🗣️</span> **Test with VoiceOver.**
@@ -35,6 +38,7 @@ It's bit trickier to do automated checking of accessibility on native apps, espe
 	- XCode > Open Developer Tool > Accessibility Inspector
 	- In the top left, change the target to the USB-connected iOS device
 	- Use the Navigation previous and next buttons
+- <span aria-hidden="true">🤖</span> **Run the Accessibility Inspector Audit Tool.**
 
 ## Android settings
 
@@ -46,6 +50,7 @@ It's bit trickier to do automated checking of accessibility on native apps, espe
 - <span aria-hidden="true">🗣️</span> **Test with TalkBack.**
 	- [Set up shortcut and captions](/2021/07/31/testing-with-screen-readers/#first-time-set-up-3)
 	- Navigate by swiping right and left
+- <span aria-hidden="true">🤖</span> **Run the [Android Accessibility Scanner](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor).**
 
 ## Things I might add to later
 
