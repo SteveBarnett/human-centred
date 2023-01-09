@@ -23,11 +23,13 @@ It's bit trickier to do automated checking of accessibility on native apps, espe
 	- Do elements have appropriate semantics (buttons, links, forms)?
 	- Do non-text elements (images, video, audio) have text alternatives that convey the content or function?
 	- Are decorative images hidden?
+- <span aria-hidden="true">⌨️</span> **Test with a keyboard.**
 
 ## iOS settings
 
 - <span aria-hidden="true">🎨</span> **Check use of colour.**
 	- `Settings → Accessibility → Display & Text Size, Color Filters → Greyscale`
+	- `Settings → Display & Brightness`, test `Light` and `Dark`.
 	- `Settings → General → Accessibility → Display Accomodations → Invert Colours`
 - <span aria-hidden="true">🅰️</span> **Test with larger text.**
 	- `Settings → Accessibility → Display & Text Size, Larger text`
@@ -43,8 +45,8 @@ It's bit trickier to do automated checking of accessibility on native apps, espe
 ## Android settings
 
 - <span aria-hidden="true">🎨</span> **Check use of colour.**
-	- Set `System → Advanced, Developer options, Simulate colour space` to M`onochromacy`
-	- Then `System → Accessibility → Colour correction`
+	- Set `System → Advanced, Developer options, Simulate colour space` to M`onochromacy`. Then `System → Accessibility → Colour correction`
+	- Toggle `System → Display → Dark theme` on and off.
 - <span aria-hidden="true">🅰️</span> **Test with larger text.**
 	- `Settings → Accessibility → Font size → Largest`
 - <span aria-hidden="true">🗣️</span> **Test with TalkBack.**
