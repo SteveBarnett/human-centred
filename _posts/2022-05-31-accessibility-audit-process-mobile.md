@@ -17,7 +17,7 @@ It's bit trickier to do automated checking of accessibility on native apps, espe
 - <span aria-hidden="true">🅰️</span> **Test with larger text.**
 	- Does all text resize?
 	- Is any text truncated?
-- <span aria-hidden="true">🗣</span> **Test with a screen reader.**
+- <span aria-hidden="true">🗣️</span> **Test with a screen reader.**
 	- Do elements have appropriate semantics (buttons, links, forms)?
 	- Do non-text elements (images, video, audio) have text alternatives that convey the content or function?
 	- Are decorative images hidden?
@@ -28,7 +28,7 @@ It's bit trickier to do automated checking of accessibility on native apps, espe
 	- `Settings → Accessibility → Display & Text Size, Color Filters → Greyscale`
 - <span aria-hidden="true">🅰️</span> **Test with larger text.**
 	- `Settings → Accessibility → Display & Text Size, Larger text`
-- <span aria-hidden="true">🗣</span> **Test with VoiceOver.**
+- <span aria-hidden="true">🗣️</span> **Test with VoiceOver.**
 	- [Set up shortcut and captions](/2021/07/31/testing-with-screen-readers/#first-time-set-up-2)
 	- Navigate by swiping right and left
 - <span aria-hidden="true">🕵️</span> **Use XCode's Accessibility Inspector.**
@@ -43,11 +43,11 @@ It's bit trickier to do automated checking of accessibility on native apps, espe
 	- Then `System → Accessibility → Colour correction`
 - <span aria-hidden="true">🅰️</span> **Test with larger text.**
 	- `Settings → Accessibility → Font size → Largest`
-- <span aria-hidden="true">🗣</span> **Test with TalkBack.**
+- <span aria-hidden="true">🗣️</span> **Test with TalkBack.**
 	- [Set up shortcut and captions](/2021/07/31/testing-with-screen-readers/#first-time-set-up-3)
 	- Navigate by swiping right and left
 
-## Things I might add to the process later
+## Things I might add to later
 
 - Test with a screen magnifier.
 - Test with voice control.
