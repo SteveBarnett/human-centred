@@ -3,7 +3,7 @@ title: Testing with a screen reader (QE / AC edition)
 layout: post
 description: "Testing with a screen reader: Quality Engineering / Acceptance Criteria edition"
 image: /img/2022/10/twasr.png
-category: how-to guide
+category: "how-to guide"
 ---
 
 # Testing with a screen reader

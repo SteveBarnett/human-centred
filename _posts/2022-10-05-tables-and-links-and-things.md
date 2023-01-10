@@ -3,7 +3,7 @@ title: Tables and links and things
 layout: post
 description: When faced with long tables of data, users often want to open several things in new tabs. When we do this we need to be careful that we don’t make things broken or annoying for some users.
 image: /img/2022/10/link-link-link.png
-category: how-to guide
+category: "how-to guide"
 ---
 
 When faced with long tables of data, users often want to open several things in new tabs. When we do this we need to be careful that we don’t make things broken or annoying for some users.

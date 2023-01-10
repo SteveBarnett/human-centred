@@ -2,7 +2,7 @@
 title: "Sounds like a good idea: how to get started testing with a screen reader"
 layout: post
 image: /img/2022/10/slagi.jpg
-category: how-to guide
+category: "how-to guide"
 ---
 
 This is a text version of the [PDF of the slides](/img/2022/10/Sounds like a good idea.pdf) for [a talk I'm giving at A11y Camp 2022](https://a11ycamp.org.au/speakers-and-presentations-2022/#steve).

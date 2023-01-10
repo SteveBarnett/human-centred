@@ -3,7 +3,7 @@ title: More accessible headings
 layout: post
 description: We can make our headings more accessible by checking their usage, nesting, and order.
 image: /img/2022/12/mah.png
-category: how-to guide
+category: "how-to guide"
 ---
 
 ## How are headings used?

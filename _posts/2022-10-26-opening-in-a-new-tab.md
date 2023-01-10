@@ -3,7 +3,7 @@ title: Opening in a new tab
 layout: post
 description: Open in a new tab infrequently and carefully!
 image: /img/2022/10/olint.png
-category: how-to guide
+category: "how-to guide"
 ---
 
 Open in a new tab infrequently and carefully!
