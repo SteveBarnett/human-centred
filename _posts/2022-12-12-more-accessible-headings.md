@@ -30,8 +30,7 @@ The list of headings should read a bit like a table of contents for the page.
 
 ### High-level checks
 
-- Headings are nested correctly and ordered correctly.
-- Headings divide the page into meaningful sections and describe the content immediately after the heading.
+Headings divide the page into meaningfully named sections, increasing one level at a time.
 
 ### Detailed Page-level Acceptance Criteria
 
@@ -40,7 +39,7 @@ The list of headings should read a bit like a table of contents for the page.
 - `h1` **must** describe the topic or purpose of the page.
 - `h1` should be similar to the `title`.
 - `h1` could be the first heading on the page.
-- Heading levels should increase only by one.
+- Headings should only increase by one level down each branch of the DOM.
 - Headings **must** describe the topic or purpose of content immediately after it.
 - Text that looks like a heading **must** be marked up as a heading.
 
