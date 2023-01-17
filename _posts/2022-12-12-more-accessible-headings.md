@@ -41,7 +41,9 @@ Headings divide the page into meaningfully named sections, increasing one level 
 - `h1` could be the first heading on the page.
 - Headings should only increase by one level down each branch of the DOM.
 - Headings **must** describe the topic or purpose of content immediately after it.
-- Text that looks like a heading **must** be marked up as a heading.
+- Heading elements **nust** only be used semantically, not for presentation.
+
+Note: check text that looks like a heading but is not a heading element. Should it be a heading element? Should it look like body copy?
 
 ## Summary
 
