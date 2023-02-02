@@ -14,3 +14,7 @@ Hi, I'm Steve Barnett.
 {% include values.md %}
 
 {% include enjoy.md %}
+
+<hr />
+
+{% include a11y-webring-club.html %}
