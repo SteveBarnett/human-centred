@@ -8,6 +8,8 @@ category: reference
 
 An Accessibility Scorecard is a way to get a high-level answer to “How well is our team doing (in terms of accessibility)?”
 
+Note: this is an older version. The latest version is [Accessibility scorecard (updated)](/2023/04/13/accessibility-scorecard-updated/).
+
 This pulls together a few different ideas from [What to do when – Accessible Design Edition](/2022/07/19/what-to-do-when-accessible-design-edition/), [What to do when – Accessible Engineering Edition](/2022/07/19/what-to-do-when-accessible-engineering-edition/), and more.
 
 ## 📈 Score
