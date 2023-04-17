@@ -3,7 +3,10 @@ layout: page
 title: Community
 ---
 
+![Me speaking about accessibility at Code Camp Wellington 2023](/img/2023/04/ccw-speak.jpg){: .pull-right }
+
 {% include community.md %}
+
 
 ## Workshops and speaking
 
