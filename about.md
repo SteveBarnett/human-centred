@@ -7,7 +7,7 @@ title: About
 
 {% include hcdd.md person="he" %}
 
-In Cape Town in South Africa he worked as a front-end developer and UX person (as an employee and as a consultant) at dev shops, design studios, and more. In January 2020 he moved to Wellington in New Zealand and joined [Totara Learning](https://www.totaralearning.com/) as a front-end developer, specialising in accessibility. In August 2021 he started a full-time permanent position at [Xero](https://www.xero.com/) as a Technical Digital Accessibility Analyst.
+He's been building things for the web professionally since 2005 (and built things for fun for a while before that). In Cape Town in South Africa he worked as a front-end developer and UX person (as an employee and as a consultant) at dev shops, design studios, and more. In January 2020 he moved to Wellington in New Zealand and joined [Totara Learning](https://www.totaralearning.com/) as a front-end developer, specialising in accessibility. In August 2021 he started a full-time permanent position at [Xero](https://www.xero.com/) as a Technical Digital Accessibility Analyst.
 
 {% include community.md person="he" %}
 
