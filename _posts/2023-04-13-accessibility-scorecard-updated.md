@@ -20,7 +20,13 @@ For each of the “We...” sections below, review the list of behaviours. Pick 
 | 4 | Confident  |
 | 5 | Very confident |
 
-The score follows something like a classic [Likert scale](https://en.wikipedia.org/wiki/Likert_scale). If we do most of the behaviours on the list, we’ll probably be **Confident**. If we do none of them, we’ll probably be **Not confident at all**.
+The score follows something like a classic [Likert scale](https://en.wikipedia.org/wiki/Likert_scale).
+
+When picking our current level of confidence, consider things like frequency of the behaviour, how well-documented the processes are, what level of depth they cover, what kind of conversations we tend to have around the topic.
+
+Reviewing the list of behaviours and deciding that we do them appropriately frequently, they’re well-documented, go to a good level of depth, and the topics are raised in team conversations? We’ll probably be **Confident.**
+
+Reviewing the list of behaviours, realising that we do none of them, haven’t done them before, we won’t have any docs on them, and we never talk about them? We’ll probably be **Not confident at all.**
 
 **Note:** scores are always whole numbers. These measures are subjective and approximate. That means it’s a better fit to say our score is “about 4” instead of ”exactly 4.25”. Any average of scores should be rounded to the nearest whole number.
 
