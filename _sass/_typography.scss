@@ -455,6 +455,21 @@ blockquote {
   border-left: solid 3px #aaa;
 }
 
+.boxout {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1em;
+  border: solid 3px #a66;
+  border-radius: 0.25rem;
+  ul {
+    padding-left: 1em;
+    margin-bottom: 0;
+  }
+}
+
+.boxout-alt {
+  border-color: #aaa;
+}
+
 .portfolio h2 {
   padding-top: 0.25em;
   border-top: 3px solid #700;
