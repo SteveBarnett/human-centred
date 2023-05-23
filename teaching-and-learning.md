@@ -63,6 +63,17 @@ title: Teaching and learning
   - Growing
   - Expanding
 
+## Make It Stick
+
+- To learn, retrieve
+- Mix up your practice
+- Embrace difficulties
+- Avoid illusions of knowing (fluency ≠ mastery)
+- Go beyond learning styles (underlying principles and mental models)
+- Increase your abilities (growth mindset, deliberate practice, memory cues)
+
+Learning is strong when it matters, is concrete, is personal.
+
 ---
 
 {% include _sources-teach-and-learning.md %}
