@@ -77,23 +77,6 @@
 	{% endif %}
 </footer>
 
-<script>
-	if (navigator.serviceWorker) {
-		navigator.serviceWorker.register("/serviceworker.js")
-			.then(() => {
-				console.log("Service Worker registered.");
-			})
-			.catch(err => {
-				console.log("Service worked registration failed with " + err);
-			})
-		if (navigator.serviceWorker.controller) {
-			window.addEventListener('load', () => {
-				navigator.serviceWorker.controller.postMessage('clean up caches');
-			});
-		}
-	}
-</script>
-
 </body>
 
 </html>
