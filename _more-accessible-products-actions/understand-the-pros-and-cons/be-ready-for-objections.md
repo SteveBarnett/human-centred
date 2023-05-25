@@ -10,8 +10,10 @@ Have rebuttals and “but/and”s ready to deal with objections. Refer to how it
 
 - **People with disabilities aren't our target market.** They're only a small group of users anyway.
 	- It's absurd to discriminate based on disability. We don't discriminate on other aspects of being a human.
-	- They are in our target market. Accessibility improvements help more than just people with disabilities.
-	- Disability is a spectrum, not a binary.A disability can be permanent, temporary, or contextual.
+	- Accessibility improvements help more than just people with disabilities.
+	- Disability is a spectrum, not a binary. A disability can be permanent, temporary, or contextual.
+	- People are living longer, so the aged population is increasing. Older people tend to benefit from accessibility and usability improvments.
+	- If People with Disabilities can't use the product as it is, of course they aren't!
 - **It’s difficult.** It takes too long. It’s easy to do ARIA wrong and make things worse. It's only realistic / practical / possible on small projects. We don't have support to do it.
 	- It can be difficult at first, but it's part of continuous professional development (like many other skills). It gets easier with practice.
 	- It can be done bit by bit. Small changes add up. It's mostly different work, not more work: making better choices earlier on.
@@ -28,4 +30,6 @@ Have rebuttals and “but/and”s ready to deal with objections. Refer to how it
 - **Other things are higher priority.**
 - **It's third party software / someone else's responsibility** (even though it's on our site)
 - **Other sites aren't accessible, so why should we be?**
-- **It's time-consuming**. Counter “we don’t have time to cater to special needs” by focusing on the core human need.
+- **It's time-consuming**.
+	- Counter “we don’t have time to cater to special needs” by focusing on the core human need.
+	- Shift Left to improve efficiency. Doing the work earlier is much quicker than doing it later.
