@@ -38,6 +38,9 @@ title: Persuasion
   - Put the why before the what.
   - Have clear, meaningful, relevant, goals.
   - Have outcomes-based actions with observable impact.
+- **Tilted**{: #titled }
+  - Ask who to exclude to get a bigger circle of inclusion.
+  - When comparing, put the other first.
 
 ---
 
