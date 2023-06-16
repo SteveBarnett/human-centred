@@ -1,8 +1,8 @@
 ---
 title: My sketchnotes from GA Conf 2023
 layout: post
-description: ???
-image: /img/2023/??/???.???
+description: My sketchnotes from GAConf 2023.
+image: /img/2023/06/What can I do by Jamie Knight.jpg
 category: reference
 ---
 
