@@ -26,6 +26,10 @@ Below are suggestions for **reliable results: most widely supported across diffe
 
 On page load, screen readers buffer the content and keep track of live regions. Announcements are made when the **content** of a live region is updated.
 
+Prefer live regions as static DOM elements: don’t remove and add them.
+
+Clear a live region’s contents before inserting a new message. We can do this by removing the child elements of the live region, or by overwriting the existing contents.
+
 ## Add as few live regions as possible
 
 1. Have one live region per page.
