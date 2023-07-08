@@ -245,6 +245,10 @@ details {
   ul,
   ol {
     padding-left: 2em;
+    ul,
+    ol {
+      padding-left: 1em;
+    }
   }
 }
 
