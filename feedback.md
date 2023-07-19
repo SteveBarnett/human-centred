@@ -35,6 +35,11 @@ title: Feedback
 - **Negative and expected**: Something we already know we could improve.
 - **Negative and unexpected**: Something we didn't know we could improve.
 
+## Feedback with the most emotional power
+
+- A domain we care about
+- An are we feel uncertain about
+
 ---
 
 Sources:
@@ -45,3 +50,4 @@ Sources:
 - [The Challenge of Constructive Criticism and How to Get It](https://css-tricks.com/challenge-constructive-criticism-get/)
 - [Nonviolent Communication](https://www.nonviolentcommunication.com/)
 - [Radical Candor](https://www.radicalcandor.com/)
+- [Tiny Habits](https://tinyhabits.com/)

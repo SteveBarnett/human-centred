@@ -67,6 +67,18 @@ Things to check:
 - Obvious
   - Use Implementation Intentions, tweak the environment
 
+## Behaviour change model: BMAP
+
+- Behaviour = Motivation &times; Ability &times; Prompt
+  - Sufficient Motivation and Ability are required to cross "The Action Line"
+  - Motivation and Ability can compensate for each other somewhat
+- Troubleshooting order
+  - Is there a Prompt? (Action prompts are more reliable than Person or Context Prompts)
+  - Is there an Ability blocker? (Make the Behaviour easier. Check time, money, physical effort, mental effort, routine)
+  - Is there enough Motivation? (It's unreliable. Motivation towards an abstract doesn't work.)
+- Celebrate immediately after the habit because emotions form habits via dopamine
+- Rehearse a habit to make it sink in more quickly.
+
 ---
 
 {% include _sources-change-and-motivation.md %}
