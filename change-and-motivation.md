@@ -37,7 +37,7 @@ Things to check:
 - Is everyone arguing in the same realm?
 - Is it actually about urgency, priority, grieving, solidarity?
 
-## Diagreement Template
+## Disagreement Template
 
 - Learn
   - Facts and evidence
@@ -52,9 +52,9 @@ Things to check:
   - Check-in tripwire
   - Measurement of success
 
-## Heirarchy for motivating change
+## Hierarchy for motivating change
 
-{% include heirarchy-for-motivating-change.md %}
+{% include hierarchy-for-motivating-change.md %}
 
 ## Planning the change
 
