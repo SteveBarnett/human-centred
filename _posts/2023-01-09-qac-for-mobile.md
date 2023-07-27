@@ -58,7 +58,7 @@ All user benefits from information being presented in multiple channels, not jus
 
 Use a scanning tool to check for common or obvious errors. These include things like touch targets that are too small and fields and buttons that are missing accessible names (used by screen readers and voice control users).
 
-Read more about [Automated accessibility testing on Confluence](https://naga.co.za/2022/04/09/automated-accessibility-testing/). In particular what it can and can’t catch. The difference often comes down to the difference between “wrong” (clear errors, omissions) and “bad” (debatable quality, unusual code).
+Read more about [Automated accessibility testing](https://naga.co.za/2022/04/09/automated-accessibility-testing/). In particular what it can and can’t catch. The difference often comes down to the difference between “wrong” (clear errors, omissions) and “bad” (debatable quality, unusual code).
 
 ### Why do it
 
