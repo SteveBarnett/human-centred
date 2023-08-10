@@ -62,6 +62,21 @@ When picking our current level of confidence, consider frequency and depth of **
 
 **Note:** scores are always whole numbers. These measures are subjective and approximate. That means it’s a better fit to say our score is “about 4” instead of ”exactly 4.25”. Any average of scores should be rounded to the nearest whole number.
 
+<details>
+	<summary>More detail on picking a score</summary>
+	<p>If we’re struggling to settle on a score, there are two approaches we can take.</p>
+	<ol>
+		<li><strong>Don’t overthink it!</strong> 😅 The numbers are vague on purpose anyway, and this isn’t an exact science. The point of scoring is to figure out where we want might to improve, not to figure out the “right” score. We give our best guess, then move on.</li>
+		<li><strong>Weight by Doing, then Discussing, then Documenting.</strong> A score of 4 or 5 means we’re doing good or really good in all three things.
+			<ul>
+				<li>The most important thing is Doing. If we’re Discussing and Documenting but not Doing, we aren’t providing value to our customers.</li>
+				<li>If we’re good at Discussing, we’re probably helping to <a href="https://www.deque.com/shift-left-testing-solutions/">Shift Left</a> and work on accessibility when it’s quickest and easiest to do so.</li>
+				<li>Documenting helps us be more efficient in our Doing and more structured in our Discussing.</li>
+			</ul>
+		</li>
+	</ol>
+</details>
+
 ## Deciding on the scores
 
 We want to answer:
