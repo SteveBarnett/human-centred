@@ -1,5 +1,5 @@
 ---
-title: Trainer the trainer
+title: Train the trainer
 layout: post
 description: Gathering a whole lot of thoughts on how to train people to make and run training.
 image: /img/2023/08/Ttt.png
