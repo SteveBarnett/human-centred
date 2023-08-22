@@ -19,7 +19,7 @@ Recap bullets at the bottom
 
 When motivating and persuading people to make things more accessible, I prefer [the carrot approach to the stick approach](https://en.wikipedia.org/wiki/Carrot_and_stick).
 
-Intrinsic motivation (where we enlighten and inspire people) is better than extrinsic motivation (where we offer rewards). Extrinsic motivation is better than external control (we where apply guilt and punishment). I think of this as a [heirarchy for motivating change](/writing-workshops-and-talks-big-picture/#heirarchy-for-motivating-change).
+Intrinsic motivation (where we enlighten and inspire people) is better than extrinsic motivation (where we offer rewards). Extrinsic motivation is better than external control (we where apply guilt and punishment). I think of this as a [heirarchy for motivating change](/change-and-motivation/#hierarchy-for-motivating-change).
 
 By "better" I mean more effective at making change and having that change last for the longer term.
 
