@@ -15,7 +15,7 @@ For example `div class=“looks-like-a-heading”` instead of `h2`.
 
 This comes under [1.3.1 Info and Relationships – Level A](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_overview&levels=aaa&technologies=smil%2Cpdf%2Cflash%2Csl#info-and-relationships): “Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.”
 
-If it looks like a duck, it should quack like a duck. Hey, did you do a [QAC](http://127.0.0.1:4000/2021/12/13/qac/)? 🦆
+If it looks like a duck, it should quack like a duck. Hey, did you do a [QAC](/2021/12/13/qac/)? 🦆
 
 ## There are multiple `h1`s (or no `h1`)
 

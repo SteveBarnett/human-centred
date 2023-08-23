@@ -105,7 +105,7 @@ Show these for the ticked ones:
 
 ### What next?
 
-I'm still working on the name. I want it to be another animal noise to pair well with the [QAC (Quick Accessibility Checks)](http://127.0.0.1:4000/2021/12/13/qac/) 🙈.
+I'm still working on the name. I want it to be another animal noise to pair well with the [QAC (Quick Accessibility Checks)](/2021/12/13/qac/) 🙈.
 
 And it feels too long still. I think the next version will be something like:
 

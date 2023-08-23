@@ -27,7 +27,7 @@ Quick aside: [impact maps](https://www.impactmapping.org/). They’re great! Rou
 			- Understand the accessibility tree.
 				- Check the name, role, value, of interactive elements.
 		- Do more a11y testing, lightly.
-			- Do regular [QACs](http://127.0.0.1:4000/2021/12/13/qac/).
+			- Do regular [QACs](/2021/12/13/qac/).
 				- **At least one QAC per sprint, per team.**
 			- Add `axe` in tests. (In particular in End-to-end and Integration tests.)
 				- Every repo has at least one axe test.

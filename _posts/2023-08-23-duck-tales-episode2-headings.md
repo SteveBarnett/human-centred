@@ -94,7 +94,7 @@ Pick one to answer and share with the group.
 
 ## Further Reading
 
-- [More accessible headings](http://127.0.0.1:4000/2022/12/12/more-accessible-headings/).
+- [More accessible headings](/2022/12/12/more-accessible-headings/).
 - [Accessible heading structure](https://www.a11y-collective.com/accessible-heading-structure/)
 - axe rules about headings: [Heading levels should only increase by one](https://dequeuniversity.com/rules/axe/4.7/heading-order); [Page should contain a level-one heading](https://dequeuniversity.com/rules/axe/4.7/page-has-heading-one); [Styled `<p>` elements must not be used as headings](https://dequeuniversity.com/rules/axe/4.7/p-as-heading).
 - WCAG pages about headings: [Understanding SC 2.4.6:Headings and Labels (Level AA)](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html); [Understanding SC 1.3.1:Info and Relationships (Level A)](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html).
