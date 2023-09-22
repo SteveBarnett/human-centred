@@ -38,7 +38,14 @@ title: Feedback
 ## Feedback with the most emotional power
 
 - A domain we care about
-- An are we feel uncertain about
+- An area we feel uncertain about
+
+## What Makes Criticism So Sticky?
+
+- Feedback sandwiches tend not to work.
+- In low stress states, we take feedback better. (In particular: no feedback before a performance is best)
+- Our mindset, expectations, and current psychological state impact how we interpret feedback.
+- Get people out of protect and defend mode and into a more responsive and open mode, and only then deliver criticism.
 
 ---
 
@@ -51,3 +58,4 @@ Sources:
 - [Nonviolent Communication](https://www.nonviolentcommunication.com/)
 - [Radical Candor](https://www.radicalcandor.com/)
 - [Tiny Habits](https://tinyhabits.com/)
+- [What Makes Criticism So Sticky? - The Growth Equation](https://thegrowtheq.com/what-makes-criticism-so-sticky/)
