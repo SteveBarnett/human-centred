@@ -12,11 +12,11 @@ title: Article Archive – 2022
 
 {%- if year == "2022" -%}
 <section>
-  {%- endif -%} {%- if postmonth != nextmonth -%}
+  {%- endif -%} {%- if postmonth != nextpostmonth -%}
   <h2 id="{{ post.date | date: '%Y' }}-{{ post.date | date: '%m' }}">
     {{ post.date | date: '%B' }}
   </h2>
-  {%- endif -%} {%- if postmonth != nextmonth -%}
+  {%- endif -%} {%- if postmonth != nextpostmonth -%}
   <ul>
     {%- endif -%}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
