@@ -1,0 +1,31 @@
+---
+layout: page
+title: Article Archive – 2022
+---
+
+{%- for post in site.posts -%}
+
+  {%- capture postmonth -%}{{ post.date | date: '%m%Y' }}{%- endcapture -%}
+  {%- capture nextpostmonth -%}{{ post.next.date | date: '%m%Y' }}{%- endcapture -%}
+  {%- capture previouspostmonth -%}{{ post.previous.date | date: '%m%Y' }}{%- endcapture -%}
+  {%- capture year -%}{{ post.date | date: '%Y' }}{%- endcapture %}
+
+{%- if year == "2022" -%}
+<section>
+  {%- endif -%} {%- if postmonth != nextmonth -%}
+  <h2 id="{{ post.date | date: '%Y' }}-{{ post.date | date: '%m' }}">
+    {{ post.date | date: '%B' }}
+  </h2>
+  {%- endif -%} {%- if postmonth != nextmonth -%}
+  <ul>
+    {%- endif -%}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {%- if postmonth != previouspostmonth -%}
+  </ul>
+  {%- endif -%} {%- if year != previousyear -%}
+</section>
+{%- endif -%}
+
+{%- endfor -%}
+
+<p><a href="/archive/">Newer posts</a></p>
