@@ -12,7 +12,6 @@ title: Article Archive – all
   {%- capture nextyear -%}{{ post.next.date | date: '%Y' }}{%- endcapture -%}
   {%- capture previousyear -%}{{ post.previous.date | date: '%Y' }}{%- endcapture -%}
 
-{%- if year != "2023" -%}
 {%- if year != nextyear -%}
 <section>
   <h2 id="{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</h2>
@@ -28,7 +27,6 @@ title: Article Archive – all
   </ul>
   {%- endif -%} {%- if year != previousyear -%}
 </section>
-{%- endif -%}
 {%- endif -%}
 
 {%- endfor -%}
