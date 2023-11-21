@@ -79,6 +79,20 @@ Things to check:
 - Celebrate immediately after the habit because emotions form habits via dopamine
 - Rehearse a habit to make it sink in more quickly.
 
+## Coach-like questions
+
+Some coach-like questions for clarification and getting to the root cause. An alternative to using Five Whys because that can be annoying sometimes.
+
+The focus is a bit like Appreciative Inquiry: focus on strengths and assets rather than problems and deficits.
+
+- What do you mean?
+- What do you want?
+- What's worked before?
+- And what else?
+- How can I help?
+
+Watch for SCARF: status, certainty, autonomy, relatedness (social), fairness.
+
 ---
 
 {% include _sources-change-and-motivation.md %}

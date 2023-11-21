@@ -5,3 +5,4 @@
 - [Atomic Habits](https://jamesclear.com/atomic-habits)
 - [Buster Benson](https://busterbenson.com/)
 - [Tiny Habits](https://tinyhabits.com/)
+- [The Coaching Habit](https://www.mbs.works/coaching-habit-book/)
