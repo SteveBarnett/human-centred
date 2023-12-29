@@ -93,6 +93,15 @@ The focus is a bit like Appreciative Inquiry: focus on strengths and assets rath
 
 Watch for SCARF: status, certainty, autonomy, relatedness (social), fairness.
 
+## PACT goals
+
+A different take on SMART goals.
+
+- **Purposeful**. Meaningful to your long-term purpose in life.
+- **Actionable**. Based on outputs you can control, an adaptable approach.
+- **Continuous**. Simple, repeatable, actions, an adaptable approach.
+- **Trackable**. Rather than measurable, a "yes"/"no".
+
 ---
 
 {% include _sources-change-and-motivation.md %}
