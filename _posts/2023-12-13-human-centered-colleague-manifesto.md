@@ -10,14 +10,16 @@ I’m uncovering better ways of working with other humans.
 
 Through this work I have come to value:
 
-- **being specific** over being generic;
-- **focusing on positives** over picking out negatives;
-- **orienting towards the future** over dwelling on the past;
-- **being open** over being closed;
-- **thinking of things as on a spectrum** over thinking of things as binaries;
-- **being efficient** over being wasteful;
-- **being constructive** over being destructive;
-- **fostering connection** over creating division;
+<ul class="hccm">
+	<li id="specific"><strong>being specific</strong> over being generic;</li>
+	<li id="positive"><strong>focusing on positives</strong> over picking out negatives;</li>
+	<li id="future"><strong>orienting towards the future</strong> over dwelling on the past;</li>
+	<li id="open"><strong>being open</strong> over being closed;</li>
+	<li id="spectrum"><strong>thinking of things as on a spectrum</strong> over thinking of things as binaries;</li>
+	<li id="efficient"><strong>being efficient</strong> over being wasteful;</li>
+	<li id="constructive"><strong>being constructive</strong> over being destructive;</li>
+	<li id="connection"><strong>fostering connection</strong> over creating division;</li>
+</ul>
 
 That is, while there is value in the items at the start of each bullet, I value the items at the end of the bullet more.
 
