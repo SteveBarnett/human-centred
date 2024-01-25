@@ -1,4 +1,5 @@
 ---
+title: "The Crit Stick: High Quality Feedback"
 layout: post
 description: Some guidelines for giving and receiving high quality feedback
 image: /img/2024/01/tcs.png
