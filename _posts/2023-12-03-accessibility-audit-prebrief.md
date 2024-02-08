@@ -13,7 +13,7 @@ Here's how I like to run audit prebriefs: the meeting before the audit.
 - Ask them if they have **any major updates scheduled**.
     - If there's a major redesign or rebuild coming soon, it will probably make sense to audit after that.
     - For now, offer support and training for for the redesign or rebuild.
-- Ask them **what accessiblity testing they've done already.**
+- Ask them **what accessibility testing they've done already.**
     - Manual, automated, usability, something else?
     - If they haven't done any, discuss where they might start.
 - Ask them what their **capacity to make any fixes** from the audit is like.
