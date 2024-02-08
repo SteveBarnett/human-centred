@@ -8,7 +8,7 @@ category: how-to guide
 
 Here's how I like to run audit prebriefs: the meeting before the audit.
 
-- **Frame the audit appropriately.** For example: the audit is about checking the accessiblity status of the site.
+- **Frame the audit appropriately.** For example: the audit is about checking the accessibility status of the site.
 - Ask the team to do **a walkthrough of the key user journeys.** Record it so we can refer back to it later.
 - Ask them if they have **any major updates scheduled**.
     - If there's a major redesign or rebuild coming soon, it will probably make sense to audit after that.
