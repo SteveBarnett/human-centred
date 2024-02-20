@@ -47,7 +47,7 @@ Like red flags, but not as scary: things that make me stop and check if it's wor
 
 **These suggest that the team probably has low experience and/or low interest in accessibility.** If that's the case, then a spreadsheet of issues really won't help the team make the site more usable for more people!
 
-## Bonus section: when not to start an audit
+### Bonus section: when not to start an audit
 
 - If the team has zero capacity in the near future. Often because of other constraints like security, privacy, or legal deadlines.
 - If the team has an already bristly attitude towards accessibility. Often something like: "oh, we don't have any disabled customers."
@@ -75,7 +75,7 @@ Stop the audit and talk to the team.
     - Help them see that accessibility is part of the work, not separate or an add-on.
     - Get them started “testing” themselves. I’ve found that the [QAC (Quick Accessibility Checks)](/2021/12/13/qac/) (keyboard, headings, axe DevTools) is a good way to get people started. The checks are relatively simple to do and can be quite high impact.
 
-## Bonus section 2: What to do instead of starting an audit
+### Bonus section 2: What to do instead of starting an audit
 
 - If the team has zero capacity in the near future: find out when they will have capacity, and line up training or audit.
 - If the team has an already bristly attitude towards accessibility: help them think more broadly.
