@@ -2,7 +2,7 @@
 title: More accessible presentations
 layout: post
 description: Some pointer on making our presentations more accessiblem including content, language, text, colour, images, and animations
-image: /img/2024/??/???.???
+image: /img/2024/03/map.png
 category: how-to guide
 ---
 
