@@ -51,8 +51,7 @@ footer,
 .nav {
   background-color: $red;
   @media (prefers-color-scheme: dark) {
-    background-color: $darkred;
-    border-top: 6px solid $red;
+    background-color: #fbefef;
   }
 
   color: white;
@@ -61,17 +60,28 @@ footer,
     &:link,
     &:visited {
       color: white;
+      @media (prefers-color-scheme: dark) {
+        color: #500;
+      }
     }
   }
 
   a {
     &:hover,
     &:active {
-      color: darken(white, 30%);
+      color: #fbefef;
+      @media (prefers-color-scheme: dark) {
+        color: #800;
+      }
+      text-decoration: none;
     }
 
     &:focus {
-      outline: solid 3px darken(white, 30%);
+      outline: solid 2px white;
+      outline-offset: 0.1em;
+      @media (prefers-color-scheme: dark) {
+        outline-color: #500;
+      }
     }
   }
 }
