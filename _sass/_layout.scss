@@ -114,8 +114,20 @@ section {
     clear: left;
   }
 
+  @media (min-width: $bp-m) {
+    .toit {
+      max-width: 300px;
+    }
+  }
+
+  h3 {
+    clear: none;
+  }
+
   hr {
-    border-color: transparent;
+    @media (min-width: $bp-m) {
+      border-color: transparent;
+    }
     clear: left;
   }
 }
