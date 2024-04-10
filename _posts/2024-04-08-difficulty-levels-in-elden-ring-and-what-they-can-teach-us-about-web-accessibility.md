@@ -80,7 +80,7 @@ I can choose a different way to use the interface. I might use my mouse or track
 
 <img alt="A steampunk keyboard, all wood and brass" src="/img/2024/04/slides/9.jpeg" class="pull-left toit" />
 
-### An (Accessibility) Approach (as a maker)
+### An (Accessibility) Approach (as a maker, to allow user choice)
 
 Test with the keyboard. This is excellent "value for money" in terms of testing. And it doesn't require any special equipment!
 
@@ -122,7 +122,7 @@ Predict what the UI will do based on what it looks / sounds like. If a thing on 
 
 <img alt="Screenshot of Mozilla Developer Network's page on radio button" src="/img/2024/04/slides/15.jpeg" class="pull-left toit" />
 
-### An (Accessibility) Approach: (as a maker)
+### An (Accessibility) Approach: (as a maker, to allow users to predict)
 
 Use conventional UX and UI. As a designer that means used well know patterns and interactions. As a developer that means using semantic HTML, like `button` elements for buttons!
 
@@ -164,14 +164,13 @@ Okay, let's zoom back in.
 
 ### An (Accessibility) Approach: (as a user)
 
-Use the fancy features of our technology.
-If you're on an Android phone, you might say "Hey Google". If you're on an Apple device, you might say "Hey Siri". If you've set the United Kingdom English localisation option, you might say "Oi!". (Note: this last one won't actually work)
+We might use the Use Reader view of our browser, to strip out most of the busyness and noise and just give us the text, the structured content. Or we might use "Read this page" to hear it rather than look at it. And there's lot of assistive technology that is even more cleverer!
 
 <hr>
 
-<img alt="Screenshot of Deque's axe brwoser extension in action" src="/img/2024/04/slides/21.jpeg" class="pull-left toit" />
+<img alt="Screenshot of Deque's axe browser extension in action" src="/img/2024/04/slides/21.jpeg" class="pull-left toit" />
 
-### An (Accessibility) Approach: (as a maker)
+### An (Accessibility) Approach: (as a maker, to support the robots)
 
 Use [Deque's axe](https://www.deque.com/axe/). This is an engine for testing for common accessibility errors. things like colour contrast and accessible names for things.
 
