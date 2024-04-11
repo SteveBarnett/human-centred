@@ -99,6 +99,10 @@ footer {
   h3,
   h4 {
     margin-bottom: 0.5em;
+    color: white;
+      @media (prefers-color-scheme: dark) {
+        color: #500;
+      }
   }
 
   ul {

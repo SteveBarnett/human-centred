@@ -16,10 +16,6 @@ body {
   h4 {
     font-family: pt-serif, serif;
     font-weight: 700;
-    color: #400;
-    @media (prefers-color-scheme: dark) {
-      color: #fbefef;
-    }
   }
 }
 
@@ -31,6 +27,12 @@ h4 {
   font-weight: normal;
   clear: both;
   scroll-margin-top: 1rem; 
+  
+  color: #400;
+  @media (prefers-color-scheme: dark) {
+    color: #fbefef;
+  }
+
 
   // font-variant-ligatures: discretionary-ligatures historical-ligatures;
   &:target {
