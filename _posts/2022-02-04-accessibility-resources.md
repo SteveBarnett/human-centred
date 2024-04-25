@@ -7,7 +7,9 @@ image: /img/2022/02/links.png
 
 Here are some handy accessibility links.
 
-For checking against WCAG specifically, I find the Quick Reference version most readable: [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_overview&levels=aaa&technologies=smil%2Cpdf%2Cflash%2Csl) (with filters set to: include Level A and AA; exclude SMIL, PDF, Flash, and Silverlight)
+For checking against WCAG specifically, I find the Quick Reference version most readable: [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_overview&levels=aaa&technologies=smil%2Cpdf%2Cflash%2Csl) (with filters set to: include Level A and AA; exclude SMIL, PDF, Flash, and Silverlight).
+
+Also great is [Intopia's Accessibility Not-Checklist](https://not-checklist.intopia.digital/)
 
 ## Sites
 
@@ -19,12 +21,10 @@ For checking against WCAG specifically, I find the Quick Reference version most 
 ## Blogs - Companies
 
 - [A11Y collective](https://www.a11y-collective.com/blog/)
-- [Access Matters](https://interactiveaccessibility.com/blog)
 - [axess lab](https://axesslab.com/articles/)
 - [Deque Systems](https://www.deque.com/blog/)
 - [Equal Entry](https://equalentry.com/blog/)
-- [Level Access](https://www.levelaccess.com/blog/)
-- [Maxability](https://www.maxability.co.in/Blog/)
+- [Intopia](https://intopia.digital/articles/)
 - [TetraLogical](https://tetralogical.com/articles/)
 - [TGPi](https://www.tpgi.com/blog/)
 - [UK Government Digital Service](https://gds.blog.gov.uk/category/accessibility/)
@@ -33,7 +33,6 @@ For checking against WCAG specifically, I find the Quick Reference version most 
 ## Blogs - Individuals
 
 - [Adrian Roselli](https://adrianroselli.com/)
-- [Ben Myers](https://benmyers.dev/)
 - [Heydon Pickering’s Inclusive Components](https://inclusive-components.design/)
 - [Hidde de Vries](https://hiddedevries.nl/en/blog/)
 - [Léonie Watson](https://tink.uk/)
@@ -43,8 +42,6 @@ For checking against WCAG specifically, I find the Quick Reference version most 
 
 - [Accessibility Weekly](https://a11yweekly.com/issues/)
 - [Accessibility in the News](https://www.microassist.com/digital-access/news/)
-- [The A11y Project newsletter](https://www.a11yproject.com/newsletter/)
-- [t12t – The Accessibility Newsletter](https://t12t.se/en/accessibility-newsletter/)
 
 ## Books
 
@@ -62,15 +59,15 @@ For checking against WCAG specifically, I find the Quick Reference version most 
 - [Start Building Accessible Web Applications Today by Marcy Sutton on egghead](https://egghead.io/courses/start-building-accessible-web-applications-today)
 - [Introduction To Accessibility Testing on Ministry of Testing](https://trailhead.salesforce.com/en/content/learn/trails/get-started-with-web-accessibility)
 - [Get Started with Web Accessibility on Trailhead](https://trailhead.salesforce.com/en/content/learn/trails/get-started-with-web-accessibility)
-- [Accessibility training by Intopia](https://intopia.digital/services/accessibility-training/)
+- [Accessibility training by Intopia](https://intopia.digital/services/accessibility-training/), and [Intopia Learn](https://learn.intopia.digital/)
 - [Accessibility and Inclusive Design Training by AbilityNet](https://abilitynet.org.uk/training)
 - [Instructor-led training by TetraLogical](https://tetralogical.com/services/instructor-led-training/)
 - [A whole bunch of courses on A11y Collective](https://www.a11y-collective.com/courses-overview/)
 
-## Conferences and event
+## Conferences and events
 
-- [A11y Camp](https://a11ycamp.org.au/)
+- [A11y Camp](https://a11ycamp.com.au/)
 - [axe-con](https://www.deque.com/axe-con/)
-- [Global Accessibility Awareness Day](https://globalaccessibilityawarenessday.org/)
 - [Inclusive Design 24](https://inclusivedesign24.org/2021/)
+- [Global Accessibility Awareness Day](https://globalaccessibilityawarenessday.org/)
 
