@@ -15,7 +15,7 @@ Recap bullets at the bottom
 
 What we want is happy, healthy, high-performing teams. Our meetings and processes are meant to help us get there. When they're not, we can try and change them. 
 
-When a meeting (like stand-ups or retros) isn't working, we can revisit the purpose of the meeting and make adjustments to improve it. (Aside: [I think retros are the most important agile activity](http://127.0.0.1:4000/2018/07/03/retros-are-the-most-important-agile-activity/).)
+When a meeting (like stand-ups or retros) isn't working, we can revisit the purpose of the meeting and make adjustments to improve it. (Aside: [I think retros are the most important agile activity](/2018/07/03/retros-are-the-most-important-agile-activity/).)
 
 - **Try changing the meeting instead of doing it and rushing through it.** That usually just makes a bad meeting feel even worse because we're focusing on finishing the meeting rather than making the most of the meeting.
 - **Try changing the meeting instead of dropping it.** Meetings are usually added for a reason. It's possible that reason has fallen away, but most agile meetings have a clear purpose, related to helping the team.
