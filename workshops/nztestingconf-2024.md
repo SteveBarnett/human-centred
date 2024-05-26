@@ -3,6 +3,37 @@ layout: page
 title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZTestingConf 2024)"
 ---
 
+## TODO
+
+- Outline Session 1
+    - big, bold, opening
+    - get quickly to **doing** something, a taste test. QAC?
+        - low complexity, high understandability, relatability  
+    - introductions and connections
+    - agenda
+    - barriers, spectrum, humans, framing for the whole day
+        - about 8 billion people!
+- Outline Session 2
+    - Mostly them doing activities
+    - A bit of WCAG info for a "break"
+- Outline Session 3
+    - reboot, re-energise
+        - short activity to re-boo(s)t
+        - maybe something slightly silly?
+            - the Frozen / Pulp Fiction / Lion King
+            - hocus focus
+- Outline Session 4
+    - reorient
+    - activities
+    - closing
+    - bringing it all together, (re)connect to Session 1 and barriers and spectrum and humans
+- Finalise list of activities
+- Finalise template / format
+    - QAC-style
+    - Take notes from Jira / Acceptance Criteria
+- Finalise training format notes
+
+
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
 - **How to think more accessibly** by thinking more broadly and being able to spot potential barriers to access.
