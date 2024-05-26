@@ -37,6 +37,8 @@ Post-lunch: check it with your goals from Session 1. Any questions?
         - could use this for the connections
     - introductions and connections
     - agenda
+- Lunch activity
+    - something theme-y, human-y. Like: spot the difference, notice the huge variety in humans.
 - Session 3
     - post-lunch, so something active, ideally moving
 - Session 4
@@ -150,6 +152,7 @@ Things for slides to talk through
         - It can technically accessible, but not very usable!
         - Something like an [Accessibility Engineering scorecard](/2023/06/22/accessible-engineering-scorecard/)
     - Issue Severity: Critical, High, Medium, Low
+    - One big thing: provide alternatives
 - Have separate a11y testing, AC?
     - Yes... But understand that it's a short-term remediation thing
     - The goal is to get to a place where it's part of day-to-day work
