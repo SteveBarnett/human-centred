@@ -139,6 +139,14 @@ Things for slides to talk through
         - When we choose to draw a line between disabled people and not-disabled people, the line will be in the wrong place.
             - "The map is not the territory"
         - Our work might be digital, but people are analogue, and a11y is about people.
+        - Personas to demonstrate the spectrum, the (not!) us vs them
+        - Journey maps, does their tech or disability really affect their task, their goal? How they do it, maybe.
+        - Should we consider disabilities and AT when considering support? Yes, of course. But not in terms of stats, deciding, discriminating.
+        - Someone's disability or AT is none of our business.
+            - Do you ask about height, weight, religion, lefthanded/righthanded, sexual orientation, gender, religion.
+                - These impact how someone is in the world (and how the world treats them), but...
+            - Draft WCAG 3.0 outcome: "[Disability information privacy](https://www.w3.org/TR/wcag-3.0/#disability-information-privacy). Disability information is not disclosed to or used by third parties and algorithms (including AI)."
+                - [D]eque commentary](https://www.deque.com/blog/w3c-unveils-174-new-outcomes-for-wcag-3-0/): "A person’s disability needs, preferences, and use of assistive technologies are extremely personal. It is up there with other medical information. This information can, and often is used to deny people education, housing, insurance, employment, and more."
     - ARIAs (clean code)
     - axes (automated testing)
     - audits (manual test, including Browser extensions)
