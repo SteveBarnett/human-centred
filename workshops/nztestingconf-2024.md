@@ -333,3 +333,20 @@ Also see [Train the trainer](/2023/08/20/train-the-trainer/).
     - Highlight values and beliefs
     - Widely relevant
 - Put the why before the what
+
+## Feedback form
+
+### Blurb
+
+Near the end of the day, we've scheduled 10 minutes of workshop time to fill in a feedback form. This is important to us for making things better each time. It's three open questions, in a slightly classic style: what was good, what was bad, what else?
+
+### The form
+
+> We'd really appreciate your help making things better. Content, logistics, lunch, any topic you have some feedback on will be helpful!
+> All questions are optional. Your responses are anonymous by default, but you're welcome to add your name and/or email address.
+
+- What was great? 👍
+- What could we change? Δ
+- Anything else? ☺️
+- Your name 📛
+- Your email address 📧
