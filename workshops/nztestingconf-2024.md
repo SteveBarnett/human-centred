@@ -35,7 +35,7 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
     - QAC-style
     - Take notes from Jira / Acceptance Criteria
 - Finalise training format notes
-
+- Steal from my QE CoP 2023-08-01 testing with a screen reader preso
 
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
@@ -57,7 +57,7 @@ What do you already know about accessibility? About accessibility testing? What 
 - **14:45–15:15** Afternoon tea
 - **15:15–16:30** Session 4
 
-Four blocks of 1h15m. About 1h doing stuff, about 15m reflecting.
+Each Session is about 1h15m. About 1h doing stuff, about 15m reflecting.
 
 Session 4 will include 10 minutes for feedback for Steve and for NZTC.
 
@@ -350,3 +350,209 @@ Near the end of the day, we've scheduled 10 minutes of workshop time to fill in 
 - Anything else? ☺️
 - Your name 📛
 - Your email address 📧
+
+## Warm-up email
+
+Hello there. Thank you for signing up for the Accessibility testing workshop. You rock!
+
+To help get you ready, we've got a little warm-up exercise for you. Pick one (or more!) of the following questions to answer before the workshop. We'll be sharing and discussing our answers in the first session.
+
+- What do you already know about accessibility?
+- What do you already know about accessibility testing?
+- What do you want to get out of the workshop?
+
+Regards,
+
+Steve (the facilitator) and the NZTestingConf team
+
+## Warm-up activity
+
+Up on screen as they come in.
+
+- Reminder! These were the warm-up questions. If you haven't answered them yet, now's a good time!
+    - What do you already know about accessibility?
+    - What do you already know about accessibility testing?
+    - What do you want to get out of the workshop?
+- Brief welcome and warm-up
+    - Quick go around your table
+    - Name, job title / company / something
+    - The question and your answer
+- Room-share: anything particularly interesting come up?
+
+## Opening session
+
+Think more broadly, in a more human-centred way. This helps us understand the wide range of human experience, that abilities exist on a spectrum, and that things seldom go as planned.
+
+- Most important thing: think more broadly
+    - Acknowledge and embrace human diversity
+        - Consider gender identity and expression, sexual orientation, race, religion, first language, disability (permanent, temporary, contextual), and how these things can change over time.
+        - Unless you're here with your twin or your clone, you may notice that the other people in the room are **different** to you. Of course, you immediately notice similarities, because humans brains are (among other things) pattern recognition machines. But the more attention you pay, the more you zoom in on the details, the more differences you notice.
+    - Consider what's between the human and the UI
+        - Think about input methods, browser, operating system, screen size and resolution, user preferences and choices, network connection (cost, speed, latency), age and condition of hardware, age of the person, experience level, assistive technology.
+        - Think about options and preferences, not accessibility options.
+    - Go off The Happy Path
+        - Consider what’s messy, fragile, unpredictable. We already know that sometimes people will encounter problems with our products. That’s why we have error states and messages. We just need to widen this lens.
+
+## Post-lunch activity 10m
+
+- Keep broadening our minds, expanding our spectrums
+- Audio description or Halloween keyboards.
+
+### Audio desc
+
+- Pick one of the videos, we'll just watch a minute or two
+    - Frozen - Trailer with Audio Description - YouTube
+    - Lion King Audio Description - Full Clip - YouTube
+    - Pulp Fiction Audio Description Sample on Vimeo
+- Headphones on!
+    - Watch it, note what they include.
+    - Watch it, note what they exclude.
+    - Discuss! Facts? Moods? Viiiiibes?
+    - What's the lesson? Identical experience is impossible. Humans can be very different! But we can aim for equivalent experience, similar.
+
+### Halloween keyboards
+
+- Play Hocus Focus
+
+## Outline for WCAG bit
+
+A short presentation in Session 2, leading into lunch. Ideally, something to "do" or think about over lunch, along the lines of "that's only the minimum".
+
+- WCAG
+    - **We**b **C**ontent **A**ccessibility **G**uidelines
+    - Four Principles
+        - **P**erceivable, **O**perable, **U**nderstandable, **R**obust
+    - w3.org/WAI/WCAG22/quickref
+    - Guidelines: an example or two
+    - Success Criteria. Sort of like AC.
+        - SC has Sufficient (here's one way), Advisory (here's an idea), Failure (how about no)
+        - Levels A, AA, AAA
+    - 2.1 AA Global standard. Used by governments, private sector. Can be reported using a VPAT / ACR.
+    - Everywhere has some litigation. NZ/AU/UK: no legislation (yet). US/CA: (heavy) legislation. EU: incoming!
+    - Now: WCAG 2.2: (the third edition of the second edition of the Web Content Accessibility Guidelines)
+    - Then: (WCAG timeline)
+        - 1999 – `1.0` (Set If Off)
+        - 2008 – `2.0` (The Next Generation)
+        - 2018 – `2.1` (brains, eyes, and phones)
+        - 2022 – `2.2`
+    - the future: WCAG 3.0 (W3C Accessibility Guidelines)
+- Careful of checklist-thinking
+    - When we treat them as rules, we might lean towards rules-lawyering: meeting the letter but not the spirit
+    - [not-checklist](https://not-checklist.intopia.digital/)
+- Standards set the minimum. As in: less than this is actively bad. As in: more than this is probably good.
+    - The standards have some gaps and loopholes.
+    - Compliance sets the minimum level of accessibility and usability.
+    - We choose the maximum.
+- Going-into-lunch activity
+    - What things are you happy with people doing the absolute bare minimum of?
+        - The Food Safety standards?
+            - How well cleaned are the plates?
+            - How warm is the tea or coffee?
+        - How closely are cars following the road traffic guidelines?
+        - If you buy something: the bare minimum encryption and security on your bank account.
+- After lunch
+    - What bare minimums did you spot? Or going-the-extra-mile-s?
+  
+### Know the technology
+
+- Think in semantics
+    - links, buttons, radios, checkboxes, selects
+- Understand the accessibility tree
+    - name, role, value, state
+- Understand accessibility extensions (like ARIA for the web)
+    - Rules of ARIA
+    - APG
+
+### Follow the Standards
+
+- Remember the Priority of Constituencies
+    - Put our users first. "difficulties to the user should be given more weight than difficulties to implementors". DX is important, but not at the expense of UX.
+- Know the Standards
+    - WCAG POUR
+    - WCAG Success Criteria
+    - WAI ARIA Authoring Practices
+- Know the big names
+    - Short URL to links page, web and mobile filterable
+
+### Slides to put somewhere
+
+- Sir Timbo quote
+    - > “The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.” -- Tim Berners-Lee
+- A human uses the web (remixed)
+    - **A human** using a mouse / trackpad / keyboard / switch control / puffer / magnification tool / voice control / screen reader and Safari / Chrome / Firefox / Edge on a Windows / Mac / Linux desktop / laptop / tablet / phone in light / dark mode / high contrast mode with reduced motion enabled with smaller / larger text size **uses the web**
+- Social model activity
+- Questions, frequently
+
+## Automated vs manual
+
+- Automated testing can catch a lot, but not everything
+- **Does an automated test catch it?**
+    - ✔ Missing alternative text for images
+    - ✖ Bad alternative text for images 
+    - 💁 e.g. "dog"
+    - ✨ "A puppy frolicking in a field"
+- **Does an automated test catch it?**
+    - ✔ Empty links or empty buttons
+    - ✖ Bad link text or button text
+    - 💁 e.g. "click here", "submit"
+    - ✨ "{ The target }", "{ The action }"
+- **Does an automated test catch it?**
+    - ✔ Some HTML errors
+    - ✖ Weird HTML
+    - 💁 e.g. `<div>Upload</div>`
+    - ✨ Semantic HTML like `<button>`
+- a11y issues often come up in the **interaction**
+- How can we **tweak** our **automated testing** to help with this?
+- But! **[The WebAIM Million](https://webaim.org/projects/million/)**
+    - Annual report on the accessibility of the top 1,000,000 home pages
+    - **Almost every site had WCAG failures**
+    - (96.3% in you want to be precise)
+    - **Almost all the errors fall into one of six categories**
+    - LLBALC: lang, links, buttons,<br>alt text, labels, contrast. And these can all be found with automated tests!
+        - **⚠️ Page language isn't set**
+        - **⚠️ Link text is empty**
+        - **⚠️ Button text is empty**
+        - **⚠️ `alt` text for images missing**
+        - **⚠️ Form inputs not labelled**
+        - **⚠️ Low colour contrast text**
+
+## How many people?
+
+- How many people in the world have disabilities?
+- (World population is about 8 billion)
+- ^ Not a test! I had to look this up.
+- **About 1 billion have (at least one) disability**
+    - It's about 15%, so 1.2b
+    - And that's mostly "official" disabilities, and people how identify as disabled. We'll come back to that in a second.
+- How many people in Aotearoa New Zealand have disabilities?
+- (Population is about 5 million)
+- ^ Also not a test!
+- **About 1 million have (at least one) disability**
+    - Actually 25%, so more like 1.25m. Again, it depends how you count.
+    - ^ 2013 figure, 53% had more than one
+- these numbers are about people with a permanent disability, not people who might have a situational or temporary impairemnt, and therefore benefit from things that we might have done "for disabled people."
+
+## A human uses the web
+
+- **(Gentle!) activity**: A human uses the Web
+- **A human** using a mouse and Safari on a Mac **uses the Web**
+- **A human** using a mouse / trackpad / keyboard / switch control / puffer / magnification tool / voice control / screen reader and Safari / Chrome / Firefox / Edge on a Windows / Mac / Linux desktop / laptop / tablet / phone in light / dark mode / high contrast mode with reduced motion enabled with smaller / larger text size **uses the Web**
+- Delicious takeaway:**Humans interact with our product in a very wide range of ways**
+- Any questions?
+
+## Social model
+
+- Many types of disability, for example: **Auditory Cognitive Physical Visual**
+- Social model of disability: **Disability = Ability + Barrier**
+- **(Gentle) activity time!**
+- Let's think about the **visual** category under the social model of disability
+- Raise your hand or nod your head if you or someone you know is: **blind**
+- Potential barrier 🚧 **no text alternatives for non-text content**
+- Raise your hand or nod your head if you or someone you know has: **low vision or poor eyesight**, **(perhaps from old age)**
+- Potential barrier 🚧 **no (or poor) responsive styles**
+- Raise your hand or nod your head if you or someone you know is: **colour blind**
+- Potential barrier 🚧 **using only colour to convey information**
+- Raise your hand or nod your head if you or someone you know has: **been outside on a sunny day**, **with a shiny screen**
+- Potential barrier 🚧 **low colour contrast between text and the background**
+- Delicious takeaway: **Mismatched interactions can create barriers to access for many people**
+- Any questions?
