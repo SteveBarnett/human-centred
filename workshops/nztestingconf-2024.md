@@ -8,11 +8,22 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
 
 ## TODO
 
-- ⚠️ Finalise template / format
+- Finalise template / format
     - QAC-style
     - Take notes from Jira / Acceptance Criteria
-- ⚠️ Finalise list of activities
+- Finalise list of activities
 - Steal from my QE CoP 2023-08-01 testing with a screen reader preso
+- Add some images and icons for visual interest and understandability
+- Have an analogy thread
+    - fun but not silly
+    - water, ocean
+    - building a house
+    - baking a cake
+    - making a meal (recipe, ingredients, nice and broad)
+    - orienteering-ish (map, compass, trail)
+    - maybe something that works with four sessions?
+        - seasons
+        - compass directions
 
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
@@ -216,7 +227,7 @@ Questions? Questions! Questions.
 
 ### Know the technology
 
-TODO: this could switch WCAG bit? Something semantic, affordances, for lunch activity?
+TODO: this could switch with WCAG bit? Something semantic, affordances, for lunch activity?
 {: .boxout .boxout-todo}
 
 How do you know what to do? Not the rules, not the written signs and things.
@@ -337,7 +348,7 @@ A short presentation in Session 2, leading into lunch. Ideally, something to "do
 
 Questions? Questions! Questions.
 
-TODO: Feels like PoC and big names could move.
+TODO: Feels like Priority of Constituencies and big names could move.
 {: .boxout .boxout-todo}
 
 Pick 'n' mix activities
