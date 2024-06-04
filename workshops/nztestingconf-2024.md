@@ -8,33 +8,10 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
 
 ## TODO
 
-- Outline Session 1
-    - big, bold, opening
-    - get quickly to **doing** something, a taste test. QAC?
-        - low complexity, high understandability, relatability  
-    - introductions and connections
-    - agenda
-    - barriers, spectrum, humans, framing for the whole day
-        - about 8 billion people!
-- Outline Session 2
-    - Mostly them doing activities
-    - A bit of WCAG info for a "break"
-- Outline Session 3
-    - reboot, re-energise
-        - short activity to re-boo(s)t
-        - maybe something slightly silly?
-            - the Frozen / Pulp Fiction / Lion King
-            - hocus focus
-- Outline Session 4
-    - reorient
-    - activities
-    - closing
-    - bringing it all together, (re)connect to Session 1 and barriers and spectrum and humans
-- Finalise list of activities
-- Finalise template / format
+- ⚠️ Finalise template / format
     - QAC-style
     - Take notes from Jira / Acceptance Criteria
-- Finalise training format notes
+- ⚠️ Finalise list of activities
 - Steal from my QE CoP 2023-08-01 testing with a screen reader preso
 
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
@@ -62,150 +39,6 @@ Each Session is about 1h15m. About 1h doing stuff, about 15m reflecting.
 Session 4 will include 10 minutes for feedback for Steve and for NZTC.
 
 Post-lunch: check it with your goals from Session 1. Any questions?
-
-### Schedule vibes
-
-- Session 1
-    - big, bold, opening
-    - get quickly to **doing** something, a taste test. QAC?
-        - could use this for the connections
-    - introductions and connections
-    - agenda
-- Lunch activity
-    - something theme-y, human-y. Like: spot the difference, notice the huge variety in humans.
-- Session 3
-    - post-lunch, so something active, ideally moving
-- Session 4
-    - bring it together, look back
-    - strong finish
-    - make a plan for keeping on keeping on, look forward
-- could increase in complexity as the day goes along
-
-## Outline-ish from my [MAP](/more-accessible-products/)
- 
-1. Think non-binary. Think on a spectrum, not a binary.
-    - 1.1 Acknowledge and embrace human diversity (look more closely to more differences)
-    - 1.2 Consider what's between the human and the UI
-    - 1.3 Go off The Happy Path (and the "just like me" path)
-2. Avoid barriers to access (Auditory, Cognitive, Physical, Vision (and device))
-    - 2.1 Make it more usable for more people (Essential for some, useful for all)
-    - 2.2 Remove existing barriers
-    - 2.3 Avoid adding barriers 
-3. Understand the pros and cons (meet people where they are)
-    - 3.1 Offer good motivations
-    - 3.2 Be ready for objections
-    - 3.3 Celebrate good accessibility 
-4. Know the technology (at a high level)
-    - 4.1 Think in semantic HTML
-    - 4.2 Understand the accessibility tree
-    - 4.3 Understand ARIA
-        - Rules of ARIA
-        - Handle of ARIA attributes
-        - APG
-5. Follow the Standards (Understand they're the minimum)
-    - 5.1 Remember the Priority of Constituencies
-    - 5.2 Know the Standards
-    - 5.3 Know the big names 
-6. Shift Left (quicker, simpler, cheaper, when done earlier)
-    - 6.1 Choose accessibility as a priority
-    - 6.2 Check for common omissions (titles, headings, colours and use of colour, error states and messages)
-    - 6.3 Offer feedback to the previous step 
-7. Design Accessibly
-    - 7.1 Design in layers (text, HTML, off The Happy Path)
-    - 7.2 Add annotations to designs
-    - 7.3 Use standard controls where possible 
-8. Develop Accessibly
-    - 8.1 Write semantic HTML
-    - 8.2 Do Static Analysis
-    - 8.3 Write Automated Tests
-    - 8.4 Do Code Reviews
-    - 8.5 Use the Design System carefully 
-9. Test Accessibly
-    - 9.1 Test with the keyboard
-    - 9.2 Test with browser extensions
-    - 9.3 Test with Screen Readers
-    - 9.4 Do an audit 
-
-## Ideas
-
-Things for slides to talk through
-
-- The big picture
-    - The framing: Barriers (the social model; Essential for some, useful for all)
-        - "All models are wrong, but some are useful". Social model is very useful!
-            - Not the only model, not the "best" one, or the "right" one, but useful.
-            - "creates a disability" - the wording is awkward, yes.
-        - This is the root of it. Not "those disabled people over there" but "us humans right here."
-        - When we choose to draw a line between disabled people and not-disabled people, the line will be in the wrong place.
-            - "The map is not the territory"
-        - Our work might be digital, but people are analogue, and a11y is about people.
-        - Personas to demonstrate the spectrum, the (not!) us vs them
-        - Journey maps, does their tech or disability really affect their task, their goal? How they do it, maybe.
-        - Should we consider disabilities and AT when considering support? Yes, of course. But not in terms of stats, deciding, discriminating.
-        - Someone's disability or AT is none of our business.
-            - Do you ask about height, weight, religion, lefthanded/righthanded, sexual orientation, gender, religion.
-                - These impact how someone is in the world (and how the world treats them), but...
-            - Draft WCAG 3.0 outcome: "[Disability information privacy](https://www.w3.org/TR/wcag-3.0/#disability-information-privacy). Disability information is not disclosed to or used by third parties and algorithms (including AI)."
-                - [D]eque commentary](https://www.deque.com/blog/w3c-unveils-174-new-outcomes-for-wcag-3-0/): "A person’s disability needs, preferences, and use of assistive technologies are extremely personal. It is up there with other medical information. This information can, and often is used to deny people education, housing, insurance, employment, and more."
-    - ARIAs (clean code)
-    - axes (automated testing)
-    - audits (manual test, including Browser extensions)
-        - as the backbone
-        - [Accessibility audit process (web)](/2022/01/24/accessibility-audit-process/)
-        - [Accessibility audit process for mobile](/2022/05/31/accessibility-audit-process-mobile/)
-- Note on language: disable people vs people with disabilities vs other things
-- Don't need to be, or pretend to be, an everyday user to test well, to find many of the biggest barriers that everyday user will encounter.
-    - Of course it's not the same. Of course we won't find all the barriers.
-    - But, Leonie quote, we can make it more usable for more people.
-- We can't cover everything today, but we can get started, grab a map and a compass and note a few trails.
-- Be wary of people who talk in binaries, extremes, absolutes.
-    - The truth is generally more complicated (and interesting!) than that.
-    - There's no such thing as 100% accessible. Because (we are) humans!
-        - But we can make it much better, and keep making it better.
-    - 100% compliant to WCAG is tricky and doesn't necessarily mean good usability.
-    - Growth Mindset.
-        - It can be uncomfortable. That's the feeling of brain cells growing! (Sort of)
-        - Mistakes are expected. It's what you do next that counts.
-            - I am bound to make some mistakes today, please feel free to point them out!
-            - But, you know, don't be a jerk about it.
-- Where's the line between a11y testing and regular testing?
-    - For example: keyboard testing.
-    - Who uses the keyboard?
-    - How do we know if they're disabled or not?
-    - What if they don't identify as disabled?
-    - This distinction is constructed! But it can be useful sometimes.
-- meet people where they are
-    - don't expect immediate perfection from yourself, or others.
-    - **Leonie quote** “[It doesn't have to be perfect, just a little bit better than yesterday](https://tetralogical.com/blog/2022/07/11/meet-the-team-leonie-watson/#what's-your-top-accessibility-tip%3F)"
-- "chart" for shift left
-    - the later you leave it, the more difficult it is
-    - need to do all the previous steps if you want to do it properly
-- Start from the position of "I don't know (yet)"
-- Connect to Quality, Security, Privacy
-- Accessibility is part of Quality. Part of functionality. Part of Usability.
-- a11y bugs are bugs
-- Talk through WCAG
-    - what is is
-    - 2.2 vs 2.1 etc
-    - POUR
-    - SC
-    - A, AA, AAA
-    - The standards are the minimum. We set the maximum.
-        - It can technically accessible, but not very usable!
-        - Something like an [Accessibility Engineering scorecard](/2023/06/22/accessible-engineering-scorecard/)
-    - Issue Severity: Critical, High, Medium, Low
-    - One big thing: provide alternatives
-- Have separate a11y testing, AC?
-    - Yes... But understand that it's a short-term remediation thing
-    - The goal is to get to a place where it's part of day-to-day work
-        - Does a blind screen reader user think "I'm going to do some accessible banking!" or just "I'm going to do some banking".
-        - The core human need, the task. It's actually none of our business how they do it!
-    - Our UIs have a "level of accessibility" whether we think about it or not
-- Framing for activities.
-    - Best: fix it right now, or put up a PR.
-    - Great: log a ticket.
-    - Good: test and find issues.
-    - Oh, look, this is a spectrum too!
 
 ## Activities
 
@@ -281,77 +114,9 @@ Perhaps present as a menu, with a chef's recommendation. You can pick what you w
 - Headings: level, order, text content. See [More accessible headings](/2022/12/12/more-accessible-headings/)
 - Test with keyboard. Use, see, usable.
 
-### Training techniques reminders
+## Session 0
 
-Some notes-to-self reminders from [Writing, Workshops, and Talks](/writing-workshops-and-talks/), [Teaching and learning](/teaching-and-learning/), and [Persuasion](/persuasion/).
-
-Also see [Train the trainer](/2023/08/20/train-the-trainer/).
-
-- Social.
-    - Pairs, groups.
-    - Pair share, teachback.
-- Physical.
-    - Movement.
-    - Show of hands.
-- Active recall.
-- Positive.
-    - Empathy, compassion.
-    - Love and charm, not guilt and blame.
-- Better > Worse.
-    - Movement > Sitting
-    - Talking > Listening
-    - Images > Words
-    - Writing > Reading
-    - Shorter > Longer
-    - Different > Same
-- Shared responsibility.
-    - Big problems need complex, systemic, changes.
-    - But we can act now, steer the tanker.
-    - Ask for help, cooperation.
-- Structure. Have and publish an agenda.
-- Practical.
-    - Small things that stack up.
-    - Low to Medium to High Complexity.
-    - Right technique, best fit.
-- Short. Simple, prioritised.
-- Flexible.
-    - Vary type, length.
-    - Responsive curriculum.
-- Concrete.
-    - Good examples, analysed for why.
-    - Images and metaphors for memory.
-- TODO for later: PACT
-    - Purposeful
-    - Actionable
-    - Continuous
-    - Trackable
-- Do 1 minute reviews
-- Knowledge: retrieve, predict, interleave
-- Ask questions rather than give answers, create a curiosity gap
-- Identity-based
-    - Connect to past and familiar
-    - Highlight values and beliefs
-    - Widely relevant
-- Put the why before the what
-
-## Feedback form
-
-### Blurb
-
-Near the end of the day, we've scheduled 10 minutes of workshop time to fill in a feedback form. This is important to us for making things better each time. It's three open questions, in a slightly classic style: what was good, what was bad, what else?
-
-### The form
-
-> We'd really appreciate your help making things better. Content, logistics, lunch, any topic you have some feedback on will be helpful!
-> All questions are optional. Your responses are anonymous by default, but you're welcome to add your name and/or email address.
-
-- What was great? 👍
-- What could we change? Δ
-- Anything else? ☺️
-- Your name 📛
-- Your email address 📧
-
-## Warm-up email
+### Warm-up email
 
 Hello there. Thank you for signing up for the Accessibility testing workshop. You rock!
 
@@ -365,7 +130,7 @@ Regards,
 
 Steve (the facilitator) and the NZTestingConf team
 
-## Warm-up activity
+### Warm-up activity
 
 Up on screen as they come in.
 
@@ -379,7 +144,18 @@ Up on screen as they come in.
     - The question and your answer
 - Room-share: anything particularly interesting come up?
 
-## Opening session
+
+## Session 1
+
+TODO: clarify order.
+{: .boxout .boxout-todo}
+
+- introductions and connections
+- agenda
+- get quickly to
+    - running axe? good, easy, but could be quite... confronting!
+    - keyboard testing. connects well to existing manual testing
+        - keyboard hero vibes?
 
 Think more broadly, in a more human-centred way. This helps us understand the wide range of human experience, that abilities exist on a spectrum, and that things seldom go as planned.
 
@@ -393,31 +169,134 @@ Think more broadly, in a more human-centred way. This helps us understand the wi
     - Go off The Happy Path
         - Consider what’s messy, fragile, unpredictable. We already know that sometimes people will encounter problems with our products. That’s why we have error states and messages. We just need to widen this lens.
 
-## Post-lunch activity 10m
+Questions? Questions! Questions.
 
-- Keep broadening our minds, expanding our spectrums
-- Audio description or Halloween keyboards.
+### How many people?
 
-### Audio desc
+- How many people in the world have disabilities?
+- (World population is about 8 billion)
+- ^ Not a test! I had to look this up.
+- **About 1 billion have (at least one) disability**
+    - It's about 15%, so 1.2b
+    - And that's mostly "official" disabilities, and people how identify as disabled. We'll come back to that in a second.
+- How many people in Aotearoa New Zealand have disabilities?
+- (Population is about 5 million)
+- ^ Also not a test!
+- **About 1 million have (at least one) disability**
+    - Actually 25%, so more like 1.25m. Again, it depends how you count.
+    - ^ 2013 figure, 53% had more than one
+- these numbers are about people with a permanent disability, not people who might have a situational or temporary impairemnt, and therefore benefit from things that we might have done "for disabled people."
 
-- Pick one of the videos, we'll just watch a minute or two
-    - Frozen - Trailer with Audio Description - YouTube
-    - Lion King Audio Description - Full Clip - YouTube
-    - Pulp Fiction Audio Description Sample on Vimeo
-- Headphones on!
-    - Watch it, note what they include.
-    - Watch it, note what they exclude.
-    - Discuss! Facts? Moods? Viiiiibes?
-    - What's the lesson? Identical experience is impossible. Humans can be very different! But we can aim for equivalent experience, similar.
+### A human uses the web
 
-### Halloween keyboards
+- **(Gentle!) activity**: A human uses the Web
+- **A human** using a mouse and Safari on a Mac **uses the Web**
+- **A human** using a mouse / trackpad / keyboard / switch control / puffer / magnification tool / voice control / screen reader and Safari / Chrome / Firefox / Edge on a Windows / Mac / Linux desktop / laptop / tablet / phone in light / dark mode / high contrast mode with reduced motion enabled with smaller / larger text size **uses the Web**
+- Delicious takeaway:**Humans interact with our product in a very wide range of ways**
+- Any questions?
 
-- Play Hocus Focus
+### Social model
 
-## Outline for WCAG bit
+- Many types of disability, for example: **Auditory Cognitive Physical Visual**
+- Social model of disability: **Disability = Ability + Barrier**
+- **(Gentle) activity time!**
+- Let's think about the **visual** category under the social model of disability
+- Raise your hand or nod your head if you or someone you know is: **blind**
+- Potential barrier 🚧 **no text alternatives for non-text content**
+- Raise your hand or nod your head if you or someone you know has: **low vision or poor eyesight**, **(perhaps from old age)**
+- Potential barrier 🚧 **no (or poor) responsive styles**
+- Raise your hand or nod your head if you or someone you know is: **colour blind**
+- Potential barrier 🚧 **using only colour to convey information**
+- Raise your hand or nod your head if you or someone you know has: **been outside on a sunny day**, **with a shiny screen**
+- Potential barrier 🚧 **low colour contrast between text and the background**
+- Delicious takeaway: **Mismatched interactions can create barriers to access for many people**
+- Any questions?
+
+Questions? Questions! Questions.
+
+### Know the technology
+
+TODO: this could switch WCAG bit? Something semantic, affordances, for lunch activity?
+{: .boxout .boxout-todo}
+
+How do you know what to do? Not the rules, not the written signs and things.
+
+- Think in semantics
+    - links, buttons, radios, checkboxes, selects
+- Understand the accessibility tree
+    - name, role, value, state
+
+### To organise for the talky bit
+
+Maybe split up, ditch some bits.
+
+- The big picture
+    - The framing: Barriers (the social model; Essential for some, useful for all)
+        - "All models are wrong, but some are useful". Social model is very useful!
+            - Not the only model, not the "best" one, or the "right" one, but useful.
+            - "creates a disability" - the wording is awkward, yes.
+        - This is the root of it. Not "those disabled people over there" but "us humans right here."
+        - When we choose to draw a line between disabled people and not-disabled people, the line will be in the wrong place.
+            - "The map is not the territory"
+        - Our work might be digital, but people are analogue, and a11y is about people.
+        - Personas to demonstrate the spectrum, the (not!) us vs them
+        - Journey maps, does their tech or disability really affect their task, their goal? How they do it, maybe.
+        - Should we consider disabilities and AT when considering support? Yes, of course. But not in terms of stats, deciding, discriminating.
+        - Someone's disability or AT is none of our business.
+            - Do you ask about height, weight, religion, lefthanded/righthanded, sexual orientation, gender, religion.
+                - These impact how someone is in the world (and how the world treats them), but...
+            - Draft WCAG 3.0 outcome: "[Disability information privacy](https://www.w3.org/TR/wcag-3.0/#disability-information-privacy). Disability information is not disclosed to or used by third parties and algorithms (including AI)."
+                - [D]eque commentary](https://www.deque.com/blog/w3c-unveils-174-new-outcomes-for-wcag-3-0/): "A person’s disability needs, preferences, and use of assistive technologies are extremely personal. It is up there with other medical information. This information can, and often is used to deny people education, housing, insurance, employment, and more."
+- Note on language: disable people vs people with disabilities vs other things
+- Don't need to be, or pretend to be, an everyday user to test well, to find many of the biggest barriers that everyday user will encounter.
+    - Of course it's not the same. Of course we won't find all the barriers.
+    - But, Leonie quote, we can make it more usable for more people.
+- We can't cover everything today, but we can get started, grab a map and a compass and note a few trails.
+- Be wary of people who talk in binaries, extremes, absolutes.
+    - The truth is generally more complicated (and interesting!) than that.
+    - There's no such thing as 100% accessible. Because (we are) humans!
+        - But we can make it much better, and keep making it better.
+    - 100% compliant to WCAG is tricky and doesn't necessarily mean good usability.
+    - Growth Mindset.
+        - It can be uncomfortable. That's the feeling of brain cells growing! (Sort of)
+        - Mistakes are expected. It's what you do next that counts.
+            - I am bound to make some mistakes today, please feel free to point them out!
+            - But, you know, don't be a jerk about it.
+- Where's the line between a11y testing and regular testing?
+    - For example: keyboard testing.
+    - Who uses the keyboard?
+    - How do we know if they're disabled or not?
+    - What if they don't identify as disabled?
+    - This distinction is constructed! But it can be useful sometimes.
+- meet people where they are
+    - don't expect immediate perfection from yourself, or others.
+    - **Leonie quote** “[It doesn't have to be perfect, just a little bit better than yesterday](https://tetralogical.com/blog/2022/07/11/meet-the-team-leonie-watson/#what's-your-top-accessibility-tip%3F)"
+- "chart" for shift left
+    - the later you leave it, the more difficult it is
+    - need to do all the previous steps if you want to do it properly
+- Start from the position of "I don't know (yet)"
+- Connect to Quality, Security, Privacy
+- Accessibility is part of Quality. Part of functionality. Part of Usability.
+- Have separate a11y testing, AC?
+    - Yes... But understand that it's a short-term remediation thing
+    - The goal is to get to a place where it's part of day-to-day work
+        - Does a blind screen reader user think "I'm going to do some accessible banking!" or just "I'm going to do some banking".
+        - The core human need, the task. It's actually none of our business how they do it!
+    - Our UIs have a "level of accessibility" whether we think about it or not
+- Framing for activities.
+    - Best: fix it right now, or put up a PR.
+    - Great: log a ticket.
+    - Good: test and find issues.
+    - Oh, look, this is a spectrum too!
+
+## Session 2
+
+### WCAG bit
 
 A short presentation in Session 2, leading into lunch. Ideally, something to "do" or think about over lunch, along the lines of "that's only the minimum".
 
+- Perhaps you've noticed it's been several hours and this is the first time I'm mentioning WCAG.
+    - That (hopefully) tells you something about where it sits in terms of importance and priority.
 - WCAG
     - **We**b **C**ontent **A**ccessibility **G**uidelines
     - Four Principles
@@ -443,47 +322,70 @@ A short presentation in Session 2, leading into lunch. Ideally, something to "do
     - The standards have some gaps and loopholes.
     - Compliance sets the minimum level of accessibility and usability.
     - We choose the maximum.
-- Going-into-lunch activity
-    - What things are you happy with people doing the absolute bare minimum of?
-        - The Food Safety standards?
-            - How well cleaned are the plates?
-            - How warm is the tea or coffee?
-        - How closely are cars following the road traffic guidelines?
-        - If you buy something: the bare minimum encryption and security on your bank account.
-- After lunch
-    - What bare minimums did you spot? Or going-the-extra-mile-s?
-  
-### Know the technology
-
-- Think in semantics
-    - links, buttons, radios, checkboxes, selects
-- Understand the accessibility tree
-    - name, role, value, state
-- Understand accessibility extensions (like ARIA for the web)
-    - Rules of ARIA
-    - APG
-
-### Follow the Standards
-
+    - It can technically accessible, but not very usable!
+- Something WCAG sort-of doesn't have now, but will sort-of later:
+    - Issue Severity: Critical, High, Medium, Low 
 - Remember the Priority of Constituencies
-    - Put our users first. "difficulties to the user should be given more weight than difficulties to implementors". DX is important, but not at the expense of UX.
-- Know the Standards
-    - WCAG POUR
-    - WCAG Success Criteria
-    - WAI ARIA Authoring Practices
+    - Put our users first. "difficulties to the user should be given more weight than difficulties to implementors". DX is important, but not at the expense of UX.    
+- WAI ARIA Authoring Practices
+    - What is ARIA?
+        - Rules of ARIA
+    - good specs
+    - slightly dodgy examples  
 - Know the big names
-    - Short URL to links page, web and mobile filterable
+    - Short URL to links page, web and mobile filterable  
 
-### Slides to put somewhere
+Questions? Questions! Questions.
 
-- Sir Timbo quote
-    - > “The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.” -- Tim Berners-Lee
-- A human uses the web (remixed)
-    - **A human** using a mouse / trackpad / keyboard / switch control / puffer / magnification tool / voice control / screen reader and Safari / Chrome / Firefox / Edge on a Windows / Mac / Linux desktop / laptop / tablet / phone in light / dark mode / high contrast mode with reduced motion enabled with smaller / larger text size **uses the web**
-- Social model activity
-- Questions, frequently
+TODO: Feels like PoC and big names could move.
+{: .boxout .boxout-todo}
 
-## Automated vs manual
+Pick 'n' mix activities
+
+### Going-into-lunch activity
+
+Maybe this idea, but definitely some "activity."
+   
+- What things are you happy with people doing the absolute bare minimum of?
+    - The Food Safety standards?
+        - How well cleaned are the plates?
+        - How warm is the tea or coffee?
+    - How closely are cars following the road traffic guidelines?
+    - If you buy something: the bare minimum encryption and security on your bank account.
+
+## Session 3
+
+- After lunch: follow up on "lunch activity"
+    - What bare minimums did you spot? Or going-the-extra-mile-s?
+
+### Post-lunch activity 10m
+
+- Keep broadening our minds, expanding our spectrums
+- Audio description or Halloween keyboards
+- Something a bit fun to get back into it
+
+#### Audio desc
+
+- Pick one of the videos, we'll just watch a minute or two
+    - Frozen - Trailer with Audio Description - YouTube
+    - Lion King Audio Description - Full Clip - YouTube
+    - Pulp Fiction Audio Description Sample on Vimeo
+- Headphones on!
+    - Watch it, note what they include.
+    - Watch it, note what they exclude.
+    - Discuss! Facts? Moods? Viiiiibes?
+    - What's the lesson? Identical experience is impossible. Humans can be very different! But we can aim for equivalent experience, similar.
+
+#### Halloween keyboards
+
+- Play Hocus Focus
+
+### Back into it
+
+- Questions? Questions! Questions.
+- Pick 'n' mix activities
+
+### Automated vs manual
 
 - Automated testing can catch a lot, but not everything
 - **Does an automated test catch it?**
@@ -516,43 +418,34 @@ A short presentation in Session 2, leading into lunch. Ideally, something to "do
         - **⚠️ Form inputs not labelled**
         - **⚠️ Low colour contrast text**
 
-## How many people?
+## Session 4
 
-- How many people in the world have disabilities?
-- (World population is about 8 billion)
-- ^ Not a test! I had to look this up.
-- **About 1 billion have (at least one) disability**
-    - It's about 15%, so 1.2b
-    - And that's mostly "official" disabilities, and people how identify as disabled. We'll come back to that in a second.
-- How many people in Aotearoa New Zealand have disabilities?
-- (Population is about 5 million)
-- ^ Also not a test!
-- **About 1 million have (at least one) disability**
-    - Actually 25%, so more like 1.25m. Again, it depends how you count.
-    - ^ 2013 figure, 53% had more than one
-- these numbers are about people with a permanent disability, not people who might have a situational or temporary impairemnt, and therefore benefit from things that we might have done "for disabled people."
+- after break, reorient
+    - how do you want to tie a bow around today?
+    - Questions? Questions! Questions.
+- activities
+- bringing it all together, (re)connect to Session 1 and barriers and spectrum and humans
 
-## A human uses the web
+### Feedback form
 
-- **(Gentle!) activity**: A human uses the Web
-- **A human** using a mouse and Safari on a Mac **uses the Web**
-- **A human** using a mouse / trackpad / keyboard / switch control / puffer / magnification tool / voice control / screen reader and Safari / Chrome / Firefox / Edge on a Windows / Mac / Linux desktop / laptop / tablet / phone in light / dark mode / high contrast mode with reduced motion enabled with smaller / larger text size **uses the Web**
-- Delicious takeaway:**Humans interact with our product in a very wide range of ways**
-- Any questions?
+#### Blurb
 
-## Social model
+Near the end of the day, we've scheduled 10 minutes of workshop time to fill in a feedback form. This is important to us for making things better each time. It's three open questions, in a slightly classic style: what was good, what was bad, what else?
 
-- Many types of disability, for example: **Auditory Cognitive Physical Visual**
-- Social model of disability: **Disability = Ability + Barrier**
-- **(Gentle) activity time!**
-- Let's think about the **visual** category under the social model of disability
-- Raise your hand or nod your head if you or someone you know is: **blind**
-- Potential barrier 🚧 **no text alternatives for non-text content**
-- Raise your hand or nod your head if you or someone you know has: **low vision or poor eyesight**, **(perhaps from old age)**
-- Potential barrier 🚧 **no (or poor) responsive styles**
-- Raise your hand or nod your head if you or someone you know is: **colour blind**
-- Potential barrier 🚧 **using only colour to convey information**
-- Raise your hand or nod your head if you or someone you know has: **been outside on a sunny day**, **with a shiny screen**
-- Potential barrier 🚧 **low colour contrast between text and the background**
-- Delicious takeaway: **Mismatched interactions can create barriers to access for many people**
-- Any questions?
+#### The form
+
+> We'd really appreciate your help making things better. Content, logistics, lunch, any topic you have some feedback on will be helpful!
+> All questions are optional. Your responses are anonymous by default, but you're welcome to add your name and/or email address.
+
+- What was great? 👍
+- What could we change? Δ
+- Anything else? ☺️
+- Your name 📛
+- Your email address 📧
+
+---
+
+### Slides to put somewhere
+
+- Sir Timbo quote
+    - > “The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.” -- Tim Berners-Lee
