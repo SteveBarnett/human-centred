@@ -11,6 +11,7 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
 - Finalise template / format
     - QAC-style
     - Take notes from Jira / Acceptance Criteria
+    - Use yml front matter for sorting, ranking
 - Finalise list of activities
 - Steal from my QE CoP 2023-08-01 testing with a screen reader preso
 - Add some images and icons for visual interest and understandability
@@ -114,6 +115,8 @@ Perhaps present as a menu, with a chef's recommendation. You can pick what you w
 - Error handling and text
 - Help text
 - Images and alt text
+    - Photos vs icons
+    - My "A quick guide to text alternatives for images"
 - Videos and captions (not just subtitles)
 - Field names and programmatic link
 - Link text, button text
@@ -204,6 +207,8 @@ Questions? Questions! Questions.
 - **A human** using a mouse and Safari on a Mac **uses the Web**
 - **A human** using a mouse / trackpad / keyboard / switch control / puffer / magnification tool / voice control / screen reader and Safari / Chrome / Firefox / Edge on a Windows / Mac / Linux desktop / laptop / tablet / phone in light / dark mode / high contrast mode with reduced motion enabled with smaller / larger text size **uses the Web**
 - Delicious takeaway:**Humans interact with our product in a very wide range of ways**
+- Simpler, plainer, things tend to work more easily for more people.
+    - That goes for page, components, sentences.
 - Any questions?
 
 ### Social model
