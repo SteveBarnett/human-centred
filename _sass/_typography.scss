@@ -489,6 +489,11 @@ blockquote {
   }
 }
 
+.boxout-todo:before {
+  content: "⚠️";
+  padding-right: 1rem;
+}
+
 .portfolio h2 {
   padding-top: 0.25em;
   border-top: 3px solid #700;
