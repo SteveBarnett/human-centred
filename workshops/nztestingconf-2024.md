@@ -396,10 +396,15 @@ Maybe this idea, but definitely some "activity."
 
 - Play Hocus Focus
 
-### Back into it
+### Back into it: screen reader testing
 
-- Questions? Questions! Questions.
-- Pick 'n' mix activities
+TODO: Is this a good spot for it? Before lunch better?
+{: .boxout .boxout-todo}
+
+- Break after about halfway through for Questions? Questions! Questions.
+    - If you have a question, chances are somebody else does too.
+    - Do screen reader users do {thing}?
+    - What's "good" for {thing}?
 
 ### Automated vs manual
 
