@@ -100,6 +100,43 @@ Each session will be:
 
 ---
 
+Think more broadly,
+in a more human-centred way.
+
+^ This helps us understand the wide range of human experience, that abilities exist on a spectrum, and that things seldom go as planned.
+
+[.background-color: #104]
+
+---
+
+# Acknowledge and embrace human diversity
+
+- Other people are the same as you.
+- Other people are different to you.
+
+^ Unless you're here with your twin or your clone, you may notice that the other people in the room are **different** to you. Of course, you immediately notice similarities, because humans brains are (among other things) pattern recognition machines. But the more attention you pay, the more you zoom in on the details, the more differences you notice.
+
+[.background-color: #215]
+
+---
+
+# Consider what's between the human and the UI
+  
+- Think about input methods, browser, operating system, screen size and resolution, user preferences and choices, network connection (cost, speed, latency), age and condition of hardware, age of the person, experience level, assistive technology.
+- Think about options and preferences, not accessibility options.
+
+[.background-color: #326]
+
+---
+
+#  Go off The Happy Path
+  
+Consider what’s messy, fragile, unpredictable. We already know that sometimes people will encounter problems with our products. That’s why we have error states and messages. We just need to widen this lens.
+
+[.background-color: #437]
+
+---
+
 # Shouting time 🙋
 
 Let's play a (very) brief game of<br>"How many people?"
