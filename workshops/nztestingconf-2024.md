@@ -20,6 +20,7 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
 - Make bridging slides
 - Clarify **barriers** as a thread throughout
     - Bring this into lunch activity?
+- Dual also theme: not-separate.
 
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
@@ -153,15 +154,7 @@ Think more broadly, in a more human-centred way. This helps us understand the wi
 
 Questions? Questions! Questions.
 
-### A human uses the web
-
-- **(Gentle!) activity**: A human uses the Web
-- **A human** using a mouse and Safari on a Mac **uses the Web**
-- **A human** using a mouse / trackpad / keyboard / switch control / puffer / magnification tool / voice control / screen reader and Safari / Chrome / Firefox / Edge on a Windows / Mac / Linux desktop / laptop / tablet / phone in light / dark mode / high contrast mode with reduced motion enabled with smaller / larger text size **uses the Web**
-- Delicious takeaway:**Humans interact with our product in a very wide range of ways**
-- Simpler, plainer, things tend to work more easily for more people.
-    - That goes for page, components, sentences.
-- Any questions?
+[Mind your business slides](../mind-your-business.pdf)
 
 ### Know the technology
 
