@@ -16,15 +16,10 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
 - Steal from my QE CoP 2023-08-01 testing with a screen reader preso
 - Add some images and icons for visual interest and understandability
 - Have an analogy thread
-    - fun but not silly
-    - water, ocean
-    - building a house
-    - baking a cake
-    - making a meal (recipe, ingredients, nice and broad)
-    - orienteering-ish (map, compass, trail)
-    - maybe something that works with four sessions?
-        - seasons
-        - compass directions
+- Finalise the presentations for talky bits
+- Make bridging slides
+- Clarify **barriers** as a thread throughout
+    - Bring this into lunch activity?
 
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
@@ -32,25 +27,6 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
 - **How to test more accessibly** by using the keyboard, browser extensions, automated testing, and using assistive technology.
 - **How to help our colleagues make more accessible things** by using the social model of accessibility, annotating and checking designs, and writing semantic HTML.
 - **How to meet the Web Content Accessibility Guidelines 2.2 Level AA** and go beyond them by thinking and testing more accessibly.
-
-## Schedule
-
-Warm-up! Before the workshop, send a set of questions, pick one and bring your answer to the workshop. 
-What do you already know about accessibility? About accessibility testing? What do you want to get out of today?
-
-- **09:30–10:45** Session 1
-- **10:45–11:15** Morning tea
-- **11:15–12:30** Session 2
-- **12:30–13:30** Lunch
-- **13:30–14:45** Session 3
-- **14:45–15:15** Afternoon tea
-- **15:15–16:30** Session 4
-
-Each Session is about 1h15m. About 1h doing stuff, about 15m reflecting.
-
-Session 4 will include 10 minutes for feedback for Steve and for NZTC.
-
-Post-lunch: check it with your goals from Session 1. Any questions?
 
 ## Activities
 
@@ -161,15 +137,7 @@ Up on screen as they come in.
 
 ## Session 1
 
-TODO: clarify order.
-{: .boxout .boxout-todo}
-
-- introductions and connections
-- agenda
-- get quickly to
-    - running axe? good, easy, but could be quite... confronting!
-    - keyboard testing. connects well to existing manual testing
-        - keyboard hero vibes?
+[welcome slides](../welcome.pdf)
 
 Think more broadly, in a more human-centred way. This helps us understand the wide range of human experience, that abilities exist on a spectrum, and that things seldom go as planned.
 
@@ -185,22 +153,6 @@ Think more broadly, in a more human-centred way. This helps us understand the wi
 
 Questions? Questions! Questions.
 
-### How many people?
-
-- How many people in the world have disabilities?
-- (World population is about 8 billion)
-- ^ Not a test! I had to look this up.
-- **About 1 billion have (at least one) disability**
-    - It's about 15%, so 1.2b
-    - And that's mostly "official" disabilities, and people how identify as disabled. We'll come back to that in a second.
-- How many people in Aotearoa New Zealand have disabilities?
-- (Population is about 5 million)
-- ^ Also not a test!
-- **About 1 million have (at least one) disability**
-    - Actually 25%, so more like 1.25m. Again, it depends how you count.
-    - ^ 2013 figure, 53% had more than one
-- these numbers are about people with a permanent disability, not people who might have a situational or temporary impairemnt, and therefore benefit from things that we might have done "for disabled people."
-
 ### A human uses the web
 
 - **(Gentle!) activity**: A human uses the Web
@@ -210,25 +162,6 @@ Questions? Questions! Questions.
 - Simpler, plainer, things tend to work more easily for more people.
     - That goes for page, components, sentences.
 - Any questions?
-
-### Social model
-
-- Many types of disability, for example: **Auditory Cognitive Physical Visual**
-- Social model of disability: **Disability = Ability + Barrier**
-- **(Gentle) activity time!**
-- Let's think about the **visual** category under the social model of disability
-- Raise your hand or nod your head if you or someone you know is: **blind**
-- Potential barrier 🚧 **no text alternatives for non-text content**
-- Raise your hand or nod your head if you or someone you know has: **low vision or poor eyesight**, **(perhaps from old age)**
-- Potential barrier 🚧 **no (or poor) responsive styles**
-- Raise your hand or nod your head if you or someone you know is: **colour blind**
-- Potential barrier 🚧 **using only colour to convey information**
-- Raise your hand or nod your head if you or someone you know has: **been outside on a sunny day**, **with a shiny screen**
-- Potential barrier 🚧 **low colour contrast between text and the background**
-- Delicious takeaway: **Mismatched interactions can create barriers to access for many people**
-- Any questions?
-
-Questions? Questions! Questions.
 
 ### Know the technology
 
@@ -242,116 +175,13 @@ How do you know what to do? Not the rules, not the written signs and things.
 - Understand the accessibility tree
     - name, role, value, state
 
-### To organise for the talky bit
-
-Maybe split up, ditch some bits.
-
-- The big picture
-    - The framing: Barriers (the social model; Essential for some, useful for all)
-        - "All models are wrong, but some are useful". Social model is very useful!
-            - Not the only model, not the "best" one, or the "right" one, but useful.
-            - "creates a disability" - the wording is awkward, yes.
-        - This is the root of it. Not "those disabled people over there" but "us humans right here."
-        - When we choose to draw a line between disabled people and not-disabled people, the line will be in the wrong place.
-            - "The map is not the territory"
-        - Our work might be digital, but people are analogue, and a11y is about people.
-        - Personas to demonstrate the spectrum, the (not!) us vs them
-        - Journey maps, does their tech or disability really affect their task, their goal? How they do it, maybe.
-        - Should we consider disabilities and AT when considering support? Yes, of course. But not in terms of stats, deciding, discriminating.
-        - Someone's disability or AT is none of our business.
-            - Do you ask about height, weight, religion, lefthanded/righthanded, sexual orientation, gender, religion.
-                - These impact how someone is in the world (and how the world treats them), but...
-            - Draft WCAG 3.0 outcome: "[Disability information privacy](https://www.w3.org/TR/wcag-3.0/#disability-information-privacy). Disability information is not disclosed to or used by third parties and algorithms (including AI)."
-                - [D]eque commentary](https://www.deque.com/blog/w3c-unveils-174-new-outcomes-for-wcag-3-0/): "A person’s disability needs, preferences, and use of assistive technologies are extremely personal. It is up there with other medical information. This information can, and often is used to deny people education, housing, insurance, employment, and more."
-- Note on language: disable people vs people with disabilities vs other things
-- Don't need to be, or pretend to be, an everyday user to test well, to find many of the biggest barriers that everyday user will encounter.
-    - Of course it's not the same. Of course we won't find all the barriers.
-    - But, Leonie quote, we can make it more usable for more people.
-- We can't cover everything today, but we can get started, grab a map and a compass and note a few trails.
-- Be wary of people who talk in binaries, extremes, absolutes.
-    - The truth is generally more complicated (and interesting!) than that.
-    - There's no such thing as 100% accessible. Because (we are) humans!
-        - But we can make it much better, and keep making it better.
-    - 100% compliant to WCAG is tricky and doesn't necessarily mean good usability.
-    - Growth Mindset.
-        - It can be uncomfortable. That's the feeling of brain cells growing! (Sort of)
-        - Mistakes are expected. It's what you do next that counts.
-            - I am bound to make some mistakes today, please feel free to point them out!
-            - But, you know, don't be a jerk about it.
-- Where's the line between a11y testing and regular testing?
-    - For example: keyboard testing.
-    - Who uses the keyboard?
-    - How do we know if they're disabled or not?
-    - What if they don't identify as disabled?
-    - This distinction is constructed! But it can be useful sometimes.
-- meet people where they are
-    - don't expect immediate perfection from yourself, or others.
-    - **Leonie quote** “[It doesn't have to be perfect, just a little bit better than yesterday](https://tetralogical.com/blog/2022/07/11/meet-the-team-leonie-watson/#what's-your-top-accessibility-tip%3F)"
-- "chart" for shift left
-    - the later you leave it, the more difficult it is
-    - need to do all the previous steps if you want to do it properly
-- Start from the position of "I don't know (yet)"
-- Connect to Quality, Security, Privacy
-- Accessibility is part of Quality. Part of functionality. Part of Usability.
-- Have separate a11y testing, AC?
-    - Yes... But understand that it's a short-term remediation thing
-    - The goal is to get to a place where it's part of day-to-day work
-        - Does a blind screen reader user think "I'm going to do some accessible banking!" or just "I'm going to do some banking".
-        - The core human need, the task. It's actually none of our business how they do it!
-    - Our UIs have a "level of accessibility" whether we think about it or not
-- Framing for activities.
-    - Best: fix it right now, or put up a PR.
-    - Great: log a ticket.
-    - Good: test and find issues.
-    - Oh, look, this is a spectrum too!
-
 ## Session 2
 
 ### WCAG bit
 
 A short presentation in Session 2, leading into lunch. Ideally, something to "do" or think about over lunch, along the lines of "that's only the minimum".
 
-- Perhaps you've noticed it's been several hours and this is the first time I'm mentioning WCAG.
-    - That (hopefully) tells you something about where it sits in terms of importance and priority.
-- WCAG
-    - **We**b **C**ontent **A**ccessibility **G**uidelines
-    - Four Principles
-        - **P**erceivable, **O**perable, **U**nderstandable, **R**obust
-    - w3.org/WAI/WCAG22/quickref
-    - Guidelines: an example or two
-    - Success Criteria. Sort of like AC.
-        - SC has Sufficient (here's one way), Advisory (here's an idea), Failure (how about no)
-        - Levels A, AA, AAA
-    - 2.1 AA Global standard. Used by governments, private sector. Can be reported using a VPAT / ACR.
-    - Everywhere has some litigation. NZ/AU/UK: no legislation (yet). US/CA: (heavy) legislation. EU: incoming!
-    - Now: WCAG 2.2: (the third edition of the second edition of the Web Content Accessibility Guidelines)
-    - Then: (WCAG timeline)
-        - 1999 – `1.0` (Set If Off)
-        - 2008 – `2.0` (The Next Generation)
-        - 2018 – `2.1` (brains, eyes, and phones)
-        - 2022 – `2.2`
-    - the future: WCAG 3.0 (W3C Accessibility Guidelines)
-- Careful of checklist-thinking
-    - When we treat them as rules, we might lean towards rules-lawyering: meeting the letter but not the spirit
-    - [not-checklist](https://not-checklist.intopia.digital/)
-- Standards set the minimum. As in: less than this is actively bad. As in: more than this is probably good.
-    - The standards have some gaps and loopholes.
-    - Compliance sets the minimum level of accessibility and usability.
-    - We choose the maximum.
-    - It can technically accessible, but not very usable!
-- Something WCAG sort-of doesn't have now, but will sort-of later:
-    - Issue Severity: Critical, High, Medium, Low 
-- Remember the Priority of Constituencies
-    - Put our users first. "difficulties to the user should be given more weight than difficulties to implementors". DX is important, but not at the expense of UX.    
-- WAI ARIA Authoring Practices
-    - What is ARIA?
-        - Rules of ARIA
-    - good specs
-    - slightly dodgy examples  
-- Know the big names
-    - Short URL to links page, web and mobile filterable  
-
-Questions? Questions! Questions.
+[WCAG slides](../wcag.pdf)
 
 TODO: Feels like Priority of Constituencies and big names could move.
 {: .boxout .boxout-todo}
@@ -359,6 +189,9 @@ TODO: Feels like Priority of Constituencies and big names could move.
 Pick 'n' mix activities
 
 ### Going-into-lunch activity
+
+TODO: Something about **barriers**.
+{: .boxout .boxout-todo}
 
 Maybe this idea, but definitely some "activity."
    
