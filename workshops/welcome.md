@@ -167,19 +167,38 @@ Let's play a (very) brief game of<br>"How many people?"
 
 ---
 
-<!--
-### A human uses the web
+# **(Gentle!) activity**
+## A human uses the Web
 
-- **(Gentle!) activity**: A human uses the Web
-- **A human** using a mouse and Safari on a Mac **uses the Web**
-- **A human** using a mouse / trackpad / keyboard / switch control / puffer / magnification tool / voice control / screen reader and Safari / Chrome / Firefox / Edge on a Windows / Mac / Linux desktop / laptop / tablet / phone in light / dark mode / high contrast mode with reduced motion enabled with smaller / larger text size **uses the Web**
-- Delicious takeaway:**Humans interact with our product in a very wide range of ways**
-- Simpler, plainer, things tend to work more easily for more people.
-    - That goes for page, components, sentences.
-- Any questions?
+[.background-color: #326]
 
 ---
--->
+
+A human
+using a **mouse** and **Safari** on **Mac**
+uses the Web
+
+👆
+What might change?
+How do we customise these things?
+
+[.background-color: #548]
+
+---
+
+A human
+using a **mouse / trackpad / keyboard / switch control / puffer / magnification tool / voice control / screen reader** and **Safari / Chrome / Firefox / Edge** on **Windows / Mac / Linux desktop / laptop / tablet / phone** in **light / dark mode / high contrast mode** with **reduced motion** with **smaller / larger text**
+uses the Web
+
+[.background-color: #104]
+
+---
+
+Humans (including us!) interact with our product in a very wide range of ways
+
+[.background-color: #326]
+
+---
 
 # The Social Model 🚧
 
@@ -297,31 +316,12 @@ For example: captions!
 
 ---
 
+---
+
 # This is the root of it.
 
 - Not "those disabled people over there" but "us humans right here."
 - When we choose to draw a line between disabled people and not-disabled people, the line will be in the wrong place.
-
----
-
-# Mind your business
-
-- Should we consider disabilities and AT when considering support? Yes, of course. But not in terms of stats, deciding, discriminating.
-    - These impact how someone is in the world (and how the world treats them), but...
-
----
-
-# Mind your business, pt 2
-
-- Someone's disability or AT is none of our business.
-    - Do we ask about height, weight, religion, lefthanded/righthanded, sexual orientation, gender, religion?
-
----
-
-# Mind your business, pt 3
-
-- Draft WCAG 3.0 outcome: "[Disability information privacy](https://www.w3.org/TR/wcag-3.0/#disability-information-privacy). Disability information is not disclosed to or used by third parties and algorithms (including AI)."
-- [Deque commentary](https://www.deque.com/blog/w3c-unveils-174-new-outcomes-for-wcag-3-0/): "A person’s disability needs, preferences, and use of assistive technologies are extremely personal. It is up there with other medical information. This information can, and often is used to deny people education, housing, insurance, employment, and more."
 
 ---
 
