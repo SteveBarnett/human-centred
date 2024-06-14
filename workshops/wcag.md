@@ -83,6 +83,15 @@ theme: Naga-ish 2022-02-22
 
 ---
 
+# Efficient accessibility testing
+
+- Keyboard
+- Headings
+- Run axe
+- Screen reader testing
+
+---
+
 Questions? Questions! Questions. 🤷
 
 [.background-color: #104]

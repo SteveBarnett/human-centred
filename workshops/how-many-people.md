@@ -64,5 +64,3 @@ Let's play a (very) brief game of<br>"How many people?"
 - "Identify as disabled" numbers
 
 [.background-color: #104]
-
----

@@ -30,5 +30,3 @@ uses the Web
 Humans (including us!) interact with our product in a very wide range of ways
 
 [.background-color: #326]
-
----
