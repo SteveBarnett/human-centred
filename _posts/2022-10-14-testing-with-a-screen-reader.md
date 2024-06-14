@@ -6,8 +6,6 @@ image: /img/2022/10/twasr.png
 category: "how-to guide"
 ---
 
-# Testing with a screen reader
-
 This is a more QE (Quality Engineering) / AC (Acceptance Criteria) kind of script for testing with a screen reader. [The other testing with screen readers page](/2021/07/31/testing-with-screen-readers/) is a bit more broad, and includes set-up instructions.
 
 You can also read more about [the two modes of Screen Readers](/2022/02/10/the-two-modes-of-screen-readers/):

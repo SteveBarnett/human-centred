@@ -94,8 +94,8 @@ Fill in the scores in a similar way to how some teams do planning poker: decide 
 		<li>Briefly discuss the behaviours as they apply to your team. Use the “Examples of confidence levels” section above.</li>
 		<li>Set a short timer for everyone to privately decide their score, then enter the numbers.</li>
 		<li>Discuss any numbers at the edges. For example: One vote for 5 among four votes for 3.</li>
-    	<li>Calcolate the rounded average. That’s your score!</li>
-	</ul>
+    	<li>Calculate the rounded average. That’s your score!</li>
+	</ol>
 </details>
 
 ## 🙋 Getting help

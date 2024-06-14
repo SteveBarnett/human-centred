@@ -47,7 +47,7 @@ There are single-key shortcuts for headings, links, images, and more.
 
 #### Forms mode
 
-The person uses the `Tab` key to move to the next focusable element.
+The person uses the <kbd>Tab</kbd> key to move to the next focusable element.
 
 Text, images, and disabled form elements do not receive focus.
 
@@ -97,8 +97,8 @@ Field name describes the input.
 
 ### Setup Part 2: "Quiet, please!" and "Speak up!"
 
-- Desktop: `Control` to stop
-- Desktop: `Insert` + `↓`, `VO` + `a` to start
+- Desktop: <kbd>Control</kbd> to stop
+- Desktop: <kbd>Insert</kbd> + <kbd>↓</kbd>, <kbd>VO</kbd> + <kbd>a</kbd> to start
 - Mobile: Two-finger tap
 
 ## Epilogue: How to continue testing with a screen reader

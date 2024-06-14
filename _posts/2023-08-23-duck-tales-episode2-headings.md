@@ -46,7 +46,7 @@ Here are some example answers. Don't peek until you've shared your own, though!
 	<summary>What are some ways to check the headings levels on a page?</summary>
 <div markdown="1">
 - The headings [Accessibility Bookmarklet](https://accessibility-bookmarklets.org/install.html).
-- [Ad hoc tools > Headings](https://drive.google.com/file/d/1lGoEk0q_EBpzS3G7U93vbV-lYlvWGNmD/view?usp=sharing) of [Microsoft’s Accessibility Insights browser extension](https://accessibilityinsights.io/downloads/) (Chrome only).
+- Ad hoc tools > Headings of [Microsoft’s Accessibility Insights browser extension](https://accessibilityinsights.io/downloads/) (Chrome only).
 </div>
 </details>
 

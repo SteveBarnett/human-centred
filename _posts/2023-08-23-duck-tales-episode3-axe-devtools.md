@@ -67,7 +67,7 @@ No! But it can pick up lots. As you might expect, it’s good at quantitative st
 
 ### How to run and read axe
 
-If you’d like a detailed guide, check out [Running and reading axe DevTools](2023/08/22/running-and-reading-axe-devtools/).
+If you’d like a detailed guide, check out [Running and reading axe DevTools](/2023/08/22/running-and-reading-axe-devtools/).
 
 ## Videos
 

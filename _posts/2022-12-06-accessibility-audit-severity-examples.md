@@ -48,8 +48,8 @@ The way we usually decide on a Severity is to first decide if it's Critical or n
 ### ℹ️ Low
 
 - Invalid markup that doesn’t affect the user experience.
-- Images that are decorative aren’t hidden from assistive technology (SVGs are missing `aria-hidden=“true”`
-- Best Practice issues
+- Images that are decorative aren’t hidden from assistive technology (SVGs are missing `aria-hidden=“true”`).
+- Best Practice issues.
 
 ## Prioritisation
 

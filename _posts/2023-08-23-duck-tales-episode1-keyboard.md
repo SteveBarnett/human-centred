@@ -33,8 +33,8 @@ Here are some example answers. Don't peek until you've shared your own, though!
 <details>
 	<summary>What key does what?</summary>
 <div markdown="1">
-- `Tab`: next focusable element / group, `Shift` + `Tab`: previous focusable element / group.
-- `↑ ↓ ← →`: between options in group.
+- <kbd>Tab</kbd>: next focusable element / group, <kbd>Shift</kbd> + <kbd>Tab</kbd>: previous focusable element / group.
+- <kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd>: between options in group.
 - For specific UI elements, choose the pattern in [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/patterns/) and go to the Keyboard Interaction section.
 </div>
 </details>
@@ -42,7 +42,7 @@ Here are some example answers. Don't peek until you've shared your own, though!
 <details>
 	<summary>What do the Web Content Accessibility Guidelines say about keyboard accessibility?</summary>
 <div markdown="1">
-<p>Lots! Some under Perceivable, more under Operable. [Filter the Quick Reference by the keyboard tag](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&showtechniques=123%2C242&tags=keyboard&technologies=smil%2Cpdf%2Cflash%2Csl#keyboard-accessible) to see them all.</p>
+<p>Lots! Some under Perceivable, more under Operable. <a href="https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_customize&showtechniques=123%2C242&tags=keyboard&technologies=smil%2Cpdf">Filter the Quick Reference by the keyboard tag</a> to see them all.</p>
 </div>
 </details>
 

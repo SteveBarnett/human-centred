@@ -12,7 +12,7 @@ Doing a [QAC](/2021/12/13/qac/) **and** [testing with a Screen Reader](/2022/10/
 
 There are 50 Success Criteria (SC) at WCAG 2.1 Level AA. 30 are Level A and 20 are Level AA. Some issues are particularly "famous": they’ve come up in the [2023 WebAIM Million](https://webaim.org/projects/million/) and [Intopia’s Top 6 Accessibility Problems in 2022 - Intopia](https://intopia.digital/articles/top-5-critical-accessibility-issues-in-2022/) (5 plus a bonus 1).
 
-One way to test for all of these things is to do an [Accessibility Audit](https://xero.atlassian.net/wiki/spaces/ACP/pages/269555045519/Accessibility+Audit+Practice).
+One way to test for all of these things is to do an [Accessibility Audit](/2022/01/24/accessibility-audit-process/).
 
  - However! Some of the SC aren’t applicable (they refer to audio and video, which often don't occur in web application pages).
  - And! A few key checks can cover a lot of the issues.

@@ -6,7 +6,7 @@ image: /img/2023/01/aag-wgw.png
 category: how-to guide
 ---
 
-The results of [an accessibility audit](https://naga.co.za/2022/01/24/accessibility-audit-process/) can be in many different formats. A report, Jira tickets, a spreadsheet, or something else. Whatever the format, it’s useful to be as clear as possible.
+The results of [an accessibility audit](/2022/01/24/accessibility-audit-process/) can be in many different formats. A report, Jira tickets, a spreadsheet, or something else. Whatever the format, it’s useful to be as clear as possible.
 
 Some popular fields in audit reports are: summary, user impact, Ideas for how to fix it. Different teams use different names for these. Below I explain what each one means, give an example, and provide links to sources that I consult for finding good wording.
 
