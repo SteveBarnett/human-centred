@@ -33,18 +33,16 @@ The amount of time I have available for testing determines how in-depth I can te
      - are errors announced? (add `aria-live="assertive"` so it announces and `aria-relevant="additions removals"` so it isn't overly verbose. `role="alert"` gets `aria-atomic="true"` by default, so re-reads the whole thing each time.)
 5. Does the **order of content** make sense?
 
-![Screenshot of me using VoiceOver on a Mac showing "heading level 2"](/img/2019/11/VoiceOver.jpg){: .boxed }
-
 ## Getting some help
 
 Both Deque University and WebAIM have great guides.
 
-- VoiceOver on MacOS
-  - [Deque's VoiceOver Keyboard Shortcuts on a Mac](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts#vo-mac-basics)
+- VoiceOver on MacOS.
+  - [Deque's VoiceOver Keyboard Shortcuts on a Mac](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts#vo-mac-basics).
   - [WebAIM's Using VoiceOver to Evaluate Web Accessibility](https://webaim.org/articles/voiceover/).
-- NVDA on Windows
-  - [Deque's NVDA Keyboard Shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
-  - [WebAIM's Using NVDA to Evaluate Web Accessibility](https://webaim.org/articles/nvda/)
+- NVDA on Windows.
+  - [Deque's NVDA Keyboard Shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts).
+  - [WebAIM's Using NVDA to Evaluate Web Accessibility](https://webaim.org/articles/nvda/).
 
 ## Testing with VoiceOver on MacOS
 
@@ -53,17 +51,17 @@ Both Deque University and WebAIM have great guides.
 Before getting going for the first time, I needed to do some once-off set up of my system and Safari. I use Firefox and Chrome as my usual browsers, but VoiceOver and Safari work better together.
 
 1. System Preferences:
-   1. Keyboard item > Shortcuts tab > tick "Use keyboard navigation to move focus between controls"
+   1. `Keyboard` item > `Shortcuts` tab > tick "Use keyboard navigation to move focus between controls".
 2. Safari Preferences:
-   1. Advanced tab > Accessibility item, tick "Press Tab to highlight each item on a web page."
-   2. AutoFill tab > untick all. (I do this to make VoiceOver less noisy on form fields)
+   1. `Advanced` tab > `Accessibility` item, tick "Press Tab to highlight each item on a web page."
+   2. `AutoFill` tab > untick all. (I do this to make VoiceOver less noisy on form fields).
 
 ### Each time set up
 
 Here's what I do each time to get started testing.
 
 - Open Safari. Since it's not my default browser I often forget this step! This leads to me spending a few moments confused about why VoiceOver isn't working properly...
-- Start VoiceOver (VO) with <kbd>Cmd</kbd> + <kbd>F5</kbd>;
+- Start VoiceOver (VO) with <kbd>Cmd</kbd> + <kbd>F5</kbd>.
 - Lock VO activation keys with <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>;</kbd>.
   - This means I can use the activation keys without having to hold <kbd>Ctrl</kbd> + <kbd>Option</kbd> each time.
 - Press <kbd>Shift</kbd> + <kbd>↓</kbd> to jump into the page.
@@ -99,26 +97,26 @@ VoiceOver is most frequently used with Safari, so test with that.
 
 ### First-time set up
 
-- Use the Accessibility Shortcut to switch VoiceOver on and off quickly
-  - This lets you triple-click the side button to stop / start VoiceOver
-  - Settings → Accessibility → General > Accessibility Shortcut → select VoiceOver
-    - If you want to see the text of VoiceOver on screen, enable Caption Panel
-- Customise the Rotor
-  - This lets you choose what appears in the Rotor
-  - Settings → Accessibility → VoiceOver → Rotor. Tick the following: Buttons, Form Controls, Headings, Images, Landmarks, Links, Lists, Search fields, Static Text, Zoom.
+- Use the Accessibility Shortcut to switch VoiceOver on and off quickly.
+  - This lets you triple-click the side button to stop / start VoiceOver.
+  - `Settings` → `Accessibility` → `General` > `Accessibility Shortcut` → select `VoiceOver`.
+    - If you want to see the text of VoiceOver on screen, enable `Caption Panel`.
+- Customise the Rotor.
+  - This lets you choose what appears in the Rotor.
+  - `Settings` → `Accessibility` → `VoiceOver` → `Rotor`. Tick the following: Buttons, Form Controls, Headings, Images, Landmarks, Links, Lists, Search fields, Static Text, Zoom.
 
 ### Testing
 
-- Navigate by touch
-  - Drag your finger over the screen
+- Navigate by touch.
+  - Drag your finger over the screen.
   - Double tap to open links, press buttons, etc.
-- Navigate by swiping
-  - Swipe right to move to the next item (text or interactive controls)
-  - Swipe left to move to the previous item
-- Scroll by flicking with three fingers
-- Use the Rotor to navigate by elements
-  - Open the Rotor by twisting two fingers like a dial
-  - Swipe up or down to jump between elements in the the selected category
+- Navigate by swiping.
+  - Swipe right to move to the next item (text or interactive controls).
+  - Swipe left to move to the previous item.
+- Scroll by flicking with three fingers.
+- Use the Rotor to navigate by elements.
+  - Open the Rotor by twisting two fingers like a dial.
+  - Swipe up or down to jump between elements in the the selected category.
 
 ## Testing with TalkBack on Android
 
@@ -129,19 +127,19 @@ TalkBack is most frequently used with Chrome, so test with that.
 - Use the shortcut service to switch TalkBack on and off quickly.
   - This lets you hold both volume keys for 3 seconds to start / stop TalkBack.
   - Settings → Accessibility → Volume key shortcut. Select Use service and choose TalkBack as the Shortcut service.
-- If you want to see the text of TalkBack on screen, go to Settings → Accessibility > Caption preferences → Use captions
+- If you want to see the text of TalkBack on screen, go to Settings → Accessibility > Caption preferences → Use captions.
 
 ### Testing
 
-- Navigate by touch
-  - Drag your finger over the screen
+- Navigate by touch.
+  - Drag your finger over the screen.
   - Double tap to open links, press buttons, etc.
-- Navigate by swiping
-  - Swipe right to move to the next item (text or interactive controls)
-  - Swipe left to move to the previous item
-- Scroll with two fingers
-- Local context menu (headings, links, controls): swipe up then right
-- Global context menu (reading options, settings): swipe down then right
+- Navigate by swiping.
+  - Swipe right to move to the next item (text or interactive controls).
+  - Swipe left to move to the previous item.
+- Scroll with two fingers.
+- Local context menu (headings, links, controls): swipe up then right.
+- Global context menu (reading options, settings): swipe down then right.
 
 ## Summary
 
