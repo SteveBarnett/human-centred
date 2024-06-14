@@ -8,12 +8,7 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
 
 ## TODO
 
-- Finalise template / format
-    - QAC-style
-    - Take notes from Jira / Acceptance Criteria
-    - Use yml front matter for sorting, ranking
 - Finalise list of activities
-- Steal from my QE CoP 2023-08-01 testing with a screen reader preso
 - Add some images and icons for visual interest and understandability
 - Have an analogy thread
 - Themes
@@ -21,10 +16,9 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
     - Bring this into lunch activity?
     - Dual also theme: not-separate.
     - Think more broadly, in a more human-centred way
-- Break up welcome deck
 - Finalise the presentations for talky bits
     - fewer words on screen
-- Don't need to spend too much time on "selling" the idea.
+    - Combine not-binary and not-separate
 
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
@@ -113,6 +107,7 @@ Perhaps present as a menu, with a chef's recommendation. You can pick what you w
 
 - [Efficient accessibility testing](/2023/08/10/efficient-accessibility-testing/)
 - [Accessibility audit process](/2022/01/24/accessibility-audit-process/)
+    - [The accessibility tree](/2022/06/08/the-accessibility-tree/)
     - [Quick A11y Checks (QAC! 🦆)](/2021/12/13/qac/) (Keyboard, Headings, axe DevTools)
         - [Duck Tales Episode 1: Keyboard](/2023/08/23/duck-tales-episode1-keyboard/)
             - [What key does what?](/2021/11/02/what-key-does-what/)
@@ -121,6 +116,7 @@ Perhaps present as a menu, with a chef's recommendation. You can pick what you w
         - [Duck Tales Episode 3: axe DevTools](/2023/08/23/duck-tales-episode3-axe-devtools/)
             - [Running and reading axe DevTools](/2023/08/22/running-and-reading-axe-devtools/)
     - [Sounds like a good idea: how to get started testing with a screen reader](/2022/10/15/sounds-like-a-good-idea/)
+        - [Testing with screen readers](/2021/07/31/testing-with-screen-readers/)
         - [Testing with a screen reader (QE / AC edition)](/2022/10/14/testing-with-a-screen-reader/)
         - [The two modes of Screen Readers](/2022/02/10/the-two-modes-of-screen-readers/)
     - [A quick guide to text alternatives for images](/2022/04/25/a-quick-guide-to-text-alternatives-for-images/)
@@ -130,9 +126,9 @@ Perhaps present as a menu, with a chef's recommendation. You can pick what you w
     - [Testing with a mobile screen reader](/2023/08/02/testing-with-a-mobile-screen-reader/)
 - [Accessible Engineering scorecard](/2023/06/22/accessible-engineering-scorecard/)
 
-For understanding seriousness: [Accessibility Audit Severity examples](/2022/12/06/accessibility-audit-severity-examples/)
+For understanding seriousness: [Accessibility Audit Severity examples](/2022/12/06/accessibility-audit-severity-examples/).
 
-For writing up results: [Accessibility Audit Guide: writing good words](/2023/01/13/accessibility-audit-guide-writing-good-words/)
+For writing up results: [Accessibility Audit Guide: writing good words](/2023/01/13/accessibility-audit-guide-writing-good-words/).
 
 ## Session 0
 
@@ -140,13 +136,13 @@ For writing up results: [Accessibility Audit Guide: writing good words](/2023/01
 
 Hello there. Thank you for signing up for the Accessibility testing workshop. You rock!
 
-To help get you ready, we've got a little warm-up exercise for you. Pick one (or more!) of the following questions to answer before the workshop. We'll be sharing and discussing our answers in the first session.
+To help get you ready, we've got a little warm-up exercise for you 💪. Pick one (or more!) of the following questions to answer before the workshop. We'll be sharing and discussing our answers in the first session.
 
 - What do you already know about accessibility?
 - What do you already know about accessibility testing?
 - What do you want to get out of the workshop?
 
-**Important!** Remember to bring: your laptop, headphones, what you're working on right now (or as close to it as you can).
+**Important!** Remember to bring: your laptop, headphones, what you're working on right now (or as close to it as you can. This will make the workshop more relevant, which means more useful and more memorable 🤓). 
 
 Regards,
 
@@ -180,9 +176,11 @@ Up on screen as attendees come in.
 - [not-binary slides](../not-binary.pdf)
 - [not-separate slides](../not-separate.pdf)
 
-TODO: a short one on [the a11y tree](The accessibility tree), and how to read it.
+TODO: very short one on [Accessibility and usability considerations for disabling buttons and inputs](/2021/08/06/accessibility-and-usability-considerations-for-disabling-buttons-and-inputs/)
+{: .boxout .boxout-todo}
 
-TOOD: a short one on ["100% accessible" is impossible](/2022/09/21/100-percent-accessible-is-impossible/), see also [Aside: a note on binary thinking](/2024/02/20/knowing-when-to-quit-an-audit/#aside-a-note-on-binary-thinking)
+TODO: a short one on ["100% accessible" is impossible](/2022/09/21/100-percent-accessible-is-impossible/), see also [Aside: a note on binary thinking](/2024/02/20/knowing-when-to-quit-an-audit/#aside-a-note-on-binary-thinking)
+{: .boxout .boxout-todo}
 
 ### Know the technology
 
@@ -204,7 +202,7 @@ A short presentation in Session 2, leading into lunch. Ideally, something to "do
 
 [WCAG slides](../wcag.pdf)
 
-TODO: Feels like Priority of Constituencies and big names could move.
+TODO: Add a bit about [Efficient accessibility testing](/2023/08/10/efficient-accessibility-testing/) to WCAG slides
 {: .boxout .boxout-todo}
 
 Pick 'n' mix activities
@@ -240,12 +238,9 @@ Maybe this idea, but definitely some "activity."
 
 #### Halloween keyboards
 
-- Play Hocus Focus
+- Play [Hocus focus](https://focus.hteumeuleu.com/)
 
 ### Back into it: screen reader testing
-
-TODO: Is this a good spot for it? Before lunch better?
-{: .boxout .boxout-todo}
 
 - Break after about halfway through for Questions? Questions! Questions.
     - If you have a question, chances are somebody else does too.
