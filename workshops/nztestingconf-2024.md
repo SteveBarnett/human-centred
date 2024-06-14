@@ -8,17 +8,12 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
 
 ## TODO
 
-- Finalise list of activities
-- Add some images and icons for visual interest and understandability
-- Have an analogy thread
-- Themes
-    - Clarify **barriers** as a thread throughout
-    - Bring this into lunch activity?
-    - Dual also theme: not-separate.
-    - Think more broadly, in a more human-centred way
+- Have an analogy thread?
+- Theme: **barriers**, think more broadly, in a more human-centred way
 - Finalise the presentations for talky bits
     - fewer words on screen
-    - Combine not-binary and not-separate
+    - Combine not-binary and not-separate, include ["100% accessible" is impossible](/2022/09/21/100-percent-accessible-is-impossible/), see also [Aside: a note on binary thinking](/2024/02/20/knowing-when-to-quit-an-audit/#aside-a-note-on-binary-thinking)
+- Write up barriers activity for [Going-into-lunch activity](#going-into-lunch-activity)
 
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
@@ -108,6 +103,7 @@ Perhaps present as a menu, with a chef's recommendation. You can pick what you w
 - [Efficient accessibility testing](/2023/08/10/efficient-accessibility-testing/)
 - [Accessibility audit process](/2022/01/24/accessibility-audit-process/)
     - [The accessibility tree](/2022/06/08/the-accessibility-tree/)
+    - [Accessibility and usability considerations for disabling buttons and inputs](/2021/08/06/accessibility-and-usability-considerations-for-disabling-buttons-and-inputs/)
     - [Quick A11y Checks (QAC! 🦆)](/2021/12/13/qac/) (Keyboard, Headings, axe DevTools)
         - [Duck Tales Episode 1: Keyboard](/2023/08/23/duck-tales-episode1-keyboard/)
             - [What key does what?](/2021/11/02/what-key-does-what/)
@@ -176,16 +172,7 @@ Up on screen as attendees come in.
 - [not-binary slides](../not-binary.pdf)
 - [not-separate slides](../not-separate.pdf)
 
-TODO: very short one on [Accessibility and usability considerations for disabling buttons and inputs](/2021/08/06/accessibility-and-usability-considerations-for-disabling-buttons-and-inputs/)
-{: .boxout .boxout-todo}
-
-TODO: a short one on ["100% accessible" is impossible](/2022/09/21/100-percent-accessible-is-impossible/), see also [Aside: a note on binary thinking](/2024/02/20/knowing-when-to-quit-an-audit/#aside-a-note-on-binary-thinking)
-{: .boxout .boxout-todo}
-
 ### Know the technology
-
-TODO: this could switch with WCAG bit? Something semantic, affordances, for lunch activity?
-{: .boxout .boxout-todo}
 
 How do you know what to do? Not the rules, not the written signs and things.
 
@@ -202,24 +189,11 @@ A short presentation in Session 2, leading into lunch. Ideally, something to "do
 
 [WCAG slides](../wcag.pdf)
 
-TODO: Add a bit about [Efficient accessibility testing](/2023/08/10/efficient-accessibility-testing/) to WCAG slides
-{: .boxout .boxout-todo}
-
 Pick 'n' mix activities
 
 ### Going-into-lunch activity
 
-TODO: Something about **barriers**.
-{: .boxout .boxout-todo}
-
-Maybe this idea, but definitely some "activity."
-   
-- What things are you happy with people doing the absolute bare minimum of?
-    - The Food Safety standards?
-        - How well cleaned are the plates?
-        - How warm is the tea or coffee?
-    - How closely are cars following the road traffic guidelines?
-    - If you buy something: the bare minimum encryption and security on your bank account.
+TBC
 
 ## Session 3
 
