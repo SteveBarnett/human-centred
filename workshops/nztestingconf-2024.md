@@ -24,82 +24,6 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
 
 ## Activities
 
-Things to turn into "cards", in shape like the [QAC](/2021/12/13/qac/): Why do it; What to do; Things to check; How serious it is.
-
-Might have metadata on effort &times; impact.
-
-Perhaps present as a menu, with a chef's recommendation. You can pick what you want to do, do them in any order, but here's a suggestion.
-
-- Quick show of hands
-    - What role. Tester / QA / QE? Developer? BA? What else?
-    - What stack. Web? Mobile? 
-- Barriers activity
-    - Essential for some, useful for all
-    - It's most truth-y, most close to reality, when we take this broader view
-- Start with QAC
-    - If you forget everything else, this will serve you well
-    - Audit is the big container
-- What are the rules of ARIA?
-- Go to APG and pick one pattern that seems familiar. What's something new there for you?
-- Big Names
-    - [Accessibility resources](/2022/02/04/accessibility-resources/)
-    - Pick one, spend 10 minutes on it, give back a summary. what's there, what's it good for?
-- QAC
-    - Using axe for WebAIM Million seems good?
-    - Then keyboard and headers here?
-    - [Duck Tales Episode 1: Keyboard](/2023/08/23/duck-tales-episode1-keyboard/)
-    - [Duck Tales Episode 2: Headings](/2023/08/23/duck-tales-episode2-headings/)
-    - [Duck Tales Episode 3: axe DevTools](/2023/08/23/duck-tales-episode3-axe-devtools/)
-- Common E&O or WebAIM Million
-    - page lang, empty link text, empty button text, missing alt text, missing form label, low colour contrast
-    - axe Browser extension will pick up all of these!
-- Testing with a SR for 1.3.1 and 4.1.2
-- Video to watch: [Web Accessibility Perspectives: Keyboard Compatibility](https://www.youtube.com/watch?v=93UgG72os8M)
-- Have a quick play with Microsoft Accessibility Insights.
-    - Don't try and do it all, it's a lot!
-- Audio description. A bit of fun.
-    - [Frozen - Trailer with Audio Description - YouTube - 1m30s](https://www.youtube.com/watch?v=O7j4_aP8dWA).
-    - [Lion King Audio Description - Full Clip - YouTube - 2:23](https://www.youtube.com/watch?v=7-XOHN2BWG4)
-    - [Pulp Fiction Audio Description Sample on Vimeo - 3m51s](https://vimeo.com/319349157) Just watch a minute or two!
-    - What's included? What's left out?
-- [Sounds like a good idea: how to get started testing with a screen reader](/2022/10/15/sounds-like-a-good-idea/)
-    - [Testing with a screen reader (QE / AC edition](/2022/10/14/testing-with-a-screen-reader/)
-    - [Testing with a mobile screen reader](/2023/08/02/testing-with-a-mobile-screen-reader/)
-- [Hocus focus](https://focus.hteumeuleu.com/)
-- Who uses it? For AT, for keyboards, for tech that's not generally classified as AT but is used as such.
-- Automated tests
-    - Add axe to unit tests
-    - Add cypress / playwright axe to Intergration / E2E tests
-    - Use a11y selectors
-    - Ideally, not as separate tests, but as part of existing tests
-- Closing
-    - What I learned
-    - Most important thing from today
-    - Feedback
-
-### Things to check
-
-- Status messages and loading states
-- Tables
-- Windows Contrast Themes
-- Error handling and text
-- Help text
-- Images and alt text
-    - Photos vs icons
-    - My "A quick guide to text alternatives for images"
-- Videos and captions (not just subtitles)
-- Field names and programmatic link
-- Link text, button text
-- Page title
-- Use of colour
-- Colour contrast
-- Zoom in
-- axe DevTools
-- Headings: level, order, text content. See [More accessible headings](/2022/12/12/more-accessible-headings/)
-- Test with keyboard. Use, see, usable.
-
-### Tests
-
 - [Efficient accessibility testing](/2023/08/10/efficient-accessibility-testing/)
 - [Accessibility audit process](/2022/01/24/accessibility-audit-process/)
     - [The accessibility tree](/2022/06/08/the-accessibility-tree/)
@@ -121,6 +45,8 @@ Perhaps present as a menu, with a chef's recommendation. You can pick what you w
     - [Quick Accessibility Checks (QAC! 🐥) for mobile](/2023/01/09/qac-for-mobile/)
     - [Testing with a mobile screen reader](/2023/08/02/testing-with-a-mobile-screen-reader/)
 - [Accessible Engineering scorecard](/2023/06/22/accessible-engineering-scorecard/)
+- [Automated accessibility testing](/2022/04/09/automated-accessibility-testing/)
+    - [The WebAIM Million 2023](/2023/04/06/the-web-aim-million-2023/)
 
 For understanding seriousness: [Accessibility Audit Severity examples](/2022/12/06/accessibility-audit-severity-examples/).
 
@@ -221,40 +147,6 @@ TBC
     - Do screen reader users do {thing}?
     - What's "good" for {thing}?
 
-### Automated vs manual
-
-- Automated testing can catch a lot, but not everything
-- [Automated accessibility testing](/2022/04/09/automated-accessibility-testing/)
-- **Does an automated test catch it?**
-    - ✔ Missing alternative text for images
-    - ✖ Bad alternative text for images 
-    - 💁 e.g. "dog"
-    - ✨ "A puppy frolicking in a field"
-- **Does an automated test catch it?**
-    - ✔ Empty links or empty buttons
-    - ✖ Bad link text or button text
-    - 💁 e.g. "click here", "submit"
-    - ✨ "{ The target }", "{ The action }"
-- **Does an automated test catch it?**
-    - ✔ Some HTML errors
-    - ✖ Weird HTML
-    - 💁 e.g. `<div>Upload</div>`
-    - ✨ Semantic HTML like `<button>`
-- a11y issues often come up in the **interaction**
-- How can we **tweak** our **automated testing** to help with this?
-- But! **[The WebAIM Million](https://webaim.org/projects/million/)**
-    - Annual report on the accessibility of the top 1,000,000 home pages
-    - **Almost every site had WCAG failures**
-    - (96.3% in you want to be precise)
-    - **Almost all the errors fall into one of six categories**
-    - LLBALC: lang, links, buttons,<br>alt text, labels, contrast. And these can all be found with automated tests!
-        - **⚠️ Page language isn't set**
-        - **⚠️ Link text is empty**
-        - **⚠️ Button text is empty**
-        - **⚠️ `alt` text for images missing**
-        - **⚠️ Form inputs not labelled**
-        - **⚠️ Low colour contrast text**
-
 ## Session 4
 
 - after break, reorient
@@ -280,9 +172,12 @@ Near the end of the day, we've scheduled 10 minutes of workshop time to fill in 
 - Your name 📛
 - Your email address 📧
 
----
+## Quotes
 
-### Slides to put somewhere
+Sir Timbo quote
 
-- Sir Timbo quote
-    - > “The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.” -- Tim Berners-Lee
+> “The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.” -- Tim Berners-Lee
+
+Leonie quote
+
+ > "It doesn't have to be perfect, just a little bit better than yesterday" -- Leonie Watson
