@@ -16,11 +16,15 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
 - Steal from my QE CoP 2023-08-01 testing with a screen reader preso
 - Add some images and icons for visual interest and understandability
 - Have an analogy thread
-- Finalise the presentations for talky bits
-- Make bridging slides
-- Clarify **barriers** as a thread throughout
+- Themes
+    - Clarify **barriers** as a thread throughout
     - Bring this into lunch activity?
-- Dual also theme: not-separate.
+    - Dual also theme: not-separate.
+    - Think more broadly, in a more human-centred way
+- Break up welcome deck
+- Finalise the presentations for talky bits
+    - fewer words on screen
+- Don't need to spend too much time on "selling" the idea.
 
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
@@ -105,6 +109,31 @@ Perhaps present as a menu, with a chef's recommendation. You can pick what you w
 - Headings: level, order, text content. See [More accessible headings](/2022/12/12/more-accessible-headings/)
 - Test with keyboard. Use, see, usable.
 
+### Tests
+
+- [Efficient accessibility testing](/2023/08/10/efficient-accessibility-testing/)
+- [Accessibility audit process](/2022/01/24/accessibility-audit-process/)
+    - [Quick A11y Checks (QAC! 🦆)](/2021/12/13/qac/) (Keyboard, Headings, axe DevTools)
+        - [Duck Tales Episode 1: Keyboard](/2023/08/23/duck-tales-episode1-keyboard/)
+            - [What key does what?](/2021/11/02/what-key-does-what/)
+        - [Duck Tales Episode 2: Headings](/2023/08/23/duck-tales-episode2-headings/)
+            - [More accessible headings](/2022/12/12/more-accessible-headings/)
+        - [Duck Tales Episode 3: axe DevTools](/2023/08/23/duck-tales-episode3-axe-devtools/)
+            - [Running and reading axe DevTools](/2023/08/22/running-and-reading-axe-devtools/)
+    - [Sounds like a good idea: how to get started testing with a screen reader](/2022/10/15/sounds-like-a-good-idea/)
+        - [Testing with a screen reader (QE / AC edition)](/2022/10/14/testing-with-a-screen-reader/)
+        - [The two modes of Screen Readers](/2022/02/10/the-two-modes-of-screen-readers/)
+    - [A quick guide to text alternatives for images](/2022/04/25/a-quick-guide-to-text-alternatives-for-images/)
+- [Accessibility audit process for mobile](/2022/05/31/accessibility-audit-process-mobile/)
+    - [WCAG and mobile](/2023/08/02/wcag-and-mobile/)
+    - [Quick Accessibility Checks (QAC! 🐥) for mobile](/2023/01/09/qac-for-mobile/)
+    - [Testing with a mobile screen reader](/2023/08/02/testing-with-a-mobile-screen-reader/)
+- [Accessible Engineering scorecard](/2023/06/22/accessible-engineering-scorecard/)
+
+For understanding seriousness: [Accessibility Audit Severity examples](/2022/12/06/accessibility-audit-severity-examples/)
+
+For writing up results: [Accessibility Audit Guide: writing good words](/2023/01/13/accessibility-audit-guide-writing-good-words/)
+
 ## Session 0
 
 ### Warm-up email
@@ -117,13 +146,15 @@ To help get you ready, we've got a little warm-up exercise for you. Pick one (or
 - What do you already know about accessibility testing?
 - What do you want to get out of the workshop?
 
+**Important!** Remember to bring: your laptop, headphones, what you're working on right now (or as close to it as you can).
+
 Regards,
 
 Steve (the facilitator) and the NZTestingConf team
 
 ### Warm-up activity
 
-Up on screen as they come in.
+Up on screen as attendees come in.
 
 - Reminder! These were the warm-up questions. If you haven't answered them yet, now's a good time!
     - What do you already know about accessibility?
@@ -135,26 +166,23 @@ Up on screen as they come in.
     - The question and your answer
 - Room-share: anything particularly interesting come up?
 
-
 ## Session 1
 
-[welcome slides](../welcome.pdf)
+- Today is very mostly DIY from a test library, but
+- What do you want to hear from me about?
 
-Think more broadly, in a more human-centred way. This helps us understand the wide range of human experience, that abilities exist on a spectrum, and that things seldom go as planned.
+### Slide decks
 
-- Most important thing: think more broadly
-    - Acknowledge and embrace human diversity
-        - Consider gender identity and expression, sexual orientation, race, religion, first language, disability (permanent, temporary, contextual), and how these things can change over time.
-        - Unless you're here with your twin or your clone, you may notice that the other people in the room are **different** to you. Of course, you immediately notice similarities, because humans brains are (among other things) pattern recognition machines. But the more attention you pay, the more you zoom in on the details, the more differences you notice.
-    - Consider what's between the human and the UI
-        - Think about input methods, browser, operating system, screen size and resolution, user preferences and choices, network connection (cost, speed, latency), age and condition of hardware, age of the person, experience level, assistive technology.
-        - Think about options and preferences, not accessibility options.
-    - Go off The Happy Path
-        - Consider what’s messy, fragile, unpredictable. We already know that sometimes people will encounter problems with our products. That’s why we have error states and messages. We just need to widen this lens.
+- [welcome slides](../welcome.pdf)
+- [a-human-uses-the-web slides](../a-human-uses-the-web.pdf)
+- [how-many-people slides](../how-many-people.pdf)
+- [Mind your business slides](../mind-your-business.pdf)
+- [not-binary slides](../not-binary.pdf)
+- [not-separate slides](../not-separate.pdf)
 
-Questions? Questions! Questions.
+TODO: a short one on [the a11y tree](The accessibility tree), and how to read it.
 
-[Mind your business slides](../mind-your-business.pdf)
+TOOD: a short one on ["100% accessible" is impossible](/2022/09/21/100-percent-accessible-is-impossible/), see also [Aside: a note on binary thinking](/2024/02/20/knowing-when-to-quit-an-audit/#aside-a-note-on-binary-thinking)
 
 ### Know the technology
 
@@ -208,15 +236,7 @@ Maybe this idea, but definitely some "activity."
 
 #### Audio desc
 
-- Pick one of the videos, we'll just watch a minute or two
-    - Frozen - Trailer with Audio Description - YouTube
-    - Lion King Audio Description - Full Clip - YouTube
-    - Pulp Fiction Audio Description Sample on Vimeo
-- Headphones on!
-    - Watch it, note what they include.
-    - Watch it, note what they exclude.
-    - Discuss! Facts? Moods? Viiiiibes?
-    - What's the lesson? Identical experience is impossible. Humans can be very different! But we can aim for equivalent experience, similar.
+- [(Accessible) Video, audio, or both](/2023/04/11/accessible-audio-video-or-both/)
 
 #### Halloween keyboards
 
@@ -235,6 +255,7 @@ TODO: Is this a good spot for it? Before lunch better?
 ### Automated vs manual
 
 - Automated testing can catch a lot, but not everything
+- [Automated accessibility testing](/2022/04/09/automated-accessibility-testing/)
 - **Does an automated test catch it?**
     - ✔ Missing alternative text for images
     - ✖ Bad alternative text for images 
