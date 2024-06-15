@@ -14,6 +14,13 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
     - fewer words on screen
     - Combine not-binary and not-separate, include ["100% accessible" is impossible](/2022/09/21/100-percent-accessible-is-impossible/), see also [Aside: a note on binary thinking](/2024/02/20/knowing-when-to-quit-an-audit/#aside-a-note-on-binary-thinking)
 - Write up barriers activity for [Going-into-lunch activity](#going-into-lunch-activity)
+- Add medium-deep version of
+    - Title
+    - Reflow
+    - Forms
+    - Errors
+    - WHCM?
+- Maybe reset the recent changes to the [audit page](/2022/01/24/accessibility-audit-process/) and publish a fresh one instead
 
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
