@@ -57,17 +57,17 @@ After five minutes of testing, stop and do a one-minute review with a partner. W
 
 ### How to move around
 
-- `Tab`: moves to next interactive element / group.
-- `Shift` + `Tab`: moves to previous interactive element / group.
-- `↑` `↓` `←` `→`: moves between options in a group.
-- `Space`: toggles the selected element.
-- `Enter`: performs the action.
-- `Escape`: escapes! Closes things that are open.
+- <kbd>Tab</kbd>: moves to next interactive element / group.
+- <kbd>Shift</kbd> + <kbd>Tab</kbd>: moves to previous interactive element / group.
+- <kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd>: moves between options in a group.
+- <kbd>Space</kbd>: toggles the selected element.
+- <kbd>Enter</kbd>: performs the action.
+- <kbd>Escape</kbd>: escapes! Closes things that are open.
 
 What’s a group? A “pick only one” set of fields.
 {:.boxout.boxout-alt }
 
-If you're only testing part of a page, you can skip some `Tab`s by clicking on any element just before your testing section. The clicked element doesn't have to be interactive!
+If you're only testing part of a page, you can skip some <kbd>Tab</kbd>s by clicking on any element just before your testing section. The clicked element doesn't have to be interactive!
 {:.boxout }
 
 ## Video
