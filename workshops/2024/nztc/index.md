@@ -59,6 +59,7 @@ More detailed version, good for understanding the why and the how and the nuance
 ### More thorough checks
 
 - [A quick guide to text alternatives for images](/2022/04/25/a-quick-guide-to-text-alternatives-for-images/).
+- [Form and error guidelines](/form-and-error-guidelines/). Extensive!
 - [Sounds like a good idea: how to get started testing with a screen reader](/2022/10/15/sounds-like-a-good-idea/).
     - [Testing with screen readers](/2021/07/31/testing-with-screen-readers/).
     - [Testing with a mobile screen reader](/2023/08/02/testing-with-a-mobile-screen-reader/).
@@ -91,7 +92,7 @@ The paid version has extra bells and whistles and things, but the free version i
 
 - Short [WCAG preso](wcag.pdf).
 - Carry on with your next test(s) from [the activities list](#activities).
-- TODO: Barriers activity.
+- Barriers activity for lunch.
 
 ### Session 3
 
@@ -107,5 +108,5 @@ The paid version has extra bells and whistles and things, but the free version i
     - how do you want to tie a bow around today?
     - Questions? Questions! Questions.
 - Carry on with your next test(s) from [the activities list](#activities).
-- TODO: bringing it all together, (re)connect to Session 1 and barriers and spectrum and humans
+- bringing it all together, (re)connect to Session 1 and barriers and spectrum and humans
 - Feedback form

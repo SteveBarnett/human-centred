@@ -17,6 +17,7 @@ Here's my process for conducting accessibility audits. I try to present the resu
 ## Low complexity
 
 1. <span aria-hidden="true">🧭</span> **Check the page title.** It should be unique and describe the page content. It will usually match the `h1`.
+    - on SPAs: if the URL changes (the `pathname`, not the `hash`), the `title` should update. Also send focus to the `h1` of the new view.
 2. <span aria-hidden="true">🔡</span> **Check the page headings.** Check for order and nesting. Highlight them visually using the [Headings accessibility bookmarklet](https://accessibility-bookmarklets.org/install.html) or Ad hoc tools > Headings of [Microsoft’s Accessibility Insights](https://accessibilityinsights.io/downloads/).
 3. <span aria-hidden="true">🎹</span> **Test with the keyboard.** Check that all functionality is available, and there are clear, always visible, focus styles.
 4. <span aria-hidden="true">🔗</span> **Check semantics**.
@@ -28,6 +29,7 @@ Here's my process for conducting accessibility audits. I try to present the resu
     - Check that functional images (like icons in buttons and images inside links) describe the function (the action of the button, the target of the link).
     - Check that decorative images are hidden.
 7. <span aria-hidden="true">🔍</span> **Test zoomed in to 400%.** Check that all functionality is available, and that all content is visible (no truncation).
+    - Pay particular attention to sticky and fixed headers and footers.
 8. <span aria-hidden="true">🪓</span> **Run the [aXe browser extension](https://www.deque.com/axe/).** This is a good tool to run first since its philosophy of 'zero false positives' means the list of errors is usually short.
 
 ## Medium complexity

@@ -3,7 +3,10 @@ layout: page
 title: Form and error guidelines
 ---
 
-- what (why)
+The bullets below mostly follow the format of `what (why)`.
+
+* TOC
+{:toc}
 
 ## Forms
 
