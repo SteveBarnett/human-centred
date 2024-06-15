@@ -1,26 +1,21 @@
 ---
 layout: page
-title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZTestingConf 2024)"
+title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits"
 ---
 
-* Do not remove this line (it will not be displayed)
+Hi!
+
+- **Barriers** to access is one of way of thinking about accessibility. A disability, a mismatch, occurs when someone's ability comes into contact with a barrier in the product or service. It's our job to find and remove the barriers, and to avoid putting more up in the future.
+- **ARIA** stands for Accessible Rich Internet Applications and is the add-on, extra, stuff ([states and properties using HTML attributes](https://www.w3.org/TR/wai-aria-1.2/#state_prop_def)) we can put in our HTML to make it more accessible.
+    - [The first rule of ARIA](https://www.w3.org/TR/using-aria/#rule1) is: "use HTML instead, if you can."
+    - There's also the [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/patterns/) for guidance on how to build accessibility semantics into web patterns and widgets.
+- [**axe**](https://www.deque.com/axe/) is a widely used and respected [engine of rules for checking accessibility](https://github.com/dequelabs/axe-core). It can be run as a linter, as [a browser extension](https://www.deque.com/axe/browser-extensions/), or as part of your automated testing ([Projects that use axe-core](https://github.com/dequelabs/axe-core/blob/develop/doc/projects.md#projects-that-use-axe-core)).
+- **Audits** are a common way to formally review a product for accessibility. This is commonly done against a standard, often the [Web Content Accessibility Guidelines](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_overview&technologies=smil%2Cpdf%2Cflash%2Csl&showtechniques=123%2C242), Version 2.1, Level AA. Version 2.2 was finalised in October 2023.
+
+## Table of contents
+
+* TOCalosh
 {:toc}
-
-## TODO
-
-- Have an analogy thread?
-- Theme: **barriers**, think more broadly, in a more human-centred way
-- Finalise the presentations for talky bits
-    - fewer words on screen
-    - Combine not-binary and not-separate, include ["100% accessible" is impossible](/2022/09/21/100-percent-accessible-is-impossible/), see also [Aside: a note on binary thinking](/2024/02/20/knowing-when-to-quit-an-audit/#aside-a-note-on-binary-thinking)
-- Write up barriers activity for [Going-into-lunch activity](#going-into-lunch-activity)
-- Add medium-deep version of
-    - Title
-    - Reflow
-    - Forms
-    - Errors
-    - WHCM?
-- Maybe reset the recent changes to the [audit page](/2022/01/24/accessibility-audit-process/) and publish a fresh one instead
 
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
@@ -31,160 +26,86 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits (NZ
 
 ## Activities
 
-- [Efficient accessibility testing](/2023/08/10/efficient-accessibility-testing/)
-- [Accessibility audit process](/2022/01/24/accessibility-audit-process/)
-    - [The accessibility tree](/2022/06/08/the-accessibility-tree/)
-    - [Accessibility and usability considerations for disabling buttons and inputs](/2021/08/06/accessibility-and-usability-considerations-for-disabling-buttons-and-inputs/)
-    - [Quick A11y Checks (QAC! 🦆)](/2021/12/13/qac/) (Keyboard, Headings, axe DevTools)
-        - [Duck Tales Episode 1: Keyboard](/2023/08/23/duck-tales-episode1-keyboard/)
-            - [What key does what?](/2021/11/02/what-key-does-what/)
-        - [Duck Tales Episode 2: Headings](/2023/08/23/duck-tales-episode2-headings/)
-            - [More accessible headings](/2022/12/12/more-accessible-headings/)
-        - [Duck Tales Episode 3: axe DevTools](/2023/08/23/duck-tales-episode3-axe-devtools/)
-            - [Running and reading axe DevTools](/2023/08/22/running-and-reading-axe-devtools/)
-    - [Sounds like a good idea: how to get started testing with a screen reader](/2022/10/15/sounds-like-a-good-idea/)
-        - [Testing with screen readers](/2021/07/31/testing-with-screen-readers/)
-        - [Testing with a screen reader (QE / AC edition)](/2022/10/14/testing-with-a-screen-reader/)
-        - [The two modes of Screen Readers](/2022/02/10/the-two-modes-of-screen-readers/)
-    - [A quick guide to text alternatives for images](/2022/04/25/a-quick-guide-to-text-alternatives-for-images/)
-- [Accessibility audit process for mobile](/2022/05/31/accessibility-audit-process-mobile/)
-    - [WCAG and mobile](/2023/08/02/wcag-and-mobile/)
-    - [Quick Accessibility Checks (QAC! 🐥) for mobile](/2023/01/09/qac-for-mobile/)
-    - [Testing with a mobile screen reader](/2023/08/02/testing-with-a-mobile-screen-reader/)
-- [Accessible Engineering scorecard](/2023/06/22/accessible-engineering-scorecard/)
-- [Automated accessibility testing](/2022/04/09/automated-accessibility-testing/)
-    - [The WebAIM Million 2023](/2023/04/06/the-web-aim-million-2023/)
+- Something to know about before you start: [The accessibility tree](/2022/06/08/the-accessibility-tree/).
+- All the tests at a high level:
+    - [Accessibility audit process](/2024/06/16/accessibility-audit-process/).
+    - [Accessibility audit process for mobile](/2022/05/31/accessibility-audit-process-mobile/).
+- For understanding seriousness of issues: [Accessibility Audit Severity examples](/2022/12/06/accessibility-audit-severity-examples/).
+- For writing up results: [Accessibility Audit Guide: writing good words](/2023/01/13/accessibility-audit-guide-writing-good-words/).
 
-For understanding seriousness: [Accessibility Audit Severity examples](/2022/12/06/accessibility-audit-severity-examples/).
+### Quick accessibility (a11y) checks
 
-For writing up results: [Accessibility Audit Guide: writing good words](/2023/01/13/accessibility-audit-guide-writing-good-words/).
+A bit of framing / thinking: [Efficient accessibility testing](/2023/08/10/efficient-accessibility-testing/).
 
-## Session 0
+Overview and high-level version, good for just doing the testing:
 
-### Warm-up email
+- [Quick A11y Checks (QAC! 🦆)](/2021/12/13/qac/) (Keyboard, Headings, axe DevTools). 
+- [Quick Accessibility Checks (QAC! 🐥) for mobile](/2023/01/09/qac-for-mobile/) (Larger text, Greyscale, Scanner).
 
-Hello there. Thank you for signing up for the Accessibility testing workshop. You rock!
+### QAC in detail
 
-To help get you ready, we've got a little warm-up exercise for you 💪. Pick one (or more!) of the following questions to answer before the workshop. We'll be sharing and discussing our answers in the first session.
+More detailed version, good for understanding the why and the how and the nuances: 
 
-- What do you already know about accessibility?
-- What do you already know about accessibility testing?
-- What do you want to get out of the workshop?
+- [Duck Tales Episode 1: Keyboard](/2023/08/23/duck-tales-episode1-keyboard/).
+- [Duck Tales Episode 2: Headings](/2023/08/23/duck-tales-episode2-headings/).
+- [Duck Tales Episode 3: axe DevTools](/2023/08/23/duck-tales-episode3-axe-devtools/).
 
-**Important!** Remember to bring: your laptop, headphones, what you're working on right now (or as close to it as you can. This will make the workshop more relevant, which means more useful and more memorable 🤓). 
+#### Further reading
 
-Regards,
+- [What key does what?](/2021/11/02/what-key-does-what/).
+- [More accessible headings](/2022/12/12/more-accessible-headings/).
+- [Running and reading axe DevTools](/2023/08/22/running-and-reading-axe-devtools/).
 
-Steve (the facilitator) and the NZTestingConf team
+### More thorough checks
 
-### Warm-up activity
+- [A quick guide to text alternatives for images](/2022/04/25/a-quick-guide-to-text-alternatives-for-images/).
+- [Sounds like a good idea: how to get started testing with a screen reader](/2022/10/15/sounds-like-a-good-idea/).
+    - [Testing with screen readers](/2021/07/31/testing-with-screen-readers/).
+    - [Testing with a mobile screen reader](/2023/08/02/testing-with-a-mobile-screen-reader/).
+    - [Testing with a screen reader (QE / AC edition)](/2022/10/14/testing-with-a-screen-reader/).
+    - [The two modes of Screen Readers](/2022/02/10/the-two-modes-of-screen-readers/).
 
-Up on screen as attendees come in.
+### Manual and automated testing, tool-assisted and experiential testing
 
-- Reminder! These were the warm-up questions. If you haven't answered them yet, now's a good time!
-    - What do you already know about accessibility?
-    - What do you already know about accessibility testing?
-    - What do you want to get out of the workshop?
-- Brief welcome and warm-up
-    - Quick go around your table
-    - Name, job title / company / something
-    - The question and your answer
-- Room-share: anything particularly interesting come up?
+- [Automated accessibility testing](/2022/04/09/automated-accessibility-testing/).
+- [The WebAIM Million 2023](/2023/04/06/the-web-aim-million-2023/).
 
-## Session 1
+Go to [Projects that use axe-core](https://github.com/dequelabs/axe-core/blob/develop/doc/projects.md#projects-that-use-axe-core) and (hopefully!) find axe for your setup. Prefer end-to-end flavours to unit flavours: axe is best at testing a whole page, as it appears to the user.
 
-- Today is very mostly DIY from a test library, but
-- What do you want to hear from me about?
+Have a read through of [the config options](https://github.com/dequelabs/axe-core/blob/develop/doc/API.md#api-name-axeconfigure). It can handy to tweak these in the beginning, before running the default set eventually. For example: (temporarily!) including or excluding particular elements, or (temporarily!) excluding certain rules.
 
-### Slide decks
+## Agenda
 
-- [welcome slides](../welcome.pdf)
-- [a-human-uses-the-web slides](../a-human-uses-the-web.pdf)
-- [how-many-people slides](../how-many-people.pdf)
-- [Mind your business slides](../mind-your-business.pdf)
-- [not-binary slides](../not-binary.pdf)
-- [not-separate slides](../not-separate.pdf)
+### Session 1
 
-### Know the technology
+Short [welcome preso](welcome.pdf).
 
-How do you know what to do? Not the rules, not the written signs and things.
+Let's get started with 10 minutes of testing. Install the [axe DevTools browser extension](https://www.deque.com/axe/browser-extensions/), open it, toggle off Best Practices, and run Scan All Of My Page. We're just having a poke around for now. We'll come back to it later for more detail.
 
-- Think in semantics
-    - links, buttons, radios, checkboxes, selects
-- Understand the accessibility tree
-    - name, role, value, state
+The paid version has extra bells and whistles and things, but the free version is very helpful. I still use the free version!
 
-## Session 2
+- What is axe finding?
+- Anything unexpected?
 
-### WCAG bit
+### Session 2
 
-A short presentation in Session 2, leading into lunch. Ideally, something to "do" or think about over lunch, along the lines of "that's only the minimum".
+- Short [WCAG preso](wcag.pdf).
+- Carry on with your next test(s) from [the activities list](#activities).
+- TODO: Barriers activity.
 
-[WCAG slides](../wcag.pdf)
+### Session 3
 
-Pick 'n' mix activities
+- After lunch: follow up on “lunch activity” 
+- Something a bit fun for about 10 minutes, to get back into it after lunch. Pick one of these:
+    - [(Accessible) Video, audio, or both](/2023/04/11/accessible-audio-video-or-both/) (think more broadly about alternate formats)
+    - Play [Hocus focus](https://focus.hteumeuleu.com/) (have a bit of fun with keyboard interactions).
+- Okay, back into it. Pick your next your next activity from [the activities list](#activities). Highly recommended: headphones on, and get going with (or continue with) screen reader testing. It's medium effort, but very high value.
 
-### Going-into-lunch activity
-
-TBC
-
-## Session 3
-
-- After lunch: follow up on "lunch activity"
-    - What bare minimums did you spot? Or going-the-extra-mile-s?
-
-### Post-lunch activity 10m
-
-- Keep broadening our minds, expanding our spectrums
-- Audio description or Halloween keyboards
-- Something a bit fun to get back into it
-
-#### Audio desc
-
-- [(Accessible) Video, audio, or both](/2023/04/11/accessible-audio-video-or-both/)
-
-#### Halloween keyboards
-
-- Play [Hocus focus](https://focus.hteumeuleu.com/)
-
-### Back into it: screen reader testing
-
-- Break after about halfway through for Questions? Questions! Questions.
-    - If you have a question, chances are somebody else does too.
-    - Do screen reader users do {thing}?
-    - What's "good" for {thing}?
-
-## Session 4
+### Session 4
 
 - after break, reorient
     - how do you want to tie a bow around today?
     - Questions? Questions! Questions.
-- activities
-- bringing it all together, (re)connect to Session 1 and barriers and spectrum and humans
-
-### Feedback form
-
-#### Blurb
-
-Near the end of the day, we've scheduled 10 minutes of workshop time to fill in a feedback form. This is important to us for making things better each time. It's three open questions, in a slightly classic style: what was good, what was bad, what else?
-
-#### The form
-
-> We'd really appreciate your help making things better. Content, logistics, lunch, any topic you have some feedback on will be helpful!
-> All questions are optional. Your responses are anonymous by default, but you're welcome to add your name and/or email address.
-
-- What was great? 👍
-- What could we change? Δ
-- Anything else? ☺️
-- Your name 📛
-- Your email address 📧
-
-## Quotes
-
-Sir Timbo quote
-
-> “The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.” -- Tim Berners-Lee
-
-Leonie quote
-
- > "It doesn't have to be perfect, just a little bit better than yesterday" -- Leonie Watson
+- Carry on with your next test(s) from [the activities list](#activities).
+- TODO: bringing it all together, (re)connect to Session 1 and barriers and spectrum and humans
+- Feedback form
