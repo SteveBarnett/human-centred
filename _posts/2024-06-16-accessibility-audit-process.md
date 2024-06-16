@@ -23,7 +23,7 @@ Here's my process for conducting accessibility audits. I try to present the resu
 4. <span aria-hidden="true">🔗</span> **Check semantics**.
     - Check that links are links, buttons are buttons. Links go places, buttons do stuff.
     - Use the Accessibility pane to inspect the Name, Role, and Value of the element in the accessibility tree. Check out [The Accessibility Pane of Chrome DevTools](https://developer.chrome.com/docs/devtools/accessibility/reference#pane), [Accessing the Accessibility Inspector in Firefox](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/index.html#accessing-the-accessibility-inspector).
-5. <span aria-hidden="true">🎯</span> **Check target sizes.** Check that all target sizes (links and buttons) are at least 24px &times; 24px. Ideally, at least 44px &times 44px.
+5. <span aria-hidden="true">🎯</span> **Check target sizes.** Check that all target sizes (links and buttons) are at least 24px &times; 24px. Ideally, at least 44px &times; 44px.
 6. <span aria-hidden="true">🖼️</span> **Check text alternatives of images and icons.**
     - Check that informative images (like photos) have a text alternative that describes the content of the image.
     - Check that functional images (like icons in buttons and images inside links) describe the function (the action of the button, the target of the link).
