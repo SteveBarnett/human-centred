@@ -17,12 +17,24 @@ Hi!
 * TOCalosh
 {:toc}
 
+## Timing
+
+- **`09:30—10:45` — Session 1**
+- `10:45—11:15` — Morning tea
+- **`11:15—12:30` — Session 2**
+- `12:30—13:30` — Lunch
+- **`13:30—14:45` — Session 3**
+- `14:45—15:15` — Afternoon tea
+- **`15:15—16:30` — Session 4**
+
 ## [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
 - **How to think more accessibly** by thinking more broadly and being able to spot potential barriers to access.
 - **How to test more accessibly** by using the keyboard, browser extensions, automated testing, and using assistive technology.
 - **How to help our colleagues make more accessible things** by using the social model of accessibility, annotating and checking designs, and writing semantic HTML.
 - **How to meet the Web Content Accessibility Guidelines 2.2 Level AA** and go beyond them by thinking and testing more accessibly.
+
+For a really wide view of accessibility, check out [More Accessible Products](/more-accessible-products/).
 
 ## Activities
 
