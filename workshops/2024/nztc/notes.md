@@ -8,14 +8,11 @@ title: "NZTestingConf 2024 notes"
 
 ## TODO
 
+- Finalise the presentations for welcome and WCAG.
+    - fewer words on screen.
+- Write up barriers / mismatch activity for lunch activity.
+- Write up bringing it all together for Session 4.
 - Have an analogy thread?
-- Theme: **barriers**, think more broadly, in a more human-centred way
-- Finalise the presentations for welcome and WCAG
-    - fewer words on screen
-    - Combine not-binary and not-separate, include ["100% accessible" is impossible](/2022/09/21/100-percent-accessible-is-impossible/), see also [Aside: a note on binary thinking](/2024/02/20/knowing-when-to-quit-an-audit/#aside-a-note-on-binary-thinking)
-    - simpler, punchier, welcome: barriers, not-binary, not-separate
-- Write up barriers / mismatch activity for lunch activity
-- Write up bringing it all together for Session 4
 
 ## Warm-up email
 
