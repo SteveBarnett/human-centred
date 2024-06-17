@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "NZTestingConf 2024 notes"
+bodyclass: many-headers
 ---
 
 * Do not remove this line (it will not be displayed)
@@ -8,8 +9,6 @@ title: "NZTestingConf 2024 notes"
 
 ## TODO
 
-- Finalise the presentations for welcome and WCAG.
-    - fewer words on screen.
 - Write up barriers / mismatch activity for lunch activity.
 - Write up bringing it all together for Session 4.
 - Have an analogy thread?
