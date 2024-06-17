@@ -50,6 +50,10 @@ theme: Naga-ish 2022-02-22
 
 ---
 
+# [bit.ly/nztc24](https://bit.ly/nztc24)
+
+---
+
 # Quick bit of testing 🧪
 
 10 minutes of `axe` to get started!
@@ -118,6 +122,8 @@ Be wary of binaries, extremes, absolutes.
 
 # [fit] 💡 The big idea 💡<br><br><br><br><br><br><br>Think more broadly,<br>in a more human-centred way.
 
+^ Or: be less sure. Or: think more exploratorily.
+^ Or: beginner's mind. Maybe I have some interesting things to learn.
 ^ This helps us understand the wide range of human experience, that abilities exist on a spectrum, and that things seldom go as planned.
 
 [.background-color: #105]
