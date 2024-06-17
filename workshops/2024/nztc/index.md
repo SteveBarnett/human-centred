@@ -1,9 +1,12 @@
 ---
 layout: page
 title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits"
+bodyclass: many-headers
 ---
 
 Hi!
+
+List of links lives at [bit.ly/nztc24](https://bit.ly/nztc24)
 
 - **Barriers** to access is one of way of thinking about accessibility. A disability, a mismatch, occurs when someone's ability comes into contact with a barrier in the product or service. It's our job to find and remove the barriers, and to avoid putting more up in the future.
 - **ARIA** stands for Accessible Rich Internet Applications and is the add-on, extra, stuff ([states and properties using HTML attributes](https://www.w3.org/TR/wai-aria-1.2/#state_prop_def)) we can put in our HTML to make it more accessible.
@@ -38,10 +41,15 @@ For a really wide view of accessibility, check out [More Accessible Products](/m
 
 ## Activities
 
-- Something to know about before you start: [The accessibility tree](/2022/06/08/the-accessibility-tree/).
-- All the tests at a high level:
-    - [Accessibility audit process](/2024/06/16/accessibility-audit-process/).
+Something to know about before you start: [The accessibility tree](/2022/06/08/the-accessibility-tree/).
+
+Three(ish) lists. Pick one!
+
+- [Accessibility audit process](/2024/06/16/accessibility-audit-process/).
     - [Accessibility audit process for mobile](/2022/05/31/accessibility-audit-process-mobile/).
+- [Accessibility Not-Checklist ](https://not-checklist.intopia.digital/)
+- [Checklist - The A11y Project](https://www.a11yproject.com/checklist/)
+
 - For understanding seriousness of issues: [Accessibility Audit Severity examples](/2022/12/06/accessibility-audit-severity-examples/).
 - For writing up results: [Accessibility Audit Guide: writing good words](/2023/01/13/accessibility-audit-guide-writing-good-words/).
 
@@ -53,6 +61,11 @@ Overview and high-level version, good for just doing the testing:
 
 - [Quick A11y Checks (QAC! 🦆)](/2021/12/13/qac/) (Keyboard, Headings, axe DevTools). 
 - [Quick Accessibility Checks (QAC! 🐥) for mobile](/2023/01/09/qac-for-mobile/) (Larger text, Greyscale, Scanner).
+
+Some other quick versions.
+
+- [Easy Checks – A First Review of Web Accessibility - WAI](https://www.w3.org/WAI/test-evaluate/preliminary/)
+- [Form design: from zero to hero all in one blog post](https://adamsilver.io/blog/form-design-from-zero-to-hero-all-in-one-blog-post/#form-validation)
 
 ### QAC in detail
 
@@ -71,7 +84,7 @@ More detailed version, good for understanding the why and the how and the nuance
 ### More thorough checks
 
 - [A quick guide to text alternatives for images](/2022/04/25/a-quick-guide-to-text-alternatives-for-images/).
-- [Form and error guidelines](/form-and-error-guidelines/). Extensive!
+- [Form and error guidelines](/2024/06/18/form-and-error-guidelines/). Extensive!
 - [Sounds like a good idea: how to get started testing with a screen reader](/2022/10/15/sounds-like-a-good-idea/).
     - [Testing with screen readers](/2021/07/31/testing-with-screen-readers/).
     - [Testing with a mobile screen reader](/2023/08/02/testing-with-a-mobile-screen-reader/).
@@ -104,7 +117,11 @@ The paid version has extra bells and whistles and things, but the free version i
 
 - Short [WCAG preso](wcag.pdf).
 - Carry on with your next test(s) from [the activities list](#activities).
-- Barriers activity for lunch.
+
+#### Barriers activity for lunch
+
+- During lunch, try and notice any barriers, any mismatches.
+- Can be for yourself, or for someone else.
 
 ### Session 3
 
