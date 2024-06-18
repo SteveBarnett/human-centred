@@ -34,14 +34,13 @@ theme: Naga-ish 2022-02-22
 
 ---
 
-# Success Criteria
+# Success Criteria<br>Levels A, AA, AAA
 
 <!-- - SCs help docs: -->
 <!-- ## Sufficient (one way) -->
 <!-- ## Advisory (an idea) -->
 <!-- ## Failure (how about no) -->
 
-## Levels A, AA, AAA
 
 [.background-color: #437]
 
@@ -49,9 +48,7 @@ theme: Naga-ish 2022-02-22
 
 <!-- # WCAG: versions -->
  
-## Latest: v2.2
-## Widely used: v2.1
-## The future: v3.0
+# Latest: v2.2<br>Widely used: v2.1<br>The future: v3.0
 
 <!-- - Now: WCAG 2.2
 - 2.1 AA Global standard.
@@ -68,7 +65,7 @@ theme: Naga-ish 2022-02-22
 <!-- # Not a checklist -->
 
 <!-- - Careful of checklist-thinking! -->
-# [fit] Standards set the minimum.<br>We choose the maximum.
+# Standards set<br>the minimum.<br>We choose<br>the maximum.
 
 ^ - As in: less than this is actively bad.
 - As in: more than this is probably good.
@@ -99,6 +96,20 @@ theme: Naga-ish 2022-02-22
 ---
 -->
 
-# [fit] Questions?<br>Questions!<br>Questions.<br>🤷
+# [fit] Questions?<br>Questions!<br>Questions.<br>🙋
 
 [.background-color: #215]
+
+---
+
+# Lunch activity!<br>⬅️ 🧠 ➡️
+
+^ There won't be a test, but I will ask you about it.
+
+[.background-color: #403]
+
+---
+
+# [fit] Pick one 👇<br>1. Not-separate<br>2. Not-strict<br>3. Not-singular/-static
+
+[.background-color: #514]

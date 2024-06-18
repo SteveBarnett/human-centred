@@ -9,13 +9,6 @@ theme: Naga-ish 2022-02-22
 <br><br><br>Pick one (or more!)
 
 [.background-color: #104]
-<!-- dark purple -->
-
-<!-- [.background-color: #5733bb] -->
-<!-- purple -->
-
-<!-- [.background-color: #f3b5f9] -->
-<!-- pink -->
 
 ---
 
@@ -51,6 +44,8 @@ theme: Naga-ish 2022-02-22
 ---
 
 # [bit.ly/nztc24](https://bit.ly/nztc24)
+
+[.background-color: #402]
 
 ---
 
@@ -101,18 +96,15 @@ theme: Naga-ish 2022-02-22
 
 ---
 
-# A word of warning
+<!-- # A word of warning: -->
 
-Be wary of binaries, extremes, absolutes.
+# [fit] Be wary of<br>binaries,<br>extremes,<br>absolutes.
 
 [.background-color: #206]
 
 ---
 
-# 0% / 100%
-
-- "This page/site/app is not accessible." 🤔
-- "This page/site/app is 100% accessible." 🤔
+# [fit] "😠 This is not accessible."<br>"😌 This is 100% accessible." 
 
 <!-- Related: every app has a level of accessibility, whether we've thought about it or not. -->
 
@@ -126,7 +118,7 @@ Be wary of binaries, extremes, absolutes.
 ^ Or: beginner's mind. Maybe I have some interesting things to learn.
 ^ This helps us understand the wide range of human experience, that abilities exist on a spectrum, and that things seldom go as planned.
 
-[.background-color: #105]
+[.background-color: #513]
 
 ---
 
@@ -172,15 +164,13 @@ Be wary of binaries, extremes, absolutes.
 
 ---
 
-# The Social Model
-
-## Ability + Barrier = Disability
+# The Social Model:<br>Ability + Barrier = Disability
 
 [.background-color: #428]
 
 ---
 
-# [fit] Disability is not a binary,<br>not an `true`/`false`.
+# [fit] Disability is not a binary,<br>not a `true`/`false`.
 
 [.background-color: #64a]
 
@@ -208,7 +198,7 @@ Age brings changes in ability.
 
 <!-- # Same same but different -->
 
-# [fit] Achieving identical experiences<br>for everyone is impossible.<br><br><br><br><br>Equivalent experiences<br>is very possible!
+# [fit] Achieving identical experiences<br>for everyone is impossible.<br><br><br><br><br>But equivalent experiences<br>is very possible!
 
 [.background-color: #428]
 
