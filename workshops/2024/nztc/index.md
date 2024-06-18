@@ -104,7 +104,7 @@ Have a read through of [the config options](https://github.com/dequelabs/axe-cor
 
 ### Session 1
 
-Short [welcome preso](welcome.pdf).
+Short welcome preso: [session-1.pdf](welcome.pdf).
 
 Let's get started with 10 minutes of testing. Install the [axe DevTools browser extension](https://www.deque.com/axe/browser-extensions/), open it, toggle off Best Practices, and run Scan All Of My Page. We're just having a poke around for now. We'll come back to it later for more detail.
 
@@ -115,27 +115,23 @@ The paid version has extra bells and whistles and things, but the free version i
 
 ### Session 2
 
-- Short [WCAG preso](wcag.pdf).
-- Carry on with your next test(s) from [the activities list](#activities).
-
-#### Barriers activity for lunch
-
-- During lunch, try and notice any barriers, any mismatches.
-- Can be for yourself, or for someone else.
+- Short WCAG preso: [session-2.pdf](session-2.pdf).
+- Carry on with your next test(s) from [the activities list](#activities). 
+- Lunch activity
 
 ### Session 3
 
-- After lunch: follow up on “lunch activity” 
-- Something a bit fun for about 10 minutes, to get back into it after lunch. Pick one of these:
+- [session-3.pdf](session-3.pdf).
+- Follow up on lunch activity.
+- Something a bit fun for 10 minutes
     - [(Accessible) Video, audio, or both](/2023/04/11/accessible-audio-video-or-both/) (think more broadly about alternate formats)
     - Play [Hocus focus](https://focus.hteumeuleu.com/) (have a bit of fun with keyboard interactions).
-- Okay, back into it. Pick your next your next activity from [the activities list](#activities). Highly recommended: headphones on, and get going with (or continue with) screen reader testing. It's medium effort, but very high value.
 
 ### Session 4
 
-- after break, reorient
-    - how do you want to tie a bow around today?
-    - Questions? Questions! Questions.
-- Carry on with your next test(s) from [the activities list](#activities).
-- bringing it all together, (re)connect to Session 1 and barriers and spectrum and humans
+- [session-4.pdf](session-4.pdf).
+- Reorient after the break.
+- Bringing it all together with a 5W1H.
+- [session-4](session-4.pdf).
+- (re)connect to Session 1 and barriers and spectrum and humans
 - Feedback form

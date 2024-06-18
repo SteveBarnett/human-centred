@@ -7,12 +7,6 @@ bodyclass: many-headers
 * Do not remove this line (it will not be displayed)
 {:toc}
 
-## TODO
-
-- Write up barriers / mismatch activity for lunch activity.
-- Write up bringing it all together for Session 4.
-- Have an analogy thread?
-
 ## Warm-up email
 
 Hello there. Thank you for signing up for the Accessibility testing workshop. You rock!
