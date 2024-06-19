@@ -9,6 +9,8 @@ The accessibility tree is a tree of nodes that assistive technology, like screen
 
 We can make the best experience for users of assistive technology by making the best accessibility tree that we can. We can do that by writing high quality code that follows the standards, and by inspecting the accessibility tree of the pages we make.
 
+## How the accessibility tree works
+
 ![](/img/2022/06/1.jpg)
 
 When a human accesses a website, they're sent code. Most humans don't read code, so they use a web browser to access websites.
@@ -35,6 +37,13 @@ Then, the browser takes the DOM and constructs the accessibility tree from it. T
 It's this accessibility tree that assistive technology, like screen readers, uses to let the human know what's on the page.
 
 Each node in the tree has a name, a role, sometimes a value, and sometimes a state. Different assistive technologies announce these in different ways. A bit like different dialects of the same spoken language. The different assistive technologies are all saying the same thing (e.g. it's a text field, it's label is "Name", it's empty), but saying it in a different way.
+
+## How to view the accessibility tree
+
+- [Accessibility Inspector in Firefox](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/index.html)
+- [The Accessibility pane in Chrome](https://developer.chrome.com/docs/devtools/accessibility/reference#pane).
+    - The Accessibility tab might be hidden behind the More Tabs double-right-chevron button. Drag it across once you've found it.
+    - The "Computed Properties" panel is really useful, especially for seeing where an accessible name is coming from.
 
 ## Helping the browser make good guesses
 
