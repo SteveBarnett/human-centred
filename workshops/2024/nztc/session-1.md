@@ -85,7 +85,6 @@ theme: Naga-ish 2022-02-22
 
 # Session structure (ish)
 
-
 - a little talk from me;
 - about an hour doing stuff;
 - a little bit of discussion;
@@ -93,6 +92,17 @@ theme: Naga-ish 2022-02-22
 <br><br><br>⚠️ Session 4 will include 10 minutes for feedback for Steve and for NZTC
 
 [.background-color: #428]
+
+---
+
+# [fit] Busting barriers with<br>ARIAs, axes, and audits
+
+^ - Barriers. Social model. Our job is to remove barriers.
+- ARIA (expand). 1st rule. APG.
+- axe.
+- Audits. Common way to review. WCAG 2.1 AA.
+
+[.background-color: #506]
 
 ---
 
