@@ -12,6 +12,7 @@ theme: Naga-ish 2022-02-22
 
 ---
 
+
 # Metagenda 📋
 
 1. One minute intros
@@ -20,6 +21,10 @@ theme: Naga-ish 2022-02-22
 4. Everything else
 
 [.background-color: #215]
+
+---
+
+# [fit] Hi, I'm Steve.<br><br><br><br>• Front-web developer (few decades)<br><br><br><br>• Accessibility human (few years)<br><br><br><br>• Intopia human (few months)
 
 ---
 
