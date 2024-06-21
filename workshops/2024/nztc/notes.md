@@ -37,14 +37,6 @@ Up on screen as attendees come in.
     - The question and your answer
 - Room-share: anything particularly interesting come up?
 
-## Slide decks
-
-- [a-human-uses-the-web slides](../a-human-uses-the-web.pdf)
-- [how-many-people slides](../how-many-people.pdf)
-- [Mind your business slides](../mind-your-business.pdf)
-- [not-binary slides](../not-binary.pdf)
-- [not-separate slides](../not-separate.pdf)
-
 ## Feedback form
 
 ### Blurb
