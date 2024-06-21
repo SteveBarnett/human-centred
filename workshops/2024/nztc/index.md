@@ -49,11 +49,14 @@ For a really wide view of accessibility, check out [More Accessible Products](/m
 
 - Short welcome preso: [session-1.pdf](session-1.pdf).
 - 10 minutes of testing with [axe DevTools browser extension](https://www.deque.com/axe/browser-extensions/).
+- Get testing!
+    - Read through the [the activities list](./activities/).
+    - In particular, [the accessibility tree](/2022/06/08/the-accessibility-tree/) and the [start here section](./activities/#start-here).
 
 ### Session 2
 
 - Short WCAG preso: [session-2.pdf](session-2.pdf).
-- Carry on with your next test(s) from [the activities list](./activities/). 
+- Carry on testing using the [the activities list](./activities/). 
 - Lunch activity
 
 ### Session 3
@@ -63,6 +66,7 @@ For a really wide view of accessibility, check out [More Accessible Products](/m
 - Something a bit fun for 10 minutes.
     - [(Accessible) Video, audio, or both](/2023/04/11/accessible-audio-video-or-both/) (think more broadly about alternate formats)
     - Play [Hocus focus](https://focus.hteumeuleu.com/) (have a bit of fun with keyboard interactions).
+- Carry on testing using the [the activities list](./activities/). 
 
 ### Session 4
 
@@ -70,6 +74,7 @@ For a really wide view of accessibility, check out [More Accessible Products](/m
 - Reorient after the break.
 - Bringing it all together with a 5W1H.
 - (re)connect to Session 1 and barriers and spectrum and humans.
+- Carry on testing using the [the activities list](./activities/). 
 - [Feedback form](https://docs.google.com/forms/d/e/1FAIpQLScgiGPRv7uZeGXT2CyflsZvUe_JeTPR70V7QQD47FK1P-gqZg/viewform?usp=sf_link). Three open questions, all optional:
     - What was great? 👍
     - What could we change? Δ
