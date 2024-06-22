@@ -56,9 +56,9 @@ theme: Naga-ish 2022-02-22
 
 # Quick bit of testing 🧪
 
-10 minutes of `axe` to get started!
-
-[naga.co.za/workshops/2024/nztc/#session-1](https://naga.co.za/workshops/2024/nztc/#session-1)
+- 10 minutes of `axe` to get started!
+- Test the last thing you worked on.
+- Install it, run it, read it.
 
 [.background-color: #548]
 
@@ -113,15 +113,17 @@ theme: Naga-ish 2022-02-22
 
 <!-- # A word of warning: -->
 
-# [fit] Be wary of<br>binaries,<br>extremes,<br>absolutes.
+<!-- # [fit] Be wary of<br>binaries,<br>extremes,<br>absolutes.
 
 [.background-color: #206]
 
 ---
-
-# [fit] "😠 This is not accessible."<br>"😌 This is 100% accessible." 
+ -->
+# [fit] "😠 This is not accessible."<br><br><br><br><br>"😌 This is 100% accessible." 
 
 <!-- Related: every app has a level of accessibility, whether we've thought about it or not. -->
+
+^ Be wary of binaries, extremes, absolutes.
 
 [.background-color: #428]
 
@@ -131,6 +133,7 @@ theme: Naga-ish 2022-02-22
 
 ^ Or: be less sure. Or: think more exploratorily.
 ^ Or: beginner's mind. Maybe I have some interesting things to learn.
+^ We live in an ableist society.
 ^ This helps us understand the wide range of human experience, that abilities exist on a spectrum, and that things seldom go as planned.
 
 [.background-color: #513]
@@ -161,7 +164,7 @@ theme: Naga-ish 2022-02-22
 ---
 
 
-## "Accessibility: Essential for some, useful for all."
+<!-- ## "Accessibility: essential for some, useful for all."
 
 ### [fit] - The Web Accessibility Initiative
 
@@ -169,7 +172,7 @@ theme: Naga-ish 2022-02-22
 
 [.background-color: #64a]
 
----
+--- -->
 
 # 2. Not-strict
 
@@ -183,17 +186,15 @@ theme: Naga-ish 2022-02-22
 
 [.background-color: #428]
 
----
-
-# [fit] Disability is not a binary,<br>not a `true`/`false`.
-
-[.background-color: #64a]
+^ Auditory, Cognitive, Physical, Visual
 
 ---
+
+<!-- --- -->
 
 <!-- # Some categories of disability -->
 
-# Auditory
+<!-- # Auditory
 # Cognitive
 # Physical
 # Visual
@@ -201,6 +202,13 @@ theme: Naga-ish 2022-02-22
 [.background-color: #64a]
 
 ---
+ -->
+<!-- # [fit] Disability is not a binary,<br>not a `true`/`false`.
+
+[.background-color: #64a]
+
+--- -->
+
 
 # 3. Not-singular<br>(also: not-static)
 
@@ -212,15 +220,21 @@ Age brings changes in ability.
 ---
 
 <!-- # Same same but different -->
-
+<!-- 
 # [fit] Achieving identical experiences<br>for everyone is impossible.<br><br><br><br><br>But equivalent experiences<br>is very possible!
 
 [.background-color: #428]
 
----
+--- -->
 
 <!-- # Progress over prefection -->
 
 # [fit] “It doesn't have to be perfect,<br>just a little bit better than yesterday"<br><br><br><br><br>- Léonie Watson<br>(member of W3C Advisory Board,<br>founder of [TetraLogical](https://tetralogical.com/about/), and more)
 
-[.background-color: #64a]
+[.background-color: #624]
+
+---
+
+# Questions?<br>Questions!<br>Questions.
+
+[.background-color: #626]

@@ -98,18 +98,4 @@ theme: Naga-ish 2022-02-22
 
 # [fit] Questions?<br>Questions!<br>Questions.<br>🙋
 
-[.background-color: #215]
-
----
-
-# Lunch activity!<br>⬅️ 🧠 ➡️
-
-^ There won't be a test, but I will ask you about it.
-
-[.background-color: #403]
-
----
-
-# [fit] Pick one 👇<br>1. Not-separate<br>2. Not-strict<br>3. Not-singular/-static
-
-[.background-color: #514]
+[.background-color: #004]

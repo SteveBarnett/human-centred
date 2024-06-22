@@ -1,5 +1,11 @@
 theme: Naga-ish 2022-02-22
 
+# Final session!<br>🎀 How do you want to tie a bow around today?
+
+[.background-color: #305]
+
+---
+
 # [fit] 💡 The big idea 💡<br><br><br><br><br><br><br>Think more broadly,<br>in a more human-centred way.
 
 [.background-color: #513]
@@ -38,12 +44,12 @@ Write it down
 
 ---
 
-# [fit] Okay, back at it! 🏁
+# Later:<br>feedback form<br>🙏
 
 [.background-color: #426]
 
---- 
+---
 
-# Feedback form, please! 🙏
+# Now:<br>more testing!<br>🏁
 
-[.background-color: #525]
+[.background-color: #537]
