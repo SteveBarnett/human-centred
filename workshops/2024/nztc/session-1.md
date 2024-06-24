@@ -75,13 +75,13 @@ theme: Naga-ish 2022-02-22
 
 <!-- # Agenda 📋 -->
 
-- **`09:30` — Session 1** 👈 (you are here)
-- `10:45` — Morning tea
-- **`11:15` — Session 2**
-- `12:30` — Lunch
-- **`13:30` — Session 3**
-- `14:45` — Afternoon tea
-- **`15:15` — Session 4**
+- **9.30am–10.45am: Session 1** 👈
+- 10.45am–11.15am: Morning tea
+- **11.15am–12.30pm: Session 2**
+- 12.30pm–1.30pm: Lunch
+- **1.30pm–2.45pm: Session 3**
+- 2.45pm–3.15pm: Afternoon tea
+- **3.15pm–4.30pm: Session 4**
 
 <!-- [.background-color: #53c] -->
 [.background-color: #206]
