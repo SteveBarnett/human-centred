@@ -48,7 +48,7 @@ theme: Naga-ish 2022-02-22
 
 ---
 
-# [bit.ly/nztc24](https://bit.ly/nztc24)
+# [fit] Please join the<br>[Accessibility workshop channel](https://discord.com/channels/1229661457168465952/1251784545691504660),<br>Software Testing New Zealand<br>Discord group
 
 [.background-color: #402]
 

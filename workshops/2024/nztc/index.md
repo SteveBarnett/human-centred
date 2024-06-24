@@ -5,7 +5,7 @@ title: "Accessibility testing: Busting barriers with ARIAs, axes, and audits"
 
 Hi!
 
-Live list of links lives at [bit.ly/nztc24](https://bit.ly/nztc24).
+Live list of links lives in the [Accessibility workshop channel](https://discord.com/channels/1229661457168465952/1251784545691504660) of the Software Testing New Zealand Discord group.
 
 Table of contents for this page:
 
@@ -16,13 +16,16 @@ Table of contents for this page:
 
 ### Schedule
 
-- **`09:30—10:45` — Session 1**
-- `10:45—11:15` — Morning tea
-- **`11:15—12:30` — Session 2**
-- `12:30—13:30` — Lunch
-- **`13:30—14:45` — Session 3**
-- `14:45—15:15` — Afternoon tea
-- **`15:15—16:30` — Session 4**
+<ul>
+    <li><strong>9.30am&ndash;10.45am: Session 1</strong></li>
+    <li>10.45am&ndash;11.15am: Morning tea</li>
+    <li><strong>11.15am&ndash;12.30pm: Session 2</strong></li>
+    <li>12.30pm&ndash;1.30pm: Lunch</li>
+    <li><strong>1.30pm&ndash;2.45pm: Session 3</strong></li>
+    <li>2.45pm&ndash;3.15pm: Afternoon tea</li>
+    <li><strong>3.15pm&ndash;4.30pm: Session 4</strong></li>
+</ul>
+
 
 ### [Key takeaways](https://nztestingconf.nz/accessibility-testing-workshop)
 
@@ -47,7 +50,7 @@ For a really wide view of accessibility, check out [More Accessible Products](/m
 
 ### Session 1
 
-- Short welcome preso: [session-1.pdf](session-1.pdf).
+- Short welcome presentation.
 - 10 minutes of testing with [axe DevTools browser extension](https://www.deque.com/axe/browser-extensions/).
 - Get testing!
     - Read through the [the activities list](./activities/).
@@ -55,27 +58,25 @@ For a really wide view of accessibility, check out [More Accessible Products](/m
 
 ### Session 2
 
-- Short WCAG preso: [session-2.pdf](session-2.pdf).
+- Short WCAG presentation.
 - Carry on testing using the [the activities list](./activities/). 
-- Lunch activity
+- Lunch activity.
 
 ### Session 3
 
-- Guide slides: [session-3.pdf](session-3.pdf).
 - Follow up on lunch activity.
 - Something a bit fun for 10 minutes.
-    - [(Accessible) Video, audio, or both](/2023/04/11/accessible-audio-video-or-both/) (think more broadly about alternate formats)
+    - [(Accessible) Video, audio, or both](/2023/04/11/accessible-audio-video-or-both/) (think more broadly about alternate formats).
     - Play [Hocus focus](https://focus.hteumeuleu.com/) (have a bit of fun with keyboard interactions).
 - Carry on testing using the [the activities list](./activities/). 
 
 ### Session 4
 
-- Guide slides: [session-4.pdf](session-4.pdf).
 - Reorient after the break.
-- Bringing it all together with a 5W1H.
-- (re)connect to Session 1 and barriers and spectrum and humans.
+- Bringing it all together with a 5W1H (What, When, Where, Who, Why, How) questions exercise.
+- (Re)connect to Session 1 and barriers and spectrum and humans.
 - Carry on testing using the [the activities list](./activities/). 
 - [Feedback form](https://docs.google.com/forms/d/e/1FAIpQLScgiGPRv7uZeGXT2CyflsZvUe_JeTPR70V7QQD47FK1P-gqZg/viewform?usp=sf_link). Three open questions, all optional:
-    - What was great? 👍
+    - What worked well? 👍
     - What could we change? Δ
     - Anything else? ☺️

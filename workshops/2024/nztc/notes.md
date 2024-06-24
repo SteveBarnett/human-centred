@@ -48,7 +48,7 @@ Near the end of the day, we've scheduled 10 minutes of workshop time to fill in 
 > We'd really appreciate your help making things better. Content, logistics, lunch, any topic you have some feedback on will be helpful!
 > All questions are optional. Your responses are anonymous by default, but you're welcome to add your name and/or email address.
 
-- What was great? 👍
+- What worked well? 👍
 - What could we change? Δ
 - Anything else? ☺️
 - Your name 📛
@@ -65,3 +65,10 @@ Sir Timbo quote
 Leonie quote
 
  > "It doesn't have to be perfect, just a little bit better than yesterday" -- Leonie Watson
+
+ ## Slide decks
+
+ - [session-1.pdf](session-1.pdf)
+ - [session-2.pdf](session-2.pdf)
+ - [session-3.pdf](session-3.pdf)
+ - [session-4.pdf](session-4.pdf)
