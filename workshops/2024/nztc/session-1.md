@@ -24,7 +24,7 @@ theme: Naga-ish 2022-02-22
 
 ---
 
-# [fit] Hi, I'm Steve.<br><br><br><br>• Front-web developer (few decades)<br><br><br><br>• Accessibility human (few years)<br><br><br><br>• Intopia human (few months)
+# [fit] Hi, I'm Steve.<br><br><br><br>• Front-end web developer (few decades)<br><br><br><br>• Accessibility human (few years)<br><br><br><br>• Intopia human (few months)
 
 ---
 
@@ -48,7 +48,7 @@ theme: Naga-ish 2022-02-22
 
 ---
 
-# [fit] Please join the<br>[Accessibility workshop channel](https://discord.com/channels/1229661457168465952/1251784545691504660),<br>Software Testing New Zealand<br>Discord group
+# [fit] Links will live at<br>[Accessibility workshop channel](https://discord.com/channels/1229661457168465952/1251784545691504660),<br>Software Testing New Zealand<br>Discord group<br>and the Gist at [bit.ly/nztc24](https://bit.ly/nztc24)
 
 [.background-color: #402]
 
@@ -119,7 +119,7 @@ theme: Naga-ish 2022-02-22
 
 ---
  -->
-# [fit] "😠 This is not accessible."<br><br><br><br><br>"😌 This is 100% accessible." 
+# [fit] Be wary of:<br><br><br><br><br>"😠 This is not accessible."<br><br><br><br><br>"😌 This is 100% accessible." 
 
 <!-- Related: every app has a level of accessibility, whether we've thought about it or not. -->
 
@@ -145,7 +145,7 @@ theme: Naga-ish 2022-02-22
 
 ^ - The boundaries we draw are made up.
 - "Testing" vs "Accessibility testing", e.g. keyboard.
-- Boundaries can have short-term (remediation) utility, though.
+- Boundaries can have short-term, remediation, barrier-focused, utility, though.
 
 [.background-color: #206]
 
@@ -174,9 +174,9 @@ theme: Naga-ish 2022-02-22
 
 --- -->
 
-# 2. Not-strict
+# 2. Not-same
 
-^ The edges are fuzzy
+^ Not all members of a group are the same
 
 [.background-color: #206]
 

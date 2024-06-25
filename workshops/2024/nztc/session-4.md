@@ -33,6 +33,7 @@ Write it down
 # [fit] What will you do?<br>When will you do it?<br>Where will you do it?<br>Who will be involved?<br>How will you do it?<br>Why do this?
 
 ^ Let's refine it
+Add as many of these as you can
 
 [.background-color: #313]
 
