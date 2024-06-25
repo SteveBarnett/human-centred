@@ -66,7 +66,7 @@ Leonie quote
 
  > "It doesn't have to be perfect, just a little bit better than yesterday" -- Leonie Watson
 
- ## Slide decks
+## Slide decks
 
  - [session-1.pdf](session-1.pdf)
  - [session-2.pdf](session-2.pdf)
