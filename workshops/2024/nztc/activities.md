@@ -12,7 +12,7 @@ Three(ish) lists, they're all good! The rest of this page is my recommendation f
 1. [Accessibility audit process](/2024/06/16/accessibility-audit-process/)
     - [Accessibility audit process for mobile](/2022/05/31/accessibility-audit-process-mobile/)
 2. [Accessibility Not-Checklist ](https://not-checklist.intopia.digital/)
-    - Related: [AccessibilityAcceptance Criteria](https://acceptance-criteria.intopia.digital/) (currently in Alpha)
+    - Related: [Accessibility Acceptance Criteria app](https://acceptance-criteria.intopia.digital/) (currently in Alpha)
 3. [Checklist - The A11y Project](https://www.a11yproject.com/checklist/)
 
 - For understanding seriousness of issues: [Accessibility Audit Severity examples](/2022/12/06/accessibility-audit-severity-examples/).
