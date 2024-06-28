@@ -15,7 +15,8 @@ Here are some recent talks and workshops that I've done.
 #### 2024
 {: #workshops-and-talks-2024 }
 
- April 2024 - **Difficulty levels in Elden Ring and what they can teach us about web accessibility** talk at [Code Camp Wellington](https://www.codecampwellington.nz/speakers/steve-barnett.html); [blog post version of the talk](/2024/04/08/difficulty-levels-in-elden-ring-and-what-they-can-teach-us-about-web-accessibility/).
+- June 2024 - **Accessibility testing: Busting barriers with ARIAs, axes, and audits** at [NZTestingConf](https://nztestingconf.nz/accessibility-testing-workshop).
+- April 2024 - **Difficulty levels in Elden Ring and what they can teach us about web accessibility** talk at [Code Camp Wellington](https://www.codecampwellington.nz/speakers/steve-barnett.html); [blog post version of the talk](/2024/04/08/difficulty-levels-in-elden-ring-and-what-they-can-teach-us-about-web-accessibility/).
 
 ### 2023
 {: #workshops-and-talks-2023 }
