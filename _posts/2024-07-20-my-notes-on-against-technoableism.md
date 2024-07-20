@@ -1,5 +1,5 @@
 ---
-title: 'My notes on "against technoableism"'
+title: 'My notes on "Against Technoableism"'
 layout: post
 description: 'My brief notes on "Against Technoableism: Rethinking Who Needs Improvement by Ashley Shew"'
 image: /img/2024/07/at.jpg
