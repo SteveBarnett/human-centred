@@ -5,7 +5,7 @@ description: 'My sketchnotes from "The Path of Least Resistance Toward Accessibi
 image: /img/2024/11/wwam.jpg
 ---
 
-Last night was the last Wellington Web Accessibility Meetup group of the year, [The Path of Least Resistance Toward Accessibility](https://www.meetup.com/wellington-web-accessibility-meetup/events/303908021/), and it was great! Below are my (sketch)notes.   
+Last night was the last Wellington Web Accessibility Meetup of the year, [The Path of Least Resistance Toward Accessibility](https://www.meetup.com/wellington-web-accessibility-meetup/events/303908021/), and it was great! Below are my (sketch)notes.   
 
 ![Sketchnotes, text description follows image](/img/2024/11/wwam.jpg)
 
