@@ -90,8 +90,12 @@ The focus is a bit like Appreciative Inquiry: focus on strengths and assets rath
 
 - What do you mean?
 - What do you want?
-- What's worked before?
-- And what else?
+- What would be our best outcome here?
+- What have you tried and how has that worked out?
+  - What's worked before?
+- And what else? / Can you tell me a bit more about that?
+- What are you worried about?
+- What's holding us back?
 - How can I help?
 
 Watch for SCARF: status, certainty, autonomy, relatedness (social), fairness.
