@@ -3,6 +3,9 @@ layout: page
 title: Change and motivation
 ---
 
+* tic
+{:toc}
+
 ## A, B, C
 
 - **Asking:** the statement or action you're asking for.
