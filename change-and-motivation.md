@@ -96,6 +96,16 @@ The focus is a bit like Appreciative Inquiry: focus on strengths and assets rath
 
 Watch for SCARF: status, certainty, autonomy, relatedness (social), fairness.
 
+## Tripping over the truth
+
+Viscerally seeing, feeling, the scale and scope of the problem.
+To motivate toward and appreciate a solution.
+Effective because it doesn't come across as being pushy, forceful, or opinionated.
+
+1. clear insight
+2. compressed in time
+3. discovered by the audience
+
 ## PACT goals
 
 A different take on SMART goals.
