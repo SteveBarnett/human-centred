@@ -13,7 +13,7 @@ He's been building things for the web professionally since 2005 (and built thing
 
 ## Elsewhere
 
-He's on [Medium as @maxbarners](https://medium.com/@maxbarners), on [GitHub as SteveBarnett](https://github.com/SteveBarnett/), on [LinkedIn](https://www.linkedin.com/in/steve-barnett/), and on this site as, erm, himself.
+You can find him on [GitHub as SteveBarnett](https://github.com/SteveBarnett/), [LinkedIn](https://www.linkedin.com/in/steve-barnett/), and, erm, here.
 
 He loves open source so he keeps lots of things on GitHub like [accessibility demos and tests](https://github.com/SteveBarnett/a11y-demos-and-tests), [notes-to-self on the WebAim Million](https://github.com/SteveBarnett/WebAIM-Million), [retrospective templates](https://github.com/SteveBarnett/Freelancer-Friday-Flections), and [checklists for UX and accessibility](https://github.com/SteveBarnett/Checklists).
 
