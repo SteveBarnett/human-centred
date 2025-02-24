@@ -23,7 +23,7 @@ Given these things, how might we bend a little towards making and keeping them h
 
 - **Highlight the advantages of adopting the DS**: the current pain points it solves
 - **Be clear and honest about the potential disadvantages or difficulties of adopting the DS**, and what we're doing to mitigate them
-- **Ask for feedback, act on feedback**
-    - Review existing the feedback frpm new and existing users of the DS provided. Review how we've acted on it
+- **Let people know we want for for feedback, and act on it when we get it**
+    - Review existing the feedback from new and existing users of the DS provided. Review how we've acted on it
     - Review the mechanisms available for providing feedback
     - Ask for more feedback from new and existing users
