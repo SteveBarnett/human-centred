@@ -113,11 +113,21 @@ In the long term aim to have a11y tests as part of existing tests, integrated an
 - **Document the testing process and tools in the DS**, so that other teams can use them too.
 - **Mix and match tools to suit our team for where they're at.** But/and have a plan for what the next thing will be.
 - **Use a mix of manual and automated testing.**
+    - Start with low complexity, wide impact, tests like Keyboard and Headings.
+        - They act like an early `return`: if won't work with a screen reader if it doesn't work with keyboard, so you don't need to test that (yet!)
     - Automated testing can't cover everything. Accessibility done well with almost always pass an automated test. Accessibility done not so well won’t always fail an automated test. That difference often comes down to the difference between “wrong” (clear errors, omissions) and “bad” (debatable quality, unusual code).
     - The best testing framework is the one you already have, the one you will use.
+- **Be very detailed and thorough in component testing.**
+    - Makes it very robust
+    - Let's us find the bugs rather consumers or end-users finding them
+    - Keep a record to serves as detailed proof
 - **Consider an accessibility-flavoured remix of testing off The Happy Path** (everything succeeds, no errors, no exceptions, expected output).
     - Expand your understanding of The Happy Path: realise it also includes assumptions about the user and their technology. A bit like "It works on my machine!"
-**When we do find a11y errors, zoom out, investigate and find the source.** See how we can prevent similar errors occurring again.
+    - **Step off The Happy Path in a different direction.**
+        - The Happy Path assumes perfect (and therefore unrealistic) conditions in an imperfect (and therefore realistic) world
+        - What if they aren't using a mouse?
+        - What if they can't see the information conveyed by colour?
+    - **When we do find a11y errors, zoom out, investigate and find the source.** See how we can prevent similar errors occurring again.
 
 #### Dessert: The Accessibility Testing Trifle.
 
