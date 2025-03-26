@@ -25,36 +25,36 @@ There's lots we can do to make our presentations and events more inclusive and a
 
 ##  The presentation
 
-### <span aria-hidden="true">📝 Content</span>
+### <span aria-hidden="true">📝</span> Content
 
 - Keep each slide short and to the point. Have one thing per slide.
 - Make sure each slide has a unique and meaningful title.
 - Keep links in slides short.
 
-### <span aria-hidden="true">🗣 Language</span>
+### <span aria-hidden="true">🗣</span> Language
 
 - Use plain language. Try and avoid jargon, acronyms, unusual words, and abbreviations.
 - Check the reading level.
 - Use incusive language and don't make assumptions about your audience. Don't be sexist, racist, ableist, or offensive.
 
-### <span aria-hidden="true">🔡 Text</span>
+### <span aria-hidden="true">🔡</span> Textspan>
 
 - Use large text.
 - Choose a readable sans serif font. Use bold sparingly, don't use italics, and don't use ALL CAPS.
 - Avoid putting content at the bottom of slides.
 
-### <span aria-hidden="true">🎨 Colour</span>
+### <span aria-hidden="true">🎨</span> Colour
 
 - Ensure high colour contrast between the text and the background. Take extra care with text over images.
 - Don't use only colour to convey information. Use icons and text too, or instead of colour.
 
-### <span aria-hidden="true">🖼 Non-text content (images, video, audio)</span>
+### <span aria-hidden="true">🖼</span> Non-text content (images, video, audio)
 
 - Provide text alternatives for content images, including charts. The text alternative should convey the function and meaning of the image.
 - Explain any visual information.
 - Provide captions and audio descriptions for videos.
 
-### <span aria-hidden="true">🔁 Animations</span>
+### <span aria-hidden="true">🔁</span> Animations
 
 - Don't use slide transitions.
 - Avoid animations for slide content.
