@@ -23,7 +23,7 @@ Here's an example of **Accessibility Ready** for a design system.
 Our **minimum requirements** for a component to be released as "Accessibility Ready" are:
 
 - automated tests all pass
-- manual tests all pass, across our Assistive Technology Testing Suite
+- manual tests all pass, across our Supported Assistive Technology
 - an Accessibility Specialist has checked the component and confirmed that
     - all WCAG 2.2 Level AA Success Criteria are met
     - no High Severity usability issues exist
@@ -75,9 +75,9 @@ We test on multiple screen readers and multiple platforms to best support our us
 ## Testing overview
 
 - Code is semantic and valid
-- Editor linting does not report any errors
+- ode linting does not report any errors
 - Automated tests all pass and cover each state
-- Manual tests all pass, across our Assistive Technologies Testing Suite
+- Manual tests all pass, across our Supported Assistive Technology
 
 Note: full details of **Accessibility Testing** tools and processes appear in a separate document.
 
