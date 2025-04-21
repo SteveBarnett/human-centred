@@ -62,7 +62,7 @@ We support a wide range of assistive technology. We test with screen readers on 
 - VoiceOver on iOS and Talkback on Android
 - Contrast themes on Windows
 
-Note: full details of **Supported Assistive Technology** appear in a separate document.
+Note: full details appear in our **[Supported Assistive Technology](/2025/04/21/supported-assistive-technology/)**.
 
 ### Screen readers
 
