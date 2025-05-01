@@ -30,6 +30,9 @@ Our **minimum requirements** for a component to be released as "Accessibility Re
 - clear and concise documentation is present, describing how to use the component to build conformant experiences
     - including that the Storybook a11y-addon reports no "Violations" or "Incomplete" in the Accessibility tab
 
+"Accessibility Specialist" here means someone authorised to conduct an accessibility assessment or audit. They will probably have "Accessibility" in their job title. They will probably be full-time on accessibility. They may be internal or external.
+{:.boxout.boxout-alt }
+
 We have **additional internal requirements** to align with our principle of exceeding WCAG 2.2 at Level AA:
 
 - The following Level AAA Success Criteria are met:
