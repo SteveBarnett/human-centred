@@ -75,6 +75,8 @@ We test on multiple screen readers and multiple platforms to best support our us
 - Different screen readers have different levels of support for HTML and ARIA features
 - Different people prefer different screen readers
 
+When we encounter variations in announcements, we confirm that no information is missing. Full details appear in [Resolving variations between screen readers](/2025/04/21/resolving-variations-between-screen-readers/).
+
 ## Testing overview
 
 - Code is semantic and valid
