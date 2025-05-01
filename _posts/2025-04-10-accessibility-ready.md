@@ -80,7 +80,7 @@ When we encounter variations in announcements, we confirm that no information is
 ## Testing overview
 
 - Code is semantic and valid
-- ode linting does not report any errors
+- Code linting does not report any errors
 - Automated tests all pass and cover each state
 - Manual tests all pass, across our Supported Assistive Technology
 
