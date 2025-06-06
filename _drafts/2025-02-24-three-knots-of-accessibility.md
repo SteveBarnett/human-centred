@@ -24,7 +24,7 @@ We sometimes assume that "people" and "disabled people" are separate groups.
 
 This is not quite true. There are distinctions and differences, but the boundary lines we draw are made up. These boundaries can have short-term, problem-remediation, utility in products and services. But they're not a true representation of how the world is. Most things exist on a spectrum, not as a binary. And the closer we look at any given boundary, the more we see, and the fuzzier the distinction becomes.
 
-If a Quality Engineer who knows nothing about accessibility does manual testing with a keyboard, is that just "testing"? If an Accessiblity Specialist does the same manual testing with a keyboard, is that now "Accessibility testing"?
+If a Quality Engineer who knows nothing about accessibility does manual testing with a keyboard, is that just "testing"? If an Accessibility Specialist does the same manual testing with a keyboard, is that now "Accessibility testing"?
 
 When we look at our product or service's user journeys, we can see that there are just common, core, human, tasks that our users are doing.
 
@@ -40,7 +40,7 @@ We sometimes assume that disabled people as a category are all the same. We make
 
 This is not true. Not all members of a group are the same. We can see this clearly when we look at other categories we use frequently.
 
-- Are all humans the same? Are all Europeans the same? Are all Italians the same? Are all Romans the same?
+- Are all humans the same? Are all Europeans the same? Are all Italians the same? Are all Venetians the same? Are the people in one household the same?
 - Are all humans the same? Are all tall people the same?
 
 It's a normal human tendency to make categories. It's how our brains handle having too much information to deal with. But when the categories are misapplied or mistakenly understood as truth, it causes trouble and we make mistakes. 
@@ -50,7 +50,6 @@ Some ways to address this, inspired by the Generalisation chapter of [Factfulnes
 - Look for differences within groups. The larger the group, the more differences we can find.
 - Look for differences between groups too. 
 - Beware of exceptional examples.
-
 
 - gain first-hand experience of cultures as they actually exist, rather than the way they are portrayed in the press.
 The Social Model:<br>Ability + Barrier = Disability
