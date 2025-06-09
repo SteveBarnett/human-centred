@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">{% if page.url == "/" %}
     <meta name="google-site-verification" content="GLZVZzwXVt2__0Gg8DwF2263SEx-sgEMjPwI7q0t92Y" />{% endif %}
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <title>{{ page.title }} — Naga</title>
+    <title>{{ page.title }} — Human-centred</title>
 
     <link rel="stylesheet" id="theme-styles-css" href="/css/style.css?ver={{ site.css-version }}" type="text/css" media="all" />
     {% if page.layout == "sounds-like" %}
@@ -13,17 +13,17 @@
     {% elsif page.includesyntaxhighlight == true %}
     <link rel="stylesheet" href="/css/highlight.css" />
     {% endif %}
-    <link rel="canonical" href="https://naga.co.za{{ page.url }}" />
+    <link rel="canonical" href="https://human-centred.nz{{ page.url }}" />
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#700" />
 
     {% comment %}Facebook and Open Graph{% endcomment %}
     <meta property="og:locale" content="en_ZA">
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://naga.co.za{{ page.url }}" />
+    <meta property="og:url" content="https://human-centred.nz{{ page.url }}" />
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:image" content="https://naga.co.za{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
+    <meta property="og:image" content="https://human-centred.nz{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
     {% comment %} Use a 1200 x 1200 (630) (will get top and bottom cropped){% endcomment %}
     <meta property="og:site_name" content="{{ site.title }}">
     {% if page.date %}
@@ -34,10 +34,10 @@
     {% comment %}Twitter Cards{% endcomment %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.twitter_username }}">
-    <meta name="twitter:domain" value="naga.co.za" />
+    <meta name="twitter:domain" value="human-centred.nz" />
     <meta name="twitter:title" value="{{ page.title }}" />
     <meta name="twitter:description" value="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta name="twitter:image" content="https://naga.co.za{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
+    <meta name="twitter:image" content="https://human-centred.nz{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
 
     <meta name="view-transition" content="same-origin">
 
@@ -58,11 +58,6 @@
     <a href="#content" class="visuallyhidden focusable">Skip to content</a>
 
     <nav class="nav" id="main-menu" aria-label="Main">
-        {% if page.url=="/" %}<h1>{% endif %}
-            <a href="/" rel="home">
-                <img src="/img/logo-50.png" alt="Naga" />
-            </a>
-        {% if page.url=="/" %}</h1>{% endif %}
         <ul>
             <li>
                 <a href="/">Home</a>

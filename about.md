@@ -17,4 +17,4 @@ You can find him on [GitHub as SteveBarnett](https://github.com/SteveBarnett/), 
 
 He loves open source so he keeps lots of things on GitHub like [accessibility demos and tests](https://github.com/SteveBarnett/a11y-demos-and-tests), [notes-to-self on the WebAim Million](https://github.com/SteveBarnett/WebAIM-Million), [retrospective templates](https://github.com/SteveBarnett/Freelancer-Friday-Flections), and [checklists for UX and accessibility](https://github.com/SteveBarnett/Checklists).
 
-You can drop him a line at [hello@naga.co.za](mailto:hello@naga.co.za). Sometimes he writes things about himself in the third person and it feels a bit odd<span aria-hidden="true"> ¯\\\_(ツ)_/¯</span>.
+You can drop him a line at [steve@naga.co.za](mailto:steve@naga.co.za). Sometimes he writes things about himself in the third person and it feels a bit odd<span aria-hidden="true"> ¯\\\_(ツ)_/¯</span>.

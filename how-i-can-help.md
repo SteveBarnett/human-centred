@@ -11,7 +11,7 @@ I also **help teams set themselves up for making continuous improvements in futu
 
 ## FED stuff
 
-I work on the front-end of projects across various tech stacks, **building templates and front-end Style Guides**. I work with Rails, Django, Node, .NET, Laravel, WordPress, and static site generators like Jekyll (which [powers this site](https://github.com/SteveBarnett/nagacoza/)). I use templating engines like ERB, Jinja, Handlebars, Razor, Blade, Liquid. I also work with front-end JavaScript frameworks like Angular (a fair bit), and React and Vue (a little, but looking to do more). 
+I work on the front-end of projects across various tech stacks, **building templates and front-end Style Guides**. I work with Rails, Django, Node, .NET, Laravel, WordPress, and static site generators like Jekyll (which [powers this site](https://github.com/SteveBarnett/human-centred/)). I use templating engines like ERB, Jinja, Handlebars, Razor, Blade, Liquid. I also work with front-end JavaScript frameworks like Angular (a fair bit), and React and Vue (a little, but looking to do more). 
 
 **I work best in the view layer.** I write and edit code to use APIs and make the most of the framework, but I tend not to touch models or controllers. I focus on the HTML and CSS (and [UX stuff](#ux-stuff)), and add small amounts of JavaScript (sometimes ES6, usually sprinkled using Babel) where necessary. I use:
 

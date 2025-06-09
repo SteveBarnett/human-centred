@@ -61,7 +61,7 @@ Read about more recent workshops and talks on [my community page](/community/#wo
 - May - **Global Accessibility Awareness Day** at [CTFEDs](http://www.meetup.com/ctfeds/events/221386799/) with [Justin Slack](https://justinslack.com/): [materials](http://ctfeds.github.io/Global-Accessibility-Awareness-Day-2016/).
 - April - **Help! The UX Designer isn’t coming in today!** at [CTFEDs](http://www.meetup.com/ctfeds/events/228803699/) with Jen Poole: [materials](http://ctfeds.github.io/Help-The-UX-Designer-isnt-coming-in-today-Workshop/).
 - April - **Future Friendly UX Design** with [Justin Slack](https://justinslack.com/) at the [2016 UX South Africa workshop sessions in Cape Town](http://www.uxsouthafrica.com/conference/cape-town-2014): [materials](http://ctfeds.github.io/FutureFriendlyUXWorkshopApril2016/).
-- April - **Progressive Enhancement** at the [Meteor Cape Town meetup](http://www.meetup.com/Meteor-Cape-Town/events/229419968/): [my write-up](https://naga.co.za/2016/04/29/progressive-enhancement/).
+- April - **Progressive Enhancement** at the [Meteor Cape Town meetup](http://www.meetup.com/Meteor-Cape-Town/events/229419968/): [my write-up](/2016/04/29/progressive-enhancement/).
 
 ### 2015
 
@@ -69,7 +69,7 @@ Read about more recent workshops and talks on [my community page](/community/#wo
 
 - November - **Future Friendly UX Design** with [Justin Slack](https://justinslack.com/) at the [2015 UX South Africa conference in Cape Town](http://www.uxsouthafrica.com/conference/cape-town-2015): [materials](http://ctfeds.github.io/UXSouthAfrica2015Workshop/).
 - November - **2 Burger 2 Furious** lightning talk at the [2015 UX South conference in Cape Town](http://www.uxsouthafrica.com/conference/cape-town-2014): [slides](https://speakerdeck.com/stevebarnett/2-burger-2-furious); [video](https://www.youtube.com/watch?v=xiK1OkwKZ8M).
-- October - **Hashtag Burgergate** at [CTFEDs](http://ctfeds.org/): [my write-up](https://naga.co.za/2015/10/07/hashtag-burgergate/); [slides](https://speakerdeck.com/stevebarnett/hashtag-burgergate).
+- October - **Hashtag Burgergate** at [CTFEDs](http://ctfeds.org/): [my write-up](/2015/10/07/hashtag-burgergate/); [slides](https://speakerdeck.com/stevebarnett/hashtag-burgergate).
 - August - **Design is for Tomorrow** [workshop](http://www.meetup.com/ctfeds/events/223987693/) with [Justin Slack](https://justinslack.com/) for [Open Design Cape Town](http://opendesignct.com/) 2015.
 - August - **jQuery (vs JavaScript)** lightning talk at CTFEDs for the Open Design workshop: [slides](https://speakerdeck.com/stevebarnett/jquery-vs-javascript).
 - August - **#fedlyfe** at [Friends of Design](http://friendsofdesign.net/): [slides](https://speakerdeck.com/stevebarnett/number-fedlyfe).
@@ -80,4 +80,4 @@ Read about more recent workshops and talks on [my community page](/community/#wo
 {: #speaking-2014 }
 
 - October - **If I Was King Of The World** with [Rich Archer](http://richarcher.co.uk/), at [CTFEDs](http://ctfeds.org/): [slides](https://speakerdeck.com/stevebarnett/if-i-was-king-of-the-world).
-- October - **The good, the bad, and the squishy** at the [2014 UX South conference in Cape Town](http://www.uxsouthafrica.com/conference/cape-town-2014): [video](https://www.youtube.com/watch?v=J8lG8jzYC14); [my write-up](https://naga.co.za/2014/10/13/the-good-the-bad-and-the-squishy/); [slides](https://speakerdeck.com/stevebarnett/the-good-the-bad-and-the-squishy).
+- October - **The good, the bad, and the squishy** at the [2014 UX South conference in Cape Town](http://www.uxsouthafrica.com/conference/cape-town-2014): [video](https://www.youtube.com/watch?v=J8lG8jzYC14); [my write-up](/2014/10/13/the-good-the-bad-and-the-squishy/); [slides](https://speakerdeck.com/stevebarnett/the-good-the-bad-and-the-squishy).
