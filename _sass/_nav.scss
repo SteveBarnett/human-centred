@@ -51,7 +51,7 @@ footer,
 .nav {
   background-color: $red;
   @media (prefers-color-scheme: dark) {
-    background-color: #fbefef;
+    background-color: $darkred;
   }
 
   color: white;
@@ -60,9 +60,6 @@ footer,
     &:link,
     &:visited {
       color: white;
-      @media (prefers-color-scheme: dark) {
-        color: #500;
-      }
     }
   }
 
@@ -70,18 +67,12 @@ footer,
     &:hover,
     &:active {
       color: #fbefef;
-      @media (prefers-color-scheme: dark) {
-        color: #800;
-      }
       text-decoration: none;
     }
 
     &:focus {
       outline: solid 2px white;
       outline-offset: 0.1em;
-      @media (prefers-color-scheme: dark) {
-        outline-color: #500;
-      }
     }
   }
 }
@@ -100,9 +91,6 @@ footer {
   h4 {
     margin-bottom: 0.5em;
     color: white;
-      @media (prefers-color-scheme: dark) {
-        color: #500;
-      }
   }
 
   ul {
