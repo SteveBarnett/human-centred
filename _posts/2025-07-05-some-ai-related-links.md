@@ -11,6 +11,74 @@ I'm interested in the responsible, ethical, careful use of AI. And of being more
 
 I've included a few choice snippets from the linked articles.
 
+## [Using AI Right Now: A Quick Guide - by Ethan Mollick](https://www.oneusefulthing.org/p/using-ai-right-now-a-quick-guide)
+
+> The risk of hallucination is why I always recommend using AI for topics you understand until you have a sense for their capabilities and issues.
+
+## [GenAI is Our Polyester](https://culture.ghost.io/genai-is-our-polyester/)
+
+> The best way to understand generative AI art and aesthetics is to consider how previous "synthetics" lost value in the long-run
+
+> While polyester took a few decades to lose its appeal, GenAI is already feeling a bit cheesy. We're only a few years into the AI Revolution, and Facebook and X are filled to the brim with “AI slop.” 
+
+> But the historical rejection of polyester gives me hope. Humans ultimately are built to pursue value, and create it where it doesn’t exist.
+
+## [AI Chatbots Discourage Error Checking - NN/g](https://www.nngroup.com/articles/ai-chatbots-discourage-error-checking/)
+
+> Summary: AI hallucinations threaten the usefulness of LLM-generated text in professional environments, but today’s LLMs encourage users to take outputs at face value.
+
+## [Dear Dostoevsky: Should we take advice from AI? - by Peco](https://pilgrimsinthemachine.substack.com/p/dear-dostoevsky-should-we-take-advice)
+
+> When actual humans try to charm us into believing their deceptions, we call them sociopaths. Oddly, when machines do it, we call it amazing and groundbreaking.
+
+## [The 70% problem: Hard truths about AI-assisted coding](https://addyo.substack.com/p/the-70-problem-hard-truths-about)
+
+> The reality is that AI is like having a very eager junior developer on your team. They can write code quickly, but they need constant supervision and correction.
+
+> The very thing that makes AI coding tools accessible to non-engineers - their ability to handle complexity on your behalf - can actually impede learning. 
+
+> This creates a dependency where you need to keep going back to AI to fix issues, rather than developing the expertise to handle them yourself.
+
+> What AI does do is let us iterate and experiment faster, potentially leading to better solutions through more rapid exploration. But only if we maintain our engineering discipline and use AI as a tool, not a replacement for good software practices.
+
+## [The Whippet #174: Extending my physical influence](https://thewhippet.org/174-extending-my-physical-influence/)
+
+> Karpf says that a new technology can fail in two ways. The first is the one everyone talks about and worries about: the tech works extremely well, and then gets used for nefarious purposes.
+
+> The other failure mode is: what if it's not very good, but it gets widely adopted anyway?
+
+> People are asking "will AI take my job?" and the media has answered with discussion of AI capabilities and what jobs it might be able to do well. But that's not really the failure mode that seems to be happening. The question is more, "will I be replaced with AI despite the fact that it can't do my job at all?" and the answer probably depends on the brazen short-sightedness of your boss/company/industry.
+
+## [What’s UnAI-able - UX Magazine](https://uxmag.com/articles/whats-unai-able?ref=uxdesignweekly)
+
+> However, there are certain actions, tasks, and skills that cannot be digitized or automated, such as: contextual awareness; conflict resolution; critical thinking.
+
+> Jobs that involve a blend of these human-driven decision-making competencies are likely to evolve rather than disappear, requiring professionals to shift their competence.
+
+## [Speed and Efficiency are not Human Values - by John Warner](https://biblioracle.substack.com/p/speed-and-efficiency-are-not-human)
+
+> “More” Is not Necessarily a Market Advantage
+
+> Speed Is Not a Criteria for Quality
+
+> Art does not exist independent of the experiencing of it
+
+## [Inside the "Mind" of ChatGPT - by David Epstein](https://davidepstein.substack.com/p/inside-the-mind-of-chatgpt)
+
+> Unlike the human brain, these large language models don’t start with conceptual models that they then describe with language. They are instead autoregressive word guessers. You give it some text and it outputs guesses at what word comes next.
+
+> ... this approach makes these models into something like an “unrepentant fabulist.”
+
+> Ultimately, however, the best summary of what these models can do is the following: in response to a user request, write natural text on arbitrary combinations of known subjects in arbitrary combinations of known topics, where “known” means encountered them enough during training. In doing so, it has no ability to actually check if what it’s saying is true or not. The key question to ask is how much of your current job could be replaced by this ability?
+
+> Or to give an analogy I like: a few years ago I was looking at news coverage from the early 1970s when the ATM was introduced. Some of the coverage was apocalyptic — 300,000 bank tellers are going to be out of work overnight! But instead, over the next 50 years, as there were more ATMs, there were more bank tellers. ATMs made branches cheaper to operate, so banks opened more branches. Fewer tellers per branch, but more tellers overall. But more than that, it fundamentally changed the job, from one of repetitive cash transactions, to one where the person is, say, a customer service rep, a marketing professional, a financial adviser, etc. They needed a much broader mix of more strategic skills to add value.
+
+## [AI for Accessibility: Opportunities and Challenges | Equal Entry](https://equalentry.com/ai-for-accessibility-opportunities-and-challenges/)
+
+> AI relies on averages. This can have negative implications for people outside the average, especially for people who are typically underrepresented in the data.
+
+> AI relies on labels. These can be missing from datasets (because of bias, or because of the ethics of collection), leading to stereotyping
+
 ## [Artificial Intelligence Playbook for the UK Government (HTML) - GOV.UK](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html)
 
 > Some important principles in there, including: You know what AI is and what its limitations are; You know how to use AI securely; You have meaningful human control at the right stages; You have the skills and expertise needed to implement and use AI solutions.
