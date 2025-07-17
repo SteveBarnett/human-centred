@@ -2,6 +2,7 @@
 title: What key does what?
 layout: post
 description: A quick guide to keyboard interactions
+image: /img/2025/07/wkdw.png
 ---
 
 It depends on the HTML element that has focus and what is selected, but some keyboard interactions are similar for every focusable element.
