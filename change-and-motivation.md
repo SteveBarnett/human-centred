@@ -119,6 +119,22 @@ A different take on SMART goals.
 - **Continuous**. Simple, repeatable, actions, an adaptable approach.
 - **Trackable**. Rather than measurable, a "yes"/"no".
 
+## Reset
+
+Remember the progress principle.
+
+- Find Leverage Points
+    - Go and see the work with fresh eyes
+    - Consider other paths to the end goal
+    - Study the Bright Spots
+    - Target the (current) constraint
+- Restack Resources on your Leverage Points
+    - Start with a burst towards a team goal, and minimise the middle
+    - Stop lower-value work and start higher-value work, cut and invest
+    - Go where the energy (already) is
+    - Give people autonomy and some guidance
+    - Get faster feedback
+
 ---
 
 {% include _sources-change-and-motivation.md %}
