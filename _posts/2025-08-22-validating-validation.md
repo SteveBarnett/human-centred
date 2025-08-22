@@ -8,13 +8,30 @@ category: how-to guide
 
 How do we validate validation? How do we prevent our error handling having errors?
 
+## What to do
+
 Here's a short version of what to do for high quality, accessible, validation.
 
 - Show which fields have errors, with more than just colour
 - Show an informative error message, programmatically associated with its field
 - Manage focus on submit: to the first invalid field for short forms; to the heading of an error summary for longer forms
 
-Here's a short version of potential issues, with the relevant Success Criteria (SC) from WCAG. All them are considered Severity High.
+## How to check
+
+Find a form, then immediately submit it, without entering any data.
+
+Some common forms:
+
+- log in (often linked from the header)
+- contact us (often in the header or footer)
+- newsletter subscription (often in the footer)
+- ecommerce flow (sometimes possible to checkout as guest)
+- questionnaire or wizard flows
+
+## What to check
+
+Here's a short version of potential issues, with the relevant Success Criteria (SC) from WCAG. All them are considered High severity.
+
 
 - **Error show by colour alone.** SC: [1.4.1 Use of Color (Level A)](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_overview&technologies=smil%2Cpdf%2Cflash%2Csl&showtechniques=123%2C242#use-of-color).
     - Add an icon or "Error: " to the label
