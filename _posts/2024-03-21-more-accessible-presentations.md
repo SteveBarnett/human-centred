@@ -37,7 +37,7 @@ There's lots we can do to make our presentations and events more inclusive and a
 - Check the reading level.
 - Use incusive language and don't make assumptions about your audience. Don't be sexist, racist, ableist, or offensive.
 
-### <span aria-hidden="true">🔡</span> Textspan>
+### <span aria-hidden="true">🔡</span> Text
 
 - Use large text.
 - Choose a readable sans serif font. Use bold sparingly, don't use italics, and don't use ALL CAPS.
