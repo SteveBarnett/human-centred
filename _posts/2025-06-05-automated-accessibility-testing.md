@@ -1,7 +1,7 @@
 ---
-title: Automated Accessiblity Testing
+title: Automated Accessibility Testing
 layout: post
-description: An overview of Automated Accessiblity Testing, with a few examples
+description: An overview of Automated Accessibility Testing, with a few examples
 image: /img/2025/06/aat.png
 ---
 
