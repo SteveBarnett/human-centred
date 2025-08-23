@@ -8,6 +8,10 @@ category: how-to guide
 
 Gathering notes on behaviour change from [my notes](http://localhost:4000/change-and-motivation/) for talk pitches and a DADG session.
 
+Working in accessibility often involves persuasion and behaviour change. Having to [Understand the pros and cons](/more-accessible-products/#understand-the-pros-and-cons) of doing accessibility work, and being able to communicate that to (and with) other people. I've read a bunch on books on (the psychology and philosophy of) behaviour change over the years. Here are three of my favourites: Switch, Atomic Habits, and Tiny Habits.
+
+## Table of Contents
+
 * tic
 {:toc}
 
