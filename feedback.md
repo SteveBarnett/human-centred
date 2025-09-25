@@ -3,6 +3,9 @@ layout: page
 title: Feedback
 ---
 
+* TOC
+{:toc}
+
 ## Giving feedback
 
 - **Timely**. Give feedback as close to the event as possible, but choose the right time: when the person is likely to be receptive.
@@ -47,6 +50,33 @@ title: Feedback
 - Our mindset, expectations, and current psychological state impact how we interpret feedback.
 - Get people out of protect and defend mode and into a more responsive and open mode, and only then deliver criticism.
 
+## Compliments
+
+SPoRTiN' ACTS:
+
+- Sincerity
+- Positivity
+- Relevance
+- Timeliness
+- Non-Comparative
+- Appropriateness
+- Cultural Sensitivity
+- Tone and Non-Verbal Cues
+- Specificity
+
+In detail:
+
+- **Sincerity:** A compliment must be genuine and heartfelt. Insincere compliments can be easily detected and may lead to mistrust. Insincere flattery can have negative effects on the recipient's self-esteem.
+- **Specificity:** Being specific in a compliment makes it more believable and meaningful. General compliments can be seen as vague and insincere, while specific compliments can more effective in enhancing self-esteem.
+- **Relevance:** The compliment should be relevant to the person and the context. Complimenting someone on something they value or have worked hard on will have a greater impact.
+- **Positivity:** The language used in the compliment should be positive and affirming. Positive reinforcement has been shown to increase self-esteem and desired behaviours.
+- **Timeliness:** Offering a compliment close to the event or behavior you are praising makes it more impactful.
+- **Appropriateness:** The compliment should be appropriate to the relationship and setting. What might be a great compliment between close friends might not be suitable in a professional setting.
+- **Non-Comparative:** Avoiding comparisons with others makes the compliment more about the individual's achievement or quality. Comparative compliments can lead to negative social comparisons.
+- **Tone and Non-Verbal Cues:** The way a compliment is delivered, including tone of voice and body language, can affect its reception.
+- **Cultural Sensitivity:** Understanding cultural differences in communication styles and values is essential for effective complimenting. What is considered a compliment in one culture may not be perceived the same way in another.
+
+
 ---
 
 Sources:
@@ -59,3 +89,4 @@ Sources:
 - [Radical Candor](https://www.radicalcandor.com/)
 - [Tiny Habits](https://tinyhabits.com/)
 - [What Makes Criticism So Sticky? - The Growth Equation](https://thegrowtheq.com/what-makes-criticism-so-sticky/)
+- [Compliment Without Awkwardness | ClearerThinking.org](https://programs.clearerthinking.org/how-to-compliment.html)
