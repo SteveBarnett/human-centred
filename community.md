@@ -12,6 +12,11 @@ title: Community
 
 Here are some recent talks and workshops that I've done.
 
+#### 2025
+{: #workshops-and-talks-2025 }
+
+- September 2025 - **Getting “Accessibility Ready” for a Design System** at [Inclusive Design 24](https://inclusivedesign24.org/2025/); [video on YouTube](https://www.youtube.com/watch?v=mByeTl0P9FM).
+
 #### 2024
 {: #workshops-and-talks-2024 }
 
