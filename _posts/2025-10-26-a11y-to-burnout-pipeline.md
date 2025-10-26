@@ -35,7 +35,7 @@ Accessibility professionals at higher risk because the worst burnout factors are
 
 - Lack of control (of schedule, assignments, workload)
 - Sense of futility or hopelessness (effort disproportionate to the outcome)
-- Unclear and changing job expectations (role scope, shifting prioities) (especially when a1y isn’t all time job) 
+- Unclear and changing job expectations (role scope, shifting priorities) (especially when a11y isn’t full time job) 
 - Unreasonable and increasing workload (what’s reasonable to be doing)
 - Having to fight for a seat at the table (the role, and being there)
 
@@ -59,7 +59,7 @@ Accessibility professionals at higher risk because the worst burnout factors are
 - Why are a11y professionals at higher risk? The worst burnout factors are just part of the job.
     - **Lack of control** (of schedule, assignments, workload)
     - **Sense of futility or hopelessness** (effort disproportionate to the outcome)
-    - **Unclear and changing job expectations** (role scope, shifting prioities) (especially when a1y isn’t all time job) 
+    - **Unclear and changing job expectations** (role scope, shifting priorities) (especially when a11y isn’t full time job) 
     - **Unreasonable and increasing workload** (what’s reasonable to be doing)
     - **Having to fight for a seat at the table** (the role, and being there)
 - Company Wellness programmes. Overlooks root issues (systemic causes), aren’t widely used, aren’t effective (some studies show)
