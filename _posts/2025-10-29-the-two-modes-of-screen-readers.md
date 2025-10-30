@@ -9,8 +9,8 @@ This is an updated version of [an older post of the same name](/2022/02/10/the-t
 
 Screen readers have two modes: Browse mode and Forms mode (also known as Focus mode). One way to think about the difference is the keyboard interactions for desktop screen readers. 
 
-- In Browse mode pressing keys performs reading and navigation actions. 
-- In Forms mode pressing keys enters data.
+- In Browse mode, keystrokes perform reading and navigation actions by the screen reader. 
+- In Forms mode, keystrokes perform data entry actions by the browser.
 
 Screen readers generally change modes automatically, particularly when entering a form field. With JAWS or NVDA the user can manually change modes. With VoiceOver on MacOS, VoiceOver on OS, and TalkBack on Android, the user cannot manually changes modes.
 
