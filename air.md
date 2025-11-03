@@ -1,6 +1,7 @@
 ---
 layout: page
 title: AI Resistance
+updated: 2025-11-04
 ---
 
 This is mostly about LLMs. It's a sketch of some of the things that have me concerned.
