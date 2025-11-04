@@ -1,14 +1,12 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-11-04
+updated: 2025-11-05
 ---
 
-This is mostly about LLMs. It's a sketch of some of the things that have me concerned.
+This is mostly about LLMs. It's a sketch of some of the things that have me concerned. I'll bounce between using "LLMs" (which is mostly what I mean) and "AI" (which is mostly what we say in everyday conversation).
 
 I find myself being critical of the current AI hype partly because it feels familiar to other hype cycles from work: adoption of popular JavaScript libraries; accessibility overlays.
-
-I'll bounce between using "LLMs" (which is mostly what I mean) and "AI" (which is mostly what we say in everyday conversation).
 
 The three big ideas:
 
@@ -43,9 +41,9 @@ Ask a lot of questions.
 
 ### Read calls to use AI as a sales pitch
 
-The hype fulfils a capitalist function.
+The hype fulfils a capitalist function: keep the money coming in.
 
-- What they say it can do, to sell it
+- What the salesperson says it can do, so you'll spend on it
 - The hype doesn’t have to be true to have big impacts
 - Note who benefits from our use of this tech
 
@@ -186,7 +184,7 @@ AI causes widespread and varied harms.
 - **Ethical harm.** Underpaid and traumatised gig workers on the training data and doing Reinforcement Learning from Human Feedback.
 - **Psychological harm.** People talking to ChatGPT over their loved ones, school, or work.
 - **Deadly harm**. AI-assisted suicides.
-- **Financial harm.** Multi-billion dollar investments with little or no return.
+- **Financial harm.** Huge amounts of money to run and AI companies don't, and can't, charge enough to balance the books. Multi-billion dollar investments with little or no return.
 
 ### Critique the narrow inputs and low quality outputs
 
@@ -201,6 +199,7 @@ AI causes widespread and varied harms.
 #### Problems with the outputs
 {:.no_toc}
 
+- **Shortening, not summarising.** Summarising requires extended context. AI "summaries" are shortening existing human summaries.
 - **Mode amplification.** The most frequent data points are represented as the one true answer.
 - **Confabulation**. LLMs output often contains Confident Bullshitting. Made up things presented them as facts.
     - Not "hallucination". Hallucination is perceiving something that's not really there. LLMs do not perceive anything.
@@ -248,3 +247,5 @@ AI causes widespread and varied harms.
     - What about when it still isn't good enough?
     - What do we do in the meantime?
     - When would we decide to give up on it?
+- If it's not doing a good job, it's because you're prompting it wrong
+    - This feels like blaming the user
