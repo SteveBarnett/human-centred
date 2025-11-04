@@ -28,7 +28,7 @@ The three big ideas:
 
 ## 1. Don't Believe The Hype
 
-<div class="boxout-light">
+<div class="boxout">
 AI is massively over-hyped.<br><strong>Be critical of the sales pitch.</strong>
 </div>
 
@@ -117,7 +117,7 @@ These didn’t eradicate the previous technology, they just replaced some specif
 
 ## 2. Fight The Power
 
-<div class="boxout-light">
+<div class="boxout">
 AI is being forced on many people; AI is being forced into many parts of work and life.<br><strong>Opt out, don't use AI.</strong>
 </div>
 
@@ -166,7 +166,7 @@ In [the historical and philosophical sense](https://en.wikipedia.org/wiki/Cynici
 
 ## 3. Bring The Noise
 
-<div class="boxout-light">Valid problems and issues are being ignored or dismissed.<br><strong>Keep the focus on the current harms, not speculative risks.</strong></div>
+<div class="boxout">Valid problems and issues are being ignored or dismissed.<br><strong>Keep the focus on the current harms, not speculative risks.</strong></div>
 
 ### 💪 Be a Luddite
 
