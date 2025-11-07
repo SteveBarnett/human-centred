@@ -5,7 +5,7 @@ description: Some thoughts on carousel and when to never use them (😏)
 image: /img/2025/11/c.png
 ---
 
-Also know as slide shows and sliders, carousels come and go out of fashion. They tend to fall into the bucket of "designers like them, customers don't".
+Also known as slide shows and sliders, carousels come and go out of fashion. They tend to fall into the bucket of "designers like them, customers don't".
 
 There are a few approaches we can take.
 
