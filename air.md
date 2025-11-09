@@ -149,6 +149,8 @@ In [the historical and philosophical sense](https://en.wikipedia.org/wiki/Cynici
     - What's the endgame?
     - What human work is it replacing?
     - What happens to the humans?
+- Take a craftsperson approach to choosing to use AI (and tool selection in general)
+    - Use when the positive impacts on the core factors (of success and happiness) outweigh the negative impacts
 - Check if the iron triangle still applies. Fast, cheap, good: pick two.
     - If it looks like all three, look more closely to see the hidden cost or lower quality.
 
