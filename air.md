@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-11-05
+updated: 2025-11-09
 ---
 
 This is mostly about LLMs. It's a sketch of some of the things that have me concerned. I'll bounce between using "LLMs" (which is mostly what I mean) and "AI" (which is mostly what we say in everyday conversation).
@@ -37,7 +37,7 @@ AI is massively over-hyped.<br><strong>Be critical of the sales pitch.</strong>
 Ask a lot of questions.
 
 - Notice where information is lacking or fuzzy
-- Ask for the specifics, the details
+- Ask for the specifics, the details, how it works step-by-step
 
 ### Read calls to use AI as a sales pitch
 
@@ -45,7 +45,9 @@ The hype fulfils a capitalist function: keep the money coming in.
 
 - What the salesperson says it can do, so you'll spend on it
 - The hype doesn’t have to be true to have big impacts
-- Note who benefits from our use of this tech
+- Ask what the outcome is, what value is being produced, for who
+- Be wary of free stuff: it's not a gift, it's a sales device
+- Be wary of seeming social proof: watch for bad or incomplete data
 
 ### Clarify that it's just tech, not magic
 
@@ -83,7 +85,7 @@ The hype fulfils a capitalist function: keep the money coming in.
 
 ### Study the history of humans and technology
 
-Humans relationship with technology follows the time-tested patterns.
+Humans relationship with technology follows the time-tested patterns. Much technology over the past few centuries has widened the gaps.
 
 1. New technology promises an easy life and liberation from toil
 2. The promises drive adoption
@@ -106,6 +108,11 @@ These didn’t eradicate the previous technology, they just replaced some specif
 - Social media - we still meet in person
 - React JS - we still write other code
 - Automated testing - we still do manual testing
+
+And some technology just fizzles out.
+
+- Blockchain
+- NFTs
 
 #### Notice how history is repeating itself
 {:.no_toc}
@@ -210,13 +217,15 @@ AI causes widespread and varied harms.
 
 ### Show how reliance on AI devalues human lived experience
 
-- **Atrophying critical thinking and analysis skills**
+- **Atrophying skills: critical thinking and analysis skills**
     - We learn by actively applied effort, not by passively reading answers
+- **Devaluing human skills: contextual awareness, conflict resolution.**
 - **Presenting the product as more important than the product**
     - The process is part of the product
     - Thinking and understanding happens as we write, draw, code
 - **Devaluing practical, lived experience**
     - Prioritising and framing theoretical knowledge as more important than practical knowledge
+    - "In theory there's no difference between theory and practice. In practice there is." - Yogi Berra
 - **Narrowing our curiosity**
     - When we start with AI as a solution, we look for problems that AI can solve
     - An LLM can sometimes give the most popular answer to a question, but the human has to ask the right question
