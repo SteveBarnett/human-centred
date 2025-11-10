@@ -15,7 +15,7 @@ There are a few approaches we can take.
 - **Discuss the reasons why they're usually not a good choice.** "[Should I use an carousel](https://shouldiuseacarousel.com/)" brings a humorous take on it, and some quotes and links out to sources.
     - They're often not very accessible, in particular auto-playing ones failing under WCAG SC 2.2.2 Pause, Stop, Hide (A) and a lack of keyboard accessibility
     - Users tend to ignore them, sometimes mentally classifying them as advertising
-    - The content tends to chosen from motives that are not user-centred
+    - The content tends to be chosen from motives that are not user-centred
 - **Offer some alternatives.**
     - [Anton Sten's Why carousels don't work](https://www.antonsten.com/articles/why-carousels-dont-work/) suggests considering prioritised messaging and content hierarchy.
     - Choose more carefullly and show fewer things, removing the need for a carousel
