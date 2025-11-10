@@ -28,6 +28,7 @@ Follow some good advice on making the most usable and accessible carousel we can
 - [Brad Frost's Carousels article](https://bradfrost.com/blog/post/carousels/) has some advice and a call-to-action to gather data to measure their actual effectiveness
 - Smashing Magazine has an in-depth article: [A Step-By-Step Guide To Building Accessible Carousels](https://www.smashingmagazine.com/2023/02/guide-building-accessible-carousels/)
 - [Heydon Pickering's Inclusive components includes A Content Slider](https://inclusive-components.design/a-content-slider/)
+- The [Carousels Tutorial at WAI](https://www.w3.org/WAI/tutorials/carousels/)
 - The [ARIA Authoring Practices Guide includes a Carousel (Slide Show or Image Rotator) Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/carousel/).
     - As with all APG patterns, follow their Keyboard Interaction and WAI-ARIA Roles, States, and Properties guidance, but don't rely too much on their example code. As they say at the start of each example page: "The code in this example is not intended for production environments."
 
@@ -37,7 +38,7 @@ Like any component, it's possible to make carousel technically accessible (notin
 
 ### Carousel isn't identified programmatically
 
-- Screen reader users won't be told about that it's a carousel
+- Screen reader users won't be told that it's a carousel
 - To fix it: wrap the carousel in a `role="region"`{: .attr} and give it an accessible name
 
 ### Carousel auto-plays and can't be stopped 
