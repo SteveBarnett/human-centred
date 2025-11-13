@@ -268,12 +268,15 @@ details {
   div {
     padding: 0.5em;
   }
-}
 
-details {
   p {
     padding-top: 1em;
     padding-left: 1em;
+  }
+
+  h2 {
+    display: inline;
+    margin-bottom: 0;
   }
 }
 
