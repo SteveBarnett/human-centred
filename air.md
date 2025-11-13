@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-11-09
+updated: 2025-11-12
 ---
 
 This is mostly about LLMs. It's a sketch of some of the things that have me concerned. I'll bounce between using "LLMs" (which is mostly what I mean) and "AI" (which is mostly what we say in everyday conversation).
@@ -122,6 +122,13 @@ And some technology just fizzles out.
 3. They realise AI is doing a low quality, error-ridden, version of the job
 4. They rehire the people, on lower pay and benefits, to fix the mistakes and babysit the AI
 
+### Notice AI's part in the enshittification of the Web
+
+1. Platforms are good to their users.
+2. They abuse their users to make things better for their business customers.
+3. Yhey abuse those business customers to claw back all the value for themselves.
+4. They have become a giant pile of shit.
+
 ## 2. Fight The Power
 
 <div class="boxout">
@@ -142,6 +149,7 @@ In [the historical and philosophical sense](https://en.wikipedia.org/wiki/Cynici
     - What do we want to achieve?
     - Social and systemic problems rarely have technology solutions
     - Problems are often best understood looking at the wider context and systems
+    - Address the root cause of the problem, not the surface-level symptoms
 - Ask why we're using AI instead of doing something else 
     - Put the burden of proof of effectiveness on the AI systems
     - Extraordinary claims require extraordinary proof
@@ -151,8 +159,11 @@ In [the historical and philosophical sense](https://en.wikipedia.org/wiki/Cynici
     - What happens to the humans?
 - Take a craftsperson approach to choosing to use AI (and tool selection in general)
     - Use when the positive impacts on the core factors (of success and happiness) outweigh the negative impacts
+    - Everything creates some problems
 - Check if the iron triangle still applies. Fast, cheap, good: pick two.
     - If it looks like all three, look more closely to see the hidden cost or lower quality.
+- Start with low-fidelity, not the high-fidelity that AI gives us
+    - It distracts us by presuming the conceptual and operational decisions have been made and are fixed
 
 ### Don't use AI at all
 
@@ -221,6 +232,7 @@ AI causes widespread and varied harms.
 
 - **Atrophying skills: critical thinking and analysis skills**
     - We learn by actively applied effort, not by passively reading answers
+    - Note that it works in a feedback loop
 - **Devaluing human skills: contextual awareness, conflict resolution.**
 - **Presenting the product as more important than the product**
     - The process is part of the product
@@ -234,6 +246,7 @@ AI causes widespread and varied harms.
 - **Deskilling humans**
     - Existing training data comes from learned human experience and knowledge
     - If people stop learning those skills, we'll struggle to answer new questions
+- Quick fixes (someone using AI) treat the slower version (someone not using AI) as second-class
 
 ## Common objections
 
