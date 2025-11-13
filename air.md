@@ -58,14 +58,12 @@ The hype fulfils a capitalist function: keep the money coming in.
 - Don’t mistake conviction for correctness
 
 #### Ask for the details and specifics
-{:.no_toc}
 
 - What is being automated?
 - What are the inputs?
 - What are the outputs?
 
 #### Be wary of anthropomorphising
-{:.no_toc}
 
 - LLMs are not sentient or conscious: they can't choose or select or decide or interpet
     - We add meaning and mind into language, we see human-like features
@@ -74,7 +72,6 @@ The hype fulfils a capitalist function: keep the money coming in.
 - LLMs cannot have empathy or personal interest: these things require subjective experience and human connection
 
 #### Notice where humans are involved
-{:.no_toc}
  
 - The training data is produced by humans
     - Although we are entering a slop feedback loop
@@ -96,7 +93,6 @@ Humans relationship with technology follows the time-tested patterns. Much techn
 The tech industry in particular leans towards trying to eliminating people from the process.
 
 #### Recall recent examples of "just tech, not magic"
-{:.no_toc}
 
 These didn’t eradicate the previous technology, they just replaced some specific uses. Consider the impact these have had on the human race. Are we happier, healthier, more fulfilled?
 
@@ -115,7 +111,6 @@ And some technology just fizzles out.
 - NFTs
 
 #### Notice how history is repeating itself
-{:.no_toc}
 
 1. Companies adopting AI at large scales, spending large amounts of money on it
 2. They fire many people, saying AI will do their job
@@ -209,7 +204,6 @@ AI causes widespread and varied harms.
 ### Critique the narrow inputs and low quality outputs
 
 #### Problems with the inputs
-{:.no_toc}
 
 - **Only recorded data.** LLM training data is all our recorded human knowledge. There’s lots of human experience that isn’t and can’t be recorded. The embodied experience, the wider context of human life and interaction.
 - **Mostly Western data.** Western ideas and approaches are seen as objective and universal, rather than one slice of culture and history
@@ -217,7 +211,6 @@ AI causes widespread and varied harms.
 - **Mostly discriminatory data.** The data replicates the biases and power imbalances of the physical world. LLMs mirror back our patterns of discrimination, including gender, gender identity and expression, sexual orientation, disability, race, religion, ethnicity.
 
 #### Problems with the outputs
-{:.no_toc}
 
 - **Shortening, not summarising.** Summarising requires extended context. AI "summaries" are shortening existing human summaries.
 - **Mode amplification.** The most frequent data points are represented as the one true answer.
