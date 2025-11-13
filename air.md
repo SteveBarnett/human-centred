@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-11-12
+updated: 2025-11-14
 ---
 
 This is mostly about LLMs. It's a sketch of some of the things that have me concerned. I'll bounce between using "LLMs" (which is mostly what I mean) and "AI" (which is mostly what we say in everyday conversation).
@@ -47,11 +47,15 @@ Ask a lot of questions.
 
 The hype fulfils a capitalist function: keep the money coming in.
 
-- What the salesperson says it can do, so you'll spend on it
-- The hype doesn’t have to be true to have big impacts
+- What the salesperson says it can do, so the boss will spend on it
+    - AI can't do your job
+    - An AI salesman can convince your boss it
+    - Your boss can replace you with the AI (that can't do your job)
+    - This is a marketing strategy, not a production strategy
 - Ask what the outcome is, what value is being produced, for who
 - Be wary of free stuff: it's not a gift, it's a sales device
 - Be wary of seeming social proof: watch for bad or incomplete data
+- Classic con job outcome: the pitch is so convincing that when it doesn't work, the boss assumes they just used it wrong
 
 ### Clarify that it's just tech, not magic
 
@@ -125,7 +129,7 @@ And some technology just fizzles out.
 
 1. Platforms are good to their users.
 2. They abuse their users to make things better for their business customers.
-3. Yhey abuse those business customers to claw back all the value for themselves.
+3. They abuse those business customers to claw back all the value for themselves.
 4. They have become a giant pile of shit.
 
 ## 2. Fight The Power
@@ -161,8 +165,11 @@ In [the historical and philosophical sense](https://en.wikipedia.org/wiki/Cynici
     - Everything creates some problems
 - Check if the iron triangle still applies. Fast, cheap, good: pick two.
     - If it looks like all three, look more closely to see the hidden cost or lower quality.
+    - Keep in mind that we have ongoing obsession with speed being good (exemplified by "Move fast and break things")
 - Start with low-fidelity, not the high-fidelity that AI gives us
     - It distracts us by presuming the conceptual and operational decisions have been made and are fixed
+- Check everything it produces in fine detail
+    - AI is know to be inconsistent and inaccurate, to contain errors and omissions
 
 ### Don't use AI at all
 
@@ -175,6 +182,7 @@ In [the historical and philosophical sense](https://en.wikipedia.org/wiki/Cynici
 - Borrow from the Slow movement playbook
     - Offer alternatives, drawn from time-tested traditions (including existing, old, laws and rules and ethics)
 - Don’t use harmful technology, even if it's well-tested and tweaked
+- It is not, and has never been, a substitute for professional advice (despite how convincing it the language it uses is)
 
 ### Use a human-centred, people-first, approach
 
@@ -203,7 +211,7 @@ AI causes widespread and varied harms.
 - **Ethical harm.** Underpaid and traumatised gig workers on the training data and doing Reinforcement Learning from Human Feedback.
 - **Psychological harm.** People talking to ChatGPT over their loved ones, school, or work.
 - **Deadly harm**. AI-assisted suicides.
-- **Financial harm.** Huge amounts of money to run and AI companies don't, and can't, charge enough to balance the books. Multi-billion dollar investments with little or no return.
+- **Financial harm.** Huge amounts of money to run and AI companies don't, and can't, charge enough to balance the books. Multi-billion dollar investments with little or no return. The way they're recoup the costs is massive job cuts.
 
 ### Critique the narrow inputs and low quality outputs
 
