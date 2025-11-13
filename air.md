@@ -18,11 +18,15 @@ The three big ideas:
 
 ---
 
-## Table of contents
-{:.no_toc}
-
+<details>
+<summary>
+<h2>Table of contents</h2>
+</summary>
+<div markdown="1">
 * tic
 {:toc}
+</div>
+</details>
 
 ---
 
