@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-11-14
+updated: 2025-11-15
 ---
 
 This is mostly about LLMs. It's a sketch of some of the things that have me concerned. I'll bounce between using "LLMs" (which is mostly what I mean) and "AI" (which is mostly what we say in everyday conversation).
@@ -56,6 +56,8 @@ The hype fulfils a capitalist function: keep the money coming in.
 - Be wary of free stuff: it's not a gift, it's a sales device
 - Be wary of seeming social proof: watch for bad or incomplete data
 - Classic con job outcome: the pitch is so convincing that when it doesn't work, the boss assumes they just used it wrong
+- Don’t mistake conviction for correctness
+- The real breakthrough is always just around the corner
 
 ### Clarify that it's just tech, not magic
 
@@ -63,7 +65,6 @@ The hype fulfils a capitalist function: keep the money coming in.
 
 - AI is a tool that people use to do things, it does nothing on its own
 - LLMs are big and very complex text automation machines, matching similar words and words that are likely to appear in similar contexts
-- Don’t mistake conviction for correctness
 
 #### Ask for the details and specifics
 
@@ -86,7 +87,8 @@ The hype fulfils a capitalist function: keep the money coming in.
 - The output is tweaked by Reinforcement Learning from Human Feedback
     - We train the models for what we expect or want to hear, not what is true or correct
 - It’s more like regurgitative AI than generative AI
-    - The output is a grey paste of human creativity        
+    - AI can only create degrading copies of what we've already made
+    - The output is a grey paste of human creativity
 
 ### Study the history of humans and technology
 
@@ -99,6 +101,8 @@ Humans relationship with technology follows the time-tested patterns. Much techn
 5. People are moved into roles that they're underpaid and overqualified for, in worse conditions
 
 The tech industry in particular leans towards trying to eliminating people from the process.
+
+It turns out human are good at building the [Torment Nexus](https://en.wikipedia.org/wiki/Torment_Nexus). But/and good at breaking it down. Again.
 
 #### Recall recent examples of "just tech, not magic"
 
@@ -211,7 +215,11 @@ AI causes widespread and varied harms.
 - **Ethical harm.** Underpaid and traumatised gig workers on the training data and doing Reinforcement Learning from Human Feedback.
 - **Psychological harm.** People talking to ChatGPT over their loved ones, school, or work.
 - **Deadly harm**. AI-assisted suicides.
-- **Financial harm.** Huge amounts of money to run and AI companies don't, and can't, charge enough to balance the books. Multi-billion dollar investments with little or no return. The way they're recoup the costs is massive job cuts.
+- **Financial harm.**
+    - Multi-billion dollar investments with little or no return.
+    - AI companies don't, and can't, charge enough to balance the books.
+    - The way they're recouping the costs is massive job cuts.
+    - It has to pay off, even if it doesn't work.
 
 ### Critique the narrow inputs and low quality outputs
 
