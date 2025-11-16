@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-11-15
+updated: 2025-11-16
 ---
 
 This is mostly about LLMs. It's a sketch of some of the things that have me concerned. I'll bounce between using "LLMs" (which is mostly what I mean) and "AI" (which is mostly what we say in everyday conversation).
@@ -58,6 +58,8 @@ The hype fulfils a capitalist function: keep the money coming in.
 - Classic con job outcome: the pitch is so convincing that when it doesn't work, the boss assumes they just used it wrong
 - Don’t mistake conviction for correctness
 - The real breakthrough is always just around the corner
+- If AI is going to save humanity, why it being used to make slop, like Sora?
+    - We were sold that it would cure cancer, solve climate change
 
 ### Clarify that it's just tech, not magic
 
