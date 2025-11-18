@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-11-16
+updated: 2025-11-19
 ---
 
 This is mostly about LLMs. It's a sketch of some of the things that have me concerned. I'll bounce between using "LLMs" (which is mostly what I mean) and "AI" (which is mostly what we say in everyday conversation).
@@ -159,6 +159,10 @@ In [the historical and philosophical sense](https://en.wikipedia.org/wiki/Cynici
     - Social and systemic problems rarely have technology solutions
     - Problems are often best understood looking at the wider context and systems
     - Address the root cause of the problem, not the surface-level symptoms
+- Be clear on what the problem is
+    - What's the problem we're trying to solve?
+    - What evidence do we have that it's a problem now?
+    - If it's not a problem now, what are the early warning signs that it will be a problem?
 - Ask why we're using AI instead of doing something else 
     - Put the burden of proof of effectiveness on the AI systems
     - Extraordinary claims require extraordinary proof
@@ -271,6 +275,7 @@ AI causes widespread and varied harms.
     - How do we know that it's because of AI?
 - Everyone else is doing it
     - This is a silly reason
+    - It's not a good reason on its own: if everyone else was doing something clearly bad, we wouldn't do it
 - The ones using it are more productive
     - Ask for second order effects: what has been the measurable outcome for the employees and for the company?
 - It's inevitable
@@ -278,7 +283,6 @@ AI causes widespread and varied harms.
 - It's okay to use copyrighted data, it wouldn't work otherwise
     - If it doesn't function without consent, it doesn't deserve to function
 - It's a good replacement for a therapist / doctor / skilled professional
-
 - It makes writing so much faster!
     - Apply the iron triangle and see what's happening
 - It might not be good now, but it'll get better with time
