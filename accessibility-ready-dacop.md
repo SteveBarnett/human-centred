@@ -364,8 +364,6 @@ Use an "Accessibility Ready" document!
 
 Come and say hi at:
 
-- [D]igital Accessibility Discussion Group](https://wellingtonuni-professional.nz/course/digital-accessibility-discussion-group/)
+- [Digital Accessibility Discussion Group](https://wellingtonuni-professional.nz/course/digital-accessibility-discussion-group/)
 - [Wellington Web Accessibility meetup](https://docs.google.com/forms/d/1aN_P6IRywG7VfuTlMMaxOj1zL94DyniduYyUIZEoCJg/viewform)
 - [NZ Tech Rally conference](https://nztechrally.nz/)
-
-
