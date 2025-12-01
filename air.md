@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-11-19
+updated: 2025-12-02
 ---
 
 This is mostly about LLMs. It's a sketch of some of the things that have me concerned. I'll bounce between using "LLMs" (which is mostly what I mean) and "AI" (which is mostly what we say in everyday conversation).
@@ -102,9 +102,14 @@ Humans relationship with technology follows the time-tested patterns. Much techn
 4. Demand for skilled labour is reduced
 5. People are moved into roles that they're underpaid and overqualified for, in worse conditions
 
-The tech industry in particular leans towards trying to eliminating people from the process.
+The tech industry in particular leans towards trying to eliminating people from the process. It turns out human are good at building the [Torment Nexus](https://en.wikipedia.org/wiki/Torment_Nexus). But/and good at breaking it down. Again.
 
-It turns out human are good at building the [Torment Nexus](https://en.wikipedia.org/wiki/Torment_Nexus). But/and good at breaking it down. Again.
+Some examples of this in a broad sense:
+
+Related, but not quite the same thing: 
+
+- Domestic technology like washing machines and vacuums. They were supposed to be labour-saving technology, but instead they upped the baseline of cleanliness. So that's meant more work, not less.
+- Internet speeds. As the speed of connections have gone up, the size of websites has gone up. So things aren't generally very fast, especially for the majority world on lower-end Android devices.
 
 #### Recall recent examples of "just tech, not magic"
 
@@ -121,6 +126,7 @@ These didn’t eradicate the previous technology, they just replaced some specif
 
 And some technology just fizzles out.
 
+- Virtual Reality
 - Blockchain
 - NFTs
 
@@ -138,6 +144,10 @@ And some technology just fizzles out.
 3. They abuse those business customers to claw back all the value for themselves.
 4. They have become a giant pile of shit.
 
+### Be wary of the innovation delusion
+
+The (false) that innovation and novelty will lead only to growth and profit. In reality, we accumulate maintenance debt, leading to burnout and increasing levels of exploitation and inequality.
+
 ## 2. Fight The Power
 
 <div class="boxout">
@@ -151,14 +161,21 @@ In [the historical and philosophical sense](https://en.wikipedia.org/wiki/Cynici
 - Notice that some technology (and social structures, laws, customs, conventions) foster bad behaviour.
 - Reject the terms, refuse to play the rigged game, say no. "I would prefer not to" like [Bartleby, the Scrivener](https://en.wikipedia.org/wiki/Bartleby,_the_Scrivener).
 
+### Use AI (very carefully)
+
+Check everything it produces for accuracy and consistency
+
 ### Use AI less
 
 - Start with the problem, don't start with AI as the solution
     - What's our goal?
     - What do we want to achieve?
     - Social and systemic problems rarely have technology solutions
+        - Remember that some of the huge improvements like abolition of slavery or voting rights for women had little to do with technological change
     - Problems are often best understood looking at the wider context and systems
     - Address the root cause of the problem, not the surface-level symptoms
+    - As an [role] I want to [activity], so I can [value]
+    - When [situation], I want to [motivation], so I can [outcome]
 - Be clear on what the problem is
     - What's the problem we're trying to solve?
     - What evidence do we have that it's a problem now?
@@ -226,6 +243,7 @@ AI causes widespread and varied harms.
     - AI companies don't, and can't, charge enough to balance the books.
     - The way they're recouping the costs is massive job cuts.
     - It has to pay off, even if it doesn't work.
+- **Maintenance neglect** from chasing the new and shiny. This often brings more harm to people in worse socioeconomic situations.
 
 ### Critique the narrow inputs and low quality outputs
 
@@ -251,11 +269,14 @@ AI causes widespread and varied harms.
 
 - **Atrophying skills: critical thinking and analysis skills**
     - We learn by actively applied effort, not by passively reading answers
+    - True understanding requires effortful engagement
     - Note that it works in a feedback loop
+    - Thinking benefits from a similar principle of “time under tension” 
 - **Devaluing human skills: contextual awareness, conflict resolution.**
 - **Presenting the product as more important than the product**
     - The process is part of the product
     - Thinking and understanding happens as we write, draw, code
+    - Writing is not a second thing that happens after thinking. The act of writing is an act of thinking.
 - **Devaluing practical, lived experience**
     - Prioritising and framing theoretical knowledge as more important than practical knowledge
     - "In theory there's no difference between theory and practice. In practice there is." - Yogi Berra
