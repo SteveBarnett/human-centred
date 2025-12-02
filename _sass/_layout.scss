@@ -146,3 +146,50 @@ section {
 details {
   margin-bottom: 1em;
 }
+
+.slide {
+  padding: 1rem 2rem 0.5rem;
+  color: #fff;
+  background-color: #820;
+  // min-height: 20rem;
+  h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: normal;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
+}
+
+.slide-title {
+  background-color: #611;
+}
+
+.slide-section {
+  background-color: #500;
+}
+
+.slide-mit {
+  background-color: #033;
+}
+
+.slide-question {
+  background-color: #404;
+}
+
+.slide-full {
+  padding: 0;
+}
+
+.slide-aside {
+  background-color: #040;
+}
+
+.slide-agenda {
+  background-color: #322;
+}
