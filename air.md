@@ -1,8 +1,10 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-12-02
+updated: 2025-12-07
 ---
+
+TODO: Short summary at top, actions to take.
 
 This is mostly about LLMs. It's a sketch of some of the things that have me concerned. I'll bounce between using "LLMs" (which is mostly what I mean) and "AI" (which is mostly what we say in everyday conversation).
 
@@ -66,7 +68,7 @@ The hype fulfils a capitalist function: keep the money coming in.
 “[Sufficiently advanced technology is indistinguishable from magic](https://en.wikipedia.org/wiki/Clarke's_three_laws#The_laws).”
 
 - AI is a tool that people use to do things, it does nothing on its own
-- LLMs are big and very complex text automation machines, matching similar words and words that are likely to appear in similar contexts
+- LLMs are big and very complex text automation machines, guessing similar words and words that are likely to appear in similar contexts
 
 #### Ask for the details and specifics
 
@@ -74,11 +76,14 @@ The hype fulfils a capitalist function: keep the money coming in.
 - What are the inputs?
 - What are the outputs?
 
+Is it an LLM saying LLMs can do you job?
+
 #### Be wary of anthropomorphising
 
 - LLMs are not sentient or conscious: they can't choose or select or decide or interpet
     - We add meaning and mind into language, we see human-like features
     - Compare LLMs to other AI: no-one is saying that image generation tools are communicating with us with their output
+    - Word guessing machines won't become conscious by being fed more and more words (Like a horse going faster and faster won't become a car)
 - Some anthropomorphism comes from the UI and UX of the tools
 - LLMs cannot have empathy or personal interest: these things require subjective experience and human connection
 
@@ -161,9 +166,10 @@ In [the historical and philosophical sense](https://en.wikipedia.org/wiki/Cynici
 - Notice that some technology (and social structures, laws, customs, conventions) foster bad behaviour.
 - Reject the terms, refuse to play the rigged game, say no. "I would prefer not to" like [Bartleby, the Scrivener](https://en.wikipedia.org/wiki/Bartleby,_the_Scrivener).
 
-### Use AI (very carefully)
+### Use AI very carefully
 
-Check everything it produces for accuracy and consistency
+- Check everything it produces for accuracy and consistency
+- Declare your use of AI, with details
 
 ### Use AI less
 
@@ -236,13 +242,18 @@ AI causes widespread and varied harms.
 - **Ecological, environmental, harm.** Google, Microsoft, and OpenAI are dramatically missing their climate pledges because of AI.
 - **Cultural harm.** Violent disregard for copyright in the training data.
 - **Ethical harm.** Underpaid and traumatised gig workers on the training data and doing Reinforcement Learning from Human Feedback.
-- **Psychological harm.** People talking to ChatGPT over their loved ones, school, or work.
+- **Psychological harm.** People talking to ChatGPT instead their loved ones, school, or work.
 - **Deadly harm**. AI-assisted suicides.
 - **Financial harm.**
-    - Multi-billion dollar investments with little or no return.
+    - Hundreds of billions of dollar investments with little or no return.
+        - About 25% of the US stock market
     - AI companies don't, and can't, charge enough to balance the books.
-    - The way they're recouping the costs is massive job cuts.
+    - One of the way they're recouping the costs is massive job cuts.
+    - They're using accounting tricks to pass around IOUs, hiding some of the debt.
+        - Nvidia chips to OpenAI Chat GPT to Oracle cloud to Nvidia chips ...
     - It has to pay off, even if it doesn't work.
+        - If the bet fails, the bubble bursts and the stock market crashes
+        - If the bet succeeds, immense power gets concentrated in a few Big Tech companies
 - **Maintenance neglect** from chasing the new and shiny. This often brings more harm to people in worse socioeconomic situations.
 
 ### Critique the narrow inputs and low quality outputs
@@ -259,7 +270,7 @@ AI causes widespread and varied harms.
 - **Shortening, not summarising.** Summarising requires extended context. AI "summaries" are shortening existing human summaries.
 - **Mode amplification.** The most frequent data points are represented as the one true answer.
 - **Confabulation**. LLMs output often contains Confident Bullshitting. Made up things presented them as facts.
-    - Not "hallucination". Hallucination is perceiving something that's not really there. LLMs do not perceive anything.
+- **Not "hallucination".** Just an error, a mistake. Hallucination is perceiving something that's not really there. LLMs do not perceive anything.
 - **The Wikipedia version of reality.** The style of the output is the rational discourse of the educated classes of society.
 - **Sycophantic.** LLMs are built to people-please, not to give true or correct answers.
 - **Low quality, high quantity.** LLMs are filling the web with slop.
@@ -285,6 +296,7 @@ AI causes widespread and varied harms.
     - An LLM can sometimes give the most popular answer to a question, but the human has to ask the right question
 - **Deskilling humans**
     - Existing training data comes from learned human experience and knowledge
+    - When you use AI to do something, the skill you learn is using AI, not the thing
     - If people stop learning those skills, we'll struggle to answer new questions
 - Quick fixes (someone using AI) treat the slower version (someone not using AI) as second-class
 
@@ -313,3 +325,16 @@ AI causes widespread and varied harms.
     - When would we decide to give up on it?
 - If it's not doing a good job, it's because you're prompting it wrong
     - This feels like blaming the user
+- This is not deskilling, it’s upskilling
+- It frees time for more valuable work / AI does the grunt work, you can be creative!
+- AI is here to stay
+- You must align with company values
+- There are ways to use AI ethically
+- Are you some sort of Luddite?
+- It’s workers job to review bad AI output
+- If you don’t learn AI, you won’t grow your career
+- Investors / funders / the board are saying we have to use it
+- You’re just not using it right
+- Customers are asking for it
+- You’re not being mentally curious
+- We’ll ensure data safety and privacy
