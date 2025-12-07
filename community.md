@@ -7,7 +7,6 @@ title: Community
 
 {% include community.md %}
 
-
 ## Workshops and speaking
 
 Here are some recent talks and workshops that I've done.
@@ -15,6 +14,7 @@ Here are some recent talks and workshops that I've done.
 #### 2025
 {: #workshops-and-talks-2025 }
 
+- November 2025 - **Getting “Accessibility Ready” for a Design System** (including 6 months later epilogue) at [Digital Accessibility Community of Practice](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/digital-accessibility-community-of-practice); [HTML version of talk](/accessibility-ready-dacop/).
 - September 2025 - **Getting “Accessibility Ready” for a Design System** at [Inclusive Design 24](https://inclusivedesign24.org/2025/); [video on YouTube](https://www.youtube.com/watch?v=mByeTl0P9FM).
 
 #### 2024
