@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-12-07
+updated: 2025-12-09
 ---
 
 TODO: Short summary at top, actions to take.
@@ -126,6 +126,7 @@ These didn’t eradicate the previous technology, they just replaced some specif
 - Computers - we still do things by hand
 - Mobile phones - we do still do things on other devices
 - Social media - we still meet in person
+    - "We're alone together using these tools"
 - React JS - we still write other code
 - Automated testing - we still do manual testing
 
@@ -168,6 +169,7 @@ In [the historical and philosophical sense](https://en.wikipedia.org/wiki/Cynici
 
 ### Use AI very carefully
 
+- Be an expert in your domain when using it
 - Check everything it produces for accuracy and consistency
 - Declare your use of AI, with details
 
