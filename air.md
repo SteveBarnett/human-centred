@@ -1,10 +1,10 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-12-09
+updated: 2025-12-17
 ---
 
-TODO: Short summary at top, actions to take.
+<!-- TODO: Short summary at top, actions to take. -->
 
 This is mostly about LLMs. It's a sketch of some of the things that have me concerned. I'll bounce between using "LLMs" (which is mostly what I mean) and "AI" (which is mostly what we say in everyday conversation).
 
@@ -142,6 +142,10 @@ And some technology just fizzles out.
 2. They fire many people, saying AI will do their job
 3. They realise AI is doing a low quality, error-ridden, version of the job
 4. They rehire the people, on lower pay and benefits, to fix the mistakes and babysit the AI
+
+### Be wary of the Inevitability Narrative
+
+If it's so good, why is it being pushed so hard, into so many places?
 
 ### Notice AI's part in the enshittification of the Web
 
@@ -283,8 +287,10 @@ AI causes widespread and varied harms.
 - **Atrophying skills: critical thinking and analysis skills**
     - We learn by actively applied effort, not by passively reading answers
     - True understanding requires effortful engagement
+        - missing “desirable difficulty” (when short-term difficulty means more long-term success)
     - Note that it works in a feedback loop
     - Thinking benefits from a similar principle of “time under tension” 
+    - AI use impacts the formation of minds and how we learn to reason, to discern truth
 - **Devaluing human skills: contextual awareness, conflict resolution.**
 - **Presenting the product as more important than the product**
     - The process is part of the product
@@ -303,6 +309,8 @@ AI causes widespread and varied harms.
 - Quick fixes (someone using AI) treat the slower version (someone not using AI) as second-class
 
 ## Common objections
+
+<!-- TODO: Finish up this list, with retorts -->
 
 - We'll fall behind if we don't use it
     - Ask for specifics on competitors
