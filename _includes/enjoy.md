@@ -1,1 +1,4 @@
-<p id="enjoy">The things I most enjoy doing at work are: supporting, teaching / training, writing, presenting, and coding. There's some overlap between these.</p>
+- The kinds of work I enjoy the most are: supporting (like consulting or reviewing), training, writing, presenting, and coding.
+- My priority is making things better for the humans using them, rather than busy work or "number go up" work.
+- I strongly prefer working on things with a local (Aotearoa New Zealand) flavour.
+{: #enjoy}
