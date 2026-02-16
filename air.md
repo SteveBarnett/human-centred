@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Resistance
-updated: 2025-12-17
+updated: 2026-01-28
 ---
 
 <!-- TODO: Short summary at top, actions to take. -->
@@ -292,10 +292,11 @@ AI causes widespread and varied harms.
     - Thinking benefits from a similar principle of “time under tension” 
     - AI use impacts the formation of minds and how we learn to reason, to discern truth
 - **Devaluing human skills: contextual awareness, conflict resolution.**
-- **Presenting the product as more important than the product**
+- **Presenting the process as more important than the product**
     - The process is part of the product
     - Thinking and understanding happens as we write, draw, code
     - Writing is not a second thing that happens after thinking. The act of writing is an act of thinking.
+    - Don't confuse the goal with the purpose.
 - **Devaluing practical, lived experience**
     - Prioritising and framing theoretical knowledge as more important than practical knowledge
     - "In theory there's no difference between theory and practice. In practice there is." - Yogi Berra
