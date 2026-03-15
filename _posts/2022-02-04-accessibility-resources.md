@@ -34,7 +34,7 @@ Also great is [Intopia's Accessibility Not-Checklist](https://not-checklist.into
 
 - [Adrian Roselli](https://adrianroselli.com/)
 - [Heydon Pickering’s Inclusive Components](https://inclusive-components.design/)
-- [Hidde de Vries](https://hiddedevries.nl/en/blog/)
+- [Hidde de Vries](https://hidde.blog/blog/)
 - [Léonie Watson](https://tink.uk/)
 - [Scott O'Hara](https://www.scottohara.me/)
 
@@ -47,9 +47,7 @@ Also great is [Intopia's Accessibility Not-Checklist](https://not-checklist.into
 
 - [A Web for Everyone – Designing Accessible User Experiences by Sarah Horton & Whitney Quesenbery](https://rosenfeldmedia.com/books/a-web-for-everyone/)
 - [Accessibility for Everyone by Laura Kalbag](https://abookapart.com/products/accessibility-for-everyone)
-- [Apps For All: Coding Accessible Web Applications by Heydon Pickering](https://shop.smashingmagazine.com/products/apps-for-all)
-- [Giving a damn about accessibility by Sheri Byrne-Haber](https://accessibility.uxdesign.cc/)
-- [Inclusive Design Patterns by Heydon Pickering](https://shop.smashingmagazine.com/products/inclusive-design-patterns)
+- [Inclusive Design Patterns by Heydon Pickering](https://shop.smashingmagazine.com/printed-books/inclusive-front-end-design-patterns/)
 - [Mismatch – How Inclusion Shapes Design by Kat Holmes](https://mitpress.mit.edu/books/mismatch)
 
 ## Training
@@ -69,5 +67,5 @@ Also great is [Intopia's Accessibility Not-Checklist](https://not-checklist.into
 - [A11y Camp](https://a11ycamp.com.au/)
 - [axe-con](https://www.deque.com/axe-con/)
 - [Inclusive Design 24](https://inclusivedesign24.org/2021/)
-- [Global Accessibility Awareness Day](https://globalaccessibilityawarenessday.org/)
+- [Global Accessibility Awareness Day](https://accessibility.day/)
 
