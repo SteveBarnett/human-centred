@@ -5,6 +5,12 @@ title: Community - Archive
 
 Read about more recent workshops and talks on [my community page](/community/#workshops-and-speaking).
 
+### 2023
+{: #workshops-and-talks-2023 }
+
+- April 2023 - **Dungeons and Dragons and Accessibility** talk at [Code Camp Wellington](https://www.codecampwellington.nz/): [slides on SpeakerDeck](https://speakerdeck.com/stevebarnett/d-and-d-and-accessibility); [blog post version of the talk](/2022/05/15/dungeons-and-dragons-and-accessibility/).
+- April 2023 - **The ups and downs of working in Accessibility (using tennis as a metaphor)** talk at [Auckland Digital Accessibility and Inclusive Design Meetup](https://www.meetup.com/auckland-digital-accessibility-and-inclusive-design-meetup/events/291195847), with [Maria Guichard](https://www.linkedin.com/in/maria-guichard/): [video on YouTube](https://www.youtube.com/watch?v=tpnZh4kpznU) (47m); [PDF version of slides](/img/2023/04/The ups and downs of working in Accessibility.pdf).
+
 ### 2022
 {: #workshops-and-talks-2022 }
 
