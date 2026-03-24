@@ -3,7 +3,7 @@ layout: page
 title: Community
 ---
 
-![Me speaking about accessibility at Code Camp Wellington 2023](/img/2023/04/ccw-speak.jpg){: .pull-right }
+![Me speaking about friction at Code Camp Wellington 2026](/img/2026/03/ccw-steve.jpg){: .pull-right.half }
 
 {% include community.md %}
 
