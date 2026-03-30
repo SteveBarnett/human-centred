@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Realism
-updated: 2026-03-27
+updated: 2026-03-31
 ---
 
 Note: in everyday conversation we tend to say "AI" when we mean "an LLM." I'll use "AI" here for convenience.
@@ -11,14 +11,13 @@ At the time of writing, it's looking like AI is: pretty good and writing code; p
 My three big ideas for AI Realism:
 
 1. **Don't Believe The Hype.**
-    - Be a sceptic. Ask lots of questions using a critical lens.
+    - Be a sceptic. Ask lots of questions using a critical lens. In particular: ask for the details and specifics.
 2. **Fight The Power.**
-    - Be a Cynic. Choose thoughtfully if and when to use AI. 
+    - Be a Cynic. Choose thoughtfully if and when to use AI. Sometimes choose not to use AI at all.
 3. **Bring The Noise.**
-    - Be a Luddite. (Also) Highlight the cons, downsides, and harms of using AI. 
+    - Be a Luddite. (Also) Highlight the cons, downsides, and harms of using AI. And: offer good, time-tested, alternatives.
 
 These phrases are all titles of songs by hip hop group [Public Enemy](https://en.wikipedia.org/wiki/Public_Enemy) (Yes, I did make [a short playlist of these three songs](https://www.youtube.com/playlist?list=PL_V3RIJw3YtweX5z5hv5cyv_-VZrGAD3l)!). I've chosen them because the words match. I've also chosen them because being anything other than an AI booster tends to get you treated as, well, a public enemy. I'm taking a deliberately slightly provocative stance as a counter-balance.
-
 
 ---
 
