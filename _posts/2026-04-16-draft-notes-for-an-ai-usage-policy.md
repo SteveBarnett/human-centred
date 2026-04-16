@@ -1,72 +1,51 @@
 ---
 title: Draft notes for an AI usage policy
 layout: post
-description: ???
-image: /img/2026/??/???.???
+description: A draft of a draft of an AI policy.
+image: /img/2026/04/aiup.png
 ---
 
 Having a policy for AI usage in the workplace is important. Below are some gathered notes, a sketch of a first draft of a policy.
 
+<h2>Table of contents</h2>
+
 * tic
 {:toc}
 
-## Use the right tool
+## Decide when to use it
 
 - Start with the problem rather than AI as the solution.
 - Decide where on the spectrum of "never use AI for this task" to "always use AI for this task" this task falls.
-- Use the right tool for the job.
+    - Consider whether the task requires thinking, evaluation, experience.
+- Be able to articulate why we're using it for this task.
+- Use it to learn and explore rather than to provide answers.
 
-## Do a reality check
+## Use it thoughtfully
 
-- Do a quick pros/cons analysis.
-    - What are the pros of using AI for this task?
-    - What are the cons of using AI for this task?
+- Do a quick pros/cons analysis of using it for this task.
     - Is the trade-off acceptable, and why?
-- Be clear on the details
-    - What is being automated?
-    - What are the inputs?
-    - What are the outputs?
+- Be clear on what's being automated, the inputs, and the outputs.
+- Have a hypothesis, an expected outcome, success criteria.
 
-## Decide when (and when not) to use AI
-
-- Be able to articulate why we're using AI for this task.
-- Adopt a scientist mindset
-    - What's our hypothesis, expected outcome?
-    - How will we check the output?
-    - What are our criteria for success?
-- Be wary of "comprehension debt".
-- Ask if the task requires critical thinking and analysis or just checking an AI output.
-- Use AI as to learn and explore rather than as an definitive oracle.
-
-## Measure the outcomes
-
-- Review the outcome to see whether using AI made a material improvement.
-
-## Check the output
+## Review the output
 
 - Recognise the potential for bias and errors.
-    - Errors and confabulation ("hallucinations") happen when asking: for specifics; about niche topics; for exact details.
-    - Check that the content is correct, relevant, current.
-- Check everything the AI produces, in fine detail.
-    - Check for accuracy and consistency, errors and omissions.
+    - Errors and confabulation are particularly likely around details and specifics, and for niche topics.
+    - Check for relevance, accuracy and consistency, errors and omissions.
     - Be particularly wary of plausible nonsense.
-- Have a verification checklist.
+- Use a verification checklist.
+- Measure the outcome to see whether using AI made a material improvement to the task.
 
-## Share our usage
+## Be a considerate coworker
 
-- Share how we used AI for this output.
-- Shared a field report of our usage.
-    - Concrete facts, not opinions and predictions.
+- Share respectfully and thoughtfully.
+    - Only share things we've reviewed thoroughly.
+    - Share a distilled summary or a link, not raw LLM output.
+    - Watch for effort asymmetry, and share it only when requested.
+- Realise that the responsibility, accountability, and reputation risk remains with us, not the AI.
+- Share how we used it for task.
+    - The facts, not opinions and predictions.
     - Include our context and our intended outcome.
-
-## Practice good etiquette
-
-- Read the output, check the facts, before we share it.
-- Share a distilled summary or a link; don't paste raw LLM output.
-- Share AI output only when requested.
-    - Watch for (the potential implied disrespect of the resulting) effort asymmetry.
-- Consider whether the interaction is more informational or relational.
-- Realise that the responsibility, accountability, and reputation remains with us, not the AI.
 - Treat questions and concerns with respect, kindness, and dignity.
     - A friendly, non-judgemental, approach.
 
