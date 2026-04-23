@@ -89,4 +89,4 @@ Sources:
 - [Radical Candor](https://www.radicalcandor.com/)
 - [Tiny Habits](https://tinyhabits.com/)
 - [What Makes Criticism So Sticky? - The Growth Equation](https://thegrowtheq.com/what-makes-criticism-so-sticky/)
-- [Compliment Without Awkwardness | ClearerThinking.org](https://programs.clearerthinking.org/how-to-compliment.html)
+- [Compliment Without Awkwardness - ClearerThinking.org](https://programs.clearerthinking.org/how-to-compliment.html)
