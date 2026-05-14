@@ -14,6 +14,7 @@ Here are some recent talks and workshops that I've done.
 ### 2026
 {: #workshops-and-talks-2026 }
 
+- May 2026 - **Getting "Accessibility Ready" for a Design System** at [NZ Tech Rally](https://nztechrally.nz/steve-barnett).
 - March 2026 - **The fiction of non-friction being favourable** at [Code Camp Wellington](https://www.codecampwellington.nz/); [HTML version of talk](/2026/03/16/the-fiction-of-non-friction-being-favourable/).
 
 ### 2025
