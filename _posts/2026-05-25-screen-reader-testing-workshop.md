@@ -12,6 +12,7 @@ image: /img/2025/07/srt-ds.png
 - **We're just covering getting started**
     - Most of the problems occur with foundational stuff, the building blocks of the web.
     - There's loads more to explore and learn if you're interested!
+- We'll be testing on [Research insight: accessibility of images](https://tetralogical.com/blog/2022/07/21/research-insight-accessibility-of-images/)
 
 If you just want the keyboard shortcuts, go to "Get help!" at the bottom of the page.
 
