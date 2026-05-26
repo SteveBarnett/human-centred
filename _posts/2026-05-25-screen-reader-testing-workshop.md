@@ -153,8 +153,8 @@ Trying moving down the page after jumping to a heading!
 
 | Action | NVDA | Narrator | VoiceOver |
 | --- | --- | --- | --- |
-| Previous image (graphic) | <kbd>Shift</kbd> + <kbd>g</kbd> | Not available | <kbd>VO</kbd> + <kbd>Cmd</kbd> + <kbd>g</kbd> |
-| Next image (graphic) | <kbd>g</kbd> | Not available | <kbd>VO</kbd> + <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>g</kbd> |
+| Next image (graphic) | <kbd>g</kbd> | Not available | <kbd>VO</kbd> + <kbd>Cmd</kbd> + <kbd>g</kbd> |
+| Previous image (graphic) | <kbd>Shift</kbd> + <kbd>g</kbd> | Not available | <kbd>VO</kbd> + <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>g</kbd> |
 
 ### Test the title
 
