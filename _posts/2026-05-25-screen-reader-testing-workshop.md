@@ -13,7 +13,7 @@ image: /img/2025/07/srt-ds.png
     - Most of the problems occur with foundational stuff, the building blocks of the web.
     - There's loads more to explore and learn if you're interested!
 
-If you just want the keyboard shortcuts, go to "Send help!" at the bottom of the page.
+If you just want the keyboard shortcuts, go to "Get help!" at the bottom of the page.
 
 <h2>Agenda</h2>
 
@@ -73,10 +73,10 @@ How was that? 🙃
 ### Testers, not users
 
 - **Don't worry about trying to have an "authentic" experience. That's not really possible!**
-    - If you don't use a SR every day, your experience won't be the same as someone who does.
+    - If you don't use a SR (screen reader) every day, your experience won't be the same as someone who does.
     - Your familiarity with the SR and the way of browsing is very different.
     - You can choose not to use it, some everyday users can't.
-    - But we can (also) do usability testing with everyday users!
+    - To find out about an authentic experience, we can do usability testing with everyday users!
 - **What we're trying to do is to find barriers that someone who uses a SR every day might encounter.**
     - That we can do, and we can compare what it looks like and what it sounds like.
 
@@ -87,7 +87,7 @@ Screen readers have two modes: **Browse mode** (which Narrator calls Scan Mode) 
 - In Browse mode, keystrokes perform reading and navigation actions by the screen reader.
 - In Forms mode, keystrokes perform data entry actions by the browser.
 
-Screen readers generally change modes automatically. For example: when tabbing into a form field.
+Screen readers generally change modes automatically. For example: when tabbing into a form field. You can also change modes manually.
 
 | Action | NVDA | Narrator | VoiceOver |
 | --- | --- | --- | --- |
@@ -106,7 +106,7 @@ Broadly speaking: **it should sound the same as it looks**.
 
 #### Variations between SRs
 
-Also known as: "Is it supposed to be 'button, save' or 'save, button'"?
+Some screen readers announce 'button, save' and some announce 'save, button'.
 
 **Different screen reader and browser combinations may announce the same thing slightly differently.** That's fine, and expected!
 
@@ -114,12 +114,12 @@ Briefly check that no information is missing across these variations. The order 
 
 ## 3. Set it up (practical 🫱)
 
-Okay, let's make our testing slightly easier by updating some shortcut keys and turning in highlighting.
+Okay, let's make our testing slightly easier by updating a shortcut key and turning on highlighting.
 
-### NVDA only: `NVDA key` and highlighting
+### NVDA only: `NVDA key` and Turn on highlighting
 
-- NVDA: Set a new `NVDA key`. Some people prefer <kbd>Caps Lock</kbd> as the NVDA key. In the menus, go to `Tools` > `Speech Viewer`.
-- NVDA: turn on Highlighting. In the menus, go to `Preferences` > `Vision`, and check `Enable Highlighting`. This lets you see where NVDA's cursor is.
+- Set a new `NVDA key`. Some people prefer <kbd>Caps Lock</kbd> as the NVDA key. In the menus, go to `Tools` > `Speech Viewer` (by using your mouse or <kbd>NVDA key`</kbd> + <kbd>N</kbd>).
+- Turn on Highlighting. In the menus, go to `Preferences` > `Vision`, and check `Enable Highlighting`. This lets you see where NVDA's cursor is.
 
 ### Speech viewer
 
@@ -127,11 +127,11 @@ NVDA and VoiceOver both let you view a text version of the speech. It doesn't al
 
 | Action | NVDA | Narrator | VoiceOver 
 | --- | --- | --- | --- |
-| Turn on the speech viewer | `Tools` > `Speech Viewer`: `Open the Speech Viewer` | ??? | `VoiceOver Utility` > `Visuals`: `Show caption panel` |
+| Turn on the speech viewer | `Tools` > `Speech Viewer`: `Open the Speech Viewer` | Not available | `VoiceOver Utility` > `Visuals`: `Show caption panel` |
 
 ## 4. Set if off (practical 🫱)
 
-Quick aside for VO:
+Quick aside for VoiceOver:
 
 Interact with (go into/out of) objects (like iframes, menus, application regions, etc.) : <kbd>VO</kbd> + <kbd>Shift</kbd> + <kbd>↓</kbd> / <kbd>↑</kbd>
 
@@ -153,8 +153,8 @@ Trying moving down the page after jumping to a heading!
 
 | Action | NVDA | Narrator | VoiceOver |
 | --- | --- | --- | --- |
-| Next image (graphic) | <kbd>Shift</kbd> + <kbd>g</kbd> | Not available | <kbd>VO</kbd> + <kbd>Cmd</kbd> + <kbd>g</kbd> |
-| Previous image (graphic) | <kbd>g</kbd> | Not available | <kbd>VO</kbd> + <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>g</kbd> |
+| Previous image (graphic) | <kbd>Shift</kbd> + <kbd>g</kbd> | Not available | <kbd>VO</kbd> + <kbd>Cmd</kbd> + <kbd>g</kbd> |
+| Next image (graphic) | <kbd>g</kbd> | Not available | <kbd>VO</kbd> + <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>g</kbd> |
 
 ### Test the title
 
