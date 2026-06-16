@@ -2,7 +2,7 @@
 title: Sketchnotes from Web Directions – AI Engineer Melbourne
 layout: post
 description: My sketchnotes and summary from Web Directions - AI Engineer Melbourne
-image: /img/2026/wdai.png
+image: /img/2026/06/wdai.png
 ---
 
 Last week I was in Melbourne for [Web Directions - AI Engineer](https://webdirections.org/ai-engineer/). I was interested in hearing from people using AI day-to-day, and the ups and down of it. As I usually do, I took a bunch of notes.

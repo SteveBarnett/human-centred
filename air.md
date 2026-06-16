@@ -6,7 +6,7 @@ updated: 2026-03-31
 
 Note: in everyday conversation we tend to say "AI" when we mean "an LLM." I'll use "AI" here for convenience.
 
-At the time of writing, it's looking like AI is: pretty good and writing code; pretty okay, and sometimes bad, at other things.
+At the time of writing, it's looking like AI is: pretty good at writing code; pretty okay, and sometimes bad, at other things.
 
 My three big ideas for AI Realism:
 
