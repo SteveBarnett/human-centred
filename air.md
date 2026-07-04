@@ -77,6 +77,7 @@ Choose thoughtfully if and when to use AI.
 - **Have an AI policy at work.**
     - Decide when it's appropriate and not appropriate to use AI.
     - Put the choice of when and how to use with the people doing the work.
+- **Prefer local, smaller, models** to mitigate the harms of large cloud ones.
 
 ### Use AI less
 
@@ -107,6 +108,8 @@ Choose thoughtfully if and when to use AI.
 </div>
 
 **Aside:** Luddite in [the historical sense](https://en.wikipedia.org/wiki/Luddite) (oppose and resist technologies of control and coercion), not [in the modern sense](https://en.wikipedia.org/wiki/Luddite#Modern_usage) (oppose or resist new technologies in general).
+
+**Have high AI literacy.**
 
 ### Object to the current harms
 
