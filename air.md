@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Realism
-updated: 2026-03-31
+updated: 2026-07-05
 ---
 
 Note: in everyday conversation we tend to say "AI" when we mean "an LLM." I'll use "AI" here for convenience.
@@ -74,6 +74,9 @@ Choose thoughtfully if and when to use AI.
     - Check for accuracy and consistency.
     - Be an expert in the domain you're using it for.
     - AI is know to be inconsistent and inaccurate, to contain errors and omissions.
+- **Have an AI policy at work.**
+    - Decide when it's appropriate and not appropriate to use AI.
+    - Put the choice of when and how to use with the people doing the work.
 
 ### Use AI less
 
@@ -84,6 +87,7 @@ Choose thoughtfully if and when to use AI.
     - Clarify how the results of adding AI will be measured, and what will happen afterwards.
     - Extraordinary claims require extraordinary proof.
 - **Note that the iron triangle probably still applies.** Fast, cheap, good: pick two!
+- **AI in the loop, not human in the loop.** Prioritise the human. See also: Centaur, not Reverse Centaur.
 
 ### Sometimes don't use AI at all
 
