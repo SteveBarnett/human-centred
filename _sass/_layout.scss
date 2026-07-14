@@ -34,6 +34,30 @@ main,
   }
 }
 
+// Widescreen, for workshop instructions
+.workshop table {
+  @media (min-width: $bp-s) {
+    margin-left: -($margin-s - 5%);
+    margin-right: -($margin-s - 5%);
+  }
+
+  @media (min-width: $bp-m) {
+    margin-left: -($margin-m - 5%);
+    margin-right: -($margin-m - 5%);
+  }
+
+  @media (min-width: $bp-l) {
+    margin-left: -($margin-l - 5%);
+    margin-right: -($margin-l - 5%);
+  }
+
+  @media (min-width: $bp-xl) {
+    margin-left: -($margin-xl - 5%);
+    margin-right: -($margin-xl - 5%);
+  }
+}
+
+
 footer {
   padding-left: 1em;
   padding-right: 1em;
