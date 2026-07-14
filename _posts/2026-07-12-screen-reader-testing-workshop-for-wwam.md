@@ -10,7 +10,7 @@ An outline of a workshop for the Wellington Web Accessibility Meetup.
 
 ---
 
-<h2>Before we begin</h2>
+## <span aria-hidden="true">☝️</span> Before we begin (⏱️10)
 
 <details>
     <summary><strong>We'll focus on the free screen readers</strong></summary>
@@ -61,7 +61,7 @@ Although you can use any browser, these generally give best results:
 * tic
 {:toc}
 
-## <span aria-hidden="true">✔️</span> Intro: What does good sound like?
+## <span aria-hidden="true">✔️</span> Intro: What does good sound like? (⏱️5)
 
 Broadly speaking: **it should sound the same as it looks**.
 
@@ -78,7 +78,7 @@ Broadly speaking: **it should sound the same as it looks**.
     <p>For example: a group of radio buttons; the main navigation.</p>
 </details>
 
-## <span aria-hidden="true">💁</span> Demo: on & off, next & previous, shh!
+## <span aria-hidden="true">💁</span> Demo: on & off, next & previous, shh! (⏱️5)
 
 - Mute your sound, or press <kbd>Ctrl</kbd> to pause the speech.
 - Or, turn it off entirely!
@@ -91,18 +91,18 @@ Broadly speaking: **it should sound the same as it looks**.
 | Previous item | <kbd>↑</kbd> | <kbd>↑</kbd> | <kbd>←</kbd> |
 | Turn off screen reader | <kbd>Caps Lock</kbd> + <kbd>Q</kbd> | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> |  <kbd>Cmd</kbd> + <kbd>F5</kbd> |
 
-## <span aria-hidden="true">🗣️</span> Practice: on & off, next & previous, shh!
+## <span aria-hidden="true">🗣️</span> Practice: on & off, next & previous, shh! (⏱️5)
 
 Now you try!
 
-## <span aria-hidden="true">🤓</span> Discussion: on & off, next & previous, shh!
+## <span aria-hidden="true">🤓</span> Discussion: on & off, next & previous, shh! (⏱️10)
 
 - Each group share back to everyone: one or two sentence review
 - What you did or
 - What you learned or
 - Where you got stuck (and how you got unstuck)
 
-## <span aria-hidden="true">🧠</span> Theory: we're testers, not users
+## <span aria-hidden="true">🧠</span> Theory: we're testers, not users (⏱️5)
 
 <details>
     <summary><strong>Don't worry about trying to have an "authentic" experience. That's not really possible!</strong> <span aria-hidden="true">💁</span></summary>
@@ -119,8 +119,7 @@ Now you try!
 </div>
 </details>
 
-
-## <span aria-hidden="true">🗣️</span> Practice: headings, images, and links, oh my!
+## <span aria-hidden="true">🗣️</span> Practice: headings, images, and links, oh my! (⏱️15)
 
 **Note for VO users:**
 
@@ -137,13 +136,13 @@ Now you try!
 | Next landmark | <kbd>d</kbd> | <kbd>d</kbd> | Not available |
 | Start reading from here | <kbd>Caps Lock</kbd> + <kbd>↓</kbd> | <kbd>Caps Lock</kbd> + <kbd>↓</kbd> | <kbd>VO keys</kbd> + <kbd>a</kbd> |
 
-## <span aria-hidden="true">🤓</span> Discussion: headings, images, and links, oh my!
+## <span aria-hidden="true">🤓</span> Discussion: headings, images, and links, oh my! (⏱️10)
 
 - How are the headings on the page? Do they represent the content well?
 - What's not a heading, but should be? (Often big, bold, text)
 - What's a heading, but shouldn't be? (Often in the hero section)
 
-## <span aria-hidden="true">🧠</span> Theory: the two modes of screen readers
+## <span aria-hidden="true">🧠</span> Theory: the two modes of screen readers (⏱️5)
 
 Screen readers have two modes: **Browse mode** (which Narrator calls Scan Mode) and **Forms mode**. One way to think about the difference is the keyboard interactions for desktop screen readers.
 
@@ -156,7 +155,7 @@ Screen readers generally change modes automatically. For example: when tabbing i
 | --- | --- | --- | --- |
 | Change mode | <kbd>Caps Lock</kbd> + <kbd>Space Bar</kbd> | <kbd>Caps Lock</kbd> + <kbd>Space Bar</kbd> + <kbd>Enter</kbd> |  Not available |
 
-## <span aria-hidden="true">🗣️</span> Practice: form and function
+## <span aria-hidden="true">🗣️</span> Practice: form and function (⏱️15)
 
 Test some interactive elements, especially help text and errors. Tab through the page, or jump to the next form element.
 
@@ -173,7 +172,7 @@ A new one for here: help text and error text is announced when a field gets focu
 | Next form element | <kbd>f</kbd> | <kbd>f</kbd> | <kbd>VO keys</kbd> + <kbd>Cmd</kbd> + <kbd>j</kbd> |
 | Next interactive element | <kbd>Tab</kbd> | <kbd>Tab</kbd> | <kbd>Tab</kbd> |
 
-### <span aria-hidden="true">📋</span> Aside: listing things
+### <span aria-hidden="true">📋</span> Aside: listing things (⏱️5)
 
 NVDA and VO both let you list stuff: all the links, buttons, headings, and so on. In usability testing we don't tend to see people using these often. This lists can be helpful to us testers though!
 
@@ -185,13 +184,13 @@ NVDA and VO both let you list stuff: all the links, buttons, headings, and so on
 | List all headings | Available in Elements list | <kbd>Caps Lock</kbd> + <kbd>F6</kbd> |Available in Rotor  |
 | List all links | Available in Elements list | <kbd>Caps Lock</kbd> + <kbd>F7</kbd> | Available in Rotor |
 
-## <span aria-hidden="true">🤓</span> Discussion: form and function
+## <span aria-hidden="true">🤓</span> Discussion: form and function (⏱️10)
 
 - What went well?
 - What went weird?
 - What did you learn?
 
-## <span aria-hidden="true">🛟</span> Get help!
+## <span aria-hidden="true">🛟</span> Get help! (⏱️5)
 
 - [Desktop Screen Readers Survival Guide - Basic Keyboard Shortcuts at Deque](https://dequeuniversity.com/screenreaders/survival-guide) (Shortcut Keys for JAWS, NVDA, Narrator, VoiceOver)
 - NVDA
