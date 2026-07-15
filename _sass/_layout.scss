@@ -57,6 +57,24 @@ main,
   }
 }
 
+.workshop h2, .workshop h3  {
+  @media (min-width: $bp-s) {
+    margin-right: -($margin-s);
+  }
+
+  @media (min-width: $bp-m) {
+    margin-right: -($margin-m);
+  }
+
+  @media (min-width: $bp-l) {
+    margin-right: -($margin-l);
+  }
+
+  @media (min-width: $bp-xl) {
+    margin-right: -($margin-xl);
+  }
+}
+
 
 footer {
   padding-left: 1em;
