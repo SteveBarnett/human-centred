@@ -91,7 +91,7 @@ Broadly speaking: **it should sound the same as it looks**.
 | Previous item | <kbd>↑</kbd> | <kbd>↑</kbd> | <kbd>←</kbd> |
 | Turn off screen reader | <kbd>Caps Lock</kbd> + <kbd>Q</kbd> | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> |  <kbd>Cmd</kbd> + <kbd>F5</kbd> |
 
-## <span aria-hidden="true">🗣️</span> Practice: on/off, next/previous, shh! (⏱️5)
+### <span aria-hidden="true">🗣️</span> Practice: on/off, next/previous, shh! (⏱️5)
 
 Now you try!
 
