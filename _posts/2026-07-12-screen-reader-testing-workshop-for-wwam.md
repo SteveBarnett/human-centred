@@ -78,7 +78,7 @@ Broadly speaking: **it should sound the same as it looks**.
     <p>For example: a group of radio buttons; the main navigation.</p>
 </details>
 
-## <span aria-hidden="true">💁</span> Demo: on & off, next & previous, shh! (⏱️5)
+## <span aria-hidden="true">💁</span> Demo: on/off, next/previous, shh! (⏱️5)
 
 - Mute your sound, or press <kbd>Ctrl</kbd> to pause the speech.
 - Or, turn it off entirely!
@@ -91,11 +91,11 @@ Broadly speaking: **it should sound the same as it looks**.
 | Previous item | <kbd>↑</kbd> | <kbd>↑</kbd> | <kbd>←</kbd> |
 | Turn off screen reader | <kbd>Caps Lock</kbd> + <kbd>Q</kbd> | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> |  <kbd>Cmd</kbd> + <kbd>F5</kbd> |
 
-## <span aria-hidden="true">🗣️</span> Practice: on & off, next & previous, shh! (⏱️5)
+## <span aria-hidden="true">🗣️</span> Practice: on/off, next/previous, shh! (⏱️5)
 
 Now you try!
 
-## <span aria-hidden="true">🤓</span> Discussion: on & off, next & previous, shh! (⏱️10)
+## <span aria-hidden="true">🤓</span> Discussion: on/off, next/previous, shh! (⏱️10)
 
 We'll do a quick go around the room. Pick one or two of these and give us a few sentences.
 If you're watching this online, throw your answers in the chat!
@@ -121,7 +121,7 @@ If you're watching this online, throw your answers in the chat!
 </div>
 </details>
 
-## <span aria-hidden="true">🗣️</span> Practice: headings, images, and links, oh my! (⏱️15)
+## <span aria-hidden="true">🗣️</span> Practice: headings, images, links! (⏱️15)
 
 **Note for VO users:**
 
@@ -138,7 +138,7 @@ If you're watching this online, throw your answers in the chat!
 | Next landmark | <kbd>d</kbd> | <kbd>d</kbd> | Not available |
 | Start reading from here | <kbd>Caps Lock</kbd> + <kbd>↓</kbd> | <kbd>Caps Lock</kbd> + <kbd>↓</kbd> | <kbd>VO keys</kbd> + <kbd>a</kbd> |
 
-## <span aria-hidden="true">🤓</span> Discussion: headings, images, and links, oh my! (⏱️10)
+## <span aria-hidden="true">🤓</span> Discussion: headings, images, links! (⏱️10)
 
 We'll do a quick go around the room. Pick one or two of these and give us a few sentences.
 If you're watching this online, throw your answers in the chat!
@@ -148,7 +148,7 @@ If you're watching this online, throw your answers in the chat!
 - How were the text alternatives?
 - Any "Click here" or "Read more" or other links with confusing link text?
 
-## <span aria-hidden="true">🧠</span> Theory: the two modes of screen readers (⏱️5)
+## <span aria-hidden="true">🧠</span> Theory: the two modes of SRs (⏱️5)
 
 Screen readers have two modes: **Browse mode** (which Narrator calls Scan Mode) and **Forms mode**. One way to think about the difference is the keyboard interactions for desktop screen readers.
 
