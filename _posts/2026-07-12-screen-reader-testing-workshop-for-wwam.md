@@ -97,10 +97,12 @@ Now you try!
 
 ## <span aria-hidden="true">🤓</span> Discussion: on & off, next & previous, shh! (⏱️10)
 
-- Each group share back to everyone: one or two sentence review
-- What you did or
-- What you learned or
-- Where you got stuck (and how you got unstuck)
+We'll do a quick go around the room. Pick one or two of these and give us a few sentences.
+If you're watching this online, throw your answers in the chat!
+
+- How was that?
+- Where did you get stuck? (and how did you get unstuck?!)
+- What was unexpected?
 
 ## <span aria-hidden="true">🧠</span> Theory: we're testers, not users (⏱️5)
 
@@ -138,9 +140,13 @@ Now you try!
 
 ## <span aria-hidden="true">🤓</span> Discussion: headings, images, and links, oh my! (⏱️10)
 
-- How are the headings on the page? Do they represent the content well?
-- What's not a heading, but should be? (Often big, bold, text)
-- What's a heading, but shouldn't be? (Often in the hero section)
+We'll do a quick go around the room. Pick one or two of these and give us a few sentences.
+If you're watching this online, throw your answers in the chat!
+
+- How was navigating around with the shortcuts?
+- How are the headings on the page? Good structure? Should be a heading / shouldn't be a heading bits of text?
+- How were the text alternatives?
+- Any "Click here" or "Read more" or other links with confusing link text?
 
 ## <span aria-hidden="true">🧠</span> Theory: the two modes of screen readers (⏱️5)
 
@@ -186,10 +192,16 @@ NVDA and VO both let you list stuff: all the links, buttons, headings, and so on
 
 ## <span aria-hidden="true">🤓</span> Discussion: form and function (⏱️10)
 
+We'll do a quick go around the room. Pick one or two of these and give us a few sentences.
+If you're watching this online, throw your answers in the chat!
+
 - What went well?
 - What went weird?
 - What did you learn?
 
+<div class="boxout">
+And the big question: <strong>what will you do next?</strong>
+</div>
 ## <span aria-hidden="true">🛟</span> Get help! (⏱️5)
 
 - [Desktop Screen Readers Survival Guide - Basic Keyboard Shortcuts at Deque](https://dequeuniversity.com/screenreaders/survival-guide) (Shortcut Keys for JAWS, NVDA, Narrator, VoiceOver)
