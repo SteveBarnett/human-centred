@@ -9,17 +9,21 @@ bodyclass: workshop
 
 ## <span aria-hidden="true">1️⃣</span> Once-off set up
 
-(This page: [bit.ly/wwam20260723](https://bit.ly/wwam20260723))
+Hi, folks at the Wellington Web Accessibility Meetup! 👋
+Short URL for this page: [bit.ly/wwam20260723](https://bit.ly/wwam20260723).
 
 ### NVDA: NVDA key and Turn on highlighting
 
-- Update the NVDA key. `Tools` > `Speech Viewer`, set <kbd>Caps Lock</kbd> as the NVDA key.
+- Update the NVDA key. `Preferences` > `Settings`, `Keyboard`, `Select NVDA Modifier Key(s)`. Set <kbd>Caps Lock</kbd> as the NVDA key.
 - Turn on Highlighting. `Preferences` > `Vision`, check `Enable Highlighting`.
 
-### VoiceOver: keyboard settings
+### macOS and VoiceOver: keyboard settings
 
 1. `System Settings` > `Keyboard` item, check "`Keyboard navigation` toggle"
 2. `Safari` > `Settings`, `Advanced` tab > `Accessibility` item, check "Press Tab to highlight each item on a web page"
+3. `VoiceOver Utility` > `Commands`, `Quick Nav` (QN), check `Arrow-key Quick Nav` and `Single-key Quick Nav`
+    - This lets you omit <kbd>VO keys</kbd> (<kbd>Ctrl</kbd> + <kbd>Opt</kbd>) or <kbd>VO keys</kbd> + <kbd>Cmd</kbd>. It makes VO behave more like other screen readers.
+    - You can lock/unlock <kbd>VO keys</kbd> on by pressing <kbd>VO keys</kbd> + <kbd>;</kbd>.
 
 ### Speech viewer
 
@@ -29,15 +33,18 @@ Screen readers let you view a text version of the speech. It doesn't always matc
 | --- | --- | --- | --- |
 | Turn on the speech viewer | `Tools` > `Speech Viewer`: `Open the Speech Viewer` | <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>x</kbd> (Live Transcription) | `VoiceOver Utility` > `Visuals`: `Show caption panel` |
 
-## <span aria-hidden="true">☝️</span> Before we begin (⏱️10)
+## <span aria-hidden="true">☝️</span> Before we begin (<span aria-hidden="true">⏱️</span>10m)
 
 <details>
-    <summary><strong>We'll focus on the free screen readers</strong></summary>
+    <summary><strong>We'll focus on free, laptop, screen readers</strong></summary>
 <div markdown="1">
 - On Windows, we recommend NVDA (it's a bit more mature than Narrator)
 - Narrator comes bundled with Windows and VoiceOver (VO) comes bundled with macOS
 - On Windows, JAWS is great, but expensive
 - For quite a lot of testing, especially simpler components, we usually find the same issue when testing with JAWS or NVDA (or Narrator)
+- No testing with VO iOS or Android TalkBack today!
+- On desktops and laptops Windows SRs are more popular
+- On mobile VO on iOS is more more popular
 </div>
 </details>
 <details>
@@ -70,7 +77,7 @@ Although you can use any browser, these generally give best results:
 <details>
     <summary><strong>There'll be some gentle group discussion</strong></summary>
 <div markdown="1">
-- After each section, we'll ask each group to share a few sentences about how they went
+- After each section, we'll go around the room and ask each group to share a few sentences about how they went
 - Nothing formal, no need to stand up or prepare anything
 </div>
 </details>
@@ -80,7 +87,7 @@ Although you can use any browser, these generally give best results:
 * tic
 {:toc}
 
-## <span aria-hidden="true">✔️</span> Intro: What does good sound like? (⏱️5)
+## <span aria-hidden="true">✔️</span> Intro: What does good sound like? (<span aria-hidden="true">⏱️</span>5)m
 
 Broadly speaking: **it should sound the same as it looks**.
 
@@ -97,12 +104,12 @@ Broadly speaking: **it should sound the same as it looks**.
     <p>For example: a group of radio buttons; the main navigation.</p>
 </details>
 
-## <span aria-hidden="true">💁</span> Demo: on/off, next/previous, shh! (⏱️5)
+## <span aria-hidden="true">💁</span> Demo: on/off, next/previous, shh! (<span aria-hidden="true">⏱️</span>5)m
 
 - Mute your sound, or press <kbd>Ctrl</kbd> to pause the speech.
 - Or, turn it off entirely!
 
-| Action | NVDA | Narrator | VoiceOver |
+| Action | NVDA | Narrator | VoiceOver (QN) |
 | --- | --- | --- | --- |
 | Start screen reader | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd> | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> |  <kbd>Cmd</kbd> + <kbd>F5</kbd> |
 | Stop speech | <kbd>Ctrl</kbd> (or <kbd>Mute</kbd>!) | <kbd>Ctrl</kbd> (or <kbd>Mute</kbd>!) |  <kbd>Ctrl</kbd> (or <kbd>Mute</kbd>!) |
@@ -110,11 +117,11 @@ Broadly speaking: **it should sound the same as it looks**.
 | Previous item | <kbd>↑</kbd> | <kbd>↑</kbd> | <kbd>←</kbd> |
 | Turn off screen reader | <kbd>Caps Lock</kbd> + <kbd>Q</kbd> | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> |  <kbd>Cmd</kbd> + <kbd>F5</kbd> |
 
-### <span aria-hidden="true">🗣️</span> Practice: on/off, next/previous, shh! (⏱️5)
+### <span aria-hidden="true">🗣️</span> Practice: on/off, next/previous, shh! (<span aria-hidden="true">⏱️</span>5)m
 
 Now you try!
 
-## <span aria-hidden="true">🤓</span> Discussion: on/off, next/previous, shh! (⏱️10)
+## <span aria-hidden="true">🤓</span> Discussion: on/off, next/previous, shh! (<span aria-hidden="true">⏱️</span>10m)
 
 We'll do a quick go around the room. Pick one or two of these and give us a few sentences.
 If you're watching this online, throw your answers in the chat!
@@ -123,7 +130,7 @@ If you're watching this online, throw your answers in the chat!
 - Where did you get stuck? (and how did you get unstuck?!)
 - What was unexpected?
 
-## <span aria-hidden="true">🧠</span> Theory: we're testers, not users (⏱️5)
+## <span aria-hidden="true">🧠</span> Theory: we're testers, not users (<span aria-hidden="true">⏱️</span>5)m
 
 <details>
     <summary><strong>Don't worry about trying to have an "authentic" experience. That's not really possible!</strong> <span aria-hidden="true">💁</span></summary>
@@ -140,24 +147,18 @@ If you're watching this online, throw your answers in the chat!
 </div>
 </details>
 
-## <span aria-hidden="true">🗣️</span> Practice: headings, images, links! (⏱️15)
+## <span aria-hidden="true">🗣️</span> Practice: headings, images, links! (<span aria-hidden="true">⏱️</span>15m)
 
-**Note for VO users:**
-
-- The <kbd>VO keys</kbd> are <kbd>Ctrl</kbd> + <kbd>Opt</kbd>.
-- You can lock <kbd>VO keys</kbd> on by pressing <kbd>VO keys</kbd> + <kbd>;</kbd>. Don't forget to unlock them!
-
-| Action | NVDA | Narrator | VoiceOver 
+| Action | NVDA | Narrator | VoiceOver (QN)
 | ---| --- | --- | --- |
-| Next heading | <kbd>h</kbd> | <kbd>h</kbd> | <kbd>VO keys</kbd> + <kbd>Cmd</kbd> + <kbd>h</kbd> |
-| Next heading at level 1-6 | <kbd>1</kbd>-<kbd>6</kbd> | <kbd>1</kbd>-<kbd>6</kbd> | Not available |
-| Next image (graphic) | <kbd>g</kbd> | Not available | <kbd>VO keys</kbd> + <kbd>Cmd</kbd> + <kbd>g</kbd> |
-| Previous [thing] | <kbd>Shift</kbd> + <kbd>[thing key]</kbd> | <kbd>Shift</kbd> + <kbd>[thing key]</kbd> | <kbd>Shift</kbd> + <kbd>[thing key]</kbd> |
-| Next link | <kbd>k</kbd> | <kbd>k</kbd> | <kbd>VO keys</kbd> + <kbd>Cmd</kbd> + <kbd>l</kbd> |
+| Next heading | <kbd>h</kbd> | <kbd>h</kbd> | <kbd>h</kbd> |
+| Next heading at level 1-6 | <kbd>1</kbd>-<kbd>6</kbd> | <kbd>1</kbd>-<kbd>6</kbd> | <kbd>1</kbd>-<kbd>6</kbd> |
+| Next image (graphic) | <kbd>g</kbd> | <kbd>g</kbd> | <kbd>g</kbd> |
+| Next link | <kbd>k</kbd> | <kbd>k</kbd> | <kbd>l</kbd> |
 | Next landmark | <kbd>d</kbd> | <kbd>d</kbd> | Not available |
-| Start reading from here | <kbd>Caps Lock</kbd> + <kbd>↓</kbd> | <kbd>Caps Lock</kbd> + <kbd>↓</kbd> | <kbd>VO keys</kbd> + <kbd>a</kbd> |
+| Previous [thing] | <kbd>Shift</kbd> + <kbd>[thing key]</kbd> | <kbd>Shift</kbd> + <kbd>[thing key]</kbd> | <kbd>Shift</kbd> + <kbd>[thing key]</kbd> |
 
-## <span aria-hidden="true">🤓</span> Discussion: headings, images, links! (⏱️10)
+## <span aria-hidden="true">🤓</span> Discussion: headings, images, links! (<span aria-hidden="true">⏱️</span>10m)
 
 We'll do a quick go around the room. Pick one or two of these and give us a few sentences.
 If you're watching this online, throw your answers in the chat!
@@ -167,7 +168,7 @@ If you're watching this online, throw your answers in the chat!
 - How were the text alternatives?
 - Any "Click here" or "Read more" or other links with confusing link text?
 
-## <span aria-hidden="true">🧠</span> Theory: the two modes of SRs (⏱️5)
+## <span aria-hidden="true">🧠</span> Theory: the two modes of SRs (<span aria-hidden="true">⏱️</span>5)m
 
 Screen readers have two modes: **Browse mode** (which Narrator calls Scan Mode) and **Forms mode**. One way to think about the difference is the keyboard interactions for desktop screen readers.
 
@@ -178,9 +179,9 @@ Screen readers generally change modes automatically. For example: when tabbing i
 
 | Action | NVDA | Narrator | VoiceOver |
 | --- | --- | --- | --- |
-| Change mode | <kbd>Caps Lock</kbd> + <kbd>Space Bar</kbd> | <kbd>Caps Lock</kbd> + <kbd>Space Bar</kbd> + <kbd>Enter</kbd> |  Not available |
+| Change mode | <kbd>Caps Lock</kbd> + <kbd>Space Bar</kbd> | <kbd>Caps Lock</kbd> + <kbd>Space Bar</kbd> |  Not available |
 
-## <span aria-hidden="true">🗣️</span> Practice: form and function (⏱️15)
+## <span aria-hidden="true">🗣️</span> Practice: form and function (<span aria-hidden="true">⏱️</span>15m)
 
 Test some interactive elements, especially help text and errors. Tab through the page, or jump to the next form element.
 
@@ -192,24 +193,25 @@ Remember our "What does good sound like?" from earlier:
 
 A new one for here: help text and error text is announced when a field gets focus.
 
-| Action | NVDA | Narrator | VoiceOver |
+| Action | NVDA | Narrator | VoiceOver (QN) |
 | --- | --- | --- | --- |
-| Next form element | <kbd>f</kbd> | <kbd>f</kbd> | <kbd>VO keys</kbd> + <kbd>Cmd</kbd> + <kbd>j</kbd> |
 | Next interactive element | <kbd>Tab</kbd> | <kbd>Tab</kbd> | <kbd>Tab</kbd> |
+| Next form element | <kbd>f</kbd> | <kbd>f</kbd> | <kbd>j</kbd> |
+| Next text field | <kbd>e</kbd> | <kbd>e</kbd> | Not available |
+| Next button | <kbd>b</kbd> | <kbd>b</kbd> | <kbd>b</kbd> |
 
-### <span aria-hidden="true">📋</span> Aside: listing things (⏱️5)
+### <span aria-hidden="true">📋</span> Aside: listing things (<span aria-hidden="true">⏱️</span>5)m
 
 NVDA and VO both let you list stuff: all the links, buttons, headings, and so on. In usability testing we don't tend to see people using these often. This lists can be helpful to us testers though!
 
-| Action | NVDA | Narrator | VoiceOver |
+| Action | NVDA | Narrator | VoiceOver (Rotor) |
 | --- | --- | --- | --- |
-| Elements list | <kbd>Caps Lock</kbd> + <kbd>F7</kbd> | Not available | Has Rotor |
-| Rotor | Has Elements list | Not available | <kbd>VO keys</kbd> + <kbd>u</kbd> |
+| List element | <kbd>Caps Lock</kbd> + <kbd>F7</kbd> | Not available | <kbd>VO keys</kbd> + <kbd>u</kbd> |
 | List all landmarks | Available in Elements list | <kbd>Caps Lock</kbd> + <kbd>F5</kbd> |Available in Rotor  |
 | List all headings | Available in Elements list | <kbd>Caps Lock</kbd> + <kbd>F6</kbd> |Available in Rotor  |
 | List all links | Available in Elements list | <kbd>Caps Lock</kbd> + <kbd>F7</kbd> | Available in Rotor |
 
-## <span aria-hidden="true">🤓</span> Discussion: form and function (⏱️10)
+## <span aria-hidden="true">🤓</span> Discussion: form and function (<span aria-hidden="true">⏱️</span>10m)
 
 We'll do a quick go around the room. Pick one or two of these and give us a few sentences.
 If you're watching this online, throw your answers in the chat!
@@ -221,7 +223,7 @@ If you're watching this online, throw your answers in the chat!
 <div class="boxout">
 And the big question: <strong>what will you do next?</strong>
 </div>
-## <span aria-hidden="true">🛟</span> Get help! (⏱️5)
+## <span aria-hidden="true">🛟</span> Get help! (<span aria-hidden="true">⏱️</span>5)m
 
 - [Desktop Screen Readers Survival Guide - Basic Keyboard Shortcuts at Deque](https://dequeuniversity.com/screenreaders/survival-guide) (Shortcut Keys for JAWS, NVDA, Narrator, VoiceOver)
 - NVDA
