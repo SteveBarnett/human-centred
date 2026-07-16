@@ -35,50 +35,30 @@ main,
 }
 
 // Widescreen, for workshop instructions
-.workshop table {
-  @media (min-width: $bp-s) {
-    margin-left: -($margin-s - 5%);
-    margin-right: -($margin-s - 5%);
-  }
+
+.workshop main {
+  padding-left: 1em;
+  padding-right: 1em;
 
   @media (min-width: $bp-m) {
-    margin-left: -($margin-m - 5%);
-    margin-right: -($margin-m - 5%);
+    padding-left: $margin-s;
+    padding-right: $margin-s;
   }
 
   @media (min-width: $bp-l) {
-    margin-left: -($margin-l - 5%);
-    margin-right: -($margin-l - 5%);
+    padding-left: $margin-m;
+    padding-right: $margin-m;
   }
 
   @media (min-width: $bp-xl) {
-    margin-left: -($margin-xl - 5%);
-    margin-right: -($margin-xl - 5%);
-  }
-}
-
-.workshop h2, .workshop h3  {
-  @media (min-width: $bp-s) {
-    margin-right: -($margin-s);
-  }
-
-  @media (min-width: $bp-m) {
-    margin-right: -($margin-m);
-  }
-
-  @media (min-width: $bp-l) {
-    margin-right: -($margin-l);
-  }
-
-  @media (min-width: $bp-xl) {
-    margin-right: -($margin-xl);
+    padding-left: $margin-l;
+    padding-right: $margin-l;
   }
 }
 
 .workshop-slides h2 {
   margin-top: 20rem;
 }
-
 
 footer {
   padding-left: 1em;
