@@ -6,9 +6,28 @@ image: /img/2025/07/srt-ds.png
 bodyclass: workshop
 ---
 
-An outline of a workshop for the Wellington Web Accessibility Meetup.
 
----
+## <span aria-hidden="true">1️⃣</span> Once-off set up
+
+(This page: [bit.ly/wwam20260723](https://bit.ly/wwam20260723))
+
+### NVDA: NVDA key and Turn on highlighting
+
+- Update the NVDA key. `Tools` > `Speech Viewer`, set <kbd>Caps Lock</kbd> as the NVDA key.
+- Turn on Highlighting. `Preferences` > `Vision`, check `Enable Highlighting`.
+
+### VoiceOver: keyboard settings
+
+1. `System Settings` > `Keyboard` item, check "`Keyboard navigation` toggle"
+2. `Safari` > `Settings`, `Advanced` tab > `Accessibility` item, check "Press Tab to highlight each item on a web page"
+
+### Speech viewer
+
+Screen readers let you view a text version of the speech. It doesn't always match what's announced, though, so be wary of relying on it!
+
+| Action | NVDA | Narrator | VoiceOver
+| --- | --- | --- | --- |
+| Turn on the speech viewer | `Tools` > `Speech Viewer`: `Open the Speech Viewer` | <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>x</kbd> (Live Transcription) | `VoiceOver Utility` > `Visuals`: `Show caption panel` |
 
 ## <span aria-hidden="true">☝️</span> Before we begin (⏱️10)
 
