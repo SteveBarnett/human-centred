@@ -36,19 +36,21 @@ Screen readers let you view a text version of the speech. It doesn't always matc
 ## <span aria-hidden="true">☝️</span> Before we begin (<span aria-hidden="true">⏱️</span>10m)
 
 <details>
-    <summary><strong>We'll focus on free, laptop, screen readers</strong></summary>
+    <summary>We'll focus on free, laptop, screen readers</summary>
 <div markdown="1">
-- On Windows, we recommend NVDA (it's a bit more mature than Narrator)
-- Narrator comes bundled with Windows and VoiceOver (VO) comes bundled with macOS
-- On Windows, JAWS is great, but expensive
-- For quite a lot of testing, especially simpler components, we usually find the same issue when testing with JAWS or NVDA (or Narrator)
-- No testing with VO iOS or Android TalkBack today!
-- On desktops and laptops Windows SRs are more popular
-- On mobile VO on iOS is more more popular
+- Laptop/Desktop screen readers
+    - On Windows, we recommend NVDA (it's a bit more mature than Narrator)
+    - Narrator comes bundled with Windows
+    - VoiceOver (VO) comes bundled with macOS
+    - JAWS (Windows only) is also good but expensive
+- **For quite a lot of testing, especially simpler components, we usually find the same issues whichever SR we're testing with**
+- No mobile testing today (VO on iOS, TalkBack on Android)
+    - Laptops a bit better to huddle around in a group
+    - Tricky to do both since they're so different
 </div>
 </details>
 <details>
-    <summary><strong>We're just covering getting started</strong></summary>
+    <summary>We're just covering <em>getting started</em></summary>
 <div markdown="1">
 - This session is short, so it can only be a taste test
 - Many of the problems occur with the building blocks of the web (headings, images, links, and buttons) so there's value in testing there
@@ -56,7 +58,7 @@ Screen readers let you view a text version of the speech. It doesn't always matc
 </div>
 </details>
 <details>
-    <summary><strong>Pick a page to test</strong></summary>
+    <summary>Pick a page to test</summary>
 <div markdown="1">
 - Something you use often
 - Something from work!
@@ -65,7 +67,7 @@ Screen readers let you view a text version of the speech. It doesn't always matc
 </div>
 </details>
 <details>
-    <summary><strong>We suggest these browser combinations</strong></summary>
+    <summary>Use popular browser-and-SR combinations</summary>
 <div markdown="1">
 Although you can use any browser, these generally give best results:
 
@@ -75,7 +77,7 @@ Although you can use any browser, these generally give best results:
 </div>
 </details>
 <details>
-    <summary><strong>There'll be some gentle group discussion</strong></summary>
+    <summary>There'll be some gentle group discussion</summary>
 <div markdown="1">
 - After each section, we'll go around the room and ask each group to share a few sentences about how they went
 - Nothing formal, no need to stand up or prepare anything
