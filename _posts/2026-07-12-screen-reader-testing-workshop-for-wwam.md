@@ -6,34 +6,12 @@ image: /img/2025/07/srt-ds.png
 bodyclass: workshop
 ---
 
-
-## <span aria-hidden="true">1️⃣</span> Once-off set up
-
 Hi, folks at the Wellington Web Accessibility Meetup! 👋
-Short URL for this page: [bit.ly/wwam20260723](https://bit.ly/wwam20260723).
 
-### NVDA: NVDA key and Turn on highlighting
+- Short URL for this page: [bit.ly/wwam20260723](https://bit.ly/wwam20260723)
+- [Google doc handout](https://docs.google.com/document/d/1HZ-Mvry-3n74PpdXLJFfnTFP9EoorhGcMs6eBqzpP5g/edit?usp=sharing) with keyboard shortcuts
 
-- Update the NVDA key. `Preferences` > `Settings`, `Keyboard`, `Select NVDA Modifier Key(s)`. Set <kbd>Caps Lock</kbd> as the NVDA key.
-- Turn on Highlighting. `Preferences` > `Vision`, check `Enable Highlighting`.
-
-### macOS and VoiceOver: keyboard settings
-
-1. `System Settings` > `Keyboard` item, check "`Keyboard navigation` toggle"
-2. `Safari` > `Settings`, `Advanced` tab > `Accessibility` item, check "Press Tab to highlight each item on a web page"
-3. `VoiceOver Utility` > `Commands`, `Quick Nav` (QN), check `Arrow-key Quick Nav` and `Single-key Quick Nav`
-    - This lets you omit <kbd>VO keys</kbd> (<kbd>Ctrl</kbd> + <kbd>Opt</kbd>) or <kbd>VO keys</kbd> + <kbd>Cmd</kbd>. It makes VO behave more like other screen readers.
-    - You can lock/unlock <kbd>VO keys</kbd> on by pressing <kbd>VO keys</kbd> + <kbd>;</kbd>.
-
-### Speech viewer
-
-Screen readers let you view a text version of the speech. It doesn't always match what's announced, though, so be wary of relying on it!
-
-| Action | NVDA | Narrator | VoiceOver
-| --- | --- | --- | --- |
-| Turn on the speech viewer | `Tools` > `Speech Viewer`: `Open the Speech Viewer` | <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>x</kbd> (Live Transcription) | `VoiceOver Utility` > `Visuals`: `Show caption panel` |
-
-## <span aria-hidden="true">☝️</span> Before we begin (<span aria-hidden="true">⏱️</span>10m)
+<h2><span aria-hidden="true">☝️</span> Before we begin (<span aria-hidden="true">⏱️</span>5m)</h2>
 
 <details>
     <summary>We'll focus on free, laptop, screen readers</summary>
@@ -111,13 +89,36 @@ Broadly speaking: **it should sound the same as it looks**.
 - Mute your sound, or press <kbd>Ctrl</kbd> to pause the speech.
 - Or, turn it off entirely!
 
-| Action | NVDA | Narrator | VoiceOver (QN) |
+| Action | NVDA | Narrator | VoiceOver |
 | --- | --- | --- | --- |
 | Start screen reader | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd> | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> |  <kbd>Cmd</kbd> + <kbd>F5</kbd> |
 | Stop speech | <kbd>Ctrl</kbd> (or <kbd>Mute</kbd>!) | <kbd>Ctrl</kbd> (or <kbd>Mute</kbd>!) |  <kbd>Ctrl</kbd> (or <kbd>Mute</kbd>!) |
-| Next item | <kbd>↓</kbd> | <kbd>↓</kbd> | <kbd>→</kbd> |
-| Previous item | <kbd>↑</kbd> | <kbd>↑</kbd> | <kbd>←</kbd> |
+| Next item | <kbd>↓</kbd> | <kbd>↓</kbd> | <kbd>→</kbd> (QN) |
+| Previous item | <kbd>↑</kbd> | <kbd>↑</kbd> | <kbd>←</kbd> (QN) |
 | Turn off screen reader | <kbd>Caps Lock</kbd> + <kbd>Q</kbd> | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> |  <kbd>Cmd</kbd> + <kbd>F5</kbd> |
+
+### Once-off set up (<span aria-hidden="true">⏱️</span>5)m
+
+There are a few things we can do to make testing easier. You will thank yourself later!
+
+#### With NVDA on
+
+- **Update the NVDA key.** `Preferences` > `Settings`, `Keyboard`, `Select NVDA Modifier Key(s)`. Set <kbd>Caps Lock</kbd> as the NVDA key.
+- **Turn on Highlighting.** `Preferences` > `Vision`, check `Enable Highlighting`.
+- **Turn on Speech Viewer.** `Tools` > `Speech Viewer`: `Open the Speech Viewer`.
+
+
+#### With Narrator on
+
+**Show the speech viewer (patchy!).** <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>x</kbd> (Live Transcription)
+
+#### VoiceOver
+
+- **Make sure the keyboard works as expected.**
+    - `System Settings` > `Keyboard` item, toggle `Keyboard navigation` on
+    - `Safari` > `Settings`, `Advanced` tab > `Accessibility` item, check "Press Tab to highlight each item on a web page"
+- **Turn on VO Quick Nav.** `VoiceOver Utility` > `Commands`, `Quick Nav` (QN), check `Arrow-key Quick Nav` and check `Single-key Quick Nav`. (This makes VO behave more like other screen readers by letting us omit <kbd>VO keys</kbd> (<kbd>Ctrl</kbd> + <kbd>Opt</kbd>) or <kbd>VO keys</kbd> + <kbd>Cmd</kbd>)
+- **Turn on the caption panel.** `VoiceOver Utility` > `Visuals`: `Show caption panel`.
 
 ### <span aria-hidden="true">🗣️</span> Practice: on/off, next/previous, shh! (<span aria-hidden="true">⏱️</span>5)m
 
