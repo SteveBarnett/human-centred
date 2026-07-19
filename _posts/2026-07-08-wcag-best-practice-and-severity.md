@@ -10,12 +10,15 @@ Notes for a session at the [Digital Accessibility Discussion Group](https://well
 ## WCAG or EO/BP?
 
 - When doing an accessibility audit/assessment/review we log WCAG failures and accessibility problems that WCAG doesn't cover. These are generally called Expert Observations (EO) or Best Practice (BP).
+    - BP can mean different things in different contexts. Here we mean anything outside of our local baseline. For most places, the baseline is WCAG 2.2 AA. That means the following are BP:
+        - Anything at Level AAA
+        - Anything not covered by a WCAG SC
 - A WCAG issue needs to make clear the connection to the Success Criteria (SC).
 
 ### An EO example
 
-- Links that opens in a new tab without warning. There's no WCAG SC that addresses this, it's just not good practice.
-- We recommend adding text "opens in a new tab" or an icon with a text alternative.
+- Links that opens in a new tab without warning. There's no WCAG SC that addresses this, but it's not good practice.
+    - We recommend adding text "opens in a new tab" or an icon with a text alternative.
 
 Links that have an "opens in a new tab" icon without a text alternative would fail 1.1.1 Non-text Content (A).
 
@@ -36,9 +39,13 @@ But! The following are EO/BP (at Level AA):
 
 ## Severity
 
-WCAG only has Pass or Fail, not Severity. Almost every tool or company who assesses using WCAG will include a Severity or Priority rating too. We have Severity levels to help people prioritise what to fix first.
+WCAG only has Pass or Fail, not Severity. A fail of any WCAG Success Criteria means a page is not conformant. If we're aiming for conformance, we have to fix every issue.
+
+Almost every tool or company who assesses using WCAG will also include a Severity or Priority rating. We have Severity levels to help people prioritise what to fix first.
 
 The Severity is about the amount of user impact, not just the technical compliance or failure. The problem that the user, the human being, encounters.
+
+Here's one version.
 
 - **Critical.** The issue stops users from accessing content or completing a task. It does not have a workaround.
 - **High.** The issue causes serious problems or major inconvenience to users. It has a workaround but it is difficult and not obvious.
@@ -61,15 +68,17 @@ Things to consider:
 
 ## Severity examples
 
+These are just a guide: the actual severity depends on context and implementation. For example: it's quite common to have a contrast-related issue at Low severity when the ratio is quite close to the WCAG required ratio.
+
 ### Critical
 
 - Functionality is not available from the keyboard. 2.1.1 Keyboard (A).
 - Functionality breaks when zoom is increased / Content not available when zoom is increased. 1.4.10 Reflow (AA).
 - Conformance Requirement 5: Non-Interference stuff: 
-    - 1.4.2 – Audio Control (A)
-    - 2.1.2 – No Keyboard Trap (A)
-    - 2.2.2 – Pause, Stop, Hide  (A)
-    - 2.3.1 – Three Flashes or Below Threshold (A)
+    - 1.4.2 Audio Control (A)
+    - 2.1.2 No Keyboard Trap (A)
+    - 2.2.2 Pause, Stop, Hide  (A)
+    - 2.3.1 Three Flashes or Below Threshold (A)
 
 ### High
 
@@ -78,7 +87,7 @@ Things to consider:
 - 1.4.10 Reflow (AA)
 - 2.4.3 Focus Order (A)
 - 2.4.7 Focus Visible (AA)
-- 2.5.3 Label in Name
+- 2.5.3 Label in Name (A)
 - 4.1.2 Name, Role, Value (A)
 
 ### Medium
@@ -88,7 +97,8 @@ Things to consider:
 - 1.4.3 Contrast (Minimum) (AA)
 - 1.4.11 Non-text Contrast (AA)
 - 2.4.2 Page Titled (A)
-- 4.1.3. Status Messages
+- 2.5.8 Target Size (Minimum) (AA)
+- 4.1.3. Status Messages (AA)
 
 ## Prioritisation
 
@@ -96,4 +106,6 @@ The Severity is just one aspect of prioritisation. Other aspects might be:
 
 - how many users the issue affects (for example by role: user, admin, super-admin)
 - the user journey (for example: the main user flow, or an occasional or side flow)
-- importance to business goals.
+- importance to business goals
+- effort to fix
+- lots of other things!
