@@ -22,6 +22,7 @@ Hi, folks at the Wellington Web Accessibility Meetup! 👋
     - VoiceOver (VO) comes bundled with macOS
     - JAWS (Windows only) is also good but expensive
 - **For quite a lot of testing, especially simpler components, we usually find the same issues whichever SR we're testing with**
+    - The jump from testing with zero screen readers to one is much bigger than the jump from one to two (or three).
 - No mobile testing today (VO on iOS, TalkBack on Android)
     - Laptops a bit better to huddle around in a group
     - Tricky to do both since they're so different
@@ -36,11 +37,11 @@ Hi, folks at the Wellington Web Accessibility Meetup! 👋
 </div>
 </details>
 <details>
-    <summary>Pick a page to test</summary>
+    <summary>Test a fairly familiar page</summary>
 <div markdown="1">
 - Something you use often
 - Something from work!
-- Google your favourite fruit or animal, then follow the third search result
+- Google your favourite fruit or animal (hint: it should be **capybara**), then follow one of the search results
 - Use some of the WebAIM practice pages: look for "examples and practice" links on [Using NVDA to Evaluate Web Accessibility](https://webaim.org/articles/nvda/)
 </div>
 </details>
@@ -50,15 +51,16 @@ Hi, folks at the Wellington Web Accessibility Meetup! 👋
 Although you can use any browser, these generally give best results:
 
 - NVDA with Firefox
-- Narrator with Edge
-- VoiceOver with Safari.
+- Narrator with Edge (the OS defaults)
+- VoiceOver with Safari (the OS defaults).
 </div>
 </details>
 <details>
-    <summary>There'll be some gentle group discussion</summary>
+    <summary>Do some gentle group discussion</summary>
 <div markdown="1">
 - After each section, we'll go around the room and ask each group to share a few sentences about how they went
 - Nothing formal, no need to stand up or prepare anything
+- So that we share the love around the room a bit
 </div>
 </details>
 
@@ -91,11 +93,11 @@ Broadly speaking: **it should sound the same as it looks**.
 
 | Action | NVDA | Narrator | VoiceOver |
 | --- | --- | --- | --- |
-| Start screen reader | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd> | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> |  <kbd>Cmd</kbd> + <kbd>F5</kbd> |
+| Start screen reader | <kbd>Ctrl</kbd> +<br> <kbd>Alt</kbd> +<br> <kbd>N</kbd> | <kbd>Windows</kbd> +<br> <kbd>Ctrl</kbd> +<br> <kbd>Enter</kbd> |  <kbd>Cmd</kbd> +<br> <kbd>F5</kbd> |
 | Stop speech | <kbd>Ctrl</kbd> (or <kbd>Mute</kbd>!) | <kbd>Ctrl</kbd> (or <kbd>Mute</kbd>!) |  <kbd>Ctrl</kbd> (or <kbd>Mute</kbd>!) |
 | Next item | <kbd>↓</kbd> | <kbd>↓</kbd> | <kbd>→</kbd> (Quick Nav) |
 | Previous item | <kbd>↑</kbd> | <kbd>↑</kbd> | <kbd>←</kbd> (Quick Nav) |
-| Turn off screen reader | <kbd>Caps Lock</kbd> + <kbd>Q</kbd> | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> |  <kbd>Cmd</kbd> + <kbd>F5</kbd> |
+| Turn off screen reader | <kbd>Caps Lock</kbd> +<br> <kbd>Q</kbd> | <kbd>Windows</kbd> +<br> <kbd>Ctrl</kbd> +<br> <kbd>Enter</kbd> |  <kbd>Cmd</kbd> +<br> <kbd>F5</kbd> |
 
 ### Once-off set up (<span aria-hidden="true">⏱️</span>5m)
 
@@ -127,7 +129,7 @@ Now you try!
 ## <span aria-hidden="true">🤓</span> Discussion: on/off, next/previous, shh! (<span aria-hidden="true">⏱️</span>10m)
 
 We'll do a quick go around the room. Pick one or two of these and give us a few sentences.
-If you're watching this online, throw your answers in the chat!
+<span aria-hidden="true">🛜</span> If you're watching this online, throw your answers in the chat!
 
 - How was that?
 - Where did you get stuck? (and how did you get unstuck?!)
@@ -159,12 +161,12 @@ If you're watching this online, throw your answers in the chat!
 | Next image (graphic) | <kbd>g</kbd> | <kbd>g</kbd> | <kbd>g</kbd> |
 | Next link | <kbd>k</kbd> | <kbd>k</kbd> | <kbd>l</kbd> |
 | Next landmark | <kbd>d</kbd> | <kbd>d</kbd> | Not available |
-| Previous [thing] | <kbd>Shift</kbd> + <kbd>[thing key]</kbd> | <kbd>Shift</kbd> + <kbd>[thing key]</kbd> | <kbd>Shift</kbd> + <kbd>[thing key]</kbd> |
+| Previous [thing] | <kbd>Shift</kbd> +<br> <kbd>[thing key]</kbd> | <kbd>Shift</kbd> +<br> <kbd>[thing key]</kbd> | <kbd>Shift</kbd> +<br> <kbd>[thing key]</kbd> |
 
 ## <span aria-hidden="true">🤓</span> Discussion: headings, images, links! (<span aria-hidden="true">⏱️</span>10m)
 
 We'll do a quick go around the room. Pick one or two of these and give us a few sentences.
-If you're watching this online, throw your answers in the chat!
+<span aria-hidden="true">🛜</span> If you're watching this online, throw your answers in the chat!
 
 - How was navigating around with the shortcuts?
 - How are the headings on the page? Good structure? Should be a heading / shouldn't be a heading bits of text?
@@ -182,7 +184,7 @@ Screen readers generally change modes automatically. For example: when tabbing i
 
 | Action | NVDA | Narrator | VoiceOver |
 | --- | --- | --- | --- |
-| Change mode | <kbd>Caps Lock</kbd> + <kbd>Space Bar</kbd> | <kbd>Caps Lock</kbd> + <kbd>Space Bar</kbd> |  Not available |
+| Change mode | <kbd>Caps Lock</kbd> +<br> <kbd>Space Bar</kbd> | <kbd>Caps Lock</kbd> +<br> <kbd>Space Bar</kbd> |  Not available |
 
 ## <span aria-hidden="true">🗣️</span> Practice: form and function (<span aria-hidden="true">⏱️</span>15m)
 
@@ -202,6 +204,7 @@ A new one for here: help text and error text is announced when a field gets focu
 | Next form element | <kbd>f</kbd> | <kbd>f</kbd> | <kbd>j</kbd> |
 | Next text field | <kbd>e</kbd> | <kbd>e</kbd> | Not available |
 | Next button | <kbd>b</kbd> | <kbd>b</kbd> | <kbd>b</kbd> |
+| Previous [thing] | <kbd>Shift</kbd> +<br> <kbd>[thing key]</kbd> | <kbd>Shift</kbd> +<br> <kbd>[thing key]</kbd> | <kbd>Shift</kbd> +<br> <kbd>[thing key]</kbd> |
 
 ### <span aria-hidden="true">📋</span> Aside: listing things (<span aria-hidden="true">⏱️</span>5m)
 
@@ -209,15 +212,15 @@ NVDA and VO both let you list stuff: all the links, buttons, headings, and so on
 
 | Action | NVDA | Narrator | VoiceOver (Rotor) |
 | --- | --- | --- | --- |
-| List element | <kbd>Caps Lock</kbd> + <kbd>F7</kbd> | Not available | <kbd>VO keys</kbd> (<kbd>Ctrl</kbd> + <kbd>Opt</kbd>) + <kbd>u</kbd> |
-| List all landmarks | Available in Elements list | <kbd>Caps Lock</kbd> + <kbd>F5</kbd> | Available in Rotor  |
-| List all headings | Available in Elements list | <kbd>Caps Lock</kbd> + <kbd>F6</kbd> |Available in Rotor  |
-| List all links | Available in Elements list | <kbd>Caps Lock</kbd> + <kbd>F7</kbd> | Available in Rotor |
+| List element | <kbd>Caps Lock</kbd> +<br> <kbd>F7</kbd> | Not available | <kbd>VO keys</kbd><br>( <kbd>Ctrl</kbd> +<br> <kbd>Opt</kbd> ) +<br> <kbd>u</kbd> |
+| List all landmarks | Available in Elements list | <kbd>Caps Lock</kbd> +<br> <kbd>F5</kbd> | Available in Rotor  |
+| List all headings | Available in Elements list | <kbd>Caps Lock</kbd> +<br> <kbd>F6</kbd> |Available in Rotor  |
+| List all links | Available in Elements list | <kbd>Caps Lock</kbd> +<br> <kbd>F7</kbd> | Available in Rotor |
 
 ## <span aria-hidden="true">🤓</span> Discussion: form and function (<span aria-hidden="true">⏱️</span>10m)
 
 We'll do a quick go around the room. Pick one or two of these and give us a few sentences.
-If you're watching this online, throw your answers in the chat!
+<span aria-hidden="true">🛜</span> If you're watching this online, throw your answers in the chat!
 
 - What went well?
 - What went weird?
