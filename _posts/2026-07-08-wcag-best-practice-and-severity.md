@@ -9,7 +9,7 @@ Notes for a session at the [Digital Accessibility Discussion Group](https://well
 
 Designed to help answer: **"I've found an accessibility issue. How serious is it?"**.
 
-- We can use severity levels and [WCAG](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_overview&technologies=smil%2Cpdf%2Cflash%2Csl&showtechniques=123%2C242) or best practice (BP) to decide this. One reason we want to be able to consistently assign the appropriate level of seriousness to an issue is to build trust with the teams doing the work. We want them to be able to believe us when we sat something is High severity.
+- We can use severity levels and [WCAG](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_overview&technologies=smil%2Cpdf%2Cflash%2Csl&showtechniques=123%2C242) or best practice (BP) to decide this. One reason we want to be able to consistently assign the appropriate level of seriousness to an issue is to build trust with the teams doing the work. We want them to be able to believe us when we say something is High severity.
 - Every issue is important. But when everything is urgent, nothing is urgent. Getting the seriousness of an issue right helps the team fix the things that have the most impact first.
 
 ## Severity
@@ -94,12 +94,14 @@ These are just a guide: the actual severity depends on context and implementatio
 - 1.4.1 Use of Colour (A)
     - When only colour is used, people with colour perception differences may not see the change in state or meaning
 - 1.4.3 Contrast (Minimum) (AA) and 1.4.11 Non-text Contrast (AA)
-    - People with low vision, colour blindness, or older adults may find it difficult or impossible to read or distinguish text or UI elements from surrounding colours
+    - People with low vision, colour blindness, or older adults may find it difficult to read or distinguish text or UI elements from surrounding colours
 - 2.4.2 Page Titled (A)
     - If the title is missing, it's harder to find the tab again
     - If the title is not clear, it's harder to understand the topic or purpose of the page
 - 2.5.8 Target Size (Minimum) (AA)
     - People, including those with limited dexterity or hand tremors, can miss the target or hit the wrong one
+- Best practice: no `<h1>` element
+    - Screen reader users can't use the main heading to confirm the purpose of the page, or as a way to jump to the main content
 
 ## WCAG or best practice?
 
@@ -127,7 +129,7 @@ The following are WCAG issues:
 
 But! The following are BP:
 
-- No headings are present
+- No headings are present (falls under 2.4.10 Section Headings (AAA))
 - There's no `<h1>` element
 - There's more than one `<h1>` element
 - Heading levels are skipped (E.g. `<h1>` to `<h3>`, then `<h4>`, missing the expected `<h2>`)
