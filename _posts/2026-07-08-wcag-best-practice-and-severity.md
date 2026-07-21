@@ -9,28 +9,25 @@ Notes for a session at the [Digital Accessibility Discussion Group](https://well
 
 Designed to help answer: **"I've found an accessibility issue. How serious is it?"**.
 
-- We can use severity and [WCAG](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_overview&technologies=smil%2Cpdf%2Cflash%2Csl&showtechniques=123%2C242) or BP to decide this. One reason we want to get this appropriate and consistent is to build trust with teams doing the work. We want them to be able to believe us when we something is High severity.
-- Every issue is important. But when everything is urgent, nothing is urgent. Getting the seriousness of issue right helps team fix the things with most impact first.
+- We can use severity levels and [WCAG](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_overview&technologies=smil%2Cpdf%2Cflash%2Csl&showtechniques=123%2C242) or best practice (BP) to decide this. One reason we want to be able to consistently assign the appropriate level of seriousness to an issue is to build trust with the teams doing the work. We want them to be able to believe us when we sat something is High severity.
+- Every issue is important. But when everything is urgent, nothing is urgent. Getting the seriousness of an issue right helps the team fix the things that have the most impact first.
 
 ## Severity
 
-WCAG only has pass or fail, not severity. A fail of any WCAG Success Criteria means a page is not conformant. If we're aiming for conformance, we have to fix every issue.
+WCAG only has pass or fail; it does not have a severity rating. A fail of any WCAG success criteria means a page is not conformant. If we're aiming for conformance, we have to fix every issue.
 
-Almost every tool or company who assesses using WCAG will also include a severity or priority rating. The severity is about the user impact, not just the technical compliance or failure. The problem that the user, the human being, encounters. Here's one version.
+However, almost every tool or company that assesses using WCAG will also include a severity or priority rating. The severity of an issue is about the user impact, not just the technical compliance or failure. The problem that the user, the human being, encounters. Here's one version.
 
-Here's one version.
+- **Critical**: the issue stops users from accessing content or completing a task. It does not have a workaround.
+- **High**: the issue causes serious problems or major inconvenience to users. It has a workaround but it is difficult and not obvious.
+- **Medium**: the issue causes problems or frustrations for users. It has a workaround.
+- **Low**: the issue causes inconvenience or irritation to users. It may not need a workaround.
 
-- **Critical.** The issue stops users from accessing content or completing a task. It does not have a workaround.
-- **High.** The issue causes serious problems or major inconvenience to users. It has a workaround but it is difficult and not obvious.
-- **Medium.** The issue causes problems or frustrations for users. It has a workaround.
-- **Low.** The issue causes inconvenience or irritation to users. It may not need a workaround.
-
-### Deciding on Severity
+### Deciding on the severity level
 
 Severity is inherently subjective and contextual. Some things to consider:
 
 - who is impacted (for example: everyone, keyboard users, screen reader user)
-- the assistive technology that's impacted
 - how they are impacted (the barriers, problems, inconveniences, frustrations, irritations)
 - where they can't get to or what they can't do
 - how far from the ideal or the standard that the implementation strays
@@ -52,7 +49,7 @@ These are just a guide: the actual severity depends on context and implementatio
 - Functionality is not available from the keyboard. 2.1.1 Keyboard (A)
     - People who use only a keyboard (or similar input like a switch or voice control) cannot use this functionality at all
 - Functionality breaks or content not available when zoom is increased. 1.4.10 Reflow (AA)
-    - People with low vision who have to zoom the page to use it will not be able to use the page or access the content.
+    - People with low vision who have to zoom the page to use it will not be able to use the page or access the content
 - [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5). Failing any these SC means a page does not conform since it could mean a person can't use the page:
     - 1.4.2 Audio Control (A)
         - People using a screen reader won't be able to use the page as the audio interferes with the speech output
@@ -137,7 +134,7 @@ But! The following are BP:
 
 ## Prioritisation
 
-The severity and the WCAG/BP classification are two aspects of prioritisation. Other aspects might be:
+The severity level and the WCAG/BP classification are two aspects of prioritisation. Other aspects might be:
 
 - how many users the issue affects (for example by role: user, admin, super-admin)
 - the user journey (for example: the main user flow, or an occasional or side flow)
