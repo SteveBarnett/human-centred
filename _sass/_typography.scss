@@ -456,10 +456,16 @@ summary {
 
 details {
   border: solid 2px $darkred;
+  @media (prefers-color-scheme: dark) {
+    border-color: $white;
+  }
   border-radius: 0.5em;
   &[open] {
     summary {
       border-bottom: solid 2px $red;
+      @media (prefers-color-scheme: dark) {
+        border-color: $white;
+      }
     }
   }
 }
