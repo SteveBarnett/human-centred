@@ -107,6 +107,25 @@ section {
   max-width: 50%;
 }
 
+.two-up {
+  margin-bottom: 1rem;
+  img:first-of-type {
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: $bp-s) {
+    img {
+      width: 45%;
+    }
+
+    img:first-of-type {
+      margin-bottom: 0;
+      margin-right: 5%;
+    }
+  }
+
+}
+
 .pop-left {
   @media (min-width: $bp-m) {
     margin-left: -$margin-m;

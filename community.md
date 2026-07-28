@@ -3,9 +3,13 @@ layout: page
 title: Community
 ---
 
-![Me speaking about friction at Code Camp Wellington 2026](/img/2026/03/ccw-steve.jpg){: .pull-right.half }
 
 {% include community.md %}
+
+<div class="two-up">
+    <img alt="Me speaking at NZ Tech Rally 2026" src="/img/2026/07/nztr-steve-2.jpg" class=""/>
+    <img alt="Me facilitating a workshop at the Wellington WEb Accessibility meetup" src="/img/2026/07/wwam-steve.jpg" class="" />
+</div>
 
 ## Workshops and speaking
 
