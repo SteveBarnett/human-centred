@@ -30,9 +30,9 @@ But/and there are ways to use it to get the most out of it. Knowing what it can 
 - AI produces plausible text rather than facts. True things are often the most plausible, but not always!
 - This leads to "hallucinations": confidently stating false information as true. In particular, AI tends to get specific facts wrong. There has been some progress on this, though.
 
-### <span aria-hidden="true">🧙</span> Try "AI in the loop", rather than "human in the loop"
+### <span aria-hidden="true">🧑‍⚕️</span> Try "AI in the loop", rather than "human in the loop"
 
-**Be a magician!** Use AI where it's strongest: reviewing, providing options, general rather than specific things. But/and start with the problem rather than AI as the solution. Do some of the work/thinking without AI first.
+**Be a surgeon!** Use AI precisely and accurately, use it where it's strongest: reviewing, providing options, general rather than specific things. But/and start with the problem rather than AI as the solution. Do some of the work/thinking without AI first.
 
 - When we start with AI as a solution, we look for problems that AI can solve. Doing the thinking ourselves first helps guard against cognitive atrophy and cognitive offloading.
 - AI makes it easier to jump to an answer rather than deeply considering the question and the process to get to the answer. The process is where we learn and make decisions. It's where we're challenged and apply active effort, critical thinking, and analysis.
