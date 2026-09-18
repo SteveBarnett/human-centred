@@ -446,6 +446,12 @@ kbd {
   }
 }
 
+kbd.gesture {
+  border-color: #40a;
+  border-radius: 0.5em;
+  white-space: nowrap;
+}
+
 summary {
   padding: 0.25em 0.5em;
   &:focus {
