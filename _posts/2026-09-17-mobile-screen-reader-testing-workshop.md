@@ -81,11 +81,14 @@ Broadly speaking: **it should sound the same as it looks**.
 | Next item | <kbd class="gesture">Swipe right</kbd> <span aria-hidden="true">➡️</span> | <kbd class="gesture">Swipe right</kbd> <span aria-hidden="true">➡️</span> |
 | Previous item | <kbd class="gesture">Swipe left</kbd> <span aria-hidden="true">⬅️</span> | <kbd class="gesture">Swipe left</kbd> <span aria-hidden="true">⬅️</span> |
 | Navigate by touch | <kbd class="gesture">Drag one finger</kbd> <span aria-hidden="true">☝️</span> | <kbd class="gesture">Drag one finger</kbd> <span aria-hidden="true">☝️</span> |
+| Start reading from here | <kbd class="gesture">two-finger swipe down</kbd> | <kbd class="gesture">two-finger triple-tap</kbd> |
 | Turn off screen reader | <kbd class="gesture">triple-click side button</kbd> | <kbd class="gesture">hold both volume keys</kbd><br>for 3 seconds |
 
 ## <span aria-hidden="true">⚙️</span> Once-off set up
 
 There are a few things we can do to make testing easier: set a shortcut and show the speech on screen. You will thank yourself later!
+
+(We'll do some more short set up stuff later, as we need it)
 
 ### VoiceOver on iOS
 
@@ -168,7 +171,7 @@ Set VoiceOver's typing style at `Settings` → `Accessibility` → `VoiceOver` �
 
 ### TalkBack on Android
 
-Set TalkBack's Reading Control items at `Settings` → `Accessibility` → `TalkBack` → `Settings` → `Typing` section, `On-screen keyboard` → `Typing preference`
+Set TalkBack's typing style items at `Settings` → `Accessibility` → `TalkBack` → `Settings` → `Typing` section, `On-screen keyboard` → `Typing preference`
 
 ## <span aria-hidden="true">🗣️</span> Practice: form and function
 
@@ -201,3 +204,7 @@ And the big question: <strong>what will you do next?</strong>
 ### Testing and demos
 
 - [Browsing with a mobile screen reader](https://tetralogical.com/blog/2021/10/05/browsing-with-a-mobile-screen-reader/) on TetraLogical. Includes a [4 minute video demo:  Browsing with a mobile screen reader](https://www.youtube.com/watch?v=ev8ERS5Z3NU).
+
+## See also
+
+Two versions of a desktop version of this workshop: [Screen reader testing workshop](/2026/05/25/screen-reader-testing-workshop/) and [Screen reader testing workshop for WWAM](/2026/07/12/screen-reader-testing-workshop-for-wwam/).
