@@ -3,7 +3,7 @@ title: Mobile screen reader testing workshop
 layout: post
 description: An outline for a mobile screen reader testing workshop
 bodyclass: workshop
-image: /img/2025/09/???.png
+image: /img/2025/09/msrw.png
 ---
 
 <h2><span aria-hidden="true">☝️</span> Before we begin</h2>
