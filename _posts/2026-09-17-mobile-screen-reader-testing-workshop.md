@@ -154,11 +154,27 @@ After swiping down or up, go back to swiping right (or left) to continue from wh
 - How were the text alternatives?
 - Any "Click here" or "Read more" or other links with confusing link text?
 
-## <span aria-hidden="true">🗣️</span> Practice: form and function (<span aria-hidden="true">⏱️</span>15m)
+## <span aria-hidden="true">⚙️</span> Once-off set up, part 3
+
+VoiceOver and TalkBack both have typing options that let you choose how to type: <kbd class="gesture">double tap</kbd> or <kbd class="gesture">lift</kbd>.
+
+### VoiceOver on iOS
+
+Set VoiceOver's typing style at `Settings` → `Accessibility` → `VoiceOver` → `Typing` → `Typing Style`.
+
+- Standard Typing: navigate by touch, double tap to type
+- Touch Typing: navigate by touch, lift to type
+- Direct Touch Typing: tap to type
+
+### TalkBack on Android
+
+Set TalkBack's Reading Control items at `Settings` → `Accessibility` → `TalkBack` → `Settings` → `Typing` section, `On-screen keyboard` → `Typing preference`
+
+## <span aria-hidden="true">🗣️</span> Practice: form and function
 
 Test some interactive elements, especially help text and errors. On desktop, you can <kbd>Tab</kbd> to the next interactive element. On mobile, it's just swipes! But/and you can use the Rotor/Reading Controls.
 
-## <span aria-hidden="true">🤓</span> Discussion: form and function (<span aria-hidden="true">⏱️</span>10m)
+## <span aria-hidden="true">🤓</span> Discussion: form and function
 
 - What went well?
 - What went weird?
@@ -169,8 +185,6 @@ And the big question: <strong>what will you do next?</strong>
 </div>
 
 ## Get help!
-
-- [Desktop Screen Readers Survival Guide - Basic Keyboard Shortcuts at Deque](https://dequeuniversity.com/screenreaders/survival-guide) (Shortcut Keys for JAWS, NVDA, Narrator, VoiceOver)
 
 ### VoiceOver on iOS
 
