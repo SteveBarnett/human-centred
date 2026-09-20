@@ -132,7 +132,7 @@ Now you try!
 
 ## <span aria-hidden="true">⚙️</span> Once-off set up, part 2
 
-VoiceOver and TalkBack both have ways to jump around the page, to things like headings, links, and buttons. VoiceOver has the Rotor (where you "twist" your fingers in the screen) and TalkBack has Reading Controls (where swipe up then down).
+VoiceOver and TalkBack both have ways to jump around the page, to things like headings, links, and buttons. VoiceOver has the Rotor (where you "twist" your fingers on the screen) and TalkBack has Reading Controls (where you swipe up then down).
 
 We recommend unticking most items, and leaving just a few. For example: Headings, Links, Form Controls, Landmarks
 
