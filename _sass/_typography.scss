@@ -452,6 +452,11 @@ kbd.gesture {
   white-space: nowrap;
 }
 
+.flip-vertical {
+  transform: rotate(180deg);
+  display: inline-block;
+}
+
 summary {
   padding: 0.25em 0.5em;
   &:focus {
