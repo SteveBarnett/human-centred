@@ -243,4 +243,4 @@ And the big question: <strong>what will you do next?</strong>
 
 ## See also
 
-Two versions of a desktop version of this workshop: [screen reader testing workshop](/2026/05/25/screen-reader-testing-workshop/) and [screen reader testing workshop for WWAM](/2026/07/12/screen-reader-testing-workshop-for-wwam/).
+Interested in learning about desktop screen readers? Check out these: [desktop screen reader testing workshop](/2026/05/25/screen-reader-testing-workshop/) and [desktop screen reader testing workshop for WWAM](/2026/07/12/screen-reader-testing-workshop-for-wwam/).
