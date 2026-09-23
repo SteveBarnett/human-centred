@@ -92,19 +92,25 @@ There are a few things we can do to make testing easier: set a shortcut and show
 
 (We'll do some more short set up stuff later, as we need it)
 
-### VoiceOver on iOS
-
+<details>
+    <summary><h3>VoiceOver on iOS</h3></summary>
+<div markdown="1">
 - Set the Accessibility Shortcut at `Settings` → `Accessibility` → `General` section > `Accessibility Shortcut` → select `VoiceOver`
     - Then <kbd class="gesture">triple-click side button</kbd> to start/stop VoiceOver
 - For a more visible cursor, go to `Settings` → `Accessibility` → `VoiceOver`, `Cursor` section, toggle `Large Cursor` on
 - To see a text version of VoiceOver's speech, go to `Settings` → `Accessibility` → `VoiceOver`, toggle `Caption Panel` on
+</div>
+</details>
 
-### TalkBack on Android
-
+<details>
+    <summary><h3>TalkBack on Android</h3></summary>
+<div markdown="1">
 - Set the Shortcut service at `Settings` → `Accessibility` → `Volume key shortcut`. Select `Use service` and choose `TalkBack`.
     - Then <kbd class="gesture">hold both volume keys</kbd> for 3 seconds to start/stop TalkBack
 - For a more visible cursor, go to `Settings` → `Accessibility` → `TalkBack` → `TalkBack settings` → `Change focus indicator` → toggle `Thick borders` on
 - To see a text version of TalkBack's speech, go to `Settings` → `Accessibility` → `TalkBack` → `TalkBack settings` → toggle `Display speech output`
+</div>
+</details>
 
 ## <span aria-hidden="true">🗣️</span> Practice: on/off, next/previous, shh!
 
@@ -138,8 +144,19 @@ VoiceOver and TalkBack both have ways to jump around the page, to things like he
 
 We recommend unticking most items, and leaving just some of the most useful ones for testing: Headings, Links, Images, Form Controls, Landmarks, Speech Rate.
 
-- Set VoiceOver's Rotor items at `Settings` → `Accessibility` → `VoiceOver` → `Rotor` → `Rotor Items`
-- Set TalkBack's Reading Control items at `Settings` → `Accessibility` → `TalkBack` → `Settings` → `Edit menus` → `Customise reading controls`
+<details>
+    <summary><h3>VoiceOver on iOS</h3></summary>
+<div markdown="1">
+Set VoiceOver's Rotor items at `Settings` → `Accessibility` → `VoiceOver` → `Rotor` → `Rotor Items`
+</div>
+</details>
+
+<details>
+    <summary><h3>TalkBack on Android</h3></summary>
+<div markdown="1">
+Set TalkBack's Reading Control items at `Settings` → `Accessibility` → `TalkBack` → `Settings` → `Edit menus` → `Customise reading controls`
+</div>
+</details>
 
 ## <span aria-hidden="true">🗣️</span> Practice: headings, images, links
 
@@ -164,21 +181,27 @@ To stop navigating by items in a category with up and down, go back to swiping r
 
 VoiceOver and TalkBack both have typing options that let you choose how to type: <kbd class="gesture">double tap</kbd> or <kbd class="gesture">lift</kbd>.
 
-### VoiceOver on iOS
-
+<details>
+    <summary><h3>VoiceOver on iOS</h3></summary>
+<div markdown="1">
 Set VoiceOver's typing style at `Settings` → `Accessibility` → `VoiceOver` → `Typing` → `Typing Style`.
 
 - Standard Typing: navigate by touch, double tap to type
 - Touch Typing: navigate by touch, lift to type
 - <span aria-hidden="true">👉</span> Direct Touch Typing: tap to type (recommended for testing)
+</div>
+</details>
 
-### TalkBack on Android
-
+<details>
+    <summary><h3>TalkBack on Android</h3></summary>
+<div markdown="1">
 Set TalkBack's typing style items at `Settings` → `Accessibility` → `TalkBack` → `Settings` → `Typing` section, `On-screen keyboard` → `Typing preference`
 
 - Hold finger to select any key, then double-tap
 - Hold finger to select letter key, then lift. Double-tap for other keys.
 - <span aria-hidden="true">👉</span> Hold finger to select any key, then lift (recommended for testing)
+</div>
+</details>
 
 ## <span aria-hidden="true">🗣️</span> Practice: forms
 
@@ -202,22 +225,22 @@ And the big question: <strong>what will you do next?</strong>
 
 ## Get help!
 
-### VoiceOver on iOS
+<h3>VoiceOver on iOS</h3>
 
 - [VoiceOver on Mobile](https://webaim.org/articles/voiceover/mobile)
 - [VoiceOver Gestures on iOS](https://dequeuniversity.com/screenreaders/voiceover-ios-shortcuts) on Deque
 - [Learn VoiceOver gestures on iPhone](https://support.apple.com/en-gb/guide/iphone/iph3e2e2281/ios) on iPhone User Guide.
 
-### TalkBack on Android
+<h3>TalkBack on Android</h3>
 
 - [Using TalkBack to Evaluate Web Accessibility](https://webaim.org/articles/talkback/) on WebAIM (only Evaluation section is very web-specific)
 - [TalkBack Gestures on Android](https://dequeuniversity.com/screenreaders/talkback-shortcuts) on Deque
 - [Use TalkBack gestures](https://support.google.com/accessibility/android/answer/6151827?hl=en&ref_topic=3529932) on Android Accessibility Help
 
-### Testing and demos
+<h3>Testing and demos</h3>
 
 - [Browsing with a mobile screen reader](https://tetralogical.com/blog/2021/10/05/browsing-with-a-mobile-screen-reader/) on TetraLogical. Includes a [4-minute video demo:  Browsing with a mobile screen reader](https://www.youtube.com/watch?v=ev8ERS5Z3NU).
 
 ## See also
 
-Two versions of a desktop version of this workshop: [Screen reader testing workshop](/2026/05/25/screen-reader-testing-workshop/) and [Screen reader testing workshop for WWAM](/2026/07/12/screen-reader-testing-workshop-for-wwam/).
+Two versions of a desktop version of this workshop: [screen reader testing workshop](/2026/05/25/screen-reader-testing-workshop/) and [screen reader testing workshop for WWAM](/2026/07/12/screen-reader-testing-workshop-for-wwam/).
