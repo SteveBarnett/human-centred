@@ -8,7 +8,10 @@ image: /img/2025/09/msrw.png
 
 <h2><span aria-hidden="true">☝️</span> Before we begin</h2>
 
-Here's [a Google doc handout](https://docs.google.com/document/d/1b3YY-Zf_gzhaLkK0T11lwYPVWH4wFhqwTiZRDNHqluY/edit?usp=sharing) with the gesture guides.
+Hi, DADG folks!
+
+- Here's the short URL for this page: [bit.ly/dadg20260929](https://bit.ly/dadg20260929).
+- Here's [a Google doc handout](https://docs.google.com/document/d/1b3YY-Zf_gzhaLkK0T11lwYPVWH4wFhqwTiZRDNHqluY/edit?usp=sharing) with the gesture guides.
 
 <details>
     <summary>We'll focus on the two most popular mobile screen readers</summary>
